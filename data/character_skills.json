@@ -1,0 +1,574 @@
+[
+  {
+    "id": "wylder:1",
+    "name": "第六感",
+    "character_id": "wylder",
+    "kind": "被动",
+    "description": "一次免于特定致命攻击，赐福后补充；投技、夜雨和异常伤害不适用。",
+    "metrics": {
+      "trigger_iframes_at_source_fps": 20
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "被动 / 第六感"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wylder:2",
+    "name": "钩爪射击",
+    "character_id": "wylder",
+    "kind": "技艺",
+    "description": "钩爪接近或拉动目标；两段各积累1点失衡。",
+    "metrics": {
+      "cooldown_seconds": 8,
+      "poise_damage_per_hit": 1,
+      "hit_count": 2
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "技艺 / 钩爪射击"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wylder:3",
+    "name": "袭击桩柱",
+    "character_id": "wylder",
+    "kind": "绝招",
+    "description": "桩柱爆发；蓄力提升失衡输出。",
+    "metrics": {
+      "damage_split": {
+        "physical": 0.5,
+        "fire": 0.5
+      },
+      "poise_uncharged": 75,
+      "poise_charged": 150,
+      "rescue_power": 90
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "绝招 / 袭击桩柱"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "guardian:1",
+    "name": "强力防御",
+    "character_id": "guardian",
+    "kind": "被动",
+    "description": "进入强力防御并持续消耗精力。",
+    "metrics": {
+      "guard_stamina_cost_reduction_pct": 80,
+      "elemental_damage_reduction_pct": 25
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "被动 / 强力防御"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "guardian:2",
+    "name": "旋风",
+    "character_id": "guardian",
+    "kind": "技艺",
+    "description": "旋风控制周边；延长技艺的遗物会改变多段性能。",
+    "metrics": {
+      "base_cooldown_seconds": 14
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "技艺 / 旋风"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "guardian:3",
+    "name": "救世展翼",
+    "character_id": "guardian",
+    "kind": "绝招",
+    "description": "俯冲救援；落地后长按可继续展开保护阵。",
+    "metrics": {
+      "protective_field_max_seconds": 6
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "绝招 / 救世展翼"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "ironeye:1",
+    "name": "观察入微",
+    "character_id": "ironeye",
+    "kind": "被动",
+    "description": "增加敌人掉落机会；队友也可受益。",
+    "metrics": {},
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "被动 / 观察入微"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "ironeye:2",
+    "name": "标记",
+    "character_id": "ironeye",
+    "kind": "技艺",
+    "description": "给目标设置弱点，再次命中可续时；破坏阈值依敌人类型不同。",
+    "metrics": {
+      "cooldown_seconds": 10,
+      "incoming_damage_increase_pct": 10,
+      "duration_approx_seconds": 17,
+      "nightlord_break_threshold_max_hp_pct": 20,
+      "nightlord_break_damage_max_hp_pct": 5
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "技艺 / 标记"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "ironeye:3",
+    "name": "穿杨一箭",
+    "character_id": "ironeye",
+    "kind": "绝招",
+    "description": "贯穿箭用于输出与远程救援。",
+    "metrics": {
+      "rescue_power": 90
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "绝招 / 穿杨一箭"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "duchess:1",
+    "name": "优雅身段",
+    "character_id": "duchess",
+    "kind": "被动",
+    "description": "优化精力消耗并可连续回避；武器耗精优化的范围待具体武器核对。",
+    "metrics": {},
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "被动 / 优雅身段"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "duchess:2",
+    "name": "重演",
+    "character_id": "duchess",
+    "kind": "技艺",
+    "description": "重演最近一小段时间的伤害、异常积累和失衡积累。",
+    "metrics": {
+      "lookback_approx_seconds": 3,
+      "replay_ratio": 0.5,
+      "cooldown_seconds": 12
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "技艺 / 重演"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "duchess:3",
+    "name": "落幕之章",
+    "character_id": "duchess",
+    "kind": "绝招",
+    "description": "使团队隐蔽，降低敌人对玩家的追踪。",
+    "metrics": {
+      "duration_approx_seconds": 17
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "绝招 / 落幕之章"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "raider:1",
+    "name": "好胜心",
+    "character_id": "raider",
+    "kind": "被动",
+    "description": "受击后使反击技艺强化；以界面强化状态为准。",
+    "metrics": {},
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-raider",
+        "locator": "被动 / 好胜心"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "raider:2",
+    "name": "反击",
+    "character_id": "raider",
+    "kind": "技艺",
+    "description": "承受攻击并反击，期间受击可保留最低生命。",
+    "metrics": {
+      "cooldown_seconds": 12,
+      "minimum_hp_during_skill": 1
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-raider",
+        "locator": "技艺 / 反击"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "raider:3",
+    "name": "图腾碑石",
+    "character_id": "raider",
+    "kind": "绝招",
+    "description": "升起图腾碑石，为周围友军强化攻击并提供立足点。",
+    "metrics": {
+      "totem_seconds": 20,
+      "attack_increase_pct": 15,
+      "buff_linger_seconds": 10,
+      "rescue_power": 60
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-raider",
+        "locator": "绝招 / 图腾碑石"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "revenant:1",
+    "name": "死灵术",
+    "character_id": "revenant",
+    "kind": "被动",
+    "description": "击败敌人有机会使其作为死灵助战；不同目标可有例外。",
+    "metrics": {
+      "proc_chance_source_approx_pct": 30,
+      "normal_lifetime_approx_seconds": 60
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "被动 / 死灵术"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "revenant:2",
+    "name": "召唤灵魂",
+    "character_id": "revenant",
+    "kind": "技艺",
+    "description": "选择召唤海伦、弗雷德里克或塞巴斯蒂安。",
+    "metrics": {},
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "技艺 / 召唤灵魂"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "revenant:3",
+    "name": "不死行军",
+    "character_id": "revenant",
+    "kind": "绝招",
+    "description": "向范围内自己、家人与队友提供不死状态，并用于救援。",
+    "metrics": {
+      "duration_seconds": 15,
+      "minimum_hp": 1
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "绝招 / 不死行军"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse:1",
+    "name": "驾驭元素",
+    "character_id": "recluse",
+    "kind": "被动",
+    "description": "属性攻击会留下可回收的属性痕。",
+    "metrics": {},
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "被动 / 驾驭元素"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse:2",
+    "name": "混合魔法",
+    "character_id": "recluse",
+    "kind": "技艺",
+    "description": "回收属性痕恢复FP，组合三枚可施放混合魔法；完整组合见14行表。",
+    "metrics": {
+      "fp_recovered_per_trace": 20,
+      "trace_slots": 3
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "技艺 / 混合魔法"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse:3",
+    "name": "血魂歌",
+    "character_id": "recluse",
+    "kind": "绝招",
+    "description": "给敌人施加血魂印记，攻击受印记敌人可回血回蓝。",
+    "metrics": {
+      "incoming_damage_multiplier_approx": 1.15,
+      "damage_to_hp_ratio": 0.4,
+      "damage_to_fp_ratio": 0.1,
+      "rescue_power": 40
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "绝招 / 血魂歌"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "executor:1",
+    "name": "不屈",
+    "character_id": "executor",
+    "kind": "被动",
+    "description": "从异常状态恢复后获得短时强化；主动治愈也可触发。",
+    "metrics": {
+      "duration_seconds": 20,
+      "attack_increase_pct": 20,
+      "stamina_regen_bonus_per_second": 15
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-executor",
+        "locator": "被动 / 不屈"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "executor:2",
+    "name": "妖刀",
+    "character_id": "executor",
+    "kind": "技艺",
+    "description": "拔出妖刀弹击，累积解放值进入强化。",
+    "metrics": {
+      "cooldown_seconds": 0,
+      "successful_deflect_poise_damage": 10,
+      "liberation_threshold": 10
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-executor",
+        "locator": "技艺 / 妖刀"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "executor:3",
+    "name": "熔炉百相之兽",
+    "character_id": "executor",
+    "kind": "绝招",
+    "description": "变身期间使用特殊攻击，结束后恢复原形。",
+    "metrics": {
+      "duration_approx_seconds": 15,
+      "maximum_hp_multiplier": 2
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-executor",
+        "locator": "绝招 / 熔炉百相之兽"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "scholar:1",
+    "name": "携物知识",
+    "character_id": "scholar",
+    "kind": "被动",
+    "description": "增强道具携带与使用能力；不同道具类别倍率不同。",
+    "metrics": {
+      "general_item_capacity_multiplier": 2,
+      "throwable_capacity_multiplier": 1.5
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "被动 / 携物知识"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "scholar:2",
+    "name": "探索",
+    "character_id": "scholar",
+    "kind": "技艺",
+    "description": "观察敌我，按完成阶段施加效果；阶段倍率不应直接相加。",
+    "metrics": {
+      "enemy_attack_multiplier_stage1": 0.9,
+      "enemy_attack_multiplier_stage2": 0.81,
+      "enemy_debuff_seconds": 30,
+      "complete_first_hit_damage_multiplier": 1.6,
+      "complete_first_hit_window_seconds": 10
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "技艺 / 探索"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "scholar:3",
+    "name": "共感术",
+    "character_id": "scholar",
+    "kind": "绝招",
+    "description": "连接多个目标，使伤害和治疗产生传导。",
+    "metrics": {
+      "duration_seconds": 20,
+      "damage_transfer_ratio": 0.2,
+      "healing_transfer_ratio": 0.3,
+      "reflected_damage_ratio": 0.25
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "绝招 / 共感术"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "undertaker:1",
+    "name": "感知力量",
+    "character_id": "undertaker",
+    "kind": "被动",
+    "description": "队友施放绝招后可短时借力追击；其他送葬者的被动不形成无限连锁。",
+    "metrics": {
+      "free_ultimate_window_seconds": 4
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "被动 / 感知力量"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "undertaker:2",
+    "name": "恍惚",
+    "character_id": "undertaker",
+    "kind": "技艺",
+    "description": "恍惚强化近战；消耗满绝招槽可进入更长的强化状态。",
+    "metrics": {
+      "base_duration_seconds": 8,
+      "cooldown_seconds": 14,
+      "attack_increase_pct": 10,
+      "consecutive_attack_extra_pct": 10,
+      "enhanced_duration_seconds": 15
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "技艺 / 恍惚"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "undertaker:3",
+    "name": "不详一击",
+    "character_id": "undertaker",
+    "kind": "绝招",
+    "description": "突进打击，也可用于救起队友。",
+    "metrics": {
+      "rescue_power": 40
+    },
+    "metric_conditions": "社区页面条件与近似值；未逐项在当前规则版本实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "绝招 / 不详一击"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

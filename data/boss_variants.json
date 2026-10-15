@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "nightlord-stat:01",
+    "name": "\"黑夜野兽\"格拉狄乌斯",
+    "nightlord_id": "gladius",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1,
+      "strike": 1,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 0.5,
+      "lightning": 1,
+      "holy": 1.35
+    },
+    "status_threshold": {
+      "poison": 542,
+      "rot": 252,
+      "bleed": 252,
+      "death_blight": "免疫",
+      "frost": 542,
+      "sleep": 154,
+      "madness": "免疫"
+    },
+    "poise_raw": 120,
+    "everdark_poise_raw": 120,
+    "health_base_parameter": 3200,
+    "everdark_health_parameter": 3200,
+    "everdark_health_multiplier": 1.55,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=1"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A2:AD2"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.0,
+        "damage_multiplier.slash": 1.0,
+        "damage_multiplier.pierce": 1.1,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 0.5,
+        "damage_multiplier.lightning": 1.0,
+        "damage_multiplier.holy": 1.35,
+        "status_threshold.poison": 542.0,
+        "status_threshold.rot": 252.0,
+        "status_threshold.bleed": 252.0,
+        "status_threshold.frost": 542.0,
+        "status_threshold.sleep": 154.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 120.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 11328
+  },
+  {
+    "id": "nightlord-stat:02",
+    "name": "\"黑夜之爵\"艾德雷",
+    "nightlord_id": "adel",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1,
+      "strike": 1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 0.8,
+      "lightning": 0.5,
+      "holy": 1
+    },
+    "status_threshold": {
+      "poison": 154,
+      "rot": 154,
+      "bleed": 542,
+      "death_blight": "免疫",
+      "frost": 154,
+      "sleep": 154,
+      "madness": "免疫"
+    },
+    "poise_raw": 150,
+    "everdark_poise_raw": 150,
+    "health_base_parameter": 3712,
+    "everdark_health_parameter": 3712,
+    "everdark_health_multiplier": 1.35,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=2"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A5:AD5"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.0,
+        "damage_multiplier.slash": 1.0,
+        "damage_multiplier.pierce": 1.0,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 0.8,
+        "damage_multiplier.lightning": 0.5,
+        "damage_multiplier.holy": 1.0,
+        "status_threshold.poison": 154.0,
+        "status_threshold.rot": 154.0,
+        "status_threshold.bleed": 542.0,
+        "status_threshold.frost": 154.0,
+        "status_threshold.sleep": 154.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 150.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 13140
+  },
+  {
+    "id": "nightlord-stat:03",
+    "name": "\"黑夜之智\"格诺斯塔",
+    "nightlord_id": "gnoster",
+    "damage_multiplier": {
+      "standard": 1.15,
+      "slash": 1.25,
+      "strike": 1.15,
+      "pierce": 1.25,
+      "magic": 0.5,
+      "fire": 1.4,
+      "lightning": 0.9,
+      "holy": 0.9
+    },
+    "status_threshold": {
+      "poison": 542,
+      "rot": 154,
+      "bleed": 154,
+      "death_blight": "免疫",
+      "frost": 154,
+      "sleep": 542,
+      "madness": "免疫"
+    },
+    "poise_raw": 100,
+    "everdark_poise_raw": 100,
+    "health_base_parameter": 3680,
+    "everdark_health_parameter": 1840,
+    "everdark_health_multiplier": 1,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=3"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A6:AD6"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.15,
+        "damage_multiplier.strike": 1.15,
+        "damage_multiplier.slash": 1.25,
+        "damage_multiplier.pierce": 1.25,
+        "damage_multiplier.magic": 0.5,
+        "damage_multiplier.fire": 1.4,
+        "damage_multiplier.lightning": 0.9,
+        "damage_multiplier.holy": 0.9,
+        "status_threshold.poison": 542.0,
+        "status_threshold.rot": 154.0,
+        "status_threshold.bleed": 154.0,
+        "status_threshold.frost": 154.0,
+        "status_threshold.sleep": 542.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 100.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 13027
+  },
+  {
+    "id": "nightlord-stat:04",
+    "name": "\"坚盾\"弗堤士",
+    "nightlord_id": "gnoster",
+    "damage_multiplier": {
+      "standard": 0.9,
+      "slash": 0.8,
+      "strike": 1.2,
+      "pierce": 1.1,
+      "magic": 0.9,
+      "fire": 1.35,
+      "lightning": 0.9,
+      "holy": 0.9
+    },
+    "status_threshold": {
+      "poison": 252,
+      "rot": 154,
+      "bleed": 154,
+      "death_blight": "免疫",
+      "frost": 154,
+      "sleep": 154,
+      "madness": "免疫"
+    },
+    "poise_raw": 150,
+    "everdark_poise_raw": 150,
+    "health_base_parameter": 3456,
+    "everdark_health_parameter": 2016,
+    "everdark_health_multiplier": 1,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=4"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A8:AD8"
+      },
+      {
+        "source_id": "recycle-pve",
+        "locator": "'Solo Scaling Data'!row 621"
+      }
+    ],
+    "verification_status": "corrected_from_source_comparison",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 0.9,
+        "damage_multiplier.strike": 1.2,
+        "damage_multiplier.slash": 0.8,
+        "damage_multiplier.pierce": 1.1,
+        "damage_multiplier.magic": 0.9,
+        "damage_multiplier.fire": 1.35,
+        "damage_multiplier.lightning": 0.9,
+        "damage_multiplier.holy": 0.9,
+        "status_threshold.poison": 252.0,
+        "status_threshold.rot": 154.0,
+        "status_threshold.bleed": 154.0,
+        "status_threshold.frost": 154.0,
+        "status_threshold.sleep": 154.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 150.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw",
+      "status_threshold.sleep"
+    ],
+    "health_solo_sheet": 13027
+  },
+  {
+    "id": "nightlord-stat:05",
+    "name": "\"超越之光\"亚尼姆斯",
+    "nightlord_id": "gnoster",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1,
+      "strike": 1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "poison": "免疫",
+      "rot": "免疫",
+      "bleed": "免疫",
+      "death_blight": "免疫",
+      "frost": "免疫",
+      "sleep": "免疫",
+      "madness": "免疫"
+    },
+    "poise_raw": 100,
+    "everdark_poise_raw": 100,
+    "health_base_parameter": "未知",
+    "everdark_health_parameter": 1798,
+    "everdark_health_multiplier": 1,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=5"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "nightlord-stat:06",
+    "name": "\"深海黑夜\"玛丽斯",
+    "nightlord_id": "maris",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1.15,
+      "strike": 0.8,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.5,
+      "lightning": 1.4,
+      "holy": 0.85
+    },
+    "status_threshold": {
+      "poison": "免疫",
+      "rot": 252,
+      "bleed": "免疫",
+      "death_blight": "免疫",
+      "frost": 252,
+      "sleep": "免疫",
+      "madness": "免疫"
+    },
+    "poise_raw": 150,
+    "everdark_poise_raw": 600,
+    "health_base_parameter": 3584,
+    "everdark_health_parameter": 8320,
+    "everdark_health_multiplier": 1,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=6"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A10:AD10"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 0.8,
+        "damage_multiplier.slash": 1.15,
+        "damage_multiplier.pierce": 0.9,
+        "damage_multiplier.magic": 0.8,
+        "damage_multiplier.fire": 0.5,
+        "damage_multiplier.lightning": 1.4,
+        "damage_multiplier.holy": 0.85,
+        "status_threshold.poison": "免疫",
+        "status_threshold.rot": 252.0,
+        "status_threshold.bleed": "免疫",
+        "status_threshold.frost": 252.0,
+        "status_threshold.sleep": "免疫",
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 150.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 12687
+  },
+  {
+    "id": "nightlord-stat:07",
+    "name": "\"黑夜之魔\"利普拉",
+    "nightlord_id": "libra",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1.1,
+      "strike": 1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1.35
+    },
+    "status_threshold": {
+      "poison": 154,
+      "rot": 154,
+      "bleed": 252,
+      "death_blight": "免疫",
+      "frost": 252,
+      "sleep": "免疫",
+      "madness": 154
+    },
+    "poise_raw": 120,
+    "everdark_poise_raw": 120,
+    "health_base_parameter": 3686,
+    "everdark_health_parameter": 3686,
+    "everdark_health_multiplier": 1.4,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=7"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A11:AD11"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.0,
+        "damage_multiplier.slash": 1.1,
+        "damage_multiplier.pierce": 1.0,
+        "damage_multiplier.magic": 0.8,
+        "damage_multiplier.fire": 1.2,
+        "damage_multiplier.lightning": 1.0,
+        "damage_multiplier.holy": 1.35,
+        "status_threshold.poison": 154.0,
+        "status_threshold.rot": 154.0,
+        "status_threshold.bleed": 252.0,
+        "status_threshold.frost": 252.0,
+        "status_threshold.sleep": "免疫",
+        "status_threshold.madness": 154.0,
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 120.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 13048
+  },
+  {
+    "id": "nightlord-stat:08",
+    "name": "\"黑夜光骑士\"弗格尔",
+    "nightlord_id": "fulghor",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1,
+      "strike": 1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1.2,
+      "holy": 0.7
+    },
+    "status_threshold": {
+      "poison": 154,
+      "rot": 154,
+      "bleed": 154,
+      "death_blight": "免疫",
+      "frost": 154,
+      "sleep": 154,
+      "madness": "免疫"
+    },
+    "poise_raw": 155,
+    "everdark_poise_raw": 155,
+    "health_base_parameter": 3360,
+    "everdark_health_parameter": 3360,
+    "everdark_health_multiplier": 1.2,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=8"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A12:AD12"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.0,
+        "damage_multiplier.slash": 1.0,
+        "damage_multiplier.pierce": 1.0,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 1.0,
+        "damage_multiplier.lightning": 1.2,
+        "damage_multiplier.holy": 0.7,
+        "status_threshold.poison": 154.0,
+        "status_threshold.rot": 154.0,
+        "status_threshold.bleed": 154.0,
+        "status_threshold.frost": 154.0,
+        "status_threshold.sleep": 154.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 155.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 11894
+  },
+  {
+    "id": "nightlord-stat:09",
+    "name": "\"黑夜雾霾\"卡莉果",
+    "nightlord_id": "caligo",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 0.85,
+      "strike": 1.15,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 1.35,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "poison": 252,
+      "rot": 252,
+      "bleed": 252,
+      "death_blight": "免疫",
+      "frost": 542,
+      "sleep": 542,
+      "madness": "免疫"
+    },
+    "poise_raw": 160,
+    "everdark_poise_raw": 160,
+    "health_base_parameter": 3392,
+    "everdark_health_parameter": 3392,
+    "everdark_health_multiplier": 1.4,
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=9"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A13:AD13"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.15,
+        "damage_multiplier.slash": 0.85,
+        "damage_multiplier.pierce": 0.9,
+        "damage_multiplier.magic": 0.8,
+        "damage_multiplier.fire": 1.35,
+        "damage_multiplier.lightning": 0.8,
+        "damage_multiplier.holy": 0.8,
+        "status_threshold.poison": 252.0,
+        "status_threshold.rot": 252.0,
+        "status_threshold.bleed": 252.0,
+        "status_threshold.frost": 542.0,
+        "status_threshold.sleep": 542.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 160.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 12008
+  },
+  {
+    "id": "nightlord-stat:10",
+    "name": "黑夜轮廓",
+    "nightlord_id": "heolstor",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1.15,
+      "strike": 0.9,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1.35
+    },
+    "status_threshold": {
+      "poison": "免疫",
+      "rot": 252,
+      "bleed": "免疫",
+      "death_blight": "免疫",
+      "frost": "免疫",
+      "sleep": 542,
+      "madness": "免疫"
+    },
+    "poise_raw": 130,
+    "everdark_poise_raw": "未知",
+    "health_base_parameter": 1408,
+    "everdark_health_parameter": "未知",
+    "everdark_health_multiplier": "未知",
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=10"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A17:AD17"
+      },
+      {
+        "source_id": "recycle-pve",
+        "locator": "'Solo Scaling Data'!row 721"
+      }
+    ],
+    "verification_status": "corrected_from_source_comparison",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 0.9,
+        "damage_multiplier.slash": 1.15,
+        "damage_multiplier.pierce": 1.1,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 1.2,
+        "damage_multiplier.lightning": 1.0,
+        "damage_multiplier.holy": 1.35,
+        "status_threshold.poison": "免疫",
+        "status_threshold.rot": 252.0,
+        "status_threshold.bleed": "免疫",
+        "status_threshold.frost": "免疫",
+        "status_threshold.sleep": 542.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 130.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw",
+      "damage_multiplier.pierce"
+    ],
+    "health_solo_sheet": 4985
+  },
+  {
+    "id": "nightlord-stat:11",
+    "name": "\"黑夜王\"布德奇冥",
+    "nightlord_id": "heolstor",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 0.9,
+      "strike": 1.1,
+      "pierce": 1.15,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1.2,
+      "holy": 1.2
+    },
+    "status_threshold": {
+      "poison": "免疫",
+      "rot": 252,
+      "bleed": "免疫",
+      "death_blight": "免疫",
+      "frost": "免疫",
+      "sleep": 542,
+      "madness": "免疫"
+    },
+    "poise_raw": 130,
+    "everdark_poise_raw": "未知",
+    "health_base_parameter": 2880,
+    "everdark_health_parameter": "未知",
+    "everdark_health_multiplier": "未知",
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=11"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A18:AD18"
+      }
+    ],
+    "verification_status": "conflict",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.1,
+        "damage_multiplier.slash": 0.9,
+        "damage_multiplier.pierce": 1.15,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 1.0,
+        "damage_multiplier.lightning": 1.2,
+        "damage_multiplier.holy": 1.3,
+        "status_threshold.poison": "免疫",
+        "status_threshold.rot": 252.0,
+        "status_threshold.bleed": "免疫",
+        "status_threshold.frost": "免疫",
+        "status_threshold.sleep": 542.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 130.0
+      },
+      "differences": {
+        "damage_multiplier.holy": {
+          "current": 1.2,
+          "slay": 1.3
+        }
+      }
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 10196
+  },
+  {
+    "id": "nightlord-stat:12",
+    "name": "安定者们",
+    "nightlord_id": "harmonia",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 0.92,
+      "strike": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 0.92,
+      "lightning": 0.9,
+      "holy": 0.7
+    },
+    "status_threshold": {
+      "poison": 252,
+      "rot": 252,
+      "bleed": 252,
+      "death_blight": "免疫",
+      "frost": 252,
+      "sleep": 84,
+      "madness": "免疫"
+    },
+    "poise_raw": 75,
+    "everdark_poise_raw": 155,
+    "health_base_parameter": 4000,
+    "everdark_health_parameter": "-",
+    "everdark_health_multiplier": "-",
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=12"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A14:AD14"
+      },
+      {
+        "source_id": "recycle-pve",
+        "locator": "'New Nightlords'!row 4"
+      }
+    ],
+    "verification_status": "conflict",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.1,
+        "damage_multiplier.slash": 0.92,
+        "damage_multiplier.pierce": 1.0,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 0.92,
+        "damage_multiplier.lightning": 0.9,
+        "damage_multiplier.holy": 0.7,
+        "status_threshold.poison": 252.0,
+        "status_threshold.rot": 252.0,
+        "status_threshold.bleed": 252.0,
+        "status_threshold.frost": 252.0,
+        "status_threshold.sleep": 84.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 75.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.magic",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "poise_raw"
+    ],
+    "additional_source_differences": {
+      "sleep": {
+        "slay": 84,
+        "quickref": 84,
+        "recycle": 154
+      }
+    },
+    "quality_note": "基础韧性75；实际失衡需计入承受削韧倍率。催眠阈值QuickRef/Slay为84，Recycle为154，保留差异。"
+  },
+  {
+    "id": "nightlord-stat:13",
+    "name": "废弃物之王(一阶段)",
+    "nightlord_id": "straghess",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1.1,
+      "strike": 1,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 0.9,
+      "holy": 1.25
+    },
+    "status_threshold": {
+      "poison": 542,
+      "rot": 542,
+      "bleed": 252,
+      "death_blight": "免疫",
+      "frost": 252,
+      "sleep": 252,
+      "madness": "免疫"
+    },
+    "poise_raw": 150,
+    "everdark_poise_raw": 155,
+    "health_base_parameter": 3263.84,
+    "everdark_health_parameter": "未知",
+    "everdark_health_multiplier": "未知",
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=13"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A15:AD15"
+      },
+      {
+        "source_id": "recycle-pve",
+        "locator": "'New Nightlords'!row 10"
+      }
+    ],
+    "verification_status": "corrected_from_source_comparison",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.0,
+        "damage_multiplier.slash": 1.1,
+        "damage_multiplier.pierce": 1.1,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 1.2,
+        "damage_multiplier.lightning": 0.9,
+        "damage_multiplier.holy": 1.25,
+        "status_threshold.poison": 542.0,
+        "status_threshold.rot": 542.0,
+        "status_threshold.bleed": 252.0,
+        "status_threshold.frost": 252.0,
+        "status_threshold.sleep": 252.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 150.0
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.magic",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.bleed",
+      "status_threshold.frost",
+      "status_threshold.sleep",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 11554
+  },
+  {
+    "id": "nightlord-stat:14",
+    "name": "废弃物之王(二阶段)",
+    "nightlord_id": "straghess",
+    "damage_multiplier": {
+      "standard": 1,
+      "slash": 1.1,
+      "strike": 1,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 0.9,
+      "holy": 1.25
+    },
+    "status_threshold": {
+      "poison": 542,
+      "rot": 542,
+      "bleed": 542,
+      "death_blight": "免疫",
+      "frost": 542,
+      "sleep": 542,
+      "madness": "免疫"
+    },
+    "poise_raw": 150,
+    "everdark_poise_raw": 155,
+    "health_base_parameter": 3263.84,
+    "everdark_health_parameter": "未知",
+    "everdark_health_multiplier": "未知",
+    "health_formula_source": "normal=round(base*3.54*players); everdark=round(round(everdark_base*3.54*players)*everdark_multiplier)",
+    "health_formula_status": "community_formula_not_independently_verified; not_for_deep_of_night",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json/id=14"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Nightlord Stats Solo'!A16:AD16"
+      },
+      {
+        "source_id": "recycle-pve",
+        "locator": "'New Nightlords'!row 11"
+      }
+    ],
+    "verification_status": "conflict",
+    "field_comparison": {
+      "ordinary_solo_properties": {
+        "damage_multiplier.standard": 1.0,
+        "damage_multiplier.strike": 1.0,
+        "damage_multiplier.slash": 1.1,
+        "damage_multiplier.pierce": 1.1,
+        "damage_multiplier.magic": 1.0,
+        "damage_multiplier.fire": 1.2,
+        "damage_multiplier.lightning": 0.9,
+        "damage_multiplier.holy": 1.25,
+        "status_threshold.poison": 542.0,
+        "status_threshold.rot": 542.0,
+        "status_threshold.bleed": 252.0,
+        "status_threshold.frost": 252.0,
+        "status_threshold.sleep": 252.0,
+        "status_threshold.madness": "免疫",
+        "status_threshold.death_blight": "免疫",
+        "poise_raw": 150.0
+      },
+      "differences": {
+        "status_threshold.bleed": {
+          "current": 542,
+          "slay": 252.0
+        },
+        "status_threshold.frost": {
+          "current": 542,
+          "slay": 252.0
+        },
+        "status_threshold.sleep": {
+          "current": 542,
+          "slay": 252.0
+        }
+      }
+    },
+    "checked_fields": [
+      "damage_multiplier.standard",
+      "damage_multiplier.strike",
+      "damage_multiplier.magic",
+      "status_threshold.poison",
+      "status_threshold.rot",
+      "status_threshold.madness",
+      "status_threshold.death_blight",
+      "damage_multiplier.slash",
+      "damage_multiplier.pierce",
+      "damage_multiplier.fire",
+      "damage_multiplier.lightning",
+      "damage_multiplier.holy",
+      "poise_raw"
+    ],
+    "health_solo_sheet": 11554,
+    "quality_note": "中文源称二阶段，Recycle另分Dreglord、Traitorous Straghess、Pure Impulse Straghess。承伤倍率在这些实体一致并已修正；异常阈值与血量的阶段映射尚待核验。"
+  }
+]

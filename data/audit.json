@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "map_pairs_checked": 520,
+  "level15_values_checked": 110,
+  "deep_weapon_effects": 57,
+  "removed_misclassified_effects": 19,
+  "added_deep_weapon_effects": 17,
+  "effect_audit_results": {
+    "partial": 545,
+    "conflict": 12,
+    "agreed": 14,
+    "single_primary": 3,
+    "corrected": 5,
+    "not_second_source_verified": 294
+  },
+  "boss_property_conflicts": 3,
+  "scope_note": "跨社区来源核对，不等于最新游戏版本逐项实测。"
+}

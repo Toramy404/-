@@ -1,0 +1,248 @@
+[
+  {
+    "id": "gladius",
+    "name": "格拉狄乌斯",
+    "expedition_name_en": "Tricephalos",
+    "aliases": [
+      "三头犬",
+      "狗"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:01"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "adel",
+    "name": "艾德雷",
+    "expedition_name_en": "Gaping Jaw",
+    "aliases": [
+      "大嘴",
+      "鳄鱼"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:02"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "gnoster",
+    "name": "格诺斯塔",
+    "expedition_name_en": "Sentient Pest",
+    "aliases": [
+      "智识之虫",
+      "飞虫",
+      "虫"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:03",
+      "nightlord-stat:04",
+      "nightlord-stat:05"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "maris",
+    "name": "玛丽斯",
+    "expedition_name_en": "Augur",
+    "aliases": [
+      "征兆",
+      "水母"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:06"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra",
+    "name": "利普拉",
+    "expedition_name_en": "Equilibrious Beast",
+    "aliases": [
+      "天秤",
+      "山羊"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:07"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "fulghor",
+    "name": "弗格尔",
+    "expedition_name_en": "Darkdrift Knight",
+    "aliases": [
+      "暗驱骑士",
+      "人马"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:08"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "caligo",
+    "name": "卡莉果",
+    "expedition_name_en": "Fissure in the Fog",
+    "aliases": [
+      "冰龙",
+      "雾中裂缝"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:09"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "heolstor",
+    "name": "布德奇冥",
+    "expedition_name_en": "Night Aspect",
+    "aliases": [
+      "黑夜王",
+      "黑夜轮廓",
+      "黑夜化形"
+    ],
+    "dlc": false,
+    "variant_ids": [
+      "nightlord-stat:10",
+      "nightlord-stat:11"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "harmonia",
+    "name": "安定者们",
+    "expedition_name_en": "Balancers",
+    "aliases": [
+      "安定者",
+      "七人队"
+    ],
+    "dlc": true,
+    "variant_ids": [
+      "nightlord-stat:12"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "straghess",
+    "name": "废弃物之王",
+    "expedition_name_en": "Dreglord",
+    "aliases": [
+      "泥王",
+      "史卓格斯"
+    ],
+    "dlc": true,
+    "variant_ids": [
+      "nightlord-stat:13",
+      "nightlord-stat:14"
+    ],
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Map patterns by Nightlord"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

@@ -1,0 +1,684 @@
+[
+  {
+    "id": "pattern-200",
+    "name": "地图200 夜Boss修正",
+    "before": [
+      "Nameless King",
+      "Gaping Dragon"
+    ],
+    "after": [
+      "Gaping Dragon",
+      "Nameless King"
+    ],
+    "evidence": "原图标注1./2.已目视核对，与Overlay交叉一致",
+    "source_refs": [
+      {
+        "source_id": "pattern-200",
+        "locator": ""
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=201"
+      }
+    ],
+    "verification_status": "corrected_from_primary_map"
+  },
+  {
+    "id": "pattern-214",
+    "name": "地图214 夜Boss修正",
+    "before": [
+      "Night's Cavalry",
+      "Nox Dragonkin Soldier"
+    ],
+    "after": [
+      "Night's Cavalry",
+      "Nameless King"
+    ],
+    "evidence": "原图标注1./2.已目视核对，与Overlay交叉一致",
+    "source_refs": [
+      {
+        "source_id": "pattern-214",
+        "locator": ""
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=215"
+      }
+    ],
+    "verification_status": "corrected_from_primary_map"
+  },
+  {
+    "id": "pattern-227",
+    "name": "地图227 夜Boss修正",
+    "before": [
+      "Gaping Dragon",
+      "Nox Dragonkin Soldier"
+    ],
+    "after": [
+      "Gaping Dragon",
+      "Nameless King"
+    ],
+    "evidence": "原图标注1./2.已目视核对，与Overlay交叉一致",
+    "source_refs": [
+      {
+        "source_id": "pattern-227",
+        "locator": ""
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=228"
+      }
+    ],
+    "verification_status": "corrected_from_primary_map"
+  },
+  {
+    "id": "duchess-lv15",
+    "name": "女爵15级属性修正",
+    "before": {
+      "hp": 820,
+      "fp": 175,
+      "stamina": 80,
+      "vigor": 37,
+      "mind": 26,
+      "endurance": 16,
+      "strength": 10,
+      "dexterity": 39,
+      "intelligence": 40,
+      "faith": 26,
+      "arcane": 11
+    },
+    "after": {
+      "hp": 860,
+      "fp": 180,
+      "stamina": 84,
+      "vigor": 39,
+      "mind": 27,
+      "endurance": 18,
+      "strength": 11,
+      "dexterity": 45,
+      "intelligence": 42,
+      "faith": 27,
+      "arcane": 11
+    },
+    "source_refs": [
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B5:L5"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "Lv15"
+      }
+    ],
+    "evidence": "Slay表与BWIKI的11项属性一致；QuickRef旧行与Lv14重复。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "extra-1008",
+    "name": "地图1008追加夜Boss补记",
+    "before": null,
+    "after": {
+      "event_id": "extra_night_boss",
+      "additional_boss_id": "grafted-monarch",
+      "label_raw": "Extra Night 1 Boss"
+    },
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A5:J5"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1008"
+      }
+    ],
+    "evidence": "Kevin表额外Boss槽明确列出，Sidekick字段缺失；按原始表补入，不并入正常夜Boss。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "extra-1078",
+    "name": "地图1078追加夜Boss补记",
+    "before": null,
+    "after": {
+      "event_id": "extra_night_boss",
+      "additional_boss_id": "ancient-dragon",
+      "label_raw": "Extra Night 2 Boss"
+    },
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A40:J40"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1078"
+      }
+    ],
+    "evidence": "Kevin表额外Boss槽明确列出，Sidekick字段缺失；按原始表补入，不并入正常夜Boss。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "event-gladius_invasion",
+    "name": "三狼入侵夜王关联修正",
+    "before": [
+      "adel",
+      "gnoster",
+      "maris",
+      "libra",
+      "fulghor",
+      "caligo",
+      "heolstor",
+      "harmonia",
+      "straghess"
+    ],
+    "after": [
+      "adel",
+      "caligo",
+      "fulghor",
+      "gnoster",
+      "harmonia",
+      "heolstor",
+      "libra",
+      "straghess"
+    ],
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "三狼入侵"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "evidence": "从校正后的配置逐行归并；旧列表未完整覆盖DLC增补池。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "event-caligo_blizzard",
+    "name": "冰龙暴风雪夜王关联修正",
+    "before": [
+      "gladius",
+      "adel",
+      "gnoster",
+      "maris",
+      "libra",
+      "fulghor",
+      "heolstor",
+      "harmonia",
+      "straghess"
+    ],
+    "after": [
+      "adel",
+      "gladius",
+      "gnoster",
+      "harmonia",
+      "heolstor",
+      "maris",
+      "straghess"
+    ],
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "冰龙暴风雪"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "evidence": "从校正后的配置逐行归并；旧列表未完整覆盖DLC增补池。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "event-balancers_raid",
+    "name": "安定者袭击夜王关联修正",
+    "before": [
+      "gladius",
+      "adel",
+      "gnoster",
+      "maris",
+      "libra",
+      "fulghor",
+      "caligo",
+      "heolstor",
+      "straghess"
+    ],
+    "after": [
+      "caligo",
+      "fulghor",
+      "gladius",
+      "heolstor",
+      "libra",
+      "maris",
+      "straghess"
+    ],
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "安定者袭击"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "evidence": "从校正后的配置逐行归并；旧列表未完整覆盖DLC增补池。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "event-frenzy_tower",
+    "name": "癫火塔夜王关联修正",
+    "before": [
+      "gnoster",
+      "libra",
+      "harmonia",
+      "straghess"
+    ],
+    "after": [
+      "gladius",
+      "gnoster",
+      "harmonia",
+      "libra",
+      "straghess"
+    ],
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "癫火塔"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "evidence": "从校正后的配置逐行归并；旧列表未完整覆盖DLC增补池。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "event-extra_night_boss",
+    "name": "全新的黑夜威胁／追加夜Boss夜王关联修正",
+    "before": [
+      "adel",
+      "fulghor",
+      "harmonia",
+      "straghess"
+    ],
+    "after": [
+      "adel",
+      "caligo",
+      "fulghor",
+      "gladius",
+      "harmonia",
+      "heolstor",
+      "maris",
+      "straghess"
+    ],
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "全新的黑夜威胁／追加夜Boss"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "evidence": "从校正后的配置逐行归并；旧列表未完整覆盖DLC增补池。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "deep-classification",
+    "name": "19条深夜遗物误混入局内表，去除重复入口",
+    "before": [
+      "deep_in_run:6610400",
+      "deep_in_run:6610500",
+      "deep_in_run:6610600",
+      "deep_in_run:6610700",
+      "deep_in_run:6610800",
+      "deep_in_run:6610801",
+      "deep_in_run:6610802",
+      "deep_in_run:6611001",
+      "deep_in_run:6611002",
+      "deep_in_run:6611100",
+      "deep_in_run:6611101",
+      "deep_in_run:6611102",
+      "deep_in_run:6611200",
+      "deep_in_run:6611201",
+      "deep_in_run:6611202",
+      "deep_in_run:6611300",
+      "deep_in_run:6611301",
+      "deep_in_run:6611302",
+      "deep_in_run:6611400"
+    ],
+    "after": [
+      "deep_relic:6610400",
+      "deep_relic:6610500",
+      "deep_relic:6610600",
+      "deep_relic:6610700",
+      "deep_relic:6610800",
+      "deep_relic:6610801",
+      "deep_relic:6610802",
+      "deep_relic:6611001",
+      "deep_relic:6611002",
+      "deep_relic:6611100",
+      "deep_relic:6611101",
+      "deep_relic:6611102",
+      "deep_relic:6611200",
+      "deep_relic:6611201",
+      "deep_relic:6611202",
+      "deep_relic:6611300",
+      "deep_relic:6611301",
+      "deep_relic:6611302",
+      "deep_relic:6611400"
+    ],
+    "source_refs": [
+      {
+        "source_id": "roundtable-relic",
+        "locator": "RelicType=Depth Of Night; EffectID=661xxxx"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "deep_night_entries.json + in-game_deep_night_entries.json"
+      }
+    ],
+    "evidence": "同ID已存在深夜遗物表，RoundTable明确归入Depth Of Night遗物。保留正确遗物入口。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "deep-missing-positive",
+    "name": "补齐17类深夜武器正面词条",
+    "before": "旧表缺少正确的深夜武器正面数值",
+    "after": [
+      "提升血量上限",
+      "提升专注值上限",
+      "减少专注值消耗",
+      "提升精力上限",
+      "提升精力恢复速度",
+      "提升物理攻击力",
+      "提升属性攻击力",
+      "更容易使敌人失去平衡",
+      "提升物理减伤率",
+      "提升属性减伤率",
+      "提升所有抵抗力",
+      "提升强韧度",
+      "强化魔法与祷告",
+      "延长魔法与祷告持续时间",
+      "强化突刺反击",
+      "提升圣杯瓶恢复量",
+      "增加打倒敌人时获得的卢恩"
+    ],
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "Deep weapon effects rows3:19"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "Deep Weapon Effects"
+      }
+    ],
+    "evidence": "按深夜武器类别收录；其中14类由两份表共同支持，3类仅Kevin表。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "effect-8800200",
+    "name": "连续闪避时，降低减伤率数值／条件修正",
+    "before": "连续闪避时，受到的伤害+30% / +46%，效果持续15秒; 连续按闪避时，第3次闪避触发效果; 2次按下闪避键的间隔小于1秒，就会被判定为“连续闪避”",
+    "after": "连续回避后15秒内，受到伤害增加23%／30%。",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'Deep weapon effects'!A50:D50"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Deep Weapon Effects'!A45:E45"
+      }
+    ],
+    "evidence": "Kevin与Slay的数值或条件一致。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "effect-8801000",
+    "name": "使用圣杯瓶时，降低减伤率数值／条件修正",
+    "before": "使用圣杯瓶的动作中，受到的伤害+33%",
+    "after": "喝圣杯瓶期间，受到伤害增加33%／46%。",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'Deep weapon effects'!A51:D51"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Deep Weapon Effects'!A46:E46"
+      }
+    ],
+    "evidence": "Kevin与Slay的数值或条件一致。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "effect-8810000",
+    "name": "血量没有全满时，降低攻击力数值／条件修正",
+    "before": "血量不满时，造成的伤害-5% / -7%",
+    "after": "HP低于85%时，造成伤害降低5%／7%；不是HP只要未满就触发。",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'Deep weapon effects'!A52:D52"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Deep Weapon Effects'!A39:E39"
+      }
+    ],
+    "evidence": "Kevin与Slay的数值或条件一致。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "effect-8810200",
+    "name": "血量没有全满时，降低绝招量表累积数值／条件修正",
+    "before": "血量不满时，绝招量表累积速率-10% / -15%",
+    "after": "HP低于85%时，绝招量表积累降低10%／15%；不是HP只要未满就触发。",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'Deep weapon effects'!A53:D53"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Deep Weapon Effects'!A40:E40"
+      }
+    ],
+    "evidence": "Kevin与Slay的数值或条件一致。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "effect-8821000",
+    "name": "攻击时，攻击偶尔会掠过目标数值／条件修正",
+    "before": "每次攻击有3% / 5%，造成的伤害变为1% (仅降低伤害，依旧可以打出削韧值/异常值/冲击力)",
+    "after": "每次攻击有3%／5%的概率不造成伤害。",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'Deep weapon effects'!A57:D57"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Deep Weapon Effects'!A38:E38"
+      }
+    ],
+    "evidence": "Kevin与Slay的数值或条件一致。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "boss-nightlord-stat:04",
+    "name": "\"坚盾\"弗堤士普通属性修正",
+    "before": {
+      "status_threshold.sleep": 542
+    },
+    "after": {
+      "status_threshold.sleep": 154
+    },
+    "source_refs": [
+      {
+        "source_id": "recycle-pve",
+        "locator": "'Solo Scaling Data'!row 621"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "Nightlord Stats Solo"
+      }
+    ],
+    "evidence": "Slay与Recycle原始表在明确字段一致；修正承伤倍率符号/韧性/异常阈值，原值仍在raw与corrections。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "boss-nightlord-stat:10",
+    "name": "黑夜轮廓普通属性修正",
+    "before": {
+      "damage_multiplier.pierce": 1
+    },
+    "after": {
+      "damage_multiplier.pierce": 1.1
+    },
+    "source_refs": [
+      {
+        "source_id": "recycle-pve",
+        "locator": "'Solo Scaling Data'!row 721"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "Nightlord Stats Solo"
+      }
+    ],
+    "evidence": "Slay与Recycle原始表在明确字段一致；修正承伤倍率符号/韧性/异常阈值，原值仍在raw与corrections。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "boss-nightlord-stat:12",
+    "name": "安定者们普通属性修正",
+    "before": {
+      "poise_raw": 155
+    },
+    "after": {
+      "poise_raw": 75
+    },
+    "source_refs": [
+      {
+        "source_id": "recycle-pve",
+        "locator": "'New Nightlords'!row 4"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "Nightlord Stats Solo"
+      }
+    ],
+    "evidence": "Slay与Recycle原始表在明确字段一致；修正承伤倍率符号/韧性/异常阈值，原值仍在raw与corrections。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "boss-nightlord-stat:13",
+    "name": "废弃物之王(一阶段)普通属性修正",
+    "before": {
+      "damage_multiplier.slash": 0.9,
+      "damage_multiplier.pierce": 0.9,
+      "damage_multiplier.fire": 0.8,
+      "damage_multiplier.lightning": 1.1,
+      "damage_multiplier.holy": 0.75,
+      "poise_raw": 155
+    },
+    "after": {
+      "damage_multiplier.slash": 1.1,
+      "damage_multiplier.pierce": 1.1,
+      "damage_multiplier.fire": 1.2,
+      "damage_multiplier.lightning": 0.9,
+      "damage_multiplier.holy": 1.25,
+      "poise_raw": 150
+    },
+    "source_refs": [
+      {
+        "source_id": "recycle-pve",
+        "locator": "'New Nightlords'!row 10"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "Nightlord Stats Solo"
+      }
+    ],
+    "evidence": "Slay与Recycle原始表在明确字段一致；修正承伤倍率符号/韧性/异常阈值，原值仍在raw与corrections。",
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "boss-nightlord-stat:14",
+    "name": "废弃物之王(二阶段)普通属性修正",
+    "before": {
+      "damage_multiplier.slash": 0.9,
+      "damage_multiplier.pierce": 0.9,
+      "damage_multiplier.fire": 0.8,
+      "damage_multiplier.lightning": 1.1,
+      "damage_multiplier.holy": 0.75,
+      "poise_raw": 155
+    },
+    "after": {
+      "damage_multiplier.slash": 1.1,
+      "damage_multiplier.pierce": 1.1,
+      "damage_multiplier.fire": 1.2,
+      "damage_multiplier.lightning": 0.9,
+      "damage_multiplier.holy": 1.25,
+      "poise_raw": 150
+    },
+    "source_refs": [
+      {
+        "source_id": "recycle-pve",
+        "locator": "'New Nightlords'!row 11"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "Nightlord Stats Solo"
+      }
+    ],
+    "evidence": "Slay与Recycle原始表在明确字段一致；修正承伤倍率符号/韧性/异常阈值，原值仍在raw与corrections。",
+    "verification_status": "corrected_from_source_comparison"
+  }
+]

@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.avif binary
+*.apk binary
+*.cmd text eol=crlf
+
+# Preserve the shipped offline snapshot exactly across operating systems.
+dist/** -text

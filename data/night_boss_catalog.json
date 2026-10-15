@@ -1,0 +1,651 @@
+[
+  {
+    "id": "ancient-dragon",
+    "name": "古龙",
+    "name_en": "Ancient Dragon",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "artorias-of-the-abyss",
+    "name": "深渊行者亚尔特留斯",
+    "name_en": "Artorias of the Abyss",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "battlefield-commander",
+    "name": "战场宿将",
+    "name_en": "Battlefield Commander",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "bell-bearing-hunter",
+    "name": "铃珠猎人",
+    "name_en": "Bell Bearing Hunter",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "centipede-demon",
+    "name": "百足恶魔",
+    "name_en": "Centipede Demon",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crucible-hippo",
+    "name": "熔炉骑士与黄金河马",
+    "name_en": "Crucible & Hippo",
+    "aliases": [
+      "Crucible Knight and Golden Hippopotamus",
+      "Crucible Knight & Golden Hippopotamus"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "curseblade-warrior",
+    "name": "咒剑士与神兽战士",
+    "name_en": "Curseblade & Warrior",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dancer-of-the-boreal-valley",
+    "name": "冷冽谷的舞娘",
+    "name_en": "Dancer of the Boreal Valley",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "death-knights",
+    "name": "死骑士组合",
+    "name_en": "Death Knights",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "death-rite-bird",
+    "name": "死亡仪式鸟",
+    "name_en": "Death Rite Bird",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "demi-human-duo",
+    "name": "亚人女王与亚人剑圣",
+    "name_en": "Demi-Human Duo",
+    "aliases": [
+      "Demi-Human Queen and Swordmaster",
+      "Demi-Human Queen & Swordmaster"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "demon-duo",
+    "name": "恶魔双人组",
+    "name_en": "Demon Duo",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "demon-prince",
+    "name": "恶魔王子",
+    "name_en": "Demon Prince",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "divine-beast",
+    "name": "神兽舞狮",
+    "name_en": "Divine Beast",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "draconic-tree-sentinel",
+    "name": "龙装大树守卫组合",
+    "name_en": "Draconic Tree Sentinel",
+    "aliases": [
+      "Draconic Tree Sentinel and Royal Cavalrymen"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "duke-s-dear-freia",
+    "name": "公爵的宠物芙蕾雅",
+    "name_en": "Duke's Dear Freia",
+    "aliases": [
+      "The Duke's Dear Freja"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "fallingstar-beast",
+    "name": "坠星兽",
+    "name_en": "Fallingstar Beast",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "fell-omen",
+    "name": "恶兆（Fell Omen）",
+    "name_en": "Fell Omen",
+    "aliases": [
+      "Morgott"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "gaping-dragon",
+    "name": "贪食魔龙",
+    "name_en": "Gaping Dragon",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "godskin-duo",
+    "name": "神皮双人组",
+    "name_en": "Godskin Duo",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "grafted-monarch",
+    "name": "接肢君王",
+    "name_en": "Grafted Monarch",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "great-red-bear",
+    "name": "大红熊",
+    "name_en": "Great Red Bear",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "great-wyrm",
+    "name": "大土龙",
+    "name_en": "Great Wyrm",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "lord-of-blood",
+    "name": "鲜血君王",
+    "name_en": "Lord of Blood",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "nameless-king",
+    "name": "无名王",
+    "name_en": "Nameless King",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "night-s-cavalry",
+    "name": "黑夜骑兵组合",
+    "name_en": "Night's Cavalry",
+    "aliases": [
+      "Night's Cavalry Duo"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "nox-dragonkin-soldier",
+    "name": "龙人士兵（诺克斯组合）",
+    "name_en": "Nox Dragonkin Soldier",
+    "aliases": [
+      "Dragonkin Soldier",
+      "Nox Dragonkin"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "outland-commander",
+    "name": "异乡宿将",
+    "name_en": "Outland Commander",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "royal-revenant",
+    "name": "王室幽魂",
+    "name_en": "Royal Revenant",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "smelter-demon",
+    "name": "熔铁恶魔",
+    "name_en": "Smelter Demon",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "tibia-mariner",
+    "name": "提比亚的唤声船",
+    "name_en": "Tibia Mariner",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "tree-sentinel",
+    "name": "大树守卫组合",
+    "name_en": "Tree Sentinel",
+    "aliases": [
+      "Tree Sentinel and Royal Cavalrymen"
+    ],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "ulcerated-tree-spirit",
+    "name": "腐烂树灵",
+    "name_en": "Ulcerated Tree Spirit",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "valiant-gargoyle",
+    "name": "英雄石像鬼",
+    "name_en": "Valiant Gargoyle",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wormface",
+    "name": "蚯蚓脸",
+    "name_en": "Wormface",
+    "aliases": [],
+    "translation_status": "社区中文名称及检索用译名",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "night_1/night_2 distinct"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "patterns/*/night1|night2"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "dodge_frames:001",
+    "name": "追踪者（翻滚）",
+    "frame_type": "无敌帧",
+    "frames": 26,
+    "measurement_fps": 60,
+    "seconds": 0.43333333333333335,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[0]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:002",
+    "name": "追踪者（翻滚）",
+    "frame_type": "非无敌帧",
+    "frames": 14,
+    "measurement_fps": 60,
+    "seconds": 0.23333333333333334,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[1]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:003",
+    "name": "铁之眼（翻滚）",
+    "frame_type": "无敌帧",
+    "frames": 26,
+    "measurement_fps": 60,
+    "seconds": 0.43333333333333335,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[2]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:004",
+    "name": "铁之眼（翻滚）",
+    "frame_type": "非无敌帧",
+    "frames": 14,
+    "measurement_fps": 60,
+    "seconds": 0.23333333333333334,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[3]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:005",
+    "name": "复仇者（翻滚）",
+    "frame_type": "无敌帧",
+    "frames": 26,
+    "measurement_fps": 60,
+    "seconds": 0.43333333333333335,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[4]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:006",
+    "name": "复仇者（翻滚）",
+    "frame_type": "非无敌帧",
+    "frames": 14,
+    "measurement_fps": 60,
+    "seconds": 0.23333333333333334,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[5]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:007",
+    "name": "执行者（翻滚）",
+    "frame_type": "无敌帧",
+    "frames": 26,
+    "measurement_fps": 60,
+    "seconds": 0.43333333333333335,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[6]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:008",
+    "name": "执行者（翻滚）",
+    "frame_type": "非无敌帧",
+    "frames": 14,
+    "measurement_fps": 60,
+    "seconds": 0.23333333333333334,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[7]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:009",
+    "name": "守护者（闪避）",
+    "frame_type": "无敌帧",
+    "frames": 20,
+    "measurement_fps": 60,
+    "seconds": 0.3333333333333333,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[8]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:010",
+    "name": "守护者（闪避）",
+    "frame_type": "非无敌帧",
+    "frames": 14,
+    "measurement_fps": 60,
+    "seconds": 0.23333333333333334,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[9]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:011",
+    "name": "无赖（翻滚）",
+    "frame_type": "无敌帧",
+    "frames": 24,
+    "measurement_fps": 60,
+    "seconds": 0.4,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[10]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:012",
+    "name": "无赖（翻滚）",
+    "frame_type": "非无敌帧",
+    "frames": 18,
+    "measurement_fps": 60,
+    "seconds": 0.3,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[11]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:013",
+    "name": "隐士（闪避）",
+    "frame_type": "无敌帧",
+    "frames": 30,
+    "measurement_fps": 60,
+    "seconds": 0.5,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[12]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:014",
+    "name": "隐士（闪避）",
+    "frame_type": "非无敌帧",
+    "frames": 10,
+    "measurement_fps": 60,
+    "seconds": 0.16666666666666666,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[13]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:015",
+    "name": "女爵（闪避）",
+    "frame_type": "无敌帧",
+    "frames": 20,
+    "measurement_fps": 60,
+    "seconds": 0.3333333333333333,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[14]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:016",
+    "name": "女爵（闪避）",
+    "frame_type": "非无敌帧",
+    "frames": 6,
+    "measurement_fps": 60,
+    "seconds": 0.1,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[15]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:017",
+    "name": "女爵（双重踏步）",
+    "frame_type": "无敌帧",
+    "frames": 22,
+    "measurement_fps": 60,
+    "seconds": 0.36666666666666664,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[16]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:018",
+    "name": "女爵（双重踏步）",
+    "frame_type": "非无敌帧",
+    "frames": 16,
+    "measurement_fps": 60,
+    "seconds": 0.26666666666666666,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[17]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:019",
+    "name": "女爵（后空翻）",
+    "frame_type": "无敌帧",
+    "frames": 22,
+    "measurement_fps": 60,
+    "seconds": 0.36666666666666664,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[18]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:020",
+    "name": "女爵（后空翻）",
+    "frame_type": "非无敌帧",
+    "frames": 16,
+    "measurement_fps": 60,
+    "seconds": 0.26666666666666666,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[19]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:021",
+    "name": "女爵（闪身）",
+    "frame_type": "无敌帧",
+    "frames": 12,
+    "measurement_fps": 60,
+    "seconds": 0.2,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[20]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "dodge_frames:022",
+    "name": "女爵（闪身）",
+    "frame_type": "非无敌帧",
+    "frames": 12,
+    "measurement_fps": 60,
+    "seconds": 0.2,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/invincible_frames.json[21]"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

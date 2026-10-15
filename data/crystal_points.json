@@ -1,0 +1,538 @@
+[
+  {
+    "id": "crystal:01",
+    "name": "水晶点1",
+    "source_point_id": "1",
+    "x_pct": 36,
+    "y_pct": 18,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=1"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:02",
+    "name": "水晶点2",
+    "source_point_id": "2",
+    "x_pct": 24,
+    "y_pct": 31,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue",
+      "red"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=2"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:03",
+    "name": "水晶点3",
+    "source_point_id": "3",
+    "x_pct": 60,
+    "y_pct": 35,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue",
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=3"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:04",
+    "name": "水晶点4",
+    "source_point_id": "4",
+    "x_pct": 16,
+    "y_pct": 50,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=4"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:05",
+    "name": "水晶点5",
+    "source_point_id": "5",
+    "x_pct": 30,
+    "y_pct": 55,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue",
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=5"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:06",
+    "name": "水晶点6",
+    "source_point_id": "6",
+    "x_pct": 18,
+    "y_pct": 70,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue",
+      "red"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=6"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:07",
+    "name": "水晶点7",
+    "source_point_id": "7",
+    "x_pct": 82,
+    "y_pct": 75,
+    "layer": "underground_inset",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=7"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:08",
+    "name": "水晶点8",
+    "source_point_id": "8",
+    "x_pct": 76,
+    "y_pct": 83,
+    "layer": "underground_inset",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "blue",
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=8"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:09",
+    "name": "水晶点9",
+    "source_point_id": "9",
+    "x_pct": 67,
+    "y_pct": 18,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "red"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=9"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:10",
+    "name": "水晶点10",
+    "source_point_id": "10",
+    "x_pct": 13,
+    "y_pct": 37,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "red",
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=10"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:11",
+    "name": "水晶点11",
+    "source_point_id": "11",
+    "x_pct": 38,
+    "y_pct": 48,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "red",
+      "green"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=11"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:12",
+    "name": "水晶点12",
+    "source_point_id": "12",
+    "x_pct": 89,
+    "y_pct": 66,
+    "layer": "underground_inset",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "red"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=12"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:13",
+    "name": "水晶点13",
+    "source_point_id": "13",
+    "x_pct": 78,
+    "y_pct": 92,
+    "layer": "underground_inset",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "red",
+      "green"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=13"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:14",
+    "name": "水晶点14",
+    "source_point_id": "14",
+    "x_pct": 92,
+    "y_pct": 89,
+    "layer": "underground_inset",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "red",
+      "green"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=14"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:15",
+    "name": "水晶点15",
+    "source_point_id": "15",
+    "x_pct": 44,
+    "y_pct": 32,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "green"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=15"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:16",
+    "name": "水晶点16",
+    "source_point_id": "16",
+    "x_pct": 70,
+    "y_pct": 39,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "green"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=16"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:17",
+    "name": "水晶点17",
+    "source_point_id": "17",
+    "x_pct": 8,
+    "y_pct": 58,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "green"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=17"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:18",
+    "name": "水晶点18",
+    "source_point_id": "18",
+    "x_pct": 32,
+    "y_pct": 37,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "green",
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=18"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:19",
+    "name": "水晶点19",
+    "source_point_id": "19",
+    "x_pct": 94,
+    "y_pct": 75,
+    "layer": "underground_inset",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "green",
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=19"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:20",
+    "name": "水晶点20",
+    "source_point_id": "20",
+    "x_pct": 34,
+    "y_pct": 75,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=20"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "crystal:21",
+    "name": "水晶点21",
+    "source_point_id": "21",
+    "x_pct": 43,
+    "y_pct": 59,
+    "layer": "surface",
+    "layer_evidence": "由合成底图目视判定，坐标JSON未自带层级",
+    "layout_ids": [
+      "purple"
+    ],
+    "asset_path": "assets/great-hollow.webp",
+    "coordinate_system": "image_percent_top_left",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/*/name=21"
+      },
+      {
+        "source_id": "hollow-base",
+        "locator": "底图层级"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

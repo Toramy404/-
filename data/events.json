@@ -1,0 +1,620 @@
+[
+  {
+    "id": "morgott_invasion",
+    "name": "赐福王突袭",
+    "category": "入侵",
+    "eligible_nightlord_ids": [
+      "adel",
+      "gnoster",
+      "heolstor",
+      "straghess"
+    ],
+    "trigger_summary": "标记并追击一名玩家；击败入侵者可取得赐福王余威。",
+    "reward_summary": "奖励后新增赐福每处攻击+2%，最多+20%。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "赐福王突袭"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/in-game_special_buff.json"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "adel",
+      "gnoster",
+      "heolstor",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "maris_bubbles",
+    "name": "玛丽斯水泡",
+    "category": "入侵",
+    "eligible_nightlord_ids": [
+      "caligo",
+      "gnoster",
+      "heolstor",
+      "straghess"
+    ],
+    "trigger_summary": "地图出现水泡，可将接触者送入特殊战斗。",
+    "reward_summary": "胜利取得圣杯瓶恢复FP效果；个人30%，周围队友15%（QuickRef口径）。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "玛丽斯水泡"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/in-game_special_buff.json"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "gnoster",
+      "caligo",
+      "heolstor",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "gnoster_plague",
+    "name": "智虫虫群／等级掠夺",
+    "category": "入侵",
+    "eligible_nightlord_ids": [
+      "heolstor",
+      "libra",
+      "maris",
+      "straghess"
+    ],
+    "trigger_summary": "虫群夺取等级，寻找并击破事件目标。",
+    "reward_summary": "完成返还升级卢恩；后续攻击有机会获得卢恩，概率待核。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "智虫虫群／等级掠夺"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "maris",
+      "libra",
+      "heolstor",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "libra_curse",
+    "name": "恶魔商人诅咒",
+    "category": "诅咒",
+    "eligible_nightlord_ids": [
+      "caligo",
+      "fulghor",
+      "heolstor",
+      "straghess"
+    ],
+    "trigger_summary": "全队受到生命上限诅咒，可付费解除或讨伐商人。",
+    "reward_summary": "解除费第1天15000、第2天35000卢恩；一人付款全队解除。讨伐奖励见持有卢恩增伤表。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "恶魔商人诅咒"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/in-game_special_buff.json"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "fulghor",
+      "caligo",
+      "heolstor",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "gladius_invasion",
+    "name": "三狼入侵",
+    "category": "入侵",
+    "eligible_nightlord_ids": [
+      "adel",
+      "caligo",
+      "fulghor",
+      "gnoster",
+      "harmonia",
+      "heolstor",
+      "libra",
+      "straghess"
+    ],
+    "trigger_summary": "持续扣血，寻找并击败三处目标。",
+    "reward_summary": "完成后取得连续攻击恢复自己与队友精力的效果；属于DLC事件。",
+    "dlc_patterns_only": true,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "三狼入侵"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "adel",
+      "gnoster",
+      "maris",
+      "libra",
+      "fulghor",
+      "caligo",
+      "heolstor",
+      "harmonia",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "caligo_blizzard",
+    "name": "冰龙暴风雪",
+    "category": "入侵",
+    "eligible_nightlord_ids": [
+      "adel",
+      "gladius",
+      "gnoster",
+      "harmonia",
+      "heolstor",
+      "maris",
+      "straghess"
+    ],
+    "trigger_summary": "冰雾与冰雹出现，前往标示区域处理事件。",
+    "reward_summary": "胜利奖励一次免死隐身，赐福补充；属于DLC事件。",
+    "dlc_patterns_only": true,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "冰龙暴风雪"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "gladius",
+      "adel",
+      "gnoster",
+      "maris",
+      "libra",
+      "fulghor",
+      "heolstor",
+      "harmonia",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "balancers_raid",
+    "name": "安定者袭击",
+    "category": "入侵",
+    "eligible_nightlord_ids": [
+      "caligo",
+      "fulghor",
+      "gladius",
+      "heolstor",
+      "libra",
+      "maris",
+      "straghess"
+    ],
+    "trigger_summary": "失去部分瓶数并被送到分离地点，击败安定者回收。",
+    "reward_summary": "完成后取得自救或救起队友相关攻击强化；倍率未核。",
+    "dlc_patterns_only": true,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "安定者袭击"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "gladius",
+      "adel",
+      "gnoster",
+      "maris",
+      "libra",
+      "fulghor",
+      "caligo",
+      "heolstor",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "frenzy_tower",
+    "name": "癫火塔",
+    "category": "开局设施",
+    "eligible_nightlord_ids": [
+      "gladius",
+      "gnoster",
+      "harmonia",
+      "libra",
+      "straghess"
+    ],
+    "trigger_summary": "癫火塔影响周边，清除关联敌人解除。",
+    "reward_summary": "可取得癫火相关潜在能力奖励。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "癫火塔"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "gnoster",
+      "libra",
+      "harmonia",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "extra_night_boss",
+    "name": "全新的黑夜威胁／追加夜Boss",
+    "category": "夜战追加",
+    "eligible_nightlord_ids": [
+      "adel",
+      "caligo",
+      "fulghor",
+      "gladius",
+      "harmonia",
+      "heolstor",
+      "maris",
+      "straghess"
+    ],
+    "trigger_summary": "原夜Boss结束后还会出现追加战斗，第1或第2夜均可能。",
+    "reward_summary": "追加Boss可超出该夜王常规池；预测夜王时必须排除这一类。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "全新的黑夜威胁／追加夜Boss"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "adel",
+      "fulghor",
+      "harmonia",
+      "straghess"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "night_horde",
+    "name": "黑夜势力倾巢而出",
+    "category": "战斗事件",
+    "eligible_nightlord_ids": [
+      "fulghor",
+      "gladius",
+      "harmonia",
+      "maris"
+    ],
+    "trigger_summary": "靠近事件球后应对多波敌群。",
+    "reward_summary": "胜利取得战斗中绝招计量积累加快的效果。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "黑夜势力倾巢而出"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "gladius",
+      "maris",
+      "fulghor",
+      "harmonia"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "meteor_strike",
+    "name": "陨石坠落",
+    "category": "地形事件",
+    "eligible_nightlord_ids": [
+      "adel",
+      "caligo",
+      "gladius",
+      "harmonia"
+    ],
+    "trigger_summary": "陨石改变一处设施，出现坠星兽战斗。",
+    "reward_summary": "目标与奖励按具体配置查询。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "陨石坠落"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "gladius",
+      "adel",
+      "caligo",
+      "harmonia"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "walking_mausoleum",
+    "name": "漫步灵庙",
+    "category": "开局设施",
+    "eligible_nightlord_ids": [
+      "caligo",
+      "harmonia",
+      "maris"
+    ],
+    "trigger_summary": "登上并使用灵庙功能。",
+    "reward_summary": "可复制符合条件的武器；初始遗物武器不在可复制范围。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "漫步灵庙"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "520 configs"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "DLC Seeds + GH Seeds"
+      }
+    ],
+    "verification_status": "source_reported",
+    "eligibility_scope": "enumerated_520_patterns",
+    "previous_eligible_nightlord_ids": [
+      "maris",
+      "caligo",
+      "harmonia"
+    ],
+    "eligibility_note": "在已收录520种配置中出现的夜王；只核对出现关联，奖励与触发细节另看来源。"
+  },
+  {
+    "id": "difficult_sorcerer_rise",
+    "name": "古代魔法师塔",
+    "category": "开局设施",
+    "eligible_nightlord_ids": [
+      "gnoster",
+      "libra",
+      "harmonia"
+    ],
+    "trigger_summary": "寻找多个封印图章解除封印。",
+    "reward_summary": "高级奖励；Sidekick事件字段未覆盖此类型，不能以未列出推断不存在。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": true,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "古代魔法师塔"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "scale_merchant",
+    "name": "持秤商人交易",
+    "category": "商人",
+    "eligible_nightlord_ids": null,
+    "trigger_summary": "无诅咒的商人交易与诅咒事件分别记录。",
+    "reward_summary": "一次选择附有代价的增益；13项交易见libra_trades。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": false,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "持秤商人交易"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary_merchant",
+    "name": "大空洞传奇商人",
+    "category": "商人",
+    "eligible_nightlord_ids": null,
+    "trigger_summary": "大空洞第2天东北特定位置可能出现。",
+    "reward_summary": "4把传奇武器供选，每把98000卢恩；刷新概率未取得可靠数值。",
+    "dlc_patterns_only": false,
+    "is_pattern_special_event": false,
+    "probability": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-events",
+        "locator": "大空洞传奇商人"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

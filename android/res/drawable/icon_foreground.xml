@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The 72dp adaptive-icon viewport frames the same head/umbrella region as the preview. -->
+    <item android:width="110dp" android:height="110dp"
+        android:gravity="top|center_horizontal" android:top="16dp">
+        <bitmap android:src="@drawable/rain_knight" android:gravity="fill" android:filter="true" />
+    </item>
+</layer-list>

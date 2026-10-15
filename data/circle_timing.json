@@ -1,0 +1,72 @@
+[
+  {
+    "id": "circle:1",
+    "name": "Day 1/ Day 2 开始",
+    "time_display": "0:00",
+    "seconds": 0,
+    "scope": "来源普通Day1/Day2缩圈；未按单人、深夜或异常场景逐项实测",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/timelineItems"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "circle:2",
+    "name": "第一次缩圈开始",
+    "time_display": "4:30",
+    "seconds": 270,
+    "scope": "来源普通Day1/Day2缩圈；未按单人、深夜或异常场景逐项实测",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/timelineItems"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "circle:3",
+    "name": "第一次缩圈结束",
+    "time_display": "7:30",
+    "seconds": 450,
+    "scope": "来源普通Day1/Day2缩圈；未按单人、深夜或异常场景逐项实测",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/timelineItems"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "circle:4",
+    "name": "第二次缩圈开始",
+    "time_display": "11:00",
+    "seconds": 660,
+    "scope": "来源普通Day1/Day2缩圈；未按单人、深夜或异常场景逐项实测",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/timelineItems"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "circle:5",
+    "name": "第二次缩圈结束",
+    "time_display": "14:30",
+    "seconds": 870,
+    "scope": "来源普通Day1/Day2缩圈；未按单人、深夜或异常场景逐项实测",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/timelineItems"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

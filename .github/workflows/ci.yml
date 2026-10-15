@@ -1,0 +1,32 @@
+name: Verify
+on:
+  push:
+    branches: [main, 'feat/**', 'fix/**', 'chore/**', 'data/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  checks:
+    name: Data and behavior
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - run: npm run check
+      - run: python3 scripts/build_data.py --check
+      - run: npm test
+  android:
+    name: Android compile
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install pinned Android SDK packages
+        run: $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager 'platforms;android-35' 'build-tools;35.0.1'
+      - name: Build without the private release key
+        run: NIGHTREIGN_JDK="$JAVA_HOME_17_X64" python3 scripts/build_android.py --unsigned

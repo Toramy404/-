@@ -1,0 +1,274 @@
+[
+  {
+    "id": "hollow:spawns:1",
+    "name": "Northeast",
+    "kind": "spawns",
+    "x_pct": 73,
+    "y_pct": 30,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/spawns"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:spawns:2",
+    "name": "Southwest",
+    "kind": "spawns",
+    "x_pct": 26,
+    "y_pct": 65,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/spawns"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:spawns:3",
+    "name": "South",
+    "kind": "spawns",
+    "x_pct": 43,
+    "y_pct": 78,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/spawns"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:churches:1",
+    "name": "1",
+    "kind": "churches",
+    "x_pct": 30,
+    "y_pct": 7,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/churches"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:churches:2",
+    "name": "2",
+    "kind": "churches",
+    "x_pct": 47,
+    "y_pct": 30,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/churches"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:churches:3",
+    "name": "3",
+    "kind": "churches",
+    "x_pct": 55,
+    "y_pct": 39,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/churches"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:churches:4",
+    "name": "4",
+    "kind": "churches",
+    "x_pct": 24,
+    "y_pct": 72,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/churches"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:churches:5",
+    "name": "5",
+    "kind": "churches",
+    "x_pct": 24,
+    "y_pct": 42,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/churches"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:churches:6",
+    "name": "6",
+    "kind": "churches",
+    "x_pct": 94,
+    "y_pct": 74,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/churches"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:circles:1",
+    "name": "1",
+    "kind": "circles",
+    "x_pct": 52,
+    "y_pct": 18,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/circles"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:circles:2",
+    "name": "2",
+    "kind": "circles",
+    "x_pct": 37,
+    "y_pct": 34,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/circles"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:circles:3",
+    "name": "3",
+    "kind": "circles",
+    "x_pct": 25,
+    "y_pct": 62,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/circles"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:circles:4",
+    "name": "4",
+    "kind": "circles",
+    "x_pct": 55,
+    "y_pct": 49,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/circles"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:sorcerer:1",
+    "name": "3",
+    "kind": "sorcerer",
+    "x_pct": 55,
+    "y_pct": 39,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/sorcerer"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:sorcerer:2",
+    "name": "4",
+    "kind": "sorcerer",
+    "x_pct": 24,
+    "y_pct": 72,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/sorcerer"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:sorcerer:3",
+    "name": "5",
+    "kind": "sorcerer",
+    "x_pct": 24,
+    "y_pct": 42,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/sorcerer"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "hollow:sorcerer:4",
+    "name": "6",
+    "kind": "sorcerer",
+    "x_pct": 94,
+    "y_pct": 74,
+    "asset_path": "assets/great-hollow.webp",
+    "note": "circles为该日最终战区标记，不能据此画出当日第一次缩圈边界",
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/sorcerer"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

@@ -1,0 +1,11 @@
+name: 功能建议
+description: 描述游玩时的问题与期望操作
+title: '[Feature] '
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 使用场景与期望
+      description: 现在什么地方费劲？希望怎样操作？什么效果算做好？
+    validations:
+      required: true

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "runes:0",
+    "name": "0卢恩增伤",
+    "runes": 0,
+    "damage_increase_pct": 0.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:1000",
+    "name": "1000卢恩增伤",
+    "runes": 1000,
+    "damage_increase_pct": 0.4,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:2000",
+    "name": "2000卢恩增伤",
+    "runes": 2000,
+    "damage_increase_pct": 0.8,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:5000",
+    "name": "5000卢恩增伤",
+    "runes": 5000,
+    "damage_increase_pct": 2.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:10000",
+    "name": "10000卢恩增伤",
+    "runes": 10000,
+    "damage_increase_pct": 4.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:20000",
+    "name": "20000卢恩增伤",
+    "runes": 20000,
+    "damage_increase_pct": 8.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:30000",
+    "name": "30000卢恩增伤",
+    "runes": 30000,
+    "damage_increase_pct": 12.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:50000",
+    "name": "50000卢恩增伤",
+    "runes": 50000,
+    "damage_increase_pct": 20.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:60000",
+    "name": "60000卢恩增伤",
+    "runes": 60000,
+    "damage_increase_pct": 22.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:80000",
+    "name": "80000卢恩增伤",
+    "runes": 80000,
+    "damage_increase_pct": 26.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:100000",
+    "name": "100000卢恩增伤",
+    "runes": 100000,
+    "damage_increase_pct": 30.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:150000",
+    "name": "150000卢恩增伤",
+    "runes": 150000,
+    "damage_increase_pct": 33.75,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:200000",
+    "name": "200000卢恩增伤",
+    "runes": 200000,
+    "damage_increase_pct": 37.5,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:300000",
+    "name": "300000卢恩增伤",
+    "runes": 300000,
+    "damage_increase_pct": 45.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:500000",
+    "name": "500000卢恩增伤",
+    "runes": 500000,
+    "damage_increase_pct": 60.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:700000",
+    "name": "700000卢恩增伤",
+    "runes": 700000,
+    "damage_increase_pct": 75.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:900000",
+    "name": "900000卢恩增伤",
+    "runes": 900000,
+    "damage_increase_pct": 90.0,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:1000000",
+    "name": "1000000卢恩增伤",
+    "runes": 1000000,
+    "damage_increase_pct": 91.2,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:1100000",
+    "name": "1100000卢恩增伤",
+    "runes": 1100000,
+    "damage_increase_pct": 92.42,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "runes:1500000",
+    "name": "1500000卢恩增伤",
+    "runes": 1500000,
+    "damage_increase_pct": 97.26,
+    "interpolation_verified": false,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/curseData"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]
