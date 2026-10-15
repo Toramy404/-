@@ -55,6 +55,29 @@ function displayTier(D,r){
  var group=groups(D).find(function(g){return g.family.id===D.effect_members[r.id].family_id&&g.context==='out'});
  return group&&group.rows.some(function(x){return D.effect_members[x.id].tier!==null})?0:null;
 }
+// Sort a copy only. Never reorder or recalculate the source records.
+function orderedRows(D,rows){
+ var ordered=rows.slice().sort(function(a,b){
+  var x=displayTier(D,a),y=displayTier(D,b);
+  return(y===null?-1:y)-(x===null?-1:x);
+ });
+ // Unnumbered values are comparable only with the same source, unit and condition.
+ // Sort within those slots; unrelated conditions keep their original positions.
+ var buckets=new Map();
+ ordered.forEach(function(r,index){
+  if(displayTier(D,r)!==null)return;
+  var description=String(r.description||'').replace(/\s+/g,''),numbers=description.match(/[+-]?\d+(?:\.\d+)?/g);
+  if(!numbers||numbers.length!==1)return;
+  var key=JSON.stringify([r.scope,description.replace(numbers[0],'#'),r.negative_modifier_requirement||'']);
+  if(!buckets.has(key))buckets.set(key,[]);
+  buckets.get(key).push({index:index,row:r,value:Number(numbers[0])});
+ });
+ buckets.forEach(function(entries){
+  var sorted=entries.slice().sort(function(a,b){return b.value-a.value});
+  entries.forEach(function(entry,index){ordered[entry.index]=sorted[index].row});
+ });
+ return ordered;
+}
 var commonNames=['提升物理攻击力','提升物理减伤率','提升魔力属性攻击力','提升火属性攻击力','提升雷属性攻击力','提升圣属性攻击力','提升魔力属性减伤率','提升火属性减伤率','提升雷属性减伤率','提升圣属性减伤率','提升血量上限','缩短技艺的冷却时间','自然累积绝招量表'];
 function priority(D,g){
  var i=commonNames.indexOf(g.name);if(i>=0)return i;
@@ -78,7 +101,7 @@ function selectFamilies(D,filters){
   return Object.assign({},g,{rows:matched,score:ranked[0].score,bestId:ranked[0].record.id,priority:priority(D,g)});
  }).filter(Boolean).sort(function(a,b){return b.score-a.score||a.priority-b.priority||a.index-b.index});
 }
-var api={normalize:normalize,compact:compact,score:score,selectFamilies:selectFamilies,groups:groups,contexts:contexts,scopeContexts:scopeContexts,displayTier:displayTier};
+var api={normalize:normalize,compact:compact,score:score,selectFamilies:selectFamilies,groups:groups,contexts:contexts,scopeContexts:scopeContexts,displayTier:displayTier,orderedRows:orderedRows};
 if(typeof module!=='undefined'&&module.exports)module.exports=api;
 global.NR_CATALOG=api;
 })(typeof window!=='undefined'?window:globalThis);

@@ -81,10 +81,10 @@ assert js.count(worker)==1
 js=js.replace(worker,"if(false){ // Packaged assets provide offline access in Android.")
 # Packaged UI describes the installed app, while the desktop preview remains a preview.
 replacements={
- '体验预览 · v0.4':'离线版 · v'+VERSION,
+ ('体验预览 · v'+VERSION):'离线版 · v'+VERSION,
  '电脑预览在首页提示退出位置，安卓应用在首页返回时退出。':'',
  '页面、资料和地图均从本机载入，不依赖在线字体或数据服务。首次访问完成缓存后，同一浏览器可离线重开；也可直接打开文件夹里的 index.html。':'页面、资料和地图随安装包保存，断网也能直接查阅。来源链接在系统浏览器中打开。',
- '收藏和水晶标记仅保存在当前浏览器。换浏览器、清理网站数据或使用不同地址会得到独立记录。本轮为 v0.4 电脑预览，已发布的安卓安装包仍为 v0.3.0。':'收藏、水晶标记和显示偏好保存在本机。覆盖升级保留记录；卸载或清除应用数据会清空记录。安卓离线版 v'+VERSION+'。'
+ '收藏和水晶标记仅保存在当前浏览器。换浏览器、清理网站数据或使用不同地址会得到独立记录。安卓安装包与电脑预览分别保存个人记录。':'收藏、水晶标记和显示偏好保存在本机。覆盖升级保留记录；卸载或清除应用数据会清空记录。安卓离线版 v'+VERSION+'。'
 }
 for old,new in replacements.items():
     assert old in js, 'Packaged copy replacement missing: '+old
