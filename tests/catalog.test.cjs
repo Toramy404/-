@@ -14,6 +14,13 @@ check('physical tiers 0 through 4',series.map(x=>x.tier).sort().join(',')==='0,1
 check('physical values retained',series.map(x=>x.text).join('|')==='物理攻击力 +4%|物理攻击力 +5%|物理攻击力 +6%|物理攻击力+10.5%|物理攻击力+12%');
 check('deep costs retained',phys.rows.filter(r=>r.scope==='deep_relic').every(r=>r.negative_modifier_requirement==='附带负面词条'));
 const physInside=inside.find(g=>g.name==='提升物理攻击力');check('unnumbered in-run values have no invented tier',physInside.rows.every(r=>C.displayTier(D,r)===null));
+const originalPhysical=phys.rows.map(r=>r.id).join(','),ordered=C.orderedRows(D,phys.rows);
+check('numbered display order highest first',ordered.map(r=>C.displayTier(D,r)).join(',')==='4,3,2,1,0');
+check('sort preserves raw order and row references',phys.rows.map(r=>r.id).join(',')===originalPhysical&&ordered.every(r=>phys.rows.includes(r)));
+check('compound unnumbered values remain intact without invented tier',C.orderedRows(D,physInside.rows).map(r=>r.description).join('|')===physInside.rows.map(r=>r.description).join('|'));
+const fixtureRows=[['a','物理攻击力+6%'],['b','血量低于30%时，攻击力+20%'],['c','物理攻击力+9%'],['d','物理攻击力+40'],['e','物理攻击力+50%','deep_in_run'],['f','物理攻击力+60%',null,'附带负面词条']].map(([id,description,scope,negative])=>({id,description,scope:scope||'in_run',negative_modifier_requirement:negative}));
+const fixtureData={effect_members:Object.fromEntries(fixtureRows.map(r=>[r.id,{tier:null}]))};
+check('mixed conditions units sources and costs keep their positions',C.orderedRows(fixtureData,fixtureRows).map(r=>r.id).join(',')==='c,b,a,d,e,f');
 check('display +0 can be searched',C.selectFamilies(D,{query:'物理攻击力+0',context:'out'})[0].bestId==='relic:7001400');
 const all=C.selectFamilies(D,{query:'提升物理攻击力'});check('global physical results separate contexts',all.length>=2&&all.some(g=>g.context==='out')&&all.some(g=>g.context==='inside'));
 const vigor=C.selectFamilies(D,{query:'生命力+3',context:'out'})[0];check('specific tier query unchanged',vigor.bestId==='relic:7000002');
