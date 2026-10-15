@@ -14,7 +14,7 @@ python scripts/build_data.py --check
 npm test
 ```
 
-生成器重建 `effect_families/effect_members/effect_tags` 并输出 `dist/data.js`，不抓取网络、不更改图片。当前基线可逐字节重建现有安装包所用数据。不要手工修改 data.js 的数值。
+生成器重建 `effect_families/effect_members/effect_tags` 并输出 `dist/data.js`，不抓取网络、不更改图片。生成结果应与仓库内数据包逐字节一致；历史安装包保留各自发布时的快照。不要手工修改 data.js 的数值。
 
 ## 每个数值变更需要的证据
 
