@@ -7,7 +7,7 @@ def generate():
     source=APP/'data'
     keys=json.loads((source/'collections.json').read_text('utf-8'))
     data={key:json.loads((source/f'{key}.json').read_text('utf-8')) for key in keys}
-    data['effect_families'],data['effect_members'],data['effect_tags']=build_catalog(data['effects'])
+    data['effect_families'],data['effect_members'],data['effect_tags']=build_catalog(data['effects'],{c['name'] for c in data['characters']})
     data['meta']=json.loads((source/'meta.json').read_text('utf-8'))
     return ('window.NR_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\r\n').encode('utf-8')
 if __name__=='__main__':

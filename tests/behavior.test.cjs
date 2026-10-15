@@ -8,7 +8,7 @@ let app=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');app=app.sl
 render=function(){};toast=function(){};currentScroll=function(){return 0};setReadingScroll=function(){};rememberView=function(){};
 var originalFamilyDetail=familyDetail;
 goParent=function(v){state.view=v};familyDetail=function(id){modal.dataset.record='effect_groups|'+id};
-window.test={state:state,groups:effectGroups,resolve:resolveRecords,saved:familySaved,action:handleAction,card:familyCard,settings:settings,detail:originalFamilyDetail};})();`;
+window.test={state:state,groups:effectGroups,resolve:resolveRecords,saved:familySaved,action:handleAction,card:familyCard,settings:settings,detail:originalFamilyDetail,rawDetail:detail};})();`;
 vm.runInContext(app,ctx);const T=ctx.window.test,D=ctx.window.NR_DATA,physical=T.groups.find(g=>g.name==='提升物理攻击力'&&g.context==='out'),inside=T.groups.find(g=>g.name===physical.name&&g.context==='inside');
 let passed=0;function check(name,ok){assert.ok(ok,name);passed++}function action(a,v){T.action({target:{closest(){return{dataset:{action:a,value:v}}}}})}
 T.state.favorites=['effect_families|'+physical.family.id,'nightlords|gladius'];
@@ -43,5 +43,18 @@ T.detail(inside.id);
 check('unnumbered detail omits the unused tier column',!modal.innerHTML.includes('未标档位')&&!modal.innerHTML.includes('档位 / 物品')&&inside.rows.every(r=>modal.innerHTML.includes(r.description)));
 const settings=T.settings();
 check('settings links repository and author',settings.includes('href="https://github.com/Toramy404/-"')&&settings.includes('href="https://github.com/Toramy404"')&&settings.includes('<strong>作者</strong>'));
+const hiddenNotes=['不附带负面词条','随机加入正面词条'];
+for(const note of hiddenNotes){
+ const row=D.effects.find(r=>r.negative_modifier_requirement===note),group=T.groups.find(g=>g.rows.includes(row));
+ T.state.query='';
+ for(const density of ['compact','cards']){T.state.density=density;check(density+' hides '+note,!T.card(group).includes(note))}
+ T.detail(group.id);check('group detail hides '+note,!modal.innerHTML.includes(note));
+ T.rawDetail('effects',row.id);check('raw detail hides '+note,!modal.innerHTML.includes(note));
+ check('raw detail retains exact effect '+note,modal.innerHTML.includes(row.description));
+}
+const costly=D.effects.find(r=>r.negative_modifier_requirement==='附带负面词条');
+T.rawDetail('effects',costly.id);check('actual negative requirement remains visible',modal.innerHTML.includes('附带负面词条'));
+const tradeoff=D.effects.find(r=>r.id==='deep_relic:6640000');T.rawDetail('effects',tradeoff.id);
+check('character tradeoff numbers and cost remain visible',modal.innerHTML.includes(tradeoff.description)&&modal.innerHTML.includes('生命力-5'));
 check('all rendering leaves source data byte equivalent',JSON.stringify(D)===originalData);
 console.log({passed,allPassed:true});

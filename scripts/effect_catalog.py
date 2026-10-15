@@ -6,10 +6,15 @@ def normalized_name(name):
 def split_name(name):
  n=normalized_name(name);m=re.search(r'\s*\+\s*(\d+)\s*$',n)
  return (n[:m.start()].strip(),int(m[1])) if m else (n,None)
-def classify(r):
+def classify(r,character_names=()):
  n=normalized_name(r['name']);cat=r.get('category') or '';d=r.get('description') or ''
  tags=[]
- negative=cat.startswith('减益') or bool(re.search(r'降低|减少血量上限|减少专注值上限|减少精力上限|持续减少血量|持续降低血量|持续流失血量',n))
+ prefix=re.match(r'^[【\[]([^】\]]+)[】\]]',n)
+ character='角色' in cat or bool(prefix and prefix[1] in character_names)
+ # A character trade-off or an enemy debuff is not a generic negative modifier.
+ # Use the source debuff category, plus unambiguous standalone penalties (e.g. talismans).
+ penalty=re.fullmatch(r'降低(?:生命力|集中力|耐力|力气|灵巧|智力|信仰|感应|(?:物理|魔力|火|雷|圣|属性)?减伤率|血量上限|专注值上限|精力上限)|减少(?:血量|专注值|精力)上限|持续(?:减少|降低|流失)血量',split_name(n)[0])
+ negative=not character and (cat.startswith('减益') or bool(penalty))
  if negative:tags.append('negative')
  if not negative and (cat in ['攻击力','强化'] or re.search(r'强化.*(攻击|魔法|祷告)|提升.*攻击|攻击力|伤害.*提升|提升.*伤害',n)):tags.append('damage')
  if not negative and re.search(r'减伤|防御|强韧|抵抗力',n):tags.append('defense')
@@ -18,11 +23,11 @@ def classify(r):
  if re.search(r'精力|耐力',n):tags.append('stamina')
  if re.search(r'异常|中毒|毒|腐败|出血|冻伤|催眠|发狂|咒死',n):tags.append('ailment')
  if re.search(r'技艺|绝招|量表',n):tags.append('ultimate')
- if '角色' in cat or re.search(r'【[^】]+】|\[[^\]]+\]',n):tags.append('character')
+ if character:tags.append('character')
  if cat in ['能力','能力值'] or re.fullmatch(r'生命力|集中力|耐力|力气|灵巧|智力|信仰|感应',split_name(n)[0]):tags.append('attributes')
  if re.search(r'卢恩|道具|出击|宝箱|商人|地图|封印监牢',n) or cat.startswith('出击'):tags.append('exploration')
  return tags
-def build_catalog(effects):
+def build_catalog(effects,character_names=()):
  families=collections.OrderedDict();members={}
  for r in effects:
   base,tier=split_name(r['name']);fid='effect-'+hashlib.sha256(base.encode('utf-8')).hexdigest()[:16]
@@ -30,7 +35,7 @@ def build_catalog(effects):
   assert f['name']==base,'Family hash collision'
   f['member_ids'].append(r['id'])
   if r['scope'] not in f['scope_ids']:f['scope_ids'].append(r['scope'])
-  tags=classify(r)
+  tags=classify(r,character_names)
   for tag in tags:
    if tag not in f['tag_ids']:f['tag_ids'].append(tag)
   # Tier is nullable. A slash-separated source description does NOT create fabricated tiers.

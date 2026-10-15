@@ -52,13 +52,14 @@ function familyForRecord(r){return groupById.get(D.effect_members[r.id].family_i
 function asGroup(f){return f.context?f:groupForFamily(f)}
 function familyRows(f){return asGroup(f).rows}
 function tierLabel(r){var tier=catalog.displayTier(D,r);return tier!==null?'+'+tier:r.talisman_name||''}
+function modifierNote(r){var note=String(r.negative_modifier_requirement||'').trim();return ['不附带负面词条','随机加入正面词条'].includes(note)?'':note}
 function familySaved(f){var g=asGroup(f);return state.favorites.includes('effect_groups|'+g.id)||state.favorites.includes('effect_families|'+g.family.id)||g.rows.some(function(r){return state.favorites.includes('effects|'+r.id)})}
 function familyFav(f){var g=asGroup(f),on=familySaved(g);return '<button class="fav '+(on?'on':'')+'" data-action="family-favorite" data-value="'+esc(g.id)+'" aria-label="'+(on?'取消收藏':'收藏')+esc(g.name)+' · '+catalog.contexts[g.context]+'" aria-pressed="'+on+'">'+(on?'★':'☆')+'</button>'}
 function familyCard(result){
  var g=asGroup(result),rows=catalog.orderedRows(D,result.rows||g.rows),scopeList=Array.from(new Set(rows.map(function(r){return r.scope})));
  var shown=state.density==='compact'?rows.slice(0,2):rows;
  var tiers=Array.from(new Set(rows.map(function(r){return catalog.displayTier(D,r)}).filter(function(t){return t!==null}))).sort(function(a,b){return b-a});
- var summary=shown.map(function(r){return '<span class="summary-line" data-record-id="'+esc(r.id)+'">'+(tierLabel(r)?'<b>'+esc(tierLabel(r))+'</b>':'')+'<span class="summary-copy"><span class="summary-description">'+esc(r.description)+'</span><span class="summary-note">'+esc(({relic:'普通遗物',deep_relic:'深夜遗物',in_run:'普通局内',deep_in_run:'深夜局内'}[r.scope]||scopes[r.scope]))+(r.negative_modifier_requirement?' · <span class="summary-negative">'+esc(r.negative_modifier_requirement)+'</span>':'')+'</span></span></span>'}).join('');
+ var summary=shown.map(function(r){return '<span class="summary-line" data-record-id="'+esc(r.id)+'">'+(tierLabel(r)?'<b>'+esc(tierLabel(r))+'</b>':'')+'<span class="summary-copy"><span class="summary-description">'+esc(r.description)+'</span><span class="summary-note">'+esc(({relic:'普通遗物',deep_relic:'深夜遗物',in_run:'普通局内',deep_in_run:'深夜局内'}[r.scope]||scopes[r.scope]))+(modifierNote(r)?' · <span class="summary-negative">'+esc(modifierNote(r))+'</span>':'')+'</span></span></span>'}).join('');
  var conflict=rows.some(function(r){return r.verification_status==='conflict'}),q=state.view==='search'?state.global:state.query,hidden=rows.length-shown.length;
  return '<article class="record-card effect-family '+(state.density==='compact'?'density-compact':'density-cards')+'" data-family-id="'+esc(g.id)+'"><button class="record-open family-open" data-action="family" data-value="'+esc(g.id)+'"'+(q&&result.bestId?' data-focus="'+esc(result.bestId)+'"':'')+'><span class="family-heading"><h3>'+esc(g.name)+'</h3>'+(tiers.length?'<span class="tier-range">'+esc(tiers.map(function(t){return '+'+t}).join(' / '))+'</span>':'')+'</span><span class="family-meta"><span class="context-label">'+catalog.contexts[g.context]+'</span>'+(scopeList.some(function(x){return x==='deep_relic'||x==='deep_in_run'})?'<span>含深夜</span>':'')+(conflict?'<span class="conflict-inline">来源有差异</span>':'')+'</span><span class="family-summary">'+summary+'</span><span class="family-tail">'+(hidden?'已显示 '+shown.length+' 条 · 还有 '+hidden+' 条':'全部 '+rows.length+' 条记录')+'<span>查看详情 ›</span></span></button>'+familyFav(g)+'</article>';
 }
@@ -101,7 +102,7 @@ function familyDetail(id,focusId){
   var rows=all.filter(function(r){return r.scope===scope}),hasLabels=rows.some(function(r){return !!tierLabel(r)});
   body+='<section class="family-section" data-scope="'+scope+'"><h3>'+esc(scopes[scope])+'<span>'+rows.length+' 条</span></h3><table class="tier-table'+(hasLabels?'':' unnumbered-table')+'"><thead><tr>'+(hasLabels?'<th>档位 / 物品</th>':'')+'<th>数值与触发条件</th><th>叠加与核验</th></tr></thead><tbody>';
   body+=rows.map(function(r){
-   return '<tr data-record-id="'+esc(r.id)+'" class="'+(r.id===focusId?'focused-tier':'')+'">'+(hasLabels?'<td data-label="档位 / 物品"><strong>'+esc(tierLabel(r))+'</strong>'+(r.id===focusId?'<span class="badge gold">搜索命中</span>':'')+'</td>':'')+'<td data-label="数值与条件"><div class="tier-description">'+esc(r.description)+'</div>'+(r.negative_modifier_requirement?'<div class="negative-condition">'+esc(r.negative_modifier_requirement)+'</div>':'')+'</td><td data-label="叠加与核验"><span class="tier-stacking">'+esc(r.stacking||'来源未注明')+'</span>'+badge(r)+btn('原条目与来源','detail','effects|'+r.id,'text-button member-source')+'</td></tr>';
+   return '<tr data-record-id="'+esc(r.id)+'" class="'+(r.id===focusId?'focused-tier':'')+'">'+(hasLabels?'<td data-label="档位 / 物品"><strong>'+esc(tierLabel(r))+'</strong>'+(r.id===focusId?'<span class="badge gold">搜索命中</span>':'')+'</td>':'')+'<td data-label="数值与条件"><div class="tier-description">'+esc(r.description)+'</div>'+(modifierNote(r)?'<div class="negative-condition">'+esc(modifierNote(r))+'</div>':'')+'</td><td data-label="叠加与核验"><span class="tier-stacking">'+esc(r.stacking||'来源未注明')+'</span>'+badge(r)+btn('原条目与来源','detail','effects|'+r.id,'text-button member-source')+'</td></tr>';
   }).join('')+'</tbody></table></section>';
  });
  modal.classList.add('family-dialog');
@@ -247,7 +248,7 @@ function detail(c,id){
  }else{
   body=(c==='effects'?btn('← 返回本组档位表','family',familyForRecord(r).id,'text-button'):'')+'<div class="detail-description">'+esc(desc)+'</div>';
   if(c==='effects'){
-   body+='<dl class="kv"><dt>所属类别</dt><dd>'+esc(r.scope_zh)+' · '+esc(r.category||'—')+'</dd><dt>同名叠加</dt><dd>'+esc(r.stacking||'来源未注明')+(r.stacking_alternative?' / 另一来源：'+esc(r.stacking_alternative):'')+'</dd>'+(r.talisman_name?'<dt>护符名</dt><dd>'+esc(r.talisman_name)+'</dd>':'')+(r.negative_modifier_requirement?'<dt>负面条件</dt><dd>'+esc(r.negative_modifier_requirement)+'</dd>':'')+'</dl>';
+   body+='<dl class="kv"><dt>所属类别</dt><dd>'+esc(r.scope_zh)+' · '+esc(r.category||'—')+'</dd><dt>同名叠加</dt><dd>'+esc(r.stacking||'来源未注明')+(r.stacking_alternative?' / 另一来源：'+esc(r.stacking_alternative):'')+'</dd>'+(r.talisman_name?'<dt>护符名</dt><dd>'+esc(r.talisman_name)+'</dd>':'')+(modifierNote(r)?'<dt>负面条件</dt><dd>'+esc(modifierNote(r))+'</dd>':'')+'</dl>';
    if(r.audit_note)body+='<p class="notice" style="margin-top:18px">'+esc(r.audit_note)+'</p>';
    if(r.comparison_evidence){var e=r.comparison_evidence;body+='<details><summary>英文原表对照</summary>'+Object.entries(e).filter(function(a){return ['description_en','kevin','slay'].indexOf(a[0])>=0&&a[1]}).map(function(a){return '<p class="small">'+esc(Array.isArray(a[1])?a[1].filter(Boolean).join(' · '):a[1])+'</p>'}).join('')+'</details>'}
   }
