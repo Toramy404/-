@@ -1,0 +1,18 @@
+name: 数值或资料纠错
+description: 提交可追溯的数据差异
+title: '[Data] '
+body:
+  - type: textarea
+    id: difference
+    attributes:
+      label: 条目与差异
+      description: 条目名称或ID、当前值、建议值、普通/深夜/永夜模式和条件。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 来源与版本
+      description: 原始链接、表页或行、游戏版本和日期；来源冲突时并列说明。
+    validations:
+      required: true

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "libra-trade:1",
+    "name": "我想要力气变的更大",
+    "description": "改变角色属性加点",
+    "level": 15,
+    "attribute_points": {
+      "vigor": 47,
+      "mind": 6,
+      "endurance": 23,
+      "strength": 73,
+      "dexterity": 9,
+      "intelligence": 3,
+      "faith": 3,
+      "arcane": 3
+    },
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=1"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:2",
+    "name": "我想要灵巧变的更高",
+    "description": "改变角色属性加点",
+    "level": 15,
+    "attribute_points": {
+      "vigor": 43,
+      "mind": 10,
+      "endurance": 23,
+      "strength": 9,
+      "dexterity": 72,
+      "intelligence": 3,
+      "faith": 3,
+      "arcane": 3
+    },
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:3",
+    "name": "我想要智力变的更高",
+    "description": "改变角色属性加点",
+    "level": 15,
+    "attribute_points": {
+      "vigor": 33,
+      "mind": 28,
+      "endurance": 17,
+      "strength": 9,
+      "dexterity": 9,
+      "intelligence": 55,
+      "faith": 24,
+      "arcane": 3
+    },
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=3"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:4",
+    "name": "我想要信仰变的更高",
+    "description": "改变角色属性加点",
+    "level": 15,
+    "attribute_points": {
+      "vigor": 33,
+      "mind": 28,
+      "endurance": 17,
+      "strength": 9,
+      "dexterity": 9,
+      "intelligence": 24,
+      "faith": 55,
+      "arcane": 3
+    },
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=4"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:5",
+    "name": "我想要感应变的更高",
+    "description": "改变角色属性加点",
+    "level": 15,
+    "attribute_points": {
+      "vigor": 41,
+      "mind": 26,
+      "endurance": 26,
+      "strength": 39,
+      "dexterity": 39,
+      "intelligence": 30,
+      "faith": 30,
+      "arcane": 35
+    },
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=5"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:6",
+    "name": "我想要能抵抗异常状态",
+    "description": "提升全异常抗性，减少10%精力上限",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=6"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:7",
+    "name": "我想要死亡远离我",
+    "description": "第一次收到致命攻击时免死并回满血，但是血量上限永久减少20%",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=7"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:8",
+    "name": "我想要厉害的武器",
+    "description": "在维克的战矛、颠火圣印记、指纹石盾、黑刀、米凯拉骑士剑、黄金树弓中抽取一把武器",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=8"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:9",
+    "name": "我想要大幅度地升级",
+    "description": "升三级，但是此后每次喝药将会降低一级",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=9"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:10",
+    "name": "我想要圣杯瓶",
+    "description": "圣杯瓶使用次数增加一次，但是减少血量上限",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=10"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:11",
+    "name": "我想要体验大器晚成",
+    "description": "立即减少血量、专注值、精力上限30%，如果在boss战开始后两分钟不倒地，血量、专注值、精力恢复正常并增加上限20%",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=11"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:12",
+    "name": "我想要全力战斗",
+    "description": "利普拉开始战斗后立即进入金身强化状态，场上的玩家和boss都获得持续一分钟的buff",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=12"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "libra-trade:13",
+    "name": "我想要恶魔的力量",
+    "description": "获得一个会随机攻击敌人的恶魔眼球，但是眼球每次攻击敌人会为角色累计发狂值",
+    "level": null,
+    "attribute_points": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/BossDataView.tsx/lipulaTradesData/key=13"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

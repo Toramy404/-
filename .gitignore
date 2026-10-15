@@ -1,0 +1,25 @@
+# Private keys, credentials, and machine state
+android/signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+password.txt
+.env
+.env.*
+!.env.example
+local.properties
+android/build/
+release/*
+!release/README.md
+reports/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.pid
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

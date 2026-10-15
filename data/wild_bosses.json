@@ -1,0 +1,2351 @@
+[
+  {
+    "id": "wild:001",
+    "name": "铁处女",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 1,
+      "fire": 0.8,
+      "lightning": 1.2,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 80,
+    "locations": "要塞",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[0]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:002",
+    "name": "结晶人",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 0.65,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 70,
+    "locations": "要塞、监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[1]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:003",
+    "name": "葛瑞克骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 1,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "要塞、矿洞、山顶、腐败森林",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[2]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:004",
+    "name": "魔像守卫",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 120,
+    "locations": "要塞、教堂",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[3]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:005",
+    "name": "大神谕使者",
+    "damage_multiplier": {
+      "normal": 1.1,
+      "strike": 0.9,
+      "slash": 1.1,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "教堂",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[4]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:006",
+    "name": "火焰修士",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 1.2
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 65,
+    "locations": "教堂、火山口",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[5]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:007",
+    "name": "灵庙骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 65,
+    "locations": "教堂、隐城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[6]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:008",
+    "name": "大白金之子",
+    "damage_multiplier": {
+      "normal": 1.1,
+      "strike": 0.9,
+      "slash": 1.1,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 0.8,
+      "lightning": 1.2,
+      "holy": 1.4
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": "免疫",
+      "scarletRot": 154,
+      "frost": 84
+    },
+    "poise": 65,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[7]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:009",
+    "name": "鲜血贵族",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[8]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:010",
+    "name": "堕落调香师",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[9]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:011",
+    "name": "调香师",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 84
+    },
+    "poise": 65,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[10]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:012",
+    "name": "归树看门犬",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 0.65,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 80,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[11]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:013",
+    "name": "战斗法师",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 0.6,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 84,
+      "scarletRot": 84,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[12]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:014",
+    "name": "卢恩熊",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[13]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:015",
+    "name": "白金之子射手",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 1.4
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": "免疫",
+      "scarletRot": 112,
+      "frost": 252
+    },
+    "poise": 50,
+    "locations": "遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[14]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:016",
+    "name": "兽人（大）",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 0.8,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "遗迹、监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[15]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:017",
+    "name": "蚯蚓脸",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "遗迹、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[16]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:018",
+    "name": "萨米尔的古英雄",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.9,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1.2,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 542
+    },
+    "poise": 80,
+    "locations": "遗迹、野外蓝名、主城地下",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[17]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:019",
+    "name": "火焰战车",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 240,
+    "locations": "营地、火山口",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[18]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:020",
+    "name": "癫火山妖",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 0.8,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "营地",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[19]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:021",
+    "name": "红狮子骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 1,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "营地",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[20]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:022",
+    "name": "罗德尔骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.6,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "营地",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[21]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:023",
+    "name": "失乡骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 1,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "营地、监牢、主城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[22]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:024",
+    "name": "失乡骑士（龙飨）",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 1.4,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "营地、监牢、主城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[23]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:025",
+    "name": "老狮子",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "营地、野外蓝名、主城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[24]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:026",
+    "name": "发狂南瓜头",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1.2,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 84
+    },
+    "poise": 65,
+    "locations": "矿洞",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[25]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:027",
+    "name": "山妖",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "主城、矿洞",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[26]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:028",
+    "name": "恶兆之子",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[27]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:029",
+    "name": "诺克斯战士",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 1.2
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[28]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:030",
+    "name": "守墓斗士",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 84,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[29]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:031",
+    "name": "混种（大）",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 1.1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[30]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:032",
+    "name": "石肤古王",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": "免疫"
+    },
+    "poise": 65,
+    "locations": "监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[31]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:033",
+    "name": "猎犬骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.9,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1.2,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "监牢",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[32]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:034",
+    "name": "熔炉骑士",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.65,
+      "magic": 0.6,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "监牢、主城、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[33]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:035",
+    "name": "龙人士兵",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.6,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 542
+    },
+    "poise": 120,
+    "locations": "监牢、隐城、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[34]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:036",
+    "name": "神皮使徒",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "监牢、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[35]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:037",
+    "name": "神皮贵族",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.65,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "监牢、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[36]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:038",
+    "name": "古龙",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.2,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 120,
+    "locations": "监牢、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[37]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:039",
+    "name": "死亡仪式鸟",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1.4,
+      "slash": 0.9,
+      "pierce": 0.65,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.6,
+      "holy": 1.4
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": 252,
+      "frost": "免疫"
+    },
+    "poise": 120,
+    "locations": "监牢、野外红名、主城楼顶、腐败森林、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[38]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:040",
+    "name": "米兰达的花",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.65,
+      "slash": 1.4,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.4,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 542,
+      "scarletRot": 252,
+      "frost": 63
+    },
+    "poise": 100,
+    "locations": "野外蓝名、遗迹",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[39]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:041",
+    "name": "黑夜骑兵",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "野外蓝名、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[40]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:042",
+    "name": "黑夜骑兵的马",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 65,
+    "locations": "野外蓝名、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[41]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:043",
+    "name": "狮子混种",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 1,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 1,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "野外蓝名、主城地下",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[42]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:044",
+    "name": "王夫的红狼",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.6,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 120,
+    "locations": "野外蓝名、主城地下、火山口",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[43]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:045",
+    "name": "接肢贵族",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 112
+    },
+    "poise": 80,
+    "locations": "野外蓝名、主城地下",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[44]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:046",
+    "name": "黑刀刺客",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.9,
+      "pierce": 0.65,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "野外蓝名、主城地下、隐城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[45]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:047",
+    "name": "亚人女王",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 84,
+      "scarletRot": 84,
+      "frost": 112
+    },
+    "poise": 80,
+    "locations": "野外蓝名、火山口、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[46]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:048",
+    "name": "黄金河马",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1.2,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "野外蓝名、隐城、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[47]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:049",
+    "name": "王室幽魂",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": "70或100",
+    "locations": "野外蓝名、主城地下、隐城、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[48]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:050",
+    "name": "铃珠猎人",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "野外红名、主城地下、主城楼顶、腐败森林、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[49]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:051",
+    "name": "腐败树灵",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 1.2,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 112
+    },
+    "poise": 120,
+    "locations": "野外红名、主城楼顶、腐败森林、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[50]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:052",
+    "name": "祖灵",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1.2
+    },
+    "status_threshold": {
+      "bleed": 542,
+      "poison": 542,
+      "scarletRot": 542,
+      "frost": 542
+    },
+    "poise": 120,
+    "locations": "野外红名、主城楼顶、腐败森林",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[51]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:053",
+    "name": "大树守卫",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 1,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "野外红名、主城楼顶、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[52]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:054",
+    "name": "龙装大树守卫",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "野外红名、主城楼顶、腐败森林、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[53]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:055",
+    "name": "黄金树化身",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 0.8,
+      "fire": 1.4,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 112
+    },
+    "poise": 120,
+    "locations": "野外红名、主城楼顶、腐败森林",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[54]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:056",
+    "name": "卡利亚禁卫骑士",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 1,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "野外红名、主城楼顶、腐败森林、隐城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[55]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:057",
+    "name": "黑剑眷属",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1,
+      "slash": 0.65,
+      "pierce": 0.65,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.2
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 110,
+    "locations": "野外红名、主城楼顶、腐败森林",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[56]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:058",
+    "name": "熔岩土龙",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.2,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 542
+    },
+    "poise": 120,
+    "locations": "野外红名、主城楼顶、火山口、腐败森林",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[57]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:059",
+    "name": "丘陵飞龙",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 120,
+    "locations": "野外红名、隐城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[58]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:060",
+    "name": "火焰主教",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 0.9,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 0.6,
+      "lightning": 0.8,
+      "holy": 1.2
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "火山口",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[59]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:061",
+    "name": "英雄石像鬼",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1,
+      "slash": 0.65,
+      "pierce": 0.65,
+      "magic": 0.8,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 110,
+    "locations": "火山口、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[60]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:062",
+    "name": "飞龙",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 80,
+    "locations": "火山口、山顶",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[61]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:063",
+    "name": "坠星成兽",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.65,
+      "slash": 0.65,
+      "pierce": 0.65,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": "免疫"
+    },
+    "poise": 100,
+    "locations": "火山口、第二夜、突发事件",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[62]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:064",
+    "name": "雪原山妖",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 542
+    },
+    "poise": 65,
+    "locations": "山顶",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[63]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:065",
+    "name": "巨鸦",
+    "damage_multiplier": {
+      "normal": 1.1,
+      "strike": 1.1,
+      "slash": 1.4,
+      "pierce": 1.1,
+      "magic": 1.2,
+      "fire": 1.4,
+      "lightning": 1.2,
+      "holy": 1.2
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 112,
+      "scarletRot": 112,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "山顶",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[64]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:066",
+    "name": "亚人剑圣",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.2,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 112,
+      "poison": 84,
+      "scarletRot": 84,
+      "frost": 112
+    },
+    "poise": 65,
+    "locations": "山顶、第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[65]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:067",
+    "name": "山顶冰龙",
+    "damage_multiplier": {
+      "normal": 0.65,
+      "strike": 0.9,
+      "slash": 0.2,
+      "pierce": 0.2,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 542
+    },
+    "poise": 120,
+    "locations": "山顶",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[66]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:068",
+    "name": "无头山妖",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 0.9,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1.2,
+      "lightning": 1,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": "免疫"
+    },
+    "poise": 65,
+    "locations": "隐城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[67]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:069",
+    "name": "“黑暗之子”艾丝缇",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.9,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.6,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": "免疫"
+    },
+    "poise": 120,
+    "locations": "隐城",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[68]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:070",
+    "name": "提比亚的唤声船",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 1.4,
+      "slash": 0.9,
+      "pierce": 0.65,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.6,
+      "holy": 1.4
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": "免疫",
+      "scarletRot": 154,
+      "frost": "免疫"
+    },
+    "poise": 80,
+    "locations": "第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[69]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:071",
+    "name": "接肢君王",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 105,
+    "locations": "第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[70]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:072",
+    "name": "贪食魔龙",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 1.1,
+      "fire": 1.15,
+      "lightning": 1.2,
+      "holy": 1.1
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": "免疫",
+      "scarletRot": "免疫",
+      "frost": 154
+    },
+    "poise": 120,
+    "locations": "第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[71]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:073",
+    "name": "百足恶魔",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1.1,
+      "slash": 1,
+      "pierce": 1,
+      "magic": 1.2,
+      "fire": 0.2,
+      "lightning": 1.1,
+      "holy": 1.1
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 110,
+    "locations": "第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[72]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:074",
+    "name": "公爵的夫雷迪亚",
+    "damage_multiplier": {
+      "normal": 0.84,
+      "strike": 1.1,
+      "slash": 0.93,
+      "pierce": 0.7,
+      "magic": 0.5,
+      "fire": 0.7,
+      "lightning": 0.5,
+      "holy": 0.5
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": "免疫",
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 100,
+    "locations": "第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[73]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:075",
+    "name": "镕铁恶魔",
+    "damage_multiplier": {
+      "normal": 1.1,
+      "strike": 1.1,
+      "slash": 0.94,
+      "pierce": 0.92,
+      "magic": 0.7,
+      "fire": 0.2,
+      "lightning": 0.7,
+      "holy": 0.7
+    },
+    "status_threshold": {
+      "bleed": "免疫",
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 252
+    },
+    "poise": 100,
+    "locations": "第一夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[74]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:076",
+    "name": "偏地老将",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 1,
+      "magic": 0.8,
+      "fire": 0.8,
+      "lightning": 0.8,
+      "holy": 0.8
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 90,
+    "locations": "第一夜、第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[75]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:077",
+    "name": "恶兆妖鬼",
+    "damage_multiplier": {
+      "normal": 1,
+      "strike": 1,
+      "slash": 1.1,
+      "pierce": 1,
+      "magic": 1,
+      "fire": 1,
+      "lightning": 1,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 154,
+      "poison": 154,
+      "scarletRot": 154,
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "第二夜、突发事件",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[76]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:078",
+    "name": "大土龙",
+    "damage_multiplier": {
+      "normal": 0.9,
+      "strike": 0.9,
+      "slash": 0.65,
+      "pierce": 0.9,
+      "magic": 0.6,
+      "fire": 0.2,
+      "lightning": 0.6,
+      "holy": 0.6
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 542
+    },
+    "poise": 120,
+    "locations": "第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[77]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:079",
+    "name": "风暴之王(无名的龙)",
+    "damage_multiplier": {
+      "normal": 0.8,
+      "strike": 0.82,
+      "slash": 0.79,
+      "pierce": 0.98,
+      "magic": 0.9,
+      "fire": 0.65,
+      "lightning": 1.31,
+      "holy": 1
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": 252,
+      "scarletRot": 252,
+      "frost": 154
+    },
+    "poise": 80,
+    "locations": "第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[78]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:080",
+    "name": "无名王者",
+    "damage_multiplier": {
+      "normal": 0.79,
+      "strike": 0.81,
+      "slash": 0.78,
+      "pierce": 0.8,
+      "magic": 0.76,
+      "fire": 0.77,
+      "lightning": 0.17,
+      "holy": 1.08
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": "免疫",
+      "scarletRot": 252,
+      "frost": 252
+    },
+    "poise": 100,
+    "locations": "第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[79]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "wild:081",
+    "name": "冷冽谷的舞娘",
+    "damage_multiplier": {
+      "normal": 0.8,
+      "strike": 0.81,
+      "slash": 0.78,
+      "pierce": 0.8,
+      "magic": 0.81,
+      "fire": 0.82,
+      "lightning": 0.83,
+      "holy": 1.26
+    },
+    "status_threshold": {
+      "bleed": 252,
+      "poison": "免疫",
+      "scarletRot": 252,
+      "frost": "免疫"
+    },
+    "poise": 100,
+    "locations": "第二夜",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/wild_boss_data.json[80]"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

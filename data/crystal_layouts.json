@@ -1,0 +1,110 @@
+[
+  {
+    "id": "blue",
+    "name": "蓝组",
+    "point_ids": [
+      "crystal:01",
+      "crystal:02",
+      "crystal:03",
+      "crystal:04",
+      "crystal:05",
+      "crystal:06",
+      "crystal:07",
+      "crystal:08"
+    ],
+    "point_count": 8,
+    "seed_binding": false,
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/blue"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "FAQ: crystals not seeded"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "red",
+    "name": "红组",
+    "point_ids": [
+      "crystal:02",
+      "crystal:06",
+      "crystal:09",
+      "crystal:10",
+      "crystal:11",
+      "crystal:12",
+      "crystal:13",
+      "crystal:14"
+    ],
+    "point_count": 8,
+    "seed_binding": false,
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/red"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "FAQ: crystals not seeded"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "green",
+    "name": "绿组",
+    "point_ids": [
+      "crystal:11",
+      "crystal:13",
+      "crystal:14",
+      "crystal:15",
+      "crystal:16",
+      "crystal:17",
+      "crystal:18",
+      "crystal:19"
+    ],
+    "point_count": 8,
+    "seed_binding": false,
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/green"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "FAQ: crystals not seeded"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "purple",
+    "name": "紫组",
+    "point_ids": [
+      "crystal:03",
+      "crystal:05",
+      "crystal:08",
+      "crystal:10",
+      "crystal:18",
+      "crystal:19",
+      "crystal:20",
+      "crystal:21"
+    ],
+    "point_count": 8,
+    "seed_binding": false,
+    "source_refs": [
+      {
+        "source_id": "sidekick-coords",
+        "locator": "greathollow/crystals/purple"
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": "FAQ: crystals not seeded"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

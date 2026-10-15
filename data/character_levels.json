@@ -1,0 +1,4531 @@
+[
+  {
+    "id": "revenant:01",
+    "name": "复仇者 Lv1",
+    "character_id": "revenant",
+    "level": 1,
+    "vigor": 6,
+    "mind": 7,
+    "endurance": 3,
+    "strength": 2,
+    "dexterity": 2,
+    "intelligence": 4,
+    "faith": 5,
+    "arcane": 12,
+    "hp": 200,
+    "fp": 80,
+    "stamina": 54,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv1"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:02",
+    "name": "复仇者 Lv2",
+    "character_id": "revenant",
+    "level": 2,
+    "vigor": 11,
+    "mind": 11,
+    "endurance": 4,
+    "strength": 6,
+    "dexterity": 6,
+    "intelligence": 7,
+    "faith": 15,
+    "arcane": 12,
+    "hp": 300,
+    "fp": 100,
+    "stamina": 56,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv2"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:03",
+    "name": "复仇者 Lv3",
+    "character_id": "revenant",
+    "level": 3,
+    "vigor": 13,
+    "mind": 12,
+    "endurance": 5,
+    "strength": 7,
+    "dexterity": 9,
+    "intelligence": 8,
+    "faith": 18,
+    "arcane": 12,
+    "hp": 340,
+    "fp": 105,
+    "stamina": 58,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv3"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "conflict",
+    "alternative_values": {
+      "source_id": "bwiki-revenant",
+      "hp_fp_stamina": [
+        340,
+        105,
+        58
+      ],
+      "attributes_order": [
+        "vigor",
+        "mind",
+        "endurance",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "faith",
+        "arcane"
+      ],
+      "attributes": [
+        13,
+        12,
+        5,
+        7,
+        7,
+        9,
+        18,
+        12
+      ]
+    }
+  },
+  {
+    "id": "revenant:04",
+    "name": "复仇者 Lv4",
+    "character_id": "revenant",
+    "level": 4,
+    "vigor": 15,
+    "mind": 14,
+    "endurance": 6,
+    "strength": 8,
+    "dexterity": 8,
+    "intelligence": 11,
+    "faith": 21,
+    "arcane": 12,
+    "hp": 380,
+    "fp": 115,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv4"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:05",
+    "name": "复仇者 Lv5",
+    "character_id": "revenant",
+    "level": 5,
+    "vigor": 17,
+    "mind": 16,
+    "endurance": 8,
+    "strength": 9,
+    "dexterity": 9,
+    "intelligence": 13,
+    "faith": 24,
+    "arcane": 12,
+    "hp": 420,
+    "fp": 125,
+    "stamina": 64,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv5"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:06",
+    "name": "复仇者 Lv6",
+    "character_id": "revenant",
+    "level": 6,
+    "vigor": 19,
+    "mind": 17,
+    "endurance": 9,
+    "strength": 10,
+    "dexterity": 10,
+    "intelligence": 15,
+    "faith": 27,
+    "arcane": 12,
+    "hp": 460,
+    "fp": 130,
+    "stamina": 66,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv6"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:07",
+    "name": "复仇者 Lv7",
+    "character_id": "revenant",
+    "level": 7,
+    "vigor": 21,
+    "mind": 19,
+    "endurance": 11,
+    "strength": 12,
+    "dexterity": 12,
+    "intelligence": 17,
+    "faith": 30,
+    "arcane": 12,
+    "hp": 500,
+    "fp": 140,
+    "stamina": 70,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv7"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:08",
+    "name": "复仇者 Lv8",
+    "character_id": "revenant",
+    "level": 8,
+    "vigor": 23,
+    "mind": 21,
+    "endurance": 12,
+    "strength": 13,
+    "dexterity": 13,
+    "intelligence": 19,
+    "faith": 33,
+    "arcane": 12,
+    "hp": 540,
+    "fp": 150,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv8"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:09",
+    "name": "复仇者 Lv9",
+    "character_id": "revenant",
+    "level": 9,
+    "vigor": 25,
+    "mind": 22,
+    "endurance": 13,
+    "strength": 14,
+    "dexterity": 14,
+    "intelligence": 21,
+    "faith": 36,
+    "arcane": 12,
+    "hp": 580,
+    "fp": 155,
+    "stamina": 74,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv9"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:10",
+    "name": "复仇者 Lv10",
+    "character_id": "revenant",
+    "level": 10,
+    "vigor": 27,
+    "mind": 24,
+    "endurance": 15,
+    "strength": 15,
+    "dexterity": 15,
+    "intelligence": 23,
+    "faith": 39,
+    "arcane": 12,
+    "hp": 620,
+    "fp": 165,
+    "stamina": 78,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv10"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:11",
+    "name": "复仇者 Lv11",
+    "character_id": "revenant",
+    "level": 11,
+    "vigor": 29,
+    "mind": 26,
+    "endurance": 16,
+    "strength": 16,
+    "dexterity": 16,
+    "intelligence": 25,
+    "faith": 42,
+    "arcane": 12,
+    "hp": 660,
+    "fp": 175,
+    "stamina": 80,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv11"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:12",
+    "name": "复仇者 Lv12",
+    "character_id": "revenant",
+    "level": 12,
+    "vigor": 32,
+    "mind": 28,
+    "endurance": 18,
+    "strength": 18,
+    "dexterity": 18,
+    "intelligence": 27,
+    "faith": 45,
+    "arcane": 12,
+    "hp": 720,
+    "fp": 185,
+    "stamina": 84,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv12"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:13",
+    "name": "复仇者 Lv13",
+    "character_id": "revenant",
+    "level": 13,
+    "vigor": 33,
+    "mind": 29,
+    "endurance": 19,
+    "strength": 19,
+    "dexterity": 19,
+    "intelligence": 28,
+    "faith": 47,
+    "arcane": 12,
+    "hp": 740,
+    "fp": 190,
+    "stamina": 86,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv13"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:14",
+    "name": "复仇者 Lv14",
+    "character_id": "revenant",
+    "level": 14,
+    "vigor": 34,
+    "mind": 30,
+    "endurance": 20,
+    "strength": 20,
+    "dexterity": 20,
+    "intelligence": 29,
+    "faith": 49,
+    "arcane": 12,
+    "hp": 760,
+    "fp": 195,
+    "stamina": 88,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv14"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "revenant:15",
+    "name": "复仇者 Lv15",
+    "character_id": "revenant",
+    "level": 15,
+    "vigor": 35,
+    "mind": 31,
+    "endurance": 21,
+    "strength": 21,
+    "dexterity": 21,
+    "intelligence": 30,
+    "faith": 51,
+    "arcane": 12,
+    "hp": 780,
+    "fp": 200,
+    "stamina": 90,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/avenger.json/复仇者/Lv15"
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B7:L7"
+      }
+    ],
+    "verification_status": "conflict",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 760,
+        "fp": 200,
+        "stamina": 82,
+        "vigor": 34,
+        "mind": 31,
+        "endurance": 17,
+        "strength": 21,
+        "dexterity": 21,
+        "intelligence": 30,
+        "faith": 51,
+        "arcane": 12
+      },
+      "differences": {
+        "hp": {
+          "current": 780,
+          "slay": 760
+        },
+        "stamina": {
+          "current": 90,
+          "slay": 82
+        },
+        "vigor": {
+          "current": 35,
+          "slay": 34
+        },
+        "endurance": {
+          "current": 21,
+          "slay": 17
+        }
+      }
+    },
+    "checked_fields": [
+      "fp",
+      "mind",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "duchess:01",
+    "name": "女爵 Lv1",
+    "character_id": "duchess",
+    "level": 1,
+    "vigor": 7,
+    "mind": 6,
+    "endurance": 3,
+    "strength": 2,
+    "dexterity": 4,
+    "intelligence": 4,
+    "faith": 3,
+    "arcane": 11,
+    "hp": 220,
+    "fp": 75,
+    "stamina": 54,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv1"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:02",
+    "name": "女爵 Lv2",
+    "character_id": "duchess",
+    "level": 2,
+    "vigor": 13,
+    "mind": 9,
+    "endurance": 4,
+    "strength": 4,
+    "dexterity": 12,
+    "intelligence": 8,
+    "faith": 6,
+    "arcane": 11,
+    "hp": 340,
+    "fp": 90,
+    "stamina": 56,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv2"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:03",
+    "name": "女爵 Lv3",
+    "character_id": "duchess",
+    "level": 3,
+    "vigor": 15,
+    "mind": 10,
+    "endurance": 5,
+    "strength": 4,
+    "dexterity": 14,
+    "intelligence": 10,
+    "faith": 7,
+    "arcane": 11,
+    "hp": 380,
+    "fp": 95,
+    "stamina": 58,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv3"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:04",
+    "name": "女爵 Lv4",
+    "character_id": "duchess",
+    "level": 4,
+    "vigor": 17,
+    "mind": 12,
+    "endurance": 6,
+    "strength": 5,
+    "dexterity": 16,
+    "intelligence": 13,
+    "faith": 9,
+    "arcane": 11,
+    "hp": 420,
+    "fp": 105,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv4"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:05",
+    "name": "女爵 Lv5",
+    "character_id": "duchess",
+    "level": 5,
+    "vigor": 19,
+    "mind": 13,
+    "endurance": 7,
+    "strength": 5,
+    "dexterity": 18,
+    "intelligence": 16,
+    "faith": 11,
+    "arcane": 11,
+    "hp": 460,
+    "fp": 110,
+    "stamina": 62,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv5"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:06",
+    "name": "女爵 Lv6",
+    "character_id": "duchess",
+    "level": 6,
+    "vigor": 21,
+    "mind": 15,
+    "endurance": 8,
+    "strength": 6,
+    "dexterity": 21,
+    "intelligence": 19,
+    "faith": 13,
+    "arcane": 11,
+    "hp": 500,
+    "fp": 120,
+    "stamina": 64,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv6"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:07",
+    "name": "女爵 Lv7",
+    "character_id": "duchess",
+    "level": 7,
+    "vigor": 24,
+    "mind": 16,
+    "endurance": 9,
+    "strength": 6,
+    "dexterity": 23,
+    "intelligence": 22,
+    "faith": 15,
+    "arcane": 11,
+    "hp": 560,
+    "fp": 125,
+    "stamina": 66,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv7"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:08",
+    "name": "女爵 Lv8",
+    "character_id": "duchess",
+    "level": 8,
+    "vigor": 26,
+    "mind": 18,
+    "endurance": 10,
+    "strength": 7,
+    "dexterity": 25,
+    "intelligence": 24,
+    "faith": 16,
+    "arcane": 11,
+    "hp": 600,
+    "fp": 135,
+    "stamina": 68,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv8"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:09",
+    "name": "女爵 Lv9",
+    "character_id": "duchess",
+    "level": 9,
+    "vigor": 28,
+    "mind": 19,
+    "endurance": 11,
+    "strength": 7,
+    "dexterity": 28,
+    "intelligence": 27,
+    "faith": 18,
+    "arcane": 11,
+    "hp": 640,
+    "fp": 140,
+    "stamina": 70,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv9"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:10",
+    "name": "女爵 Lv10",
+    "character_id": "duchess",
+    "level": 10,
+    "vigor": 30,
+    "mind": 21,
+    "endurance": 12,
+    "strength": 8,
+    "dexterity": 30,
+    "intelligence": 30,
+    "faith": 20,
+    "arcane": 11,
+    "hp": 680,
+    "fp": 150,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv10"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:11",
+    "name": "女爵 Lv11",
+    "character_id": "duchess",
+    "level": 11,
+    "vigor": 32,
+    "mind": 22,
+    "endurance": 13,
+    "strength": 8,
+    "dexterity": 32,
+    "intelligence": 33,
+    "faith": 22,
+    "arcane": 11,
+    "hp": 720,
+    "fp": 155,
+    "stamina": 74,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv11"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:12",
+    "name": "女爵 Lv12",
+    "character_id": "duchess",
+    "level": 12,
+    "vigor": 35,
+    "mind": 24,
+    "endurance": 14,
+    "strength": 9,
+    "dexterity": 35,
+    "intelligence": 36,
+    "faith": 24,
+    "arcane": 11,
+    "hp": 780,
+    "fp": 165,
+    "stamina": 76,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv12"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:13",
+    "name": "女爵 Lv13",
+    "character_id": "duchess",
+    "level": 13,
+    "vigor": 36,
+    "mind": 25,
+    "endurance": 15,
+    "strength": 9,
+    "dexterity": 37,
+    "intelligence": 38,
+    "faith": 25,
+    "arcane": 11,
+    "hp": 800,
+    "fp": 170,
+    "stamina": 78,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv13"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:14",
+    "name": "女爵 Lv14",
+    "character_id": "duchess",
+    "level": 14,
+    "vigor": 37,
+    "mind": 26,
+    "endurance": 16,
+    "strength": 10,
+    "dexterity": 39,
+    "intelligence": 40,
+    "faith": 26,
+    "arcane": 11,
+    "hp": 820,
+    "fp": 175,
+    "stamina": 80,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv14"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "duchess:15",
+    "name": "女爵 Lv15",
+    "character_id": "duchess",
+    "level": 15,
+    "vigor": 39,
+    "mind": 27,
+    "endurance": 18,
+    "strength": 11,
+    "dexterity": 45,
+    "intelligence": 42,
+    "faith": 27,
+    "arcane": 11,
+    "hp": 860,
+    "fp": 180,
+    "stamina": 84,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/duchess.json/女爵/Lv15"
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B5:L5"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "previous_values": {
+      "hp": 820,
+      "fp": 175,
+      "stamina": 80,
+      "vigor": 37,
+      "mind": 26,
+      "endurance": 16,
+      "strength": 10,
+      "dexterity": 39,
+      "intelligence": 40,
+      "faith": 26,
+      "arcane": 11
+    },
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 860,
+        "fp": 180,
+        "stamina": 84,
+        "vigor": 39,
+        "mind": 27,
+        "endurance": 18,
+        "strength": 11,
+        "dexterity": 45,
+        "intelligence": 42,
+        "faith": 27,
+        "arcane": 11
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "executor:01",
+    "name": "执行者 Lv1",
+    "character_id": "executor",
+    "level": 1,
+    "vigor": 7,
+    "mind": 2,
+    "endurance": 3,
+    "strength": 5,
+    "dexterity": 8,
+    "intelligence": 2,
+    "faith": 2,
+    "arcane": 28,
+    "hp": 220,
+    "fp": 55,
+    "stamina": 54,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv1"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:02",
+    "name": "执行者 Lv2",
+    "character_id": "executor",
+    "level": 2,
+    "vigor": 14,
+    "mind": 3,
+    "endurance": 5,
+    "strength": 9,
+    "dexterity": 20,
+    "intelligence": 3,
+    "faith": 3,
+    "arcane": 28,
+    "hp": 360,
+    "fp": 60,
+    "stamina": 58,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv2"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:03",
+    "name": "执行者 Lv3",
+    "character_id": "executor",
+    "level": 3,
+    "vigor": 16,
+    "mind": 3,
+    "endurance": 6,
+    "strength": 10,
+    "dexterity": 24,
+    "intelligence": 3,
+    "faith": 3,
+    "arcane": 28,
+    "hp": 400,
+    "fp": 60,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv3"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:04",
+    "name": "执行者 Lv4",
+    "character_id": "executor",
+    "level": 4,
+    "vigor": 19,
+    "mind": 4,
+    "endurance": 8,
+    "strength": 11,
+    "dexterity": 28,
+    "intelligence": 3,
+    "faith": 3,
+    "arcane": 28,
+    "hp": 460,
+    "fp": 65,
+    "stamina": 64,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv4"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:05",
+    "name": "执行者 Lv5",
+    "character_id": "executor",
+    "level": 5,
+    "vigor": 21,
+    "mind": 4,
+    "endurance": 10,
+    "strength": 12,
+    "dexterity": 32,
+    "intelligence": 4,
+    "faith": 3,
+    "arcane": 28,
+    "hp": 500,
+    "fp": 65,
+    "stamina": 68,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv5"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:06",
+    "name": "执行者 Lv6",
+    "character_id": "executor",
+    "level": 6,
+    "vigor": 24,
+    "mind": 5,
+    "endurance": 12,
+    "strength": 14,
+    "dexterity": 36,
+    "intelligence": 4,
+    "faith": 3,
+    "arcane": 28,
+    "hp": 560,
+    "fp": 70,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv6"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:07",
+    "name": "执行者 Lv7",
+    "character_id": "executor",
+    "level": 7,
+    "vigor": 27,
+    "mind": 6,
+    "endurance": 14,
+    "strength": 15,
+    "dexterity": 40,
+    "intelligence": 5,
+    "faith": 4,
+    "arcane": 28,
+    "hp": 620,
+    "fp": 75,
+    "stamina": 76,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv7"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:08",
+    "name": "执行者 Lv8",
+    "character_id": "executor",
+    "level": 8,
+    "vigor": 29,
+    "mind": 6,
+    "endurance": 16,
+    "strength": 16,
+    "dexterity": 44,
+    "intelligence": 5,
+    "faith": 4,
+    "arcane": 28,
+    "hp": 660,
+    "fp": 75,
+    "stamina": 80,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv8"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:09",
+    "name": "执行者 Lv9",
+    "character_id": "executor",
+    "level": 9,
+    "vigor": 32,
+    "mind": 7,
+    "endurance": 18,
+    "strength": 18,
+    "dexterity": 48,
+    "intelligence": 5,
+    "faith": 4,
+    "arcane": 28,
+    "hp": 720,
+    "fp": 80,
+    "stamina": 84,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv9"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:10",
+    "name": "执行者 Lv10",
+    "character_id": "executor",
+    "level": 10,
+    "vigor": 34,
+    "mind": 7,
+    "endurance": 20,
+    "strength": 19,
+    "dexterity": 52,
+    "intelligence": 6,
+    "faith": 4,
+    "arcane": 28,
+    "hp": 760,
+    "fp": 80,
+    "stamina": 88,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv10"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:11",
+    "name": "执行者 Lv11",
+    "character_id": "executor",
+    "level": 11,
+    "vigor": 37,
+    "mind": 8,
+    "endurance": 22,
+    "strength": 20,
+    "dexterity": 56,
+    "intelligence": 6,
+    "faith": 4,
+    "arcane": 28,
+    "hp": 820,
+    "fp": 85,
+    "stamina": 92,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv11"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:12",
+    "name": "执行者 Lv12",
+    "character_id": "executor",
+    "level": 12,
+    "vigor": 40,
+    "mind": 9,
+    "endurance": 24,
+    "strength": 22,
+    "dexterity": 60,
+    "intelligence": 7,
+    "faith": 5,
+    "arcane": 28,
+    "hp": 880,
+    "fp": 90,
+    "stamina": 96,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv12"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:13",
+    "name": "执行者 Lv13",
+    "character_id": "executor",
+    "level": 13,
+    "vigor": 42,
+    "mind": 9,
+    "endurance": 25,
+    "strength": 23,
+    "dexterity": 61,
+    "intelligence": 7,
+    "faith": 5,
+    "arcane": 28,
+    "hp": 920,
+    "fp": 90,
+    "stamina": 98,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv13"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:14",
+    "name": "执行者 Lv14",
+    "character_id": "executor",
+    "level": 14,
+    "vigor": 44,
+    "mind": 10,
+    "endurance": 26,
+    "strength": 24,
+    "dexterity": 62,
+    "intelligence": 7,
+    "faith": 5,
+    "arcane": 28,
+    "hp": 960,
+    "fp": 95,
+    "stamina": 100,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv14"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "executor:15",
+    "name": "执行者 Lv15",
+    "character_id": "executor",
+    "level": 15,
+    "vigor": 46,
+    "mind": 11,
+    "endurance": 27,
+    "strength": 25,
+    "dexterity": 63,
+    "intelligence": 8,
+    "faith": 6,
+    "arcane": 28,
+    "hp": 1000,
+    "fp": 100,
+    "stamina": 102,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/executor.json/执行者/Lv15"
+      },
+      {
+        "source_id": "bwiki-executor",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B9:L9"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 1000,
+        "fp": 100,
+        "stamina": 102,
+        "vigor": 46,
+        "mind": 11,
+        "endurance": 27,
+        "strength": 25,
+        "dexterity": 63,
+        "intelligence": 8,
+        "faith": 6,
+        "arcane": 28
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "guardian:01",
+    "name": "守护者 Lv1",
+    "character_id": "guardian",
+    "level": 1,
+    "vigor": 10,
+    "mind": 2,
+    "endurance": 6,
+    "strength": 4,
+    "dexterity": 3,
+    "intelligence": 2,
+    "faith": 3,
+    "arcane": 10,
+    "hp": 280,
+    "fp": 55,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv1"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:02",
+    "name": "守护者 Lv2",
+    "character_id": "guardian",
+    "level": 2,
+    "vigor": 19,
+    "mind": 3,
+    "endurance": 12,
+    "strength": 10,
+    "dexterity": 8,
+    "intelligence": 3,
+    "faith": 5,
+    "arcane": 10,
+    "hp": 460,
+    "fp": 60,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv2"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:03",
+    "name": "守护者 Lv3",
+    "character_id": "guardian",
+    "level": 3,
+    "vigor": 22,
+    "mind": 3,
+    "endurance": 14,
+    "strength": 12,
+    "dexterity": 9,
+    "intelligence": 3,
+    "faith": 6,
+    "arcane": 10,
+    "hp": 520,
+    "fp": 60,
+    "stamina": 76,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv3"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:04",
+    "name": "守护者 Lv4",
+    "character_id": "guardian",
+    "level": 4,
+    "vigor": 26,
+    "mind": 4,
+    "endurance": 16,
+    "strength": 14,
+    "dexterity": 11,
+    "intelligence": 4,
+    "faith": 7,
+    "arcane": 10,
+    "hp": 600,
+    "fp": 65,
+    "stamina": 80,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv4"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:05",
+    "name": "守护者 Lv5",
+    "character_id": "guardian",
+    "level": 5,
+    "vigor": 29,
+    "mind": 5,
+    "endurance": 18,
+    "strength": 17,
+    "dexterity": 12,
+    "intelligence": 4,
+    "faith": 8,
+    "arcane": 10,
+    "hp": 660,
+    "fp": 70,
+    "stamina": 84,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv5"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:06",
+    "name": "守护者 Lv6",
+    "character_id": "guardian",
+    "level": 6,
+    "vigor": 33,
+    "mind": 6,
+    "endurance": 20,
+    "strength": 19,
+    "dexterity": 14,
+    "intelligence": 5,
+    "faith": 10,
+    "arcane": 10,
+    "hp": 740,
+    "fp": 75,
+    "stamina": 88,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv6"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:07",
+    "name": "守护者 Lv7",
+    "character_id": "guardian",
+    "level": 7,
+    "vigor": 36,
+    "mind": 7,
+    "endurance": 22,
+    "strength": 22,
+    "dexterity": 16,
+    "intelligence": 5,
+    "faith": 11,
+    "arcane": 10,
+    "hp": 800,
+    "fp": 80,
+    "stamina": 92,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv7"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:08",
+    "name": "守护者 Lv8",
+    "character_id": "guardian",
+    "level": 8,
+    "vigor": 40,
+    "mind": 7,
+    "endurance": 24,
+    "strength": 24,
+    "dexterity": 17,
+    "intelligence": 6,
+    "faith": 12,
+    "arcane": 10,
+    "hp": 880,
+    "fp": 80,
+    "stamina": 96,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv8"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:09",
+    "name": "守护者 Lv9",
+    "character_id": "guardian",
+    "level": 9,
+    "vigor": 43,
+    "mind": 8,
+    "endurance": 26,
+    "strength": 26,
+    "dexterity": 19,
+    "intelligence": 6,
+    "faith": 14,
+    "arcane": 10,
+    "hp": 940,
+    "fp": 85,
+    "stamina": 100,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv9"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:10",
+    "name": "守护者 Lv10",
+    "character_id": "guardian",
+    "level": 10,
+    "vigor": 47,
+    "mind": 9,
+    "endurance": 28,
+    "strength": 29,
+    "dexterity": 20,
+    "intelligence": 7,
+    "faith": 15,
+    "arcane": 10,
+    "hp": 1020,
+    "fp": 90,
+    "stamina": 104,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv10"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:11",
+    "name": "守护者 Lv11",
+    "character_id": "guardian",
+    "level": 11,
+    "vigor": 50,
+    "mind": 10,
+    "endurance": 30,
+    "strength": 31,
+    "dexterity": 22,
+    "intelligence": 7,
+    "faith": 16,
+    "arcane": 10,
+    "hp": 1080,
+    "fp": 95,
+    "stamina": 108,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv11"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:12",
+    "name": "守护者 Lv12",
+    "character_id": "guardian",
+    "level": 12,
+    "vigor": 54,
+    "mind": 11,
+    "endurance": 33,
+    "strength": 34,
+    "dexterity": 24,
+    "intelligence": 8,
+    "faith": 18,
+    "arcane": 10,
+    "hp": 1160,
+    "fp": 100,
+    "stamina": 114,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv12"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:13",
+    "name": "守护者 Lv13",
+    "character_id": "guardian",
+    "level": 13,
+    "vigor": 56,
+    "mind": 12,
+    "endurance": 34,
+    "strength": 35,
+    "dexterity": 25,
+    "intelligence": 8,
+    "faith": 19,
+    "arcane": 10,
+    "hp": 1200,
+    "fp": 105,
+    "stamina": 116,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv13"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:14",
+    "name": "守护者 Lv14",
+    "character_id": "guardian",
+    "level": 14,
+    "vigor": 58,
+    "mind": 13,
+    "endurance": 36,
+    "strength": 37,
+    "dexterity": 27,
+    "intelligence": 9,
+    "faith": 20,
+    "arcane": 10,
+    "hp": 1240,
+    "fp": 110,
+    "stamina": 120,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv14"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "guardian:15",
+    "name": "守护者 Lv15",
+    "character_id": "guardian",
+    "level": 15,
+    "vigor": 60,
+    "mind": 14,
+    "endurance": 38,
+    "strength": 39,
+    "dexterity": 29,
+    "intelligence": 10,
+    "faith": 21,
+    "arcane": 10,
+    "hp": 1280,
+    "fp": 115,
+    "stamina": 124,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/guardian.json/守护者/Lv15"
+      },
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B3:L3"
+      }
+    ],
+    "verification_status": "conflict",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 1280,
+        "fp": 115,
+        "stamina": 124,
+        "vigor": 60,
+        "mind": 14,
+        "endurance": 38,
+        "strength": 41,
+        "dexterity": 31,
+        "intelligence": 10,
+        "faith": 21,
+        "arcane": 10
+      },
+      "differences": {
+        "strength": {
+          "current": 39,
+          "slay": 41
+        },
+        "dexterity": {
+          "current": 29,
+          "slay": 31
+        }
+      }
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "recluse:01",
+    "name": "隐士 Lv1",
+    "character_id": "recluse",
+    "level": 1,
+    "vigor": 6,
+    "mind": 7,
+    "endurance": 3,
+    "strength": 1,
+    "dexterity": 2,
+    "intelligence": 5,
+    "faith": 5,
+    "arcane": 10,
+    "hp": 200,
+    "fp": 80,
+    "stamina": 54,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv1"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:02",
+    "name": "隐士 Lv2",
+    "character_id": "recluse",
+    "level": 2,
+    "vigor": 10,
+    "mind": 11,
+    "endurance": 5,
+    "strength": 2,
+    "dexterity": 4,
+    "intelligence": 15,
+    "faith": 15,
+    "arcane": 10,
+    "hp": 280,
+    "fp": 100,
+    "stamina": 58,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv2"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:03",
+    "name": "隐士 Lv3",
+    "character_id": "recluse",
+    "level": 3,
+    "vigor": 12,
+    "mind": 12,
+    "endurance": 6,
+    "strength": 2,
+    "dexterity": 5,
+    "intelligence": 18,
+    "faith": 18,
+    "arcane": 10,
+    "hp": 320,
+    "fp": 105,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv3"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:04",
+    "name": "隐士 Lv4",
+    "character_id": "recluse",
+    "level": 4,
+    "vigor": 14,
+    "mind": 14,
+    "endurance": 8,
+    "strength": 3,
+    "dexterity": 6,
+    "intelligence": 21,
+    "faith": 21,
+    "arcane": 10,
+    "hp": 360,
+    "fp": 115,
+    "stamina": 64,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv4"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:05",
+    "name": "隐士 Lv5",
+    "character_id": "recluse",
+    "level": 5,
+    "vigor": 16,
+    "mind": 15,
+    "endurance": 9,
+    "strength": 4,
+    "dexterity": 7,
+    "intelligence": 24,
+    "faith": 24,
+    "arcane": 10,
+    "hp": 400,
+    "fp": 120,
+    "stamina": 66,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv5"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:06",
+    "name": "隐士 Lv6",
+    "character_id": "recluse",
+    "level": 6,
+    "vigor": 18,
+    "mind": 17,
+    "endurance": 11,
+    "strength": 4,
+    "dexterity": 8,
+    "intelligence": 27,
+    "faith": 27,
+    "arcane": 10,
+    "hp": 440,
+    "fp": 130,
+    "stamina": 70,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv6"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:07",
+    "name": "隐士 Lv7",
+    "character_id": "recluse",
+    "level": 7,
+    "vigor": 20,
+    "mind": 19,
+    "endurance": 12,
+    "strength": 5,
+    "dexterity": 10,
+    "intelligence": 30,
+    "faith": 30,
+    "arcane": 10,
+    "hp": 480,
+    "fp": 140,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv7"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:08",
+    "name": "隐士 Lv8",
+    "character_id": "recluse",
+    "level": 8,
+    "vigor": 22,
+    "mind": 20,
+    "endurance": 14,
+    "strength": 6,
+    "dexterity": 11,
+    "intelligence": 33,
+    "faith": 33,
+    "arcane": 10,
+    "hp": 520,
+    "fp": 145,
+    "stamina": 76,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv8"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:09",
+    "name": "隐士 Lv9",
+    "character_id": "recluse",
+    "level": 9,
+    "vigor": 24,
+    "mind": 22,
+    "endurance": 15,
+    "strength": 6,
+    "dexterity": 12,
+    "intelligence": 36,
+    "faith": 36,
+    "arcane": 10,
+    "hp": 560,
+    "fp": 155,
+    "stamina": 78,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv9"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:10",
+    "name": "隐士 Lv10",
+    "character_id": "recluse",
+    "level": 10,
+    "vigor": 26,
+    "mind": 23,
+    "endurance": 17,
+    "strength": 7,
+    "dexterity": 13,
+    "intelligence": 39,
+    "faith": 39,
+    "arcane": 10,
+    "hp": 600,
+    "fp": 160,
+    "stamina": 82,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv10"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:11",
+    "name": "隐士 Lv11",
+    "character_id": "recluse",
+    "level": 11,
+    "vigor": 28,
+    "mind": 25,
+    "endurance": 18,
+    "strength": 8,
+    "dexterity": 14,
+    "intelligence": 42,
+    "faith": 42,
+    "arcane": 10,
+    "hp": 640,
+    "fp": 170,
+    "stamina": 84,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv11"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:12",
+    "name": "隐士 Lv12",
+    "character_id": "recluse",
+    "level": 12,
+    "vigor": 30,
+    "mind": 27,
+    "endurance": 20,
+    "strength": 9,
+    "dexterity": 16,
+    "intelligence": 45,
+    "faith": 45,
+    "arcane": 10,
+    "hp": 680,
+    "fp": 180,
+    "stamina": 88,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv12"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:13",
+    "name": "隐士 Lv13",
+    "character_id": "recluse",
+    "level": 13,
+    "vigor": 31,
+    "mind": 28,
+    "endurance": 21,
+    "strength": 10,
+    "dexterity": 17,
+    "intelligence": 47,
+    "faith": 47,
+    "arcane": 10,
+    "hp": 700,
+    "fp": 185,
+    "stamina": 90,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv13"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:14",
+    "name": "隐士 Lv14",
+    "character_id": "recluse",
+    "level": 14,
+    "vigor": 32,
+    "mind": 29,
+    "endurance": 22,
+    "strength": 11,
+    "dexterity": 18,
+    "intelligence": 49,
+    "faith": 49,
+    "arcane": 10,
+    "hp": 720,
+    "fp": 190,
+    "stamina": 92,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv14"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "recluse:15",
+    "name": "隐士 Lv15",
+    "character_id": "recluse",
+    "level": 15,
+    "vigor": 33,
+    "mind": 30,
+    "endurance": 23,
+    "strength": 12,
+    "dexterity": 19,
+    "intelligence": 51,
+    "faith": 51,
+    "arcane": 10,
+    "hp": 740,
+    "fp": 195,
+    "stamina": 94,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/hermit.json/隐士/Lv15"
+      },
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B8:L8"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 740,
+        "fp": 195,
+        "stamina": 94,
+        "vigor": 33,
+        "mind": 30,
+        "endurance": 23,
+        "strength": 12,
+        "dexterity": 19,
+        "intelligence": 51,
+        "faith": 51,
+        "arcane": 10
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "ironeye:01",
+    "name": "铁之眼 Lv1",
+    "character_id": "ironeye",
+    "level": 1,
+    "vigor": 6,
+    "mind": 2,
+    "endurance": 4,
+    "strength": 4,
+    "dexterity": 8,
+    "intelligence": 2,
+    "faith": 2,
+    "arcane": 13,
+    "hp": 200,
+    "fp": 55,
+    "stamina": 56,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv1"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:02",
+    "name": "铁之眼 Lv2",
+    "character_id": "ironeye",
+    "level": 2,
+    "vigor": 12,
+    "mind": 3,
+    "endurance": 7,
+    "strength": 7,
+    "dexterity": 20,
+    "intelligence": 3,
+    "faith": 3,
+    "arcane": 13,
+    "hp": 320,
+    "fp": 60,
+    "stamina": 62,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv2"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:03",
+    "name": "铁之眼 Lv3",
+    "character_id": "ironeye",
+    "level": 3,
+    "vigor": 14,
+    "mind": 3,
+    "endurance": 8,
+    "strength": 8,
+    "dexterity": 23,
+    "intelligence": 3,
+    "faith": 3,
+    "arcane": 13,
+    "hp": 360,
+    "fp": 60,
+    "stamina": 64,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv3"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:04",
+    "name": "铁之眼 Lv4",
+    "character_id": "ironeye",
+    "level": 4,
+    "vigor": 16,
+    "mind": 4,
+    "endurance": 10,
+    "strength": 9,
+    "dexterity": 26,
+    "intelligence": 3,
+    "faith": 4,
+    "arcane": 13,
+    "hp": 400,
+    "fp": 65,
+    "stamina": 68,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv4"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:05",
+    "name": "铁之眼 Lv5",
+    "character_id": "ironeye",
+    "level": 5,
+    "vigor": 18,
+    "mind": 5,
+    "endurance": 12,
+    "strength": 10,
+    "dexterity": 29,
+    "intelligence": 3,
+    "faith": 5,
+    "arcane": 13,
+    "hp": 440,
+    "fp": 70,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv5"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:06",
+    "name": "铁之眼 Lv6",
+    "character_id": "ironeye",
+    "level": 6,
+    "vigor": 20,
+    "mind": 6,
+    "endurance": 14,
+    "strength": 11,
+    "dexterity": 32,
+    "intelligence": 4,
+    "faith": 5,
+    "arcane": 13,
+    "hp": 480,
+    "fp": 75,
+    "stamina": 76,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv6"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:07",
+    "name": "铁之眼 Lv7",
+    "character_id": "ironeye",
+    "level": 7,
+    "vigor": 23,
+    "mind": 7,
+    "endurance": 16,
+    "strength": 12,
+    "dexterity": 35,
+    "intelligence": 4,
+    "faith": 6,
+    "arcane": 13,
+    "hp": 540,
+    "fp": 80,
+    "stamina": 80,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv7"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:08",
+    "name": "铁之眼 Lv8",
+    "character_id": "ironeye",
+    "level": 8,
+    "vigor": 25,
+    "mind": 7,
+    "endurance": 17,
+    "strength": 13,
+    "dexterity": 38,
+    "intelligence": 4,
+    "faith": 7,
+    "arcane": 13,
+    "hp": 580,
+    "fp": 80,
+    "stamina": 82,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv8"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:09",
+    "name": "铁之眼 Lv9",
+    "character_id": "ironeye",
+    "level": 9,
+    "vigor": 27,
+    "mind": 8,
+    "endurance": 19,
+    "strength": 14,
+    "dexterity": 41,
+    "intelligence": 5,
+    "faith": 7,
+    "arcane": 13,
+    "hp": 620,
+    "fp": 85,
+    "stamina": 86,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv9"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:10",
+    "name": "铁之眼 Lv10",
+    "character_id": "ironeye",
+    "level": 10,
+    "vigor": 29,
+    "mind": 9,
+    "endurance": 21,
+    "strength": 15,
+    "dexterity": 44,
+    "intelligence": 5,
+    "faith": 8,
+    "arcane": 13,
+    "hp": 660,
+    "fp": 90,
+    "stamina": 90,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv10"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:11",
+    "name": "铁之眼 Lv11",
+    "character_id": "ironeye",
+    "level": 11,
+    "vigor": 31,
+    "mind": 10,
+    "endurance": 23,
+    "strength": 16,
+    "dexterity": 47,
+    "intelligence": 5,
+    "faith": 9,
+    "arcane": 13,
+    "hp": 700,
+    "fp": 95,
+    "stamina": 94,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv11"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:12",
+    "name": "铁之眼 Lv12",
+    "character_id": "ironeye",
+    "level": 12,
+    "vigor": 34,
+    "mind": 11,
+    "endurance": 25,
+    "strength": 17,
+    "dexterity": 51,
+    "intelligence": 6,
+    "faith": 10,
+    "arcane": 13,
+    "hp": 760,
+    "fp": 100,
+    "stamina": 98,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv12"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:13",
+    "name": "铁之眼 Lv13",
+    "character_id": "ironeye",
+    "level": 13,
+    "vigor": 35,
+    "mind": 12,
+    "endurance": 26,
+    "strength": 17,
+    "dexterity": 53,
+    "intelligence": 6,
+    "faith": 11,
+    "arcane": 13,
+    "hp": 780,
+    "fp": 105,
+    "stamina": 100,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv13"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:14",
+    "name": "铁之眼 Lv14",
+    "character_id": "ironeye",
+    "level": 14,
+    "vigor": 36,
+    "mind": 13,
+    "endurance": 27,
+    "strength": 18,
+    "dexterity": 55,
+    "intelligence": 6,
+    "faith": 12,
+    "arcane": 13,
+    "hp": 800,
+    "fp": 110,
+    "stamina": 102,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv14"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "ironeye:15",
+    "name": "铁之眼 Lv15",
+    "character_id": "ironeye",
+    "level": 15,
+    "vigor": 37,
+    "mind": 14,
+    "endurance": 28,
+    "strength": 19,
+    "dexterity": 57,
+    "intelligence": 7,
+    "faith": 13,
+    "arcane": 13,
+    "hp": 820,
+    "fp": 115,
+    "stamina": 104,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/iron-eye.json/铁之眼/Lv15"
+      },
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B4:L4"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 820,
+        "fp": 115,
+        "stamina": 104,
+        "vigor": 37,
+        "mind": 14,
+        "endurance": 28,
+        "strength": 19,
+        "dexterity": 57,
+        "intelligence": 7,
+        "faith": 13,
+        "arcane": 13
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "raider:01",
+    "name": "无赖 Lv1",
+    "character_id": "raider",
+    "level": 1,
+    "vigor": 9,
+    "mind": 2,
+    "endurance": 6,
+    "strength": 9,
+    "dexterity": 4,
+    "intelligence": 1,
+    "faith": 2,
+    "arcane": 10,
+    "hp": 260,
+    "fp": 55,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv1"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:02",
+    "name": "无赖 Lv2",
+    "character_id": "raider",
+    "level": 2,
+    "vigor": 18,
+    "mind": 3,
+    "endurance": 12,
+    "strength": 25,
+    "dexterity": 6,
+    "intelligence": 2,
+    "faith": 4,
+    "arcane": 10,
+    "hp": 440,
+    "fp": 60,
+    "stamina": 72,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv2"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:03",
+    "name": "无赖 Lv3",
+    "character_id": "raider",
+    "level": 3,
+    "vigor": 21,
+    "mind": 3,
+    "endurance": 13,
+    "strength": 28,
+    "dexterity": 7,
+    "intelligence": 2,
+    "faith": 4,
+    "arcane": 10,
+    "hp": 500,
+    "fp": 60,
+    "stamina": 74,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv3"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:04",
+    "name": "无赖 Lv4",
+    "character_id": "raider",
+    "level": 4,
+    "vigor": 24,
+    "mind": 4,
+    "endurance": 15,
+    "strength": 32,
+    "dexterity": 8,
+    "intelligence": 2,
+    "faith": 5,
+    "arcane": 10,
+    "hp": 560,
+    "fp": 65,
+    "stamina": 78,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv4"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:05",
+    "name": "无赖 Lv5",
+    "character_id": "raider",
+    "level": 5,
+    "vigor": 27,
+    "mind": 4,
+    "endurance": 17,
+    "strength": 35,
+    "dexterity": 9,
+    "intelligence": 2,
+    "faith": 5,
+    "arcane": 10,
+    "hp": 620,
+    "fp": 65,
+    "stamina": 82,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv5"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:06",
+    "name": "无赖 Lv6",
+    "character_id": "raider",
+    "level": 6,
+    "vigor": 30,
+    "mind": 5,
+    "endurance": 19,
+    "strength": 39,
+    "dexterity": 10,
+    "intelligence": 2,
+    "faith": 6,
+    "arcane": 10,
+    "hp": 680,
+    "fp": 70,
+    "stamina": 86,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv6"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:07",
+    "name": "无赖 Lv7",
+    "character_id": "raider",
+    "level": 7,
+    "vigor": 34,
+    "mind": 5,
+    "endurance": 21,
+    "strength": 42,
+    "dexterity": 11,
+    "intelligence": 2,
+    "faith": 7,
+    "arcane": 10,
+    "hp": 760,
+    "fp": 70,
+    "stamina": 90,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv7"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:08",
+    "name": "无赖 Lv8",
+    "character_id": "raider",
+    "level": 8,
+    "vigor": 37,
+    "mind": 6,
+    "endurance": 23,
+    "strength": 46,
+    "dexterity": 12,
+    "intelligence": 2,
+    "faith": 7,
+    "arcane": 10,
+    "hp": 820,
+    "fp": 75,
+    "stamina": 94,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv8"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:09",
+    "name": "无赖 Lv9",
+    "character_id": "raider",
+    "level": 9,
+    "vigor": 40,
+    "mind": 6,
+    "endurance": 25,
+    "strength": 49,
+    "dexterity": 13,
+    "intelligence": 2,
+    "faith": 8,
+    "arcane": 10,
+    "hp": 880,
+    "fp": 75,
+    "stamina": 98,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv9"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:10",
+    "name": "无赖 Lv10",
+    "character_id": "raider",
+    "level": 10,
+    "vigor": 43,
+    "mind": 7,
+    "endurance": 27,
+    "strength": 53,
+    "dexterity": 14,
+    "intelligence": 2,
+    "faith": 8,
+    "arcane": 10,
+    "hp": 940,
+    "fp": 80,
+    "stamina": 102,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv10"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:11",
+    "name": "无赖 Lv11",
+    "character_id": "raider",
+    "level": 11,
+    "vigor": 46,
+    "mind": 7,
+    "endurance": 29,
+    "strength": 56,
+    "dexterity": 15,
+    "intelligence": 2,
+    "faith": 9,
+    "arcane": 10,
+    "hp": 1000,
+    "fp": 80,
+    "stamina": 106,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv11"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:12",
+    "name": "无赖 Lv12",
+    "character_id": "raider",
+    "level": 12,
+    "vigor": 50,
+    "mind": 8,
+    "endurance": 31,
+    "strength": 60,
+    "dexterity": 16,
+    "intelligence": 2,
+    "faith": 10,
+    "arcane": 10,
+    "hp": 1080,
+    "fp": 85,
+    "stamina": 110,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv12"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:13",
+    "name": "无赖 Lv13",
+    "character_id": "raider",
+    "level": 13,
+    "vigor": 52,
+    "mind": 8,
+    "endurance": 33,
+    "strength": 62,
+    "dexterity": 17,
+    "intelligence": 2,
+    "faith": 10,
+    "arcane": 10,
+    "hp": 1120,
+    "fp": 85,
+    "stamina": 114,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv13"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "conflict",
+    "alternative_values": {
+      "source_id": "bwiki-raider",
+      "hp_fp_stamina": [
+        1120,
+        85,
+        114
+      ],
+      "attributes_order": [
+        "vigor",
+        "mind",
+        "endurance",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "faith",
+        "arcane"
+      ],
+      "attributes": [
+        52,
+        8,
+        31,
+        60,
+        16,
+        2,
+        10,
+        10
+      ]
+    }
+  },
+  {
+    "id": "raider:14",
+    "name": "无赖 Lv14",
+    "character_id": "raider",
+    "level": 14,
+    "vigor": 54,
+    "mind": 9,
+    "endurance": 35,
+    "strength": 65,
+    "dexterity": 18,
+    "intelligence": 2,
+    "faith": 11,
+    "arcane": 10,
+    "hp": 1160,
+    "fp": 90,
+    "stamina": 118,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv14"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "raider:15",
+    "name": "无赖 Lv15",
+    "character_id": "raider",
+    "level": 15,
+    "vigor": 56,
+    "mind": 10,
+    "endurance": 37,
+    "strength": 68,
+    "dexterity": 19,
+    "intelligence": 3,
+    "faith": 12,
+    "arcane": 10,
+    "hp": 1200,
+    "fp": 95,
+    "stamina": 122,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/rogue.json/无赖/Lv15"
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B6:L6"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 1200,
+        "fp": 95,
+        "stamina": 122,
+        "vigor": 56,
+        "mind": 10,
+        "endurance": 37,
+        "strength": 68,
+        "dexterity": 19,
+        "intelligence": 3,
+        "faith": 12,
+        "arcane": 10
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "wylder:01",
+    "name": "追踪者 Lv1",
+    "character_id": "wylder",
+    "level": 1,
+    "vigor": 8,
+    "mind": 4,
+    "endurance": 3,
+    "strength": 5,
+    "dexterity": 4,
+    "intelligence": 2,
+    "faith": 2,
+    "arcane": 10,
+    "hp": 240,
+    "fp": 65,
+    "stamina": 54,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv1"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:02",
+    "name": "追踪者 Lv2",
+    "character_id": "wylder",
+    "level": 2,
+    "vigor": 16,
+    "mind": 6,
+    "endurance": 6,
+    "strength": 18,
+    "dexterity": 15,
+    "intelligence": 4,
+    "faith": 4,
+    "arcane": 10,
+    "hp": 400,
+    "fp": 75,
+    "stamina": 60,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv2"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:03",
+    "name": "追踪者 Lv3",
+    "character_id": "wylder",
+    "level": 3,
+    "vigor": 19,
+    "mind": 7,
+    "endurance": 7,
+    "strength": 20,
+    "dexterity": 17,
+    "intelligence": 4,
+    "faith": 4,
+    "arcane": 10,
+    "hp": 460,
+    "fp": 80,
+    "stamina": 62,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv3"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:04",
+    "name": "追踪者 Lv4",
+    "character_id": "wylder",
+    "level": 4,
+    "vigor": 22,
+    "mind": 8,
+    "endurance": 9,
+    "strength": 23,
+    "dexterity": 19,
+    "intelligence": 5,
+    "faith": 5,
+    "arcane": 10,
+    "hp": 520,
+    "fp": 85,
+    "stamina": 66,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv4"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:05",
+    "name": "追踪者 Lv5",
+    "character_id": "wylder",
+    "level": 5,
+    "vigor": 25,
+    "mind": 9,
+    "endurance": 11,
+    "strength": 25,
+    "dexterity": 21,
+    "intelligence": 6,
+    "faith": 6,
+    "arcane": 10,
+    "hp": 580,
+    "fp": 90,
+    "stamina": 70,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv5"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:06",
+    "name": "追踪者 Lv6",
+    "character_id": "wylder",
+    "level": 6,
+    "vigor": 28,
+    "mind": 10,
+    "endurance": 13,
+    "strength": 28,
+    "dexterity": 23,
+    "intelligence": 7,
+    "faith": 7,
+    "arcane": 10,
+    "hp": 640,
+    "fp": 95,
+    "stamina": 74,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv6"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:07",
+    "name": "追踪者 Lv7",
+    "character_id": "wylder",
+    "level": 7,
+    "vigor": 31,
+    "mind": 11,
+    "endurance": 15,
+    "strength": 31,
+    "dexterity": 25,
+    "intelligence": 8,
+    "faith": 8,
+    "arcane": 10,
+    "hp": 700,
+    "fp": 100,
+    "stamina": 78,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv7"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:08",
+    "name": "追踪者 Lv8",
+    "character_id": "wylder",
+    "level": 8,
+    "vigor": 34,
+    "mind": 12,
+    "endurance": 16,
+    "strength": 33,
+    "dexterity": 27,
+    "intelligence": 8,
+    "faith": 8,
+    "arcane": 10,
+    "hp": 760,
+    "fp": 105,
+    "stamina": 80,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv8"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:09",
+    "name": "追踪者 Lv9",
+    "character_id": "wylder",
+    "level": 9,
+    "vigor": 37,
+    "mind": 13,
+    "endurance": 18,
+    "strength": 36,
+    "dexterity": 29,
+    "intelligence": 9,
+    "faith": 9,
+    "arcane": 10,
+    "hp": 820,
+    "fp": 110,
+    "stamina": 84,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv9"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:10",
+    "name": "追踪者 Lv10",
+    "character_id": "wylder",
+    "level": 10,
+    "vigor": 40,
+    "mind": 14,
+    "endurance": 20,
+    "strength": 38,
+    "dexterity": 31,
+    "intelligence": 10,
+    "faith": 10,
+    "arcane": 10,
+    "hp": 880,
+    "fp": 115,
+    "stamina": 88,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv10"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:11",
+    "name": "追踪者 Lv11",
+    "character_id": "wylder",
+    "level": 11,
+    "vigor": 43,
+    "mind": 15,
+    "endurance": 22,
+    "strength": 41,
+    "dexterity": 33,
+    "intelligence": 11,
+    "faith": 11,
+    "arcane": 10,
+    "hp": 940,
+    "fp": 120,
+    "stamina": 92,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv11"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:12",
+    "name": "追踪者 Lv12",
+    "character_id": "wylder",
+    "level": 12,
+    "vigor": 46,
+    "mind": 16,
+    "endurance": 24,
+    "strength": 44,
+    "dexterity": 35,
+    "intelligence": 12,
+    "faith": 12,
+    "arcane": 10,
+    "hp": 1000,
+    "fp": 125,
+    "stamina": 96,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv12"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:13",
+    "name": "追踪者 Lv13",
+    "character_id": "wylder",
+    "level": 13,
+    "vigor": 48,
+    "mind": 17,
+    "endurance": 25,
+    "strength": 46,
+    "dexterity": 36,
+    "intelligence": 13,
+    "faith": 13,
+    "arcane": 10,
+    "hp": 1040,
+    "fp": 130,
+    "stamina": 98,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv13"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:14",
+    "name": "追踪者 Lv14",
+    "character_id": "wylder",
+    "level": 14,
+    "vigor": 50,
+    "mind": 18,
+    "endurance": 26,
+    "strength": 48,
+    "dexterity": 38,
+    "intelligence": 14,
+    "faith": 14,
+    "arcane": 10,
+    "hp": 1080,
+    "fp": 135,
+    "stamina": 100,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv14"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "wylder:15",
+    "name": "追踪者 Lv15",
+    "character_id": "wylder",
+    "level": 15,
+    "vigor": 52,
+    "mind": 19,
+    "endurance": 27,
+    "strength": 50,
+    "dexterity": 40,
+    "intelligence": 15,
+    "faith": 15,
+    "arcane": 10,
+    "hp": 1120,
+    "fp": 140,
+    "stamina": 102,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/character-info/tracker.json/追踪者/Lv15"
+      },
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B2:L2"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 1120,
+        "fp": 140,
+        "stamina": 102,
+        "vigor": 52,
+        "mind": 19,
+        "endurance": 27,
+        "strength": 50,
+        "dexterity": 40,
+        "intelligence": 15,
+        "faith": 15,
+        "arcane": 10
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "undertaker:01",
+    "name": "送葬者 Lv1",
+    "character_id": "undertaker",
+    "level": 1,
+    "hp": 220,
+    "fp": 65,
+    "stamina": 54,
+    "vigor": 7,
+    "mind": 4,
+    "endurance": 3,
+    "strength": 5,
+    "dexterity": 2,
+    "intelligence": 2,
+    "faith": 5,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:02",
+    "name": "送葬者 Lv2",
+    "character_id": "undertaker",
+    "level": 2,
+    "hp": 360,
+    "fp": 75,
+    "stamina": 58,
+    "vigor": 14,
+    "mind": 6,
+    "endurance": 5,
+    "strength": 18,
+    "dexterity": 4,
+    "intelligence": 2,
+    "faith": 17,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:03",
+    "name": "送葬者 Lv3",
+    "character_id": "undertaker",
+    "level": 3,
+    "hp": 400,
+    "fp": 75,
+    "stamina": 60,
+    "vigor": 16,
+    "mind": 6,
+    "endurance": 6,
+    "strength": 20,
+    "dexterity": 4,
+    "intelligence": 2,
+    "faith": 19,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:04",
+    "name": "送葬者 Lv4",
+    "character_id": "undertaker",
+    "level": 4,
+    "hp": 460,
+    "fp": 80,
+    "stamina": 62,
+    "vigor": 19,
+    "mind": 7,
+    "endurance": 7,
+    "strength": 23,
+    "dexterity": 5,
+    "intelligence": 2,
+    "faith": 21,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:05",
+    "name": "送葬者 Lv5",
+    "character_id": "undertaker",
+    "level": 5,
+    "hp": 520,
+    "fp": 80,
+    "stamina": 66,
+    "vigor": 22,
+    "mind": 7,
+    "endurance": 9,
+    "strength": 25,
+    "dexterity": 6,
+    "intelligence": 2,
+    "faith": 23,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:06",
+    "name": "送葬者 Lv6",
+    "character_id": "undertaker",
+    "level": 6,
+    "hp": 580,
+    "fp": 85,
+    "stamina": 68,
+    "vigor": 25,
+    "mind": 8,
+    "endurance": 10,
+    "strength": 28,
+    "dexterity": 6,
+    "intelligence": 2,
+    "faith": 25,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:07",
+    "name": "送葬者 Lv7",
+    "character_id": "undertaker",
+    "level": 7,
+    "hp": 640,
+    "fp": 90,
+    "stamina": 74,
+    "vigor": 28,
+    "mind": 9,
+    "endurance": 12,
+    "strength": 31,
+    "dexterity": 7,
+    "intelligence": 3,
+    "faith": 27,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:08",
+    "name": "送葬者 Lv8",
+    "character_id": "undertaker",
+    "level": 8,
+    "hp": 680,
+    "fp": 90,
+    "stamina": 72,
+    "vigor": 30,
+    "mind": 9,
+    "endurance": 13,
+    "strength": 33,
+    "dexterity": 8,
+    "intelligence": 3,
+    "faith": 29,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:09",
+    "name": "送葬者 Lv9",
+    "character_id": "undertaker",
+    "level": 9,
+    "hp": 740,
+    "fp": 95,
+    "stamina": 76,
+    "vigor": 33,
+    "mind": 10,
+    "endurance": 14,
+    "strength": 36,
+    "dexterity": 8,
+    "intelligence": 3,
+    "faith": 31,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:10",
+    "name": "送葬者 Lv10",
+    "character_id": "undertaker",
+    "level": 10,
+    "hp": 800,
+    "fp": 95,
+    "stamina": 80,
+    "vigor": 36,
+    "mind": 10,
+    "endurance": 16,
+    "strength": 38,
+    "dexterity": 9,
+    "intelligence": 3,
+    "faith": 33,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:11",
+    "name": "送葬者 Lv11",
+    "character_id": "undertaker",
+    "level": 11,
+    "hp": 860,
+    "fp": 100,
+    "stamina": 82,
+    "vigor": 39,
+    "mind": 11,
+    "endurance": 17,
+    "strength": 41,
+    "dexterity": 10,
+    "intelligence": 3,
+    "faith": 35,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:12",
+    "name": "送葬者 Lv12",
+    "character_id": "undertaker",
+    "level": 12,
+    "hp": 920,
+    "fp": 105,
+    "stamina": 88,
+    "vigor": 42,
+    "mind": 12,
+    "endurance": 19,
+    "strength": 44,
+    "dexterity": 11,
+    "intelligence": 4,
+    "faith": 37,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:13",
+    "name": "送葬者 Lv13",
+    "character_id": "undertaker",
+    "level": 13,
+    "hp": 960,
+    "fp": 105,
+    "stamina": 88,
+    "vigor": 44,
+    "mind": 12,
+    "endurance": 20,
+    "strength": 46,
+    "dexterity": 11,
+    "intelligence": 4,
+    "faith": 38,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:14",
+    "name": "送葬者 Lv14",
+    "character_id": "undertaker",
+    "level": 14,
+    "hp": 1000,
+    "fp": 110,
+    "stamina": 90,
+    "vigor": 46,
+    "mind": 13,
+    "endurance": 21,
+    "strength": 48,
+    "dexterity": 12,
+    "intelligence": 4,
+    "faith": 39,
+    "arcane": 10,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "undertaker:15",
+    "name": "送葬者 Lv15",
+    "character_id": "undertaker",
+    "level": 15,
+    "hp": 1040,
+    "fp": 115,
+    "stamina": 92,
+    "vigor": 48,
+    "mind": 14,
+    "endurance": 22,
+    "strength": 50,
+    "dexterity": 13,
+    "intelligence": 5,
+    "faith": 41,
+    "arcane": 10,
+    "quality_note": "15级本行与原始综合表一致；其他等级的局部冲突仍保留。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B11:L11"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 1040,
+        "fp": 115,
+        "stamina": 92,
+        "vigor": 48,
+        "mind": 14,
+        "endurance": 22,
+        "strength": 50,
+        "dexterity": 13,
+        "intelligence": 5,
+        "faith": 41,
+        "arcane": 10
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  },
+  {
+    "id": "scholar:01",
+    "name": "学者 Lv1",
+    "character_id": "scholar",
+    "level": 1,
+    "hp": 220,
+    "fp": 65,
+    "stamina": 54,
+    "vigor": 7,
+    "mind": 4,
+    "endurance": 3,
+    "strength": 1,
+    "dexterity": 2,
+    "intelligence": 4,
+    "faith": 2,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv1"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:02",
+    "name": "学者 Lv2",
+    "character_id": "scholar",
+    "level": 2,
+    "hp": 360,
+    "fp": 75,
+    "stamina": 58,
+    "vigor": 14,
+    "mind": 6,
+    "endurance": 5,
+    "strength": 2,
+    "dexterity": 4,
+    "intelligence": 7,
+    "faith": 4,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv2"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:03",
+    "name": "学者 Lv3",
+    "character_id": "scholar",
+    "level": 3,
+    "hp": 400,
+    "fp": 80,
+    "stamina": 60,
+    "vigor": 16,
+    "mind": 7,
+    "endurance": 6,
+    "strength": 3,
+    "dexterity": 5,
+    "intelligence": 8,
+    "faith": 4,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv3"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:04",
+    "name": "学者 Lv4",
+    "character_id": "scholar",
+    "level": 4,
+    "hp": 440,
+    "fp": 85,
+    "stamina": 64,
+    "vigor": 18,
+    "mind": 8,
+    "endurance": 8,
+    "strength": 4,
+    "dexterity": 6,
+    "intelligence": 10,
+    "faith": 5,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv4"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:05",
+    "name": "学者 Lv5",
+    "character_id": "scholar",
+    "level": 5,
+    "hp": 480,
+    "fp": 90,
+    "stamina": 68,
+    "vigor": 20,
+    "mind": 9,
+    "endurance": 10,
+    "strength": 5,
+    "dexterity": 7,
+    "intelligence": 12,
+    "faith": 6,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv5"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:06",
+    "name": "学者 Lv6",
+    "character_id": "scholar",
+    "level": 6,
+    "hp": 520,
+    "fp": 95,
+    "stamina": 70,
+    "vigor": 22,
+    "mind": 10,
+    "endurance": 12,
+    "strength": 6,
+    "dexterity": 8,
+    "intelligence": 14,
+    "faith": 7,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv6"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:07",
+    "name": "学者 Lv7",
+    "character_id": "scholar",
+    "level": 7,
+    "hp": 580,
+    "fp": 100,
+    "stamina": 74,
+    "vigor": 25,
+    "mind": 11,
+    "endurance": 14,
+    "strength": 7,
+    "dexterity": 10,
+    "intelligence": 16,
+    "faith": 8,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv7"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:08",
+    "name": "学者 Lv8",
+    "character_id": "scholar",
+    "level": 8,
+    "hp": 620,
+    "fp": 105,
+    "stamina": 78,
+    "vigor": 27,
+    "mind": 12,
+    "endurance": 16,
+    "strength": 8,
+    "dexterity": 11,
+    "intelligence": 18,
+    "faith": 9,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv8"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:09",
+    "name": "学者 Lv9",
+    "character_id": "scholar",
+    "level": 9,
+    "hp": 660,
+    "fp": 110,
+    "stamina": 80,
+    "vigor": 29,
+    "mind": 13,
+    "endurance": 18,
+    "strength": 9,
+    "dexterity": 12,
+    "intelligence": 20,
+    "faith": 10,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv9"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:10",
+    "name": "学者 Lv10",
+    "character_id": "scholar",
+    "level": 10,
+    "hp": 700,
+    "fp": 115,
+    "stamina": 84,
+    "vigor": 32,
+    "mind": 14,
+    "endurance": 20,
+    "strength": 10,
+    "dexterity": 14,
+    "intelligence": 22,
+    "faith": 11,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv10"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:11",
+    "name": "学者 Lv11",
+    "character_id": "scholar",
+    "level": 11,
+    "hp": 740,
+    "fp": 120,
+    "stamina": 88,
+    "vigor": 34,
+    "mind": 15,
+    "endurance": 22,
+    "strength": 11,
+    "dexterity": 15,
+    "intelligence": 24,
+    "faith": 12,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv11"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:12",
+    "name": "学者 Lv12",
+    "character_id": "scholar",
+    "level": 12,
+    "hp": 800,
+    "fp": 130,
+    "stamina": 92,
+    "vigor": 37,
+    "mind": 16,
+    "endurance": 24,
+    "strength": 12,
+    "dexterity": 17,
+    "intelligence": 26,
+    "faith": 13,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv12"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:13",
+    "name": "学者 Lv13",
+    "character_id": "scholar",
+    "level": 13,
+    "hp": 820,
+    "fp": 135,
+    "stamina": 94,
+    "vigor": 38,
+    "mind": 17,
+    "endurance": 25,
+    "strength": 13,
+    "dexterity": 18,
+    "intelligence": 27,
+    "faith": 14,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv13"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:14",
+    "name": "学者 Lv14",
+    "character_id": "scholar",
+    "level": 14,
+    "hp": 860,
+    "fp": 140,
+    "stamina": 96,
+    "vigor": 40,
+    "mind": 18,
+    "endurance": 26,
+    "strength": 14,
+    "dexterity": 19,
+    "intelligence": 28,
+    "faith": 15,
+    "arcane": 50,
+    "quality_note": "DLC页面存在局部非单调数值；保存来源原值，待游戏实测。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv14"
+      }
+    ],
+    "verification_status": "needs_verification"
+  },
+  {
+    "id": "scholar:15",
+    "name": "学者 Lv15",
+    "character_id": "scholar",
+    "level": 15,
+    "hp": 900,
+    "fp": 145,
+    "stamina": 98,
+    "vigor": 41,
+    "mind": 20,
+    "endurance": 25,
+    "strength": 14,
+    "dexterity": 18,
+    "intelligence": 28,
+    "faith": 15,
+    "arcane": 50,
+    "quality_note": "15级本行与原始综合表一致；其他等级的局部冲突仍保留。",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "基础属性/能力属性 Lv15"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Character Stats Level 15'!B10:L10"
+      }
+    ],
+    "verification_status": "cross_checked",
+    "field_comparison": {
+      "slay_level15": {
+        "hp": 900,
+        "fp": 145,
+        "stamina": 98,
+        "vigor": 41,
+        "mind": 20,
+        "endurance": 25,
+        "strength": 14,
+        "dexterity": 18,
+        "intelligence": 28,
+        "faith": 15,
+        "arcane": 50
+      },
+      "differences": {}
+    },
+    "checked_fields": [
+      "hp",
+      "fp",
+      "stamina",
+      "vigor",
+      "mind",
+      "endurance",
+      "strength",
+      "dexterity",
+      "intelligence",
+      "faith",
+      "arcane"
+    ]
+  }
+]

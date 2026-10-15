@@ -1,0 +1,18 @@
+name: 功能问题
+description: 页面、返回、收藏或安卓运行异常
+title: '[Bug] '
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 版本与设备
+      description: App版本、安卓版本、手机型号；网页则写浏览器。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 怎样重现
+      description: 操作步骤、实际结果、期望结果，可附截图；不要附私人记录。
+    validations:
+      required: true

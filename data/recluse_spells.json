@@ -1,0 +1,212 @@
+[
+  {
+    "id": "recluse_spells:001",
+    "name": "魔力追踪",
+    "elements": "魔",
+    "damage_text": "240",
+    "duration_text": "12s",
+    "description": "放出魔力核心环绕敌人，核心会缠绕引爆，给予伤害。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[0]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:002",
+    "name": "漩涡火焰",
+    "elements": "火",
+    "damage_text": "447",
+    "duration_text": "8s",
+    "description": "能丢掷漩涡状火焰，在命中后会暂时维持小范围燃烧、扩散。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[1]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:003",
+    "name": "雷迅步",
+    "elements": "雷",
+    "damage_text": "-",
+    "duration_text": "20s",
+    "description": "全身缠绕雷电，强化闪避为瞬步。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[2]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:004",
+    "name": "圣防护",
+    "elements": "圣",
+    "damage_text": "-",
+    "duration_text": "30s",
+    "description": "全身缠绕神圣光芒，友方单位減伤10%，获得等效无限强韧度",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[3]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:005",
+    "name": "鬼火",
+    "elements": "魔火",
+    "damage_text": "120",
+    "duration_text": "6s",
+    "description": "能释放追踪敌人、进行攻击的鬼火。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[4]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:006",
+    "name": "魔力刃",
+    "elements": "魔雷",
+    "damage_text": "552",
+    "duration_text": "1s",
+    "description": "能形成魔力刀，朝前方迅速一挥。长按能维持架式，进行移动。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[5]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:007",
+    "name": "魔力帷幕",
+    "elements": "魔圣",
+    "damage_text": "-",
+    "duration_text": "8s",
+    "description": "朝周围放下魔力帷幕，让自己与周围我方人物的专注值消耗归零。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[6]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:008",
+    "name": "雷火突进",
+    "elements": "火雷",
+    "damage_text": "814",
+    "duration_text": "2s",
+    "description": "将自身化为火球，朝前方快速推进，再降下落雷攻击周围。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[7]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:009",
+    "name": "温热祝福",
+    "elements": "火圣",
+    "damage_text": "-",
+    "duration_text": "60s",
+    "description": "释放高挂的火球。友方单位生命上限提升30%，范围内友方单位恢复异常值，敌方单位扣減5%生命上限。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[8]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:010",
+    "name": "雷圣护盾",
+    "elements": "雷圣",
+    "damage_text": "-",
+    "duration_text": "15s",
+    "description": "展开雷光护膜，能自动弹开敌人的攻击。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[9]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:011",
+    "name": "重力球",
+    "elements": "魔火雷",
+    "damage_text": "1164",
+    "duration_text": "1s",
+    "description": "能形成重力球，拉近敌人的同时越变越大，再引发爆炸，给予伤害。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[10]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:012",
+    "name": "混合吐息",
+    "elements": "魔火圣",
+    "damage_text": "1239",
+    "duration_text": "3s",
+    "description": "能喷出混合属性的吐息。触碰到吐息的敌人会受到伤害，每次命中友方单位为其回复5%+5生命及3%+3蓝。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[11]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:013",
+    "name": "白色落雷",
+    "elements": "火雷圣",
+    "damage_text": "1153",
+    "duration_text": "5s",
+    "description": "向前打出一道白色闪电，5s后爆炸。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[12]"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse_spells:014",
+    "name": "冰风暴",
+    "elements": "魔雷圣",
+    "damage_text": "657",
+    "duration_text": "6s",
+    "description": "形成大范围的寒气风暴，同时将自身冰封，进入无敌状态。",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/magic_move_list.json[13]"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

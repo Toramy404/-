@@ -1,0 +1,3 @@
+# Local signing identity: preserve for compatible future updates, never distribute.
+signing/
+build/

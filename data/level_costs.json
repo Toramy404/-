@@ -1,0 +1,287 @@
+[
+  {
+    "id": "level:1",
+    "name": "升至1级",
+    "level": 1,
+    "runes_from_previous_level": 0,
+    "cumulative_runes": 0,
+    "source_cumulative": null,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A2:D2"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:2",
+    "name": "升至2级",
+    "level": 2,
+    "runes_from_previous_level": 3698,
+    "cumulative_runes": 3698,
+    "source_cumulative": 3698,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A3:D3"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:3",
+    "name": "升至3级",
+    "level": 3,
+    "runes_from_previous_level": 7922,
+    "cumulative_runes": 11620,
+    "source_cumulative": 11620,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A4:D4"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:4",
+    "name": "升至4级",
+    "level": 4,
+    "runes_from_previous_level": 12348,
+    "cumulative_runes": 23968,
+    "source_cumulative": 23968,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A5:D5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:5",
+    "name": "升至5级",
+    "level": 5,
+    "runes_from_previous_level": 16978,
+    "cumulative_runes": 40946,
+    "source_cumulative": 40946,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A6:D6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:6",
+    "name": "升至6级",
+    "level": 6,
+    "runes_from_previous_level": 21818,
+    "cumulative_runes": 62764,
+    "source_cumulative": 62764,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A7:D7"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:7",
+    "name": "升至7级",
+    "level": 7,
+    "runes_from_previous_level": 26869,
+    "cumulative_runes": 89633,
+    "source_cumulative": 89633,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A8:D8"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:8",
+    "name": "升至8级",
+    "level": 8,
+    "runes_from_previous_level": 32137,
+    "cumulative_runes": 121770,
+    "source_cumulative": 121770,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A9:D9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:9",
+    "name": "升至9级",
+    "level": 9,
+    "runes_from_previous_level": 37624,
+    "cumulative_runes": 159394,
+    "source_cumulative": 159394,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A10:D10"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:10",
+    "name": "升至10级",
+    "level": 10,
+    "runes_from_previous_level": 43335,
+    "cumulative_runes": 202729,
+    "source_cumulative": 202729,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A11:D11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:11",
+    "name": "升至11级",
+    "level": 11,
+    "runes_from_previous_level": 49271,
+    "cumulative_runes": 252000,
+    "source_cumulative": 252000,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A12:D12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:12",
+    "name": "升至12级",
+    "level": 12,
+    "runes_from_previous_level": 55439,
+    "cumulative_runes": 307439,
+    "source_cumulative": 307439,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A13:D13"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:13",
+    "name": "升至13级",
+    "level": 13,
+    "runes_from_previous_level": 61840,
+    "cumulative_runes": 369279,
+    "source_cumulative": 369279,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A14:D14"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:14",
+    "name": "升至14级",
+    "level": 14,
+    "runes_from_previous_level": 68479,
+    "cumulative_runes": 437758,
+    "source_cumulative": 437758,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A15:D15"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "level:15",
+    "name": "升至15级",
+    "level": 15,
+    "runes_from_previous_level": 75358,
+    "cumulative_runes": 513116,
+    "source_cumulative": 513116,
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx/升级表"
+      },
+      {
+        "source_id": "slay-sheet",
+        "locator": "'Level Up Cost'!A16:D16"
+      }
+    ],
+    "verification_status": "cross_checked"
+  }
+]

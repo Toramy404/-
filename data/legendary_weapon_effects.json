@@ -1,0 +1,377 @@
+[
+  {
+    "id": "legendary:01",
+    "name": "夜与火之剑",
+    "weapon_type": "直剑",
+    "effect_name": "夜与火的庇佑",
+    "description": "施放战技后附魔 40.2 魔/火攻击力，持续30秒",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/夜与火之剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:02",
+    "name": "暗月大剑",
+    "weapon_type": "大剑",
+    "effect_name": "暗月的庇佑",
+    "description": "命中后使敌方受到的魔力伤害增加 15%，持续20秒",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/暗月大剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:03",
+    "name": "神躯化剑",
+    "weapon_type": "大剑",
+    "effect_name": "无上庇佑",
+    "description": "蓄力重击放出光波，A&B类，100%（仅圣属性）+60圣，削韧7.75",
+    "poise_damage_text": "单手33 + 7.75 = 40.75；双手36.3 + 7.75 = 44.05",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/神躯化剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:04",
+    "name": "玛雷家行刑剑",
+    "weapon_type": "大剑",
+    "effect_name": "玛雷家的庇佑",
+    "description": "0-30层: 每层1.1%攻击力; 31-50层: 每层0.85%攻击力; 50-100层: 每层0.4%攻击力; 100层时(满层数): 提升70%攻击力。(原来每层0.8%，现在改版后的满层数约等于原来的88层)",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/玛雷家行刑剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:05",
+    "name": "黄金律法大剑",
+    "weapon_type": "大剑",
+    "effect_name": "黄金律法的庇佑",
+    "description": "蓄力重击时可清除自身及周围所有单位的异常累积、临时buff或debuff",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/黄金律法大剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:06",
+    "name": "亵渎圣剑",
+    "weapon_type": "大剑",
+    "effect_name": "亵渎的庇佑",
+    "description": "每有一个怪死亡，回复100点血",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/亵渎圣剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:07",
+    "name": "遗迹大剑",
+    "weapon_type": "特大剑",
+    "effect_name": "毁灭的庇佑",
+    "description": "蓄力重击产生地刺，A类，倍率55%，削韧倍率100%，但剑身削韧倍率相比其他特大剑减少100%",
+    "poise_damage_text": "单手30 + 6 = 36；双手33.6 + 6 = 39.6",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/遗迹大剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:08",
+    "name": "剑骸大剑",
+    "weapon_type": "特大剑",
+    "effect_name": "复仇的庇佑",
+    "description": "0-30层: 每层0.7%血蓝绿; 30-50层: 每层0.45%血蓝绿; 50-100层: 每层0.2%血蓝绿; 减伤率每层均为0.1%; 100层时(满层数): 提升40%血蓝绿，10%减伤率。(原来每层+0.5%血蓝绿和0.1%全减伤，现在改版后满层数相当于原来的80层血蓝绿和100层减伤)",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/剑骸大剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:09",
+    "name": "碎星大剑",
+    "weapon_type": "特大剑",
+    "effect_name": "碎星的庇佑",
+    "description": "双手R1第一下命中时拉近附近敌人，A&B类，45% + 50魔，削韧10",
+    "poise_damage_text": "5.4×2 + 10 = 20.8",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/碎星大剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:10",
+    "name": "玛利喀斯的黑剑",
+    "weapon_type": "特大剑",
+    "effect_name": "命定之死的庇佑",
+    "description": "攻击命中时，每0.1秒扣血 0.01% + 2，持续0.8秒",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/玛利喀斯的黑剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:11",
+    "name": "龙王岩剑",
+    "weapon_type": "重刺剑",
+    "effect_name": "龙王的庇佑",
+    "description": "跳R2先将自身化为雷云然后带电下戳，雷云为B类25雷两次，削韧6，下戳冲击力7（击退），A&B类，140% + 20雷，削韧倍率400%，单特共持无区别，双武器有特效但伤害低得多",
+    "poise_damage_text": "雷云6×2 + 下戳22 = 34",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/龙王岩剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:12",
+    "name": "蒙葛特咒剑",
+    "weapon_type": "大曲剑",
+    "effect_name": "恶兆王的庇佑",
+    "description": "处决时爆出火焰，B类，每次 32 火，一共约命中7次",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/蒙葛特咒剑"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:13",
+    "name": "玛莲尼亚义手刃",
+    "weapon_type": "刀",
+    "effect_name": "战无不胜的庇佑",
+    "description": "虚血",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/玛莲尼亚义手刃"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:14",
+    "name": "展翼大角",
+    "weapon_type": "大斧",
+    "effect_name": "祖灵的庇佑",
+    "description": "攻击时有概率使敌人受到的所有伤害增加 10%，持续20秒（可与该武器战技增伤15%叠加）",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/展翼大角"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:15",
+    "name": "玛莉卡的石槌",
+    "weapon_type": "槌",
+    "effect_name": "女王的庇佑",
+    "description": "蓄力攻击时产生地面波，B类，56圣，削韧5",
+    "poise_damage_text": "单手36 + 5 = 41；双手39.6 + 5 = 44.6",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/玛莉卡的石槌"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:16",
+    "name": "吞世权杖",
+    "weapon_type": "大槌",
+    "effect_name": "亵渎的庇佑",
+    "description": "每有一个怪死亡，回复100点血",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/吞世权杖"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:17",
+    "name": "弃子的繁星",
+    "weapon_type": "连枷",
+    "effect_name": "黑暗的庇佑",
+    "description": "攻击时有概率发生3次爆炸，每次固定39普通，削韧3",
+    "poise_damage_text": "爆炸×3×3",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/弃子的繁星"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:18",
+    "name": "葛瑞克的王斧",
+    "weapon_type": "大斧",
+    "effect_name": "黄金一族的庇佑",
+    "description": "蓄力攻击时震动地面，A类，倍率 80%，削韧倍率 80%",
+    "poise_damage_text": "单手33 + 4.4 = 37.4；双手36.3 + 4.4 = 40.7（无赖双手为13.2 + 22 + 4.4 = 39.6）",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/葛瑞克的王斧"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:19",
+    "name": "古兰桑克斯的雷电",
+    "weapon_type": "矛",
+    "effect_name": "大古龙的庇佑",
+    "description": "使用蓄力战技后附魔 40.2 雷攻击力，持续 30 秒",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/古兰桑克斯的雷电"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:20",
+    "name": "蒙格温圣矛",
+    "weapon_type": "大矛",
+    "effect_name": "鲜血君王的庇佑",
+    "description": "附近单位出血时，提升 30% 攻击力，持续 20 秒",
+    "poise_damage_text": "0",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/蒙格温圣矛"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:21",
+    "name": "巨人红发鞭",
+    "weapon_type": "鞭子",
+    "effect_name": "巨人的庇佑",
+    "description": "施放战技同时还会出现火焰柱，A类，倍率100%，冲击力9（击飞）",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/巨人红发鞭"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:22",
+    "name": "接肢飞龙",
+    "weapon_type": "拳头",
+    "effect_name": "飞龙的庇佑",
+    "description": "处决时引发爆炸，A类，燃烧每次60%（火），爆炸300%（火）",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/接肢飞龙"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:23",
+    "name": "葛孚雷的王斧",
+    "weapon_type": "特大武器",
+    "effect_name": "初始之王的庇佑",
+    "description": "蓄力攻击时获得buff，提升20%攻击力，持续15秒",
+    "poise_damage_text": "-",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/葛孚雷的王斧"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:24",
+    "name": "卡利亚权杖",
+    "weapon_type": "法杖",
+    "effect_name": "满月的庇佑",
+    "description": "施法时自动释放卡利亚奉还，飞剑攻击力 162×3",
+    "poise_damage_text": "3×3",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/卡利亚权杖"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "legendary:25",
+    "name": "狮子大弓",
+    "weapon_type": "大弓",
+    "effect_name": "将军的庇佑",
+    "description": "重击散射，A类，倍率38% + 18%×8",
+    "poise_damage_text": "3.5 + 1.26×8 = 13.58",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_effect.json/狮子大弓"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

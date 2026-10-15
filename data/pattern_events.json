@@ -1,0 +1,4882 @@
+[
+  {
+    "id": "pattern:000:day2",
+    "name": "000 第2天事件",
+    "pattern_id": "pattern:000",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=000"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=1"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:004:day2",
+    "name": "004 第2天事件",
+    "pattern_id": "pattern:004",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=004"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=5"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:005:day1",
+    "name": "005 第1天事件",
+    "pattern_id": "pattern:005",
+    "day": 1,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=005"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=6"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:008:day2",
+    "name": "008 第2天事件",
+    "pattern_id": "pattern:008",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=008"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=9"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:010:day2",
+    "name": "010 第2天事件",
+    "pattern_id": "pattern:010",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=010"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=11"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:011:day2",
+    "name": "011 第2天事件",
+    "pattern_id": "pattern:011",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=011"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=12"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:016:day1",
+    "name": "016 第1天事件",
+    "pattern_id": "pattern:016",
+    "day": 1,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=016"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=17"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:018:day1",
+    "name": "018 第1天事件",
+    "pattern_id": "pattern:018",
+    "day": 1,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=018"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=19"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:020:day2",
+    "name": "020 第2天事件",
+    "pattern_id": "pattern:020",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=020"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=21"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:021:day1",
+    "name": "021 第1天事件",
+    "pattern_id": "pattern:021",
+    "day": 1,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=021"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=22"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:028:day2",
+    "name": "028 第2天事件",
+    "pattern_id": "pattern:028",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=028"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=29"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:029:day1",
+    "name": "029 第1天事件",
+    "pattern_id": "pattern:029",
+    "day": 1,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=029"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=30"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:032:day2",
+    "name": "032 第2天事件",
+    "pattern_id": "pattern:032",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=032"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=33"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:033:day2",
+    "name": "033 第2天事件",
+    "pattern_id": "pattern:033",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=033"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=34"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:035:day1",
+    "name": "035 第1天事件",
+    "pattern_id": "pattern:035",
+    "day": 1,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=035"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=36"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:037:day2",
+    "name": "037 第2天事件",
+    "pattern_id": "pattern:037",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=037"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=38"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1000:day2",
+    "name": "1000 第2天事件",
+    "pattern_id": "pattern:1000",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1000"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A2:J2"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1002:day1",
+    "name": "1002 第1天事件",
+    "pattern_id": "pattern:1002",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1002"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A4:J4"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1004:day1",
+    "name": "1004 第1天事件",
+    "pattern_id": "pattern:1004",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1004"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A6:J6"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1006:day1",
+    "name": "1006 第1天事件",
+    "pattern_id": "pattern:1006",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1006"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A3:J3"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1007:persistent:frenzy_tower",
+    "name": "1007 开局设施",
+    "pattern_id": "pattern:1007",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1007"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A4:J4"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:043:day1",
+    "name": "043 第1天事件",
+    "pattern_id": "pattern:043",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=043"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=44"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:045:day2",
+    "name": "045 第2天事件",
+    "pattern_id": "pattern:045",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=045"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=46"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:046:day2",
+    "name": "046 第2天事件",
+    "pattern_id": "pattern:046",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "nox-dragonkin-soldier",
+    "label_raw": "Extra Night Boss: Nox Dragonkin",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=046"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=47"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:047:day2",
+    "name": "047 第2天事件",
+    "pattern_id": "pattern:047",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "death-rite-bird",
+    "label_raw": "Extra Night Boss: Death Rite Bird",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=047"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=48"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:052:day2",
+    "name": "052 第2天事件",
+    "pattern_id": "pattern:052",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=052"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=53"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:053:day1",
+    "name": "053 第1天事件",
+    "pattern_id": "pattern:053",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=053"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=54"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:057:day2",
+    "name": "057 第2天事件",
+    "pattern_id": "pattern:057",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=057"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=58"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:058:day1",
+    "name": "058 第1天事件",
+    "pattern_id": "pattern:058",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=058"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=59"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:061:day1",
+    "name": "061 第1天事件",
+    "pattern_id": "pattern:061",
+    "day": 1,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=061"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=62"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:063:day1",
+    "name": "063 第1天事件",
+    "pattern_id": "pattern:063",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=063"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=64"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:067:day2",
+    "name": "067 第2天事件",
+    "pattern_id": "pattern:067",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=067"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=68"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:068:day2",
+    "name": "068 第2天事件",
+    "pattern_id": "pattern:068",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "crucible-hippo",
+    "label_raw": "Extra Night Boss: Crucible Knight and Golden Hippopotamus",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=068"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=69"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:070:day1",
+    "name": "070 第1天事件",
+    "pattern_id": "pattern:070",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "smelter-demon",
+    "label_raw": "Extra Nigfht Boss - Smelter Demon",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=070"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=71"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:071:day1",
+    "name": "071 第1天事件",
+    "pattern_id": "pattern:071",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=071"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=72"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:072:day2",
+    "name": "072 第2天事件",
+    "pattern_id": "pattern:072",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=072"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=73"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:078:day1",
+    "name": "078 第1天事件",
+    "pattern_id": "pattern:078",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=078"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=79"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1010:day2",
+    "name": "1010 第2天事件",
+    "pattern_id": "pattern:1010",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1010"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A7:J7"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1011:day2",
+    "name": "1011 第2天事件",
+    "pattern_id": "pattern:1011",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1011"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A8:J8"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1012:day1",
+    "name": "1012 第1天事件",
+    "pattern_id": "pattern:1012",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1012"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A9:J9"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1015:day2",
+    "name": "1015 第2天事件",
+    "pattern_id": "pattern:1015",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1015"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A7:J7"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1016:day1",
+    "name": "1016 第1天事件",
+    "pattern_id": "pattern:1016",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "battlefield-commander",
+    "label_raw": "Extra Nigfht Boss - Battlefield Commander",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1016"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A8:J8"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1019:day2",
+    "name": "1019 第2天事件",
+    "pattern_id": "pattern:1019",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1019"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A11:J11"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:082:day2",
+    "name": "082 第2天事件",
+    "pattern_id": "pattern:082",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=082"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=83"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:083:persistent:frenzy_tower",
+    "name": "083 开局设施",
+    "pattern_id": "pattern:083",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=083"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=84"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:085:day2",
+    "name": "085 第2天事件",
+    "pattern_id": "pattern:085",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=085"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=86"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:088:day1",
+    "name": "088 第1天事件",
+    "pattern_id": "pattern:088",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=088"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=89"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:094:day1",
+    "name": "094 第1天事件",
+    "pattern_id": "pattern:094",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=094"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=95"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:096:day2",
+    "name": "096 第2天事件",
+    "pattern_id": "pattern:096",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=096"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=97"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:099:day1",
+    "name": "099 第1天事件",
+    "pattern_id": "pattern:099",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=099"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=100"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:102:day1",
+    "name": "102 第1天事件",
+    "pattern_id": "pattern:102",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=102"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=103"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:104:day2",
+    "name": "104 第2天事件",
+    "pattern_id": "pattern:104",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=104"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=105"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:106:day1",
+    "name": "106 第1天事件",
+    "pattern_id": "pattern:106",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=106"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=107"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:109:persistent:frenzy_tower",
+    "name": "109 开局设施",
+    "pattern_id": "pattern:109",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=109"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=110"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:113:day1",
+    "name": "113 第1天事件",
+    "pattern_id": "pattern:113",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=113"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=114"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:115:day2",
+    "name": "115 第2天事件",
+    "pattern_id": "pattern:115",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=115"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=116"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:117:day2",
+    "name": "117 第2天事件",
+    "pattern_id": "pattern:117",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=117"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=118"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1021:day2",
+    "name": "1021 第2天事件",
+    "pattern_id": "pattern:1021",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1021"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A13:J13"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1023:day2",
+    "name": "1023 第2天事件",
+    "pattern_id": "pattern:1023",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1023"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A15:J15"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1024:day1",
+    "name": "1024 第1天事件",
+    "pattern_id": "pattern:1024",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1024"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A16:J16"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1026:persistent:frenzy_tower",
+    "name": "1026 开局设施",
+    "pattern_id": "pattern:1026",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1026"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A13:J13"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1027:day2",
+    "name": "1027 第2天事件",
+    "pattern_id": "pattern:1027",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1027"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A14:J14"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1029:day2",
+    "name": "1029 第2天事件",
+    "pattern_id": "pattern:1029",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1029"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A16:J16"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:121:day1",
+    "name": "121 第1天事件",
+    "pattern_id": "pattern:121",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=121"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=122"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:122:day2",
+    "name": "122 第2天事件",
+    "pattern_id": "pattern:122",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=122"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=123"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:128:persistent:walking_mausoleum",
+    "name": "128 开局设施",
+    "pattern_id": "pattern:128",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=128"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=129"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:134:persistent:walking_mausoleum",
+    "name": "134 开局设施",
+    "pattern_id": "pattern:134",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=134"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=135"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:135:day1",
+    "name": "135 第1天事件",
+    "pattern_id": "pattern:135",
+    "day": 1,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=135"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=136"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:136:day1",
+    "name": "136 第1天事件",
+    "pattern_id": "pattern:136",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=136"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=137"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:137:day2",
+    "name": "137 第2天事件",
+    "pattern_id": "pattern:137",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=137"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=138"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:139:day2",
+    "name": "139 第2天事件",
+    "pattern_id": "pattern:139",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=139"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=140"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:140:day1",
+    "name": "140 第1天事件",
+    "pattern_id": "pattern:140",
+    "day": 1,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=140"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=141"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:143:day2",
+    "name": "143 第2天事件",
+    "pattern_id": "pattern:143",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=143"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=144"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:147:persistent:walking_mausoleum",
+    "name": "147 开局设施",
+    "pattern_id": "pattern:147",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=147"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=148"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:148:day1",
+    "name": "148 第1天事件",
+    "pattern_id": "pattern:148",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=148"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=149"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:150:day2",
+    "name": "150 第2天事件",
+    "pattern_id": "pattern:150",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=150"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=151"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:152:persistent:walking_mausoleum",
+    "name": "152 开局设施",
+    "pattern_id": "pattern:152",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=152"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=153"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:156:day2",
+    "name": "156 第2天事件",
+    "pattern_id": "pattern:156",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=156"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=157"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:158:day1",
+    "name": "158 第1天事件",
+    "pattern_id": "pattern:158",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=158"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=159"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1032:day1",
+    "name": "1032 第1天事件",
+    "pattern_id": "pattern:1032",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1032"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A19:J19"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1033:day2",
+    "name": "1033 第2天事件",
+    "pattern_id": "pattern:1033",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1033"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A20:J20"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1034:day1",
+    "name": "1034 第1天事件",
+    "pattern_id": "pattern:1034",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1034"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A21:J21"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1035:day2",
+    "name": "1035 第2天事件",
+    "pattern_id": "pattern:1035",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "draconic-tree-sentinel",
+    "label_raw": "Extra Night Boss: Draconic Tree Sentinel",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1035"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A17:J17"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1037:day1",
+    "name": "1037 第1天事件",
+    "pattern_id": "pattern:1037",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1037"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A19:J19"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1038:day1",
+    "name": "1038 第1天事件",
+    "pattern_id": "pattern:1038",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1038"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A20:J20"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:161:day2",
+    "name": "161 第2天事件",
+    "pattern_id": "pattern:161",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=161"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=162"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:168:day1",
+    "name": "168 第1天事件",
+    "pattern_id": "pattern:168",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=168"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=169"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:173:day1",
+    "name": "173 第1天事件",
+    "pattern_id": "pattern:173",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=173"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=174"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:175:day2",
+    "name": "175 第2天事件",
+    "pattern_id": "pattern:175",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=175"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=176"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:177:persistent:frenzy_tower",
+    "name": "177 开局设施",
+    "pattern_id": "pattern:177",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=177"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=178"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:179:persistent:frenzy_tower",
+    "name": "179 开局设施",
+    "pattern_id": "pattern:179",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=179"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=180"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:180:persistent:frenzy_tower",
+    "name": "180 开局设施",
+    "pattern_id": "pattern:180",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=180"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=181"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:181:day1",
+    "name": "181 第1天事件",
+    "pattern_id": "pattern:181",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=181"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=182"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:187:day2",
+    "name": "187 第2天事件",
+    "pattern_id": "pattern:187",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=187"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=188"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:194:day2",
+    "name": "194 第2天事件",
+    "pattern_id": "pattern:194",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=194"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=195"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:195:persistent:frenzy_tower",
+    "name": "195 开局设施",
+    "pattern_id": "pattern:195",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=195"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=196"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:196:day1",
+    "name": "196 第1天事件",
+    "pattern_id": "pattern:196",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=196"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=197"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1040:day2",
+    "name": "1040 第2天事件",
+    "pattern_id": "pattern:1040",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1040"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A22:J22"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1042:day1",
+    "name": "1042 第1天事件",
+    "pattern_id": "pattern:1042",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1042"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A24:J24"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1043:day1",
+    "name": "1043 第1天事件",
+    "pattern_id": "pattern:1043",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1043"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A25:J25"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1045:day2",
+    "name": "1045 第2天事件",
+    "pattern_id": "pattern:1045",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1045"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A22:J22"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1046:persistent:frenzy_tower",
+    "name": "1046 开局设施",
+    "pattern_id": "pattern:1046",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1046"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A23:J23"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1047:persistent:frenzy_tower",
+    "name": "1047 开局设施",
+    "pattern_id": "pattern:1047",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1047"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A24:J24"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:201:day2",
+    "name": "201 第2天事件",
+    "pattern_id": "pattern:201",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=201"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=202"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:202:day1",
+    "name": "202 第1天事件",
+    "pattern_id": "pattern:202",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=202"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=203"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:204:day1",
+    "name": "204 第1天事件",
+    "pattern_id": "pattern:204",
+    "day": 1,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=204"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=205"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:206:day1",
+    "name": "206 第1天事件",
+    "pattern_id": "pattern:206",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=206"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=207"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:209:day2",
+    "name": "209 第2天事件",
+    "pattern_id": "pattern:209",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "fell-omen",
+    "label_raw": "Extra Night Boss: Fell Omen",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=209"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=210"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:211:day1",
+    "name": "211 第1天事件",
+    "pattern_id": "pattern:211",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "valiant-gargoyle",
+    "label_raw": "Extra Night Boss: Valiant Gargoyle",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=211"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=212"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:214:day2",
+    "name": "214 第2天事件",
+    "pattern_id": "pattern:214",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=214"
+      },
+      {
+        "source_id": "pattern-214",
+        "locator": "图片中的1./2.标记"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=215"
+      }
+    ],
+    "verification_status": "corrected_from_primary_map"
+  },
+  {
+    "id": "pattern:215:day1",
+    "name": "215 第1天事件",
+    "pattern_id": "pattern:215",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=215"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=216"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:220:day1",
+    "name": "220 第1天事件",
+    "pattern_id": "pattern:220",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "bell-bearing-hunter",
+    "label_raw": "Extra Night Boss: Bell Bearing Hunter",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=220"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=221"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:224:day1",
+    "name": "224 第1天事件",
+    "pattern_id": "pattern:224",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=224"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=225"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:225:day1",
+    "name": "225 第1天事件",
+    "pattern_id": "pattern:225",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=225"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=226"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:227:day2",
+    "name": "227 第2天事件",
+    "pattern_id": "pattern:227",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=227"
+      },
+      {
+        "source_id": "pattern-227",
+        "locator": "图片中的1./2.标记"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=228"
+      }
+    ],
+    "verification_status": "corrected_from_primary_map"
+  },
+  {
+    "id": "pattern:231:day1",
+    "name": "231 第1天事件",
+    "pattern_id": "pattern:231",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=231"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=232"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:234:day2",
+    "name": "234 第2天事件",
+    "pattern_id": "pattern:234",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "dancer-of-the-boreal-valley",
+    "label_raw": "Extra Night Boss: Dancer of the Boreal Valley",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=234"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=235"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:235:day1",
+    "name": "235 第1天事件",
+    "pattern_id": "pattern:235",
+    "day": 1,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=235"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=236"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:239:day2",
+    "name": "239 第2天事件",
+    "pattern_id": "pattern:239",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=239"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=240"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1050:day2",
+    "name": "1050 第2天事件",
+    "pattern_id": "pattern:1050",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1050"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A27:J27"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1053:day1",
+    "name": "1053 第1天事件",
+    "pattern_id": "pattern:1053",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1053"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A30:J30"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1054:day1",
+    "name": "1054 第1天事件",
+    "pattern_id": "pattern:1054",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1054"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A31:J31"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1055:day1",
+    "name": "1055 第1天事件",
+    "pattern_id": "pattern:1055",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1055"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A27:J27"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1057:day2",
+    "name": "1057 第2天事件",
+    "pattern_id": "pattern:1057",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1057"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A29:J29"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1059:day2",
+    "name": "1059 第2天事件",
+    "pattern_id": "pattern:1059",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "fell-omen",
+    "label_raw": "Extra Night Boss: Fell Omen",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1059"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A31:J31"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:240:day1",
+    "name": "240 第1天事件",
+    "pattern_id": "pattern:240",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=240"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=241"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:242:day1",
+    "name": "242 第1天事件",
+    "pattern_id": "pattern:242",
+    "day": 1,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=242"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=243"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:245:day1",
+    "name": "245 第1天事件",
+    "pattern_id": "pattern:245",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=245"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=246"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:249:day2",
+    "name": "249 第2天事件",
+    "pattern_id": "pattern:249",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=249"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=250"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:252:day2",
+    "name": "252 第2天事件",
+    "pattern_id": "pattern:252",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=252"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=253"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:255:day2",
+    "name": "255 第2天事件",
+    "pattern_id": "pattern:255",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=255"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=256"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:257:day1",
+    "name": "257 第1天事件",
+    "pattern_id": "pattern:257",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=257"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=258"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:259:persistent:walking_mausoleum",
+    "name": "259 开局设施",
+    "pattern_id": "pattern:259",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=259"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=260"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:260:day2",
+    "name": "260 第2天事件",
+    "pattern_id": "pattern:260",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=260"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=261"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:262:day2",
+    "name": "262 第2天事件",
+    "pattern_id": "pattern:262",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=262"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=263"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:266:day1",
+    "name": "266 第1天事件",
+    "pattern_id": "pattern:266",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=266"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=267"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:267:persistent:walking_mausoleum",
+    "name": "267 开局设施",
+    "pattern_id": "pattern:267",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=267"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=268"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:272:day1",
+    "name": "272 第1天事件",
+    "pattern_id": "pattern:272",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=272"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=273"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:273:persistent:walking_mausoleum",
+    "name": "273 开局设施",
+    "pattern_id": "pattern:273",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=273"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=274"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:275:day2",
+    "name": "275 第2天事件",
+    "pattern_id": "pattern:275",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=275"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=276"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:278:day2",
+    "name": "278 第2天事件",
+    "pattern_id": "pattern:278",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=278"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=279"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1060:day1",
+    "name": "1060 第1天事件",
+    "pattern_id": "pattern:1060",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1060"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A32:J32"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1061:day1",
+    "name": "1061 第1天事件",
+    "pattern_id": "pattern:1061",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1061"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A33:J33"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1064:day1",
+    "name": "1064 第1天事件",
+    "pattern_id": "pattern:1064",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1064"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A36:J36"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1065:day2",
+    "name": "1065 第2天事件",
+    "pattern_id": "pattern:1065",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "nameless-king",
+    "label_raw": "Extra Night Boss: Nameless King",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1065"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A32:J32"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1066:day2",
+    "name": "1066 第2天事件",
+    "pattern_id": "pattern:1066",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1066"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A33:J33"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1067:day1",
+    "name": "1067 第1天事件",
+    "pattern_id": "pattern:1067",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1067"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A34:J34"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:285:day2",
+    "name": "285 第2天事件",
+    "pattern_id": "pattern:285",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=285"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=286"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:287:day2",
+    "name": "287 第2天事件",
+    "pattern_id": "pattern:287",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=287"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=288"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:288:day2",
+    "name": "288 第2天事件",
+    "pattern_id": "pattern:288",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=288"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=289"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:292:day1",
+    "name": "292 第1天事件",
+    "pattern_id": "pattern:292",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=292"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=293"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:293:day1",
+    "name": "293 第1天事件",
+    "pattern_id": "pattern:293",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=293"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=294"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:295:day2",
+    "name": "295 第2天事件",
+    "pattern_id": "pattern:295",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=295"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=296"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:296:day2",
+    "name": "296 第2天事件",
+    "pattern_id": "pattern:296",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=296"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=297"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:298:day1",
+    "name": "298 第1天事件",
+    "pattern_id": "pattern:298",
+    "day": 1,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=298"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=299"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:300:day1",
+    "name": "300 第1天事件",
+    "pattern_id": "pattern:300",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=300"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=301"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:302:day2",
+    "name": "302 第2天事件",
+    "pattern_id": "pattern:302",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=302"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=303"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:306:day1",
+    "name": "306 第1天事件",
+    "pattern_id": "pattern:306",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=306"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=307"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:309:day2",
+    "name": "309 第2天事件",
+    "pattern_id": "pattern:309",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=309"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=310"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:312:day2",
+    "name": "312 第2天事件",
+    "pattern_id": "pattern:312",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=312"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=313"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:313:day1",
+    "name": "313 第1天事件",
+    "pattern_id": "pattern:313",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=313"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=314"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:316:day2",
+    "name": "316 第2天事件",
+    "pattern_id": "pattern:316",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=316"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=317"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:319:day2",
+    "name": "319 第2天事件",
+    "pattern_id": "pattern:319",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=319"
+      },
+      {
+        "source_id": "overlay",
+        "locator": "layout_number=320"
+      }
+    ],
+    "verification_status": "cross_checked"
+  },
+  {
+    "id": "pattern:1070:day2",
+    "name": "1070 第2天事件",
+    "pattern_id": "pattern:1070",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1070"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A37:J37"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1072:day1",
+    "name": "1072 第1天事件",
+    "pattern_id": "pattern:1072",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1072"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A39:J39"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1074:day1",
+    "name": "1074 第1天事件",
+    "pattern_id": "pattern:1074",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1074"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A41:J41"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1077:day2",
+    "name": "1077 第2天事件",
+    "pattern_id": "pattern:1077",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1077"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A39:J39"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1079:day2",
+    "name": "1079 第2天事件",
+    "pattern_id": "pattern:1079",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1079"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A41:J41"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1080:persistent:frenzy_tower",
+    "name": "1080 开局设施",
+    "pattern_id": "pattern:1080",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1080"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A42:J42"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1081:day2",
+    "name": "1081 第2天事件",
+    "pattern_id": "pattern:1081",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1081"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A43:J43"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1082:day1",
+    "name": "1082 第1天事件",
+    "pattern_id": "pattern:1082",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1082"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A44:J44"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1086:day2",
+    "name": "1086 第2天事件",
+    "pattern_id": "pattern:1086",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1086"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A48:J48"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1087:day2",
+    "name": "1087 第2天事件",
+    "pattern_id": "pattern:1087",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "fallingstar-beast",
+    "label_raw": "Extra Night Boss: Fallingstar Beast",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1087"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A49:J49"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1088:day1",
+    "name": "1088 第1天事件",
+    "pattern_id": "pattern:1088",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1088"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A50:J50"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1089:day1",
+    "name": "1089 第1天事件",
+    "pattern_id": "pattern:1089",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1089"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A51:J51"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1092:day2",
+    "name": "1092 第2天事件",
+    "pattern_id": "pattern:1092",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1092"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A54:J54"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1093:persistent:walking_mausoleum",
+    "name": "1093 开局设施",
+    "pattern_id": "pattern:1093",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1093"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A55:J55"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1094:day2",
+    "name": "1094 第2天事件",
+    "pattern_id": "pattern:1094",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1094"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A56:J56"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1095:day1",
+    "name": "1095 第1天事件",
+    "pattern_id": "pattern:1095",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1095"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A57:J57"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1096:day2",
+    "name": "1096 第2天事件",
+    "pattern_id": "pattern:1096",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1096"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A58:J58"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1098:day1",
+    "name": "1098 第1天事件",
+    "pattern_id": "pattern:1098",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1098"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A60:J60"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1100:day2",
+    "name": "1100 第2天事件",
+    "pattern_id": "pattern:1100",
+    "day": 2,
+    "event_id": "night_horde",
+    "additional_boss_id": null,
+    "label_raw": "Night Horde",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1100"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A62:J62"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1101:day2",
+    "name": "1101 第2天事件",
+    "pattern_id": "pattern:1101",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1101"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A63:J63"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1102:day1",
+    "name": "1102 第1天事件",
+    "pattern_id": "pattern:1102",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "grafted-monarch",
+    "label_raw": "Extra Night Boss: Grafted Monarch",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1102"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A64:J64"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1105:day1",
+    "name": "1105 第1天事件",
+    "pattern_id": "pattern:1105",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1105"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A67:J67"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1107:day1",
+    "name": "1107 第1天事件",
+    "pattern_id": "pattern:1107",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1107"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A69:J69"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1109:persistent:walking_mausoleum",
+    "name": "1109 开局设施",
+    "pattern_id": "pattern:1109",
+    "day": 0,
+    "event_id": "walking_mausoleum",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1109"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A71:J71"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1110:day2",
+    "name": "1110 第2天事件",
+    "pattern_id": "pattern:1110",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1110"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A72:J72"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1111:day1",
+    "name": "1111 第1天事件",
+    "pattern_id": "pattern:1111",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1111"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A73:J73"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1114:day2",
+    "name": "1114 第2天事件",
+    "pattern_id": "pattern:1114",
+    "day": 2,
+    "event_id": "meteor_strike",
+    "additional_boss_id": null,
+    "label_raw": "Meteor Strike",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1114"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A76:J76"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1135:day2",
+    "name": "1135 第2天事件",
+    "pattern_id": "pattern:1135",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1135"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A77:J77"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1138:day2",
+    "name": "1138 第2天事件",
+    "pattern_id": "pattern:1138",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1138"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A80:J80"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1116:day2",
+    "name": "1116 第2天事件",
+    "pattern_id": "pattern:1116",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1116"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A43:J43"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1117:persistent:frenzy_tower",
+    "name": "1117 开局设施",
+    "pattern_id": "pattern:1117",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1117"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A44:J44"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1118:day2",
+    "name": "1118 第2天事件",
+    "pattern_id": "pattern:1118",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "crucible-hippo",
+    "label_raw": "Extra Night Boss: Crucible Knight & Golden Hippopotamus",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1118"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A45:J45"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1119:day2",
+    "name": "1119 第2天事件",
+    "pattern_id": "pattern:1119",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1119"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A46:J46"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1120:day1",
+    "name": "1120 第1天事件",
+    "pattern_id": "pattern:1120",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "demi-human-duo",
+    "label_raw": "Extra Night Boss: Demi-Human Queen & Swordmaster",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1120"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A47:J47"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1124:persistent:frenzy_tower",
+    "name": "1124 开局设施",
+    "pattern_id": "pattern:1124",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1124"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A51:J51"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1125:day2",
+    "name": "1125 第2天事件",
+    "pattern_id": "pattern:1125",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1125"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A52:J52"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1126:day2",
+    "name": "1126 第2天事件",
+    "pattern_id": "pattern:1126",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1126"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A53:J53"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1129:day2",
+    "name": "1129 第2天事件",
+    "pattern_id": "pattern:1129",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1129"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A56:J56"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1131:day2",
+    "name": "1131 第2天事件",
+    "pattern_id": "pattern:1131",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1131"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A58:J58"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1132:day2",
+    "name": "1132 第2天事件",
+    "pattern_id": "pattern:1132",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1132"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A59:J59"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1133:day2",
+    "name": "1133 第2天事件",
+    "pattern_id": "pattern:1133",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1133"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A60:J60"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1134:day1",
+    "name": "1134 第1天事件",
+    "pattern_id": "pattern:1134",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1134"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A61:J61"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1140:day1",
+    "name": "1140 第1天事件",
+    "pattern_id": "pattern:1140",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1140"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A82:J82"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1142:day1",
+    "name": "1142 第1天事件",
+    "pattern_id": "pattern:1142",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1142"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A84:J84"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1146:day2",
+    "name": "1146 第2天事件",
+    "pattern_id": "pattern:1146",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1146"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A88:J88"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1147:day1",
+    "name": "1147 第1天事件",
+    "pattern_id": "pattern:1147",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1147"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A89:J89"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1148:day2",
+    "name": "1148 第2天事件",
+    "pattern_id": "pattern:1148",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1148"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A90:J90"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1149:day1",
+    "name": "1149 第1天事件",
+    "pattern_id": "pattern:1149",
+    "day": 1,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1149"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A91:J91"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1151:day1",
+    "name": "1151 第1天事件",
+    "pattern_id": "pattern:1151",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1151"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A93:J93"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1152:day1",
+    "name": "1152 第1天事件",
+    "pattern_id": "pattern:1152",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1152"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A94:J94"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1154:day2",
+    "name": "1154 第2天事件",
+    "pattern_id": "pattern:1154",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1154"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A96:J96"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1155:day2",
+    "name": "1155 第2天事件",
+    "pattern_id": "pattern:1155",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1155"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A97:J97"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1156:day1",
+    "name": "1156 第1天事件",
+    "pattern_id": "pattern:1156",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1156"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A98:J98"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1158:day1",
+    "name": "1158 第1天事件",
+    "pattern_id": "pattern:1158",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1158"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A100:J100"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1159:day1",
+    "name": "1159 第1天事件",
+    "pattern_id": "pattern:1159",
+    "day": 1,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1159"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A101:J101"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1160:day2",
+    "name": "1160 第2天事件",
+    "pattern_id": "pattern:1160",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1160"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A102:J102"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1161:day1",
+    "name": "1161 第1天事件",
+    "pattern_id": "pattern:1161",
+    "day": 1,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1161"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A103:J103"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1162:day1",
+    "name": "1162 第1天事件",
+    "pattern_id": "pattern:1162",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1162"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A104:J104"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1165:day1",
+    "name": "1165 第1天事件",
+    "pattern_id": "pattern:1165",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1165"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A107:J107"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1166:day1",
+    "name": "1166 第1天事件",
+    "pattern_id": "pattern:1166",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1166"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A108:J108"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1167:day2",
+    "name": "1167 第2天事件",
+    "pattern_id": "pattern:1167",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1167"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A109:J109"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1170:day1",
+    "name": "1170 第1天事件",
+    "pattern_id": "pattern:1170",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1170"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A112:J112"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1171:day2",
+    "name": "1171 第2天事件",
+    "pattern_id": "pattern:1171",
+    "day": 2,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1171"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A113:J113"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1172:day2",
+    "name": "1172 第2天事件",
+    "pattern_id": "pattern:1172",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1172"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A114:J114"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1196:day2",
+    "name": "1196 第2天事件",
+    "pattern_id": "pattern:1196",
+    "day": 2,
+    "event_id": "morgott_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Morgott Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1196"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A118:J118"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1197:day1",
+    "name": "1197 第1天事件",
+    "pattern_id": "pattern:1197",
+    "day": 1,
+    "event_id": "balancers_raid",
+    "additional_boss_id": null,
+    "label_raw": "Balancers Raid",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1197"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A119:J119"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1199:day2",
+    "name": "1199 第2天事件",
+    "pattern_id": "pattern:1199",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1199"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'DLC Seeds'!A121:J121"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1175:persistent:frenzy_tower",
+    "name": "1175 开局设施",
+    "pattern_id": "pattern:1175",
+    "day": 0,
+    "event_id": "frenzy_tower",
+    "additional_boss_id": null,
+    "label_raw": "source event_1/event_2; deduplicated persistent facility",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1175"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A62:J62"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1176:day2",
+    "name": "1176 第2天事件",
+    "pattern_id": "pattern:1176",
+    "day": 2,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1176"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A63:J63"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1178:day2",
+    "name": "1178 第2天事件",
+    "pattern_id": "pattern:1178",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1178"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A65:J65"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1179:day2",
+    "name": "1179 第2天事件",
+    "pattern_id": "pattern:1179",
+    "day": 2,
+    "event_id": "gladius_invasion",
+    "additional_boss_id": null,
+    "label_raw": "Gladius Invasion",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1179"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A66:J66"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1180:day2",
+    "name": "1180 第2天事件",
+    "pattern_id": "pattern:1180",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1180"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A67:J67"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1182:day1",
+    "name": "1182 第1天事件",
+    "pattern_id": "pattern:1182",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "bell-bearing-hunter",
+    "label_raw": "Extra Night Boss: Bell Bearing Hunter",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1182"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A69:J69"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1185:day1",
+    "name": "1185 第1天事件",
+    "pattern_id": "pattern:1185",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "grafted-monarch",
+    "label_raw": "Extra Night Boss: Grafted Monarch",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1185"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A72:J72"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1186:day2",
+    "name": "1186 第2天事件",
+    "pattern_id": "pattern:1186",
+    "day": 2,
+    "event_id": "libra_curse",
+    "additional_boss_id": null,
+    "label_raw": "Libra Curse",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1186"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A73:J73"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1187:day2",
+    "name": "1187 第2天事件",
+    "pattern_id": "pattern:1187",
+    "day": 2,
+    "event_id": "caligo_blizzard",
+    "additional_boss_id": null,
+    "label_raw": "Caligo Blizzard",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1187"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A74:J74"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1188:day1",
+    "name": "1188 第1天事件",
+    "pattern_id": "pattern:1188",
+    "day": 1,
+    "event_id": "maris_bubbles",
+    "additional_boss_id": null,
+    "label_raw": "Maris Bubbles",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1188"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A75:J75"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1190:day2",
+    "name": "1190 第2天事件",
+    "pattern_id": "pattern:1190",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "nox-dragonkin-soldier",
+    "label_raw": "Extra Night Boss: Nox Dragonkin Soldier",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1190"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A77:J77"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1192:day1",
+    "name": "1192 第1天事件",
+    "pattern_id": "pattern:1192",
+    "day": 1,
+    "event_id": "gnoster_plague",
+    "additional_boss_id": null,
+    "label_raw": "Gnoster Plague",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": "seed_id=1192"
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A79:J79"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "pattern:1008:day1",
+    "name": "1008 第1夜追加Boss",
+    "pattern_id": "pattern:1008",
+    "day": 1,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "grafted-monarch",
+    "label_raw": "Extra Night 1 Boss",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A5:J5"
+      }
+    ],
+    "verification_status": "corrected_from_source_comparison"
+  },
+  {
+    "id": "pattern:1078:day2",
+    "name": "1078 第2夜追加Boss",
+    "pattern_id": "pattern:1078",
+    "day": 2,
+    "event_id": "extra_night_boss",
+    "additional_boss_id": "ancient-dragon",
+    "label_raw": "Extra Night 2 Boss",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "'GH Seeds'!A40:J40"
+      }
+    ],
+    "verification_status": "corrected_from_source_comparison"
+  }
+]

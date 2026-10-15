@@ -1,0 +1,200 @@
+[
+  {
+    "id": "start",
+    "name": "开局已存在",
+    "day": null,
+    "event_ids": [
+      "frenzy_tower",
+      "walking_mausoleum",
+      "difficult_sorcerer_rise"
+    ],
+    "map_types": null,
+    "earliest_seconds": 0,
+    "latest_seconds": 0,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d1-dlc",
+    "name": "第1天 DLC入侵",
+    "day": 1,
+    "event_ids": [
+      "gladius_invasion",
+      "caligo_blizzard",
+      "balancers_raid"
+    ],
+    "map_types": null,
+    "earliest_seconds": 300,
+    "latest_seconds": 300,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d1-other",
+    "name": "第1天 其他定时事件",
+    "day": 1,
+    "event_ids": [
+      "morgott_invasion",
+      "maris_bubbles",
+      "gnoster_plague",
+      "libra_curse",
+      "night_horde",
+      "meteor_strike"
+    ],
+    "map_types": null,
+    "earliest_seconds": 360,
+    "latest_seconds": 480,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d2-gladius-hollow",
+    "name": "第2天 大空洞三狼",
+    "day": 2,
+    "event_ids": [
+      "gladius_invasion"
+    ],
+    "map_types": [
+      "great_hollow"
+    ],
+    "earliest_seconds": 60,
+    "latest_seconds": 120,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d2-gladius-other",
+    "name": "第2天 其他地图三狼",
+    "day": 2,
+    "event_ids": [
+      "gladius_invasion"
+    ],
+    "map_types": [
+      "standard",
+      "mountaintop",
+      "crater",
+      "rotted_woods",
+      "noklateo"
+    ],
+    "earliest_seconds": 120,
+    "latest_seconds": 120,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d2-shifting",
+    "name": "第2天 地变其他夜王入侵",
+    "day": 2,
+    "event_ids": [
+      "morgott_invasion",
+      "maris_bubbles",
+      "gnoster_plague",
+      "libra_curse",
+      "caligo_blizzard",
+      "balancers_raid"
+    ],
+    "map_types": [
+      "great_hollow",
+      "mountaintop",
+      "crater",
+      "rotted_woods",
+      "noklateo"
+    ],
+    "earliest_seconds": 120,
+    "latest_seconds": 180,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d2-standard-dlc",
+    "name": "第2天 普通地图DLC入侵",
+    "day": 2,
+    "event_ids": [
+      "caligo_blizzard",
+      "balancers_raid"
+    ],
+    "map_types": [
+      "standard"
+    ],
+    "earliest_seconds": 120,
+    "latest_seconds": 360,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "d2-standard-other",
+    "name": "第2天 普通地图其他定时事件",
+    "day": 2,
+    "event_ids": [
+      "morgott_invasion",
+      "maris_bubbles",
+      "gnoster_plague",
+      "libra_curse",
+      "night_horde",
+      "meteor_strike"
+    ],
+    "map_types": [
+      "standard"
+    ],
+    "earliest_seconds": 120,
+    "latest_seconds": 480,
+    "origin": "当日开始",
+    "additional_conditions": "还需满足事件自身的玩家位置等触发条件；追加夜Boss不适用此白天计时规则。",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "Special Events timing"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

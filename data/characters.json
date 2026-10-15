@@ -1,0 +1,354 @@
+[
+  {
+    "id": "wylder",
+    "name": "追踪者",
+    "name_en": "Wylder",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "前排近战与机动救援",
+    "preferred_weapon_source": "大剑",
+    "ratings": {
+      "生命": "A",
+      "专注": "C",
+      "耐力": "B",
+      "力量": "A",
+      "灵巧": "B",
+      "智力": "C",
+      "信仰": "C",
+      "感应": "C",
+      "擅长武器": "大剑"
+    },
+    "passive": "第六感",
+    "skill": "钩爪射击",
+    "ultimate": "袭击桩柱",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-wylder",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "guardian",
+    "name": "守护者",
+    "name_en": "Guardian",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "举盾承压与范围救援",
+    "preferred_weapon_source": "戟",
+    "ratings": {
+      "生命": "S",
+      "专注": "C",
+      "耐力": "A",
+      "力量": "B",
+      "灵巧": "C",
+      "智力": "D",
+      "信仰": "C",
+      "感应": "C",
+      "擅长武器": "戟"
+    },
+    "passive": "强力防御",
+    "skill": "旋风",
+    "ultimate": "救世展翼",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-guardian",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "ironeye",
+    "name": "铁之眼",
+    "name_en": "Ironeye",
+    "aliases": [
+      "铁眼"
+    ],
+    "dlc": false,
+    "role_summary": "远程输出与标记增伤",
+    "preferred_weapon_source": "弓",
+    "ratings": {
+      "生命": "C",
+      "专注": "C",
+      "耐力": "B",
+      "力量": "C",
+      "灵巧": "A",
+      "智力": "D",
+      "信仰": "D",
+      "感应": "B",
+      "擅长武器": "弓"
+    },
+    "passive": "观察入微",
+    "skill": "标记",
+    "ultimate": "穿杨一箭",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-ironeye",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "duchess",
+    "name": "女爵",
+    "name_en": "Duchess",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "灵巧近战与重演伤害",
+    "preferred_weapon_source": "匕首",
+    "ratings": {
+      "生命": "C",
+      "专注": "B",
+      "耐力": "D",
+      "力量": "D",
+      "灵巧": "B",
+      "智力": "A",
+      "信仰": "B",
+      "感应": "C",
+      "擅长武器": "匕首"
+    },
+    "passive": "优雅身段",
+    "skill": "重演",
+    "ultimate": "落幕之章",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-duchess",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "raider",
+    "name": "无赖",
+    "name_en": "Raider",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "重武器与反击",
+    "preferred_weapon_source": "巨型武器、巨斧与巨锤",
+    "ratings": {
+      "生命": "A",
+      "专注": "D",
+      "耐力": "A",
+      "力量": "S",
+      "灵巧": "C",
+      "智力": "D",
+      "信仰": "D",
+      "感应": "C",
+      "擅长武器": "巨型武器、巨斧与巨锤"
+    },
+    "passive": "好胜心",
+    "skill": "反击",
+    "ultimate": "图腾碑石",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-raider",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "revenant",
+    "name": "复仇者",
+    "name_en": "Revenant",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "召唤与团队续命",
+    "preferred_weapon_source": "无",
+    "ratings": {
+      "生命": "D",
+      "专注": "A",
+      "耐力": "D",
+      "力量": "C",
+      "灵巧": "C",
+      "智力": "B",
+      "信仰": "S",
+      "感应": "B",
+      "擅长武器": "无"
+    },
+    "passive": "死灵术",
+    "skill": "召唤灵魂",
+    "ultimate": "不死行军",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-revenant",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "recluse",
+    "name": "隐士",
+    "name_en": "Recluse",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "法术与属性痕混合魔法",
+    "preferred_weapon_source": "无",
+    "ratings": {
+      "生命": "D",
+      "专注": "A",
+      "耐力": "C",
+      "力量": "D",
+      "灵巧": "C",
+      "智力": "S",
+      "信仰": "S",
+      "感应": "C",
+      "擅长武器": "无"
+    },
+    "passive": "驾驭元素",
+    "skill": "混合魔法",
+    "ultimate": "血魂歌",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-recluse",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "executor",
+    "name": "执行者",
+    "name_en": "Executor",
+    "aliases": [],
+    "dlc": false,
+    "role_summary": "妖刀弹反与变身",
+    "preferred_weapon_source": "刀",
+    "ratings": {
+      "生命": "B",
+      "专注": "D",
+      "耐力": "B",
+      "力量": "C",
+      "灵巧": "S",
+      "智力": "D",
+      "信仰": "D",
+      "感应": "S",
+      "擅长武器": "刀"
+    },
+    "passive": "不屈",
+    "skill": "妖刀",
+    "ultimate": "熔炉百相之兽",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-executor",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "scholar",
+    "name": "学者",
+    "name_en": "Scholar",
+    "aliases": [],
+    "dlc": true,
+    "role_summary": "观察敌我与道具支援",
+    "preferred_weapon_source": "刺剑",
+    "ratings": {
+      "生命": "B",
+      "专注": "B",
+      "耐力": "B",
+      "力量": "D",
+      "灵巧": "C",
+      "智力": "C",
+      "信仰": "C",
+      "感应": "S",
+      "擅长武器": "刺剑"
+    },
+    "passive": "携物知识",
+    "skill": "探索",
+    "ultimate": "共感术",
+    "name_note": null,
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "undertaker",
+    "name": "送葬者",
+    "name_en": "Undertaker",
+    "aliases": [],
+    "dlc": true,
+    "role_summary": "强化近战与绝招追击",
+    "preferred_weapon_source": "槌",
+    "ratings": {
+      "生命": "B",
+      "专注": "C",
+      "耐力": "C",
+      "力量": "A",
+      "灵巧": "D",
+      "智力": "D",
+      "信仰": "A",
+      "感应": "C",
+      "擅长武器": "槌"
+    },
+    "passive": "感知力量",
+    "skill": "恍惚",
+    "ultimate": "不详一击",
+    "name_note": "绝招名按BWIKI保存；不详/不祥译名待游戏中文核对",
+    "source_refs": [
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": "角色技能栏"
+      },
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/character_states.json"
+      }
+    ],
+    "verification_status": "source_reported"
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "id": "entry-id-typo",
+    "name": "深夜局内词条ID键名错误",
+    "detail": "6610400原字段为entry_entry_id；标准化为source_entry_id，raw保留。",
+    "severity": "corrected",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/in-game_deep_night_entries.json"
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "version-scope",
+    "name": "程序版本与规则版本分别保存",
+    "detail": "2026-09-18 PS4/PS5为App1.03.4、Regulation1.03.5；2026-07-02 Steam为App1.03.3、Regulation1.03.5。QuickRef自报1.03.4/Jan16；地图作者自报App1.03.2。本包不把社区全部数值标成Reg1.03.5逐项验证。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "official-ps",
+        "locator": ""
+      },
+      {
+        "source_id": "official-pc",
+        "locator": ""
+      },
+      {
+        "source_id": "quickref",
+        "locator": ""
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "health-units",
+    "name": "夜王基础参数不是面板总血量",
+    "detail": "QuickRef界面额外使用3.54×人数，并对永夜另用基础参数与倍率；本包保留参数和来源公式，未验证深夜难度/阶段/人数的完整模型。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "absorption-name",
+    "name": "Absorption字段实际为承伤倍率",
+    "detail": "例如火0.5表示承受50%该类伤害，圣1.35表示承受135%；不是0.5%或1.35%减伤。已标准化为damage_multiplier。",
+    "severity": "normalized",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/night_king_data.json"
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "rune-total",
+    "name": "升级表总计行相差220卢恩",
+    "detail": "逐级求和与15级累计均为513116；原界面单独总计写513336。采用逐项求和结果，未声称每级消耗已游戏实测。",
+    "severity": "corrected",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/pages/GameMechanicsView.tsx"
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "base-level-conflicts",
+    "name": "本体角色仍有4条等级行来源冲突",
+    "detail": "女爵Lv15已用Slay原始表与BWIKI共同修正。复仇者Lv3敏捷/智力及无赖Lv13耐力/力气/灵巧仍保留QuickRef与BWIKI备选值。另发现守护者Lv15力量/灵巧、复仇者Lv15 HP/精力/生命力/耐力与Slay不同，保留两种来源，不覆盖。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": ""
+      },
+      {
+        "source_id": "bwiki-revenant",
+        "locator": ""
+      },
+      {
+        "source_id": "bwiki-duchess",
+        "locator": ""
+      },
+      {
+        "source_id": "bwiki-raider",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "dlc-level-nonmonotonic",
+    "name": "DLC局部等级差异待补核",
+    "detail": "学者与送葬者Lv15的11项属性与Slay表一致。学者Lv14→15耐力26→25、灵巧19→18；送葬者精力Lv7为74、Lv8为72，问题出在哪个较早等级仍未确认。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "bwiki-scholar",
+        "locator": ""
+      },
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "undertaker-rating",
+    "name": "送葬者评级来源不同",
+    "detail": "QuickRef生命B/耐力C；BWIKI列生命A/耐力B。评级保留QuickRef来源，不与等级实数混算。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "character_states.json"
+      },
+      {
+        "source_id": "bwiki-undertaker",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "crystal-independence",
+    "name": "水晶组不能由地图配置号确定",
+    "detail": "地图作者明确水晶位置不按远征种子预置；四组为社区识别模板，每组8点。若实测点集合无法匹配，不强制选择某一组。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": "FAQ"
+      },
+      {
+        "source_id": "sidekick-coords",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "crystal-coordinate-system",
+    "name": "水晶坐标是图片百分比",
+    "detail": "基于800×817合成底图左上角，含右下地下插图；不是世界坐标、距离或导航路径。图层由目视判断。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "hollow-base",
+        "locator": ""
+      },
+      {
+        "source_id": "sidekick-coords",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "crystal-routes-not-downloaded",
+    "name": "12条路线尚未全部离线",
+    "detail": "已登记3出生点×4水晶组合的路线表和作者说明，但未完整读取12条视频，不生成虚构路线或保证用时。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "crystal-routes",
+        "locator": ""
+      },
+      {
+        "source_id": "crystal-route-post",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "hollow-night-pairs",
+    "name": "大空洞主要与追加夜Boss槽已补核",
+    "detail": "80种大空洞模式的两夜主要Boss与Kevin GH Seeds全部一致；1008第一夜追加接肢君王、1078第二夜追加古龙已补记。未宣称这些标签列出了战斗中的全部随从。",
+    "severity": "corrected",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": "GH Seeds"
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "pattern-not-probability",
+    "name": "模式数量不能换算出现概率",
+    "detail": "520个配置是枚举目录，不是随机采样；DLC本体夜王增补模式仅深夜可用，必须按模式、地形与常规/追加Boss分开筛选。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": ""
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "persistent-event-duplicate",
+    "name": "开局设施在两天字段重复",
+    "detail": "Sidekick把23个配置中的癫火塔/灵庙重复写入event_1和event_2；本包去重为day=0的持续设施，保留raw。",
+    "severity": "normalized",
+    "source_refs": [
+      {
+        "source_id": "sidekick-seeds",
+        "locator": ""
+      },
+      {
+        "source_id": "fifthmatt",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "tower-missing",
+    "name": "高难魔法师塔未被事件JSON完整编码",
+    "detail": "作者列出该事件及对应夜王，但Sidekick事件字段没有该类型；本包事件目录保留，精确配置定位待补。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "fifthmatt",
+        "locator": ""
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "stacking-formulas",
+    "name": "可叠加不等于一律相加",
+    "detail": "词条表保留可叠加性及说明；未给出处方的加算/乘算、上限、互斥组，不自动推断。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/outsider_entries_zh-CN.json"
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "weapon-scaling-unspecified",
+    "name": "武器角色比较表缺少测试口径",
+    "detail": "原weapon_character.json已留在上游源码归档；未证实等级、强化、握持等前提，不纳入可计算战斗属性。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "quickref",
+        "locator": "src/data/zh-CN/weapon_character.json"
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "older-pool-sources",
+    "name": "520种夜Boss配对完成跨表核对",
+    "detail": "旧320条对照Overlay，并保留200/214/227原图纠错；新200条对照Kevin DLC Seeds和GH Seeds，两夜主要Boss全部一致。编号1008与1078的追加Boss已补记。",
+    "severity": "corrected",
+    "source_refs": [
+      {
+        "source_id": "kevin-sheet",
+        "locator": ""
+      },
+      {
+        "source_id": "overlay",
+        "locator": ""
+      },
+      {
+        "source_id": "sidekick-seeds",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  },
+  {
+    "id": "second-audit-scope",
+    "name": "二次核对覆盖与边界",
+    "detail": "全部520种两夜主要Boss配对；10角色Lv15共110个数值；13夜王实体的普通属性；15级升级成本；深夜武器57类及522条遗物效果身份/部分叠加字段。ID匹配不代表词条全部数值实测；未有第二数值来源的词条仍为来源收录。",
+    "severity": "documented",
+    "source_refs": [
+      {
+        "source_id": "slay-sheet",
+        "locator": ""
+      },
+      {
+        "source_id": "kevin-sheet",
+        "locator": ""
+      },
+      {
+        "source_id": "roundtable-relic",
+        "locator": ""
+      }
+    ],
+    "verification_status": "documented_issue"
+  }
+]
