@@ -42,7 +42,7 @@ check('unnumbered cards have no empty or placeholder badge',!T.card(inside).incl
 T.detail(inside.id);
 check('unnumbered detail omits the unused tier column',!modal.innerHTML.includes('未标档位')&&!modal.innerHTML.includes('档位 / 物品')&&inside.rows.every(r=>modal.innerHTML.includes(r.description)));
 const settings=T.settings();
-check('settings links repository and author',settings.includes('href="https://github.com/Toramy404/-"')&&settings.includes('href="https://github.com/Toramy404"')&&settings.includes('<strong>作者</strong>'));
+check('settings links repository and author',settings.includes('href="https://github.com/Toramy404/duye-handbook"')&&settings.includes('href="https://github.com/Toramy404"')&&settings.includes('<strong>作者</strong>'));
 const hiddenNotes=['不附带负面词条','随机加入正面词条'];
 for(const note of hiddenNotes){
  const row=D.effects.find(r=>r.negative_modifier_requirement===note),group=T.groups.find(g=>g.rows.includes(row));

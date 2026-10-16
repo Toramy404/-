@@ -9,7 +9,7 @@
 3. **修改和预览。** 运行 `npm start`，电脑直接看效果。涉及布局时检查正常桌面和约390px手机宽度；需要用户确认的体验在这一步确认。
 4. **检查。** 运行下方命令；涉及资料时按 DATA.md 补来源。测试不通过就先修，不把失败写成“已完成”。
 5. **提交 PR。** 默认先开 Draft PR，按现有模板写问题、结果、检查情况和未测部分；完成自查后再转为待审。自动检查为绿且人工看过后，以 Squash merge 合入 `main`。提交标题建议 `feat: …`、`fix: …`、`data: …`、`docs: …`、`chore: …`。
-6. **按需发版。** 用户确认要装手机、修复影响使用的问题，或积累了完整一组改动时才构建正式 APK。完成手机检查后创建版本标签与 Release，附安装包、SHA-256 和更新说明。
+6. **按需发版。** 用户确认要发版、修复影响使用的问题，或积累了完整一组改动时构建 APK。记录实际完成的检查后创建固定版本标签与 Release，附安装包、SHA-256 和更新说明；已有安装包转正式发布时复用同一文件，不重打包。
 
 这沿用 [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)。`main` 表示可继续开发的稳定源码，正式发版由标签和 Release 标记；还没发版的内容写入 CHANGELOG 的 Unreleased。
 
@@ -42,9 +42,11 @@ python scripts/build_data.py --check
 - 清除最近查看并撤销；导出记录并在文件管理器确认 JSON 已保存。
 - 核对 APK 的包名、版本、签名、SHA-256，填写实际设备/Android版本/结果。
 
-测试结果写在 Release 说明或对应 PR 中即可，不另建重复台账。未经真机验证的包标明“测试版”。已发布 APK 不覆盖，不用同一个版本号发不同内容。
+测试结果写在 Release 说明或对应 PR 中即可，不另建重复台账。发布状态和测试状态分别记录：Draft 表示未公开，Prerelease 表示预发布，正式版本设为 Latest；正式发布不等于所有设备测试完成，未测项目仍如实保留。已发布 APK 不覆盖，不用同一个版本号发不同内容。
 
-通过 GitHub Releases 页面选择已验证的 `main` 提交，创建 `v0.4.1` 等标签，附 APK 和校验值。不要将 APK 放进源代码提交。仓库规则需在 Settings 中单独配置，不会随文档合并自动启用；只有实际发布成功的 Release 才代表已有公开下载。
+标签必须指向该 APK 实际构建使用的提交，不能仅取发版时 main 的最新提交。创建 Release 草稿，上传 `duye-handbook-v版本.apk` 和同名 `.sha256` 文件，重新下载核对文件大小及 SHA-256 后，再公开并设为 Latest；用 Releases API 的 latest 结果核实最终状态。不要将 APK 放进源代码提交。发布后发现内容需变更，使用新版本号和更高 versionCode。
+
+v0.4.1 的标签固定在 `bc40b0680c5acd152be95099de08a9a0bc308c25`，沿用 2026-10-15 已交付 APK，2026-10-16 按维护者要求正式发布。后续文档和 CI 改动只进入 main/Unreleased；设备验收记录仍待补。
 
 ## 出问题怎么回退
 
@@ -56,12 +58,13 @@ python scripts/build_data.py --check
 
 每月审查依赖更新 PR；遇到游戏更新优先检查数据版本、来源差异和相关 Issue。每次发版检查签名备份可用，但不把备份内容放进仓库。先解决崩溃/数据错误，再做影响查询效率的体验，最后处理装饰。
 
-## 下一步
+## 当前状态与下一步
 
 以下为 2026-10-16 核对的状态；完成后在此更新，不另建状态首页。
 
-- [ ] **v0.4.1 真机验收：待补。** 按上方清单验证图标、覆盖升级、断网冷启动、返回退出与导出，记录设备和结果。
-- [ ] **公开发版：未进行。** 当前只有本机手机试用包，GitHub Releases 为空。完成真机验收和素材许可核查后，再确认是否发布版本标签、APK、校验值和更新说明。
-- [ ] **主分支保护：未启用。** 建议在 Settings → Rules → Rulesets 对 `main` 要求 PR，并通过 `Data and behavior`、`Android compile` 两项检查，禁止强推和删除。个人维护可不强制第二人批准；保存后核实实际生效状态。
-- [ ] **依赖 PR：待完成审查并决定合并。** [#5（actions/checkout）](https://github.com/Toramy404/-/pull/5)、[#6（actions/setup-node）](https://github.com/Toramy404/-/pull/6) 均为主版本升级；改动范围和两项 CI 已核对通过，仍需审阅迁移说明并确认兼容性，检查通过不等于已批准合并。
-- [ ] **仓库命名：待确认。** 技术名称仍为 `-`，建议名为 `duye-handbook`，尚未改名。若确认改名，再核对本地 origin、README、应用内仓库链接和后续下载链接；显示标题继续使用“渡夜手册”。
+- [x] **v0.4.1 正式发布。** [Release](https://github.com/Toramy404/duye-handbook/releases/tag/v0.4.1) 已公开并设为 Latest，标签、APK 与校验文件均已读回；下载的 APK 与本机原包 SHA-256 一致。
+- [x] **主分支保护已生效。** [main-protection](https://github.com/Toramy404/duye-handbook/rules/25217796) 要求 PR，通过 `Data and behavior`、`Android compile` 两项检查且基于最新主分支，禁止强推和删除；不强制第二人批准，无绕过名单。
+- [x] **依赖审查完成。** [#5](https://github.com/Toramy404/duye-handbook/pull/5) 与 [#6](https://github.com/Toramy404/duye-handbook/pull/6) 已审阅官方迁移说明并合并；两项升级合并后的 [检查](https://github.com/Toramy404/duye-handbook/actions/runs/38851383887) 全部通过。
+- [x] **仓库已改名。** 技术名称为 `duye-handbook`，显示标题仍为“渡夜手册”；本地 origin、文档及主分支应用源码链接同步更新。已发布 APK 保持原文件，内置旧链接由 GitHub 重定向。
+- [ ] **真机验收记录待补。** 覆盖安装、图标、离线冷启动、返回退出与导出仍需记录设备和结果；不把编译或发布成功计作设备验收。
+- [ ] **素材授权与数据核验继续维护。** 第三方图片、地图和表情的授权边界继续见 THIRD_PARTY_NOTICES.md；发布动作不改变第三方权利。待第二来源核验的资料继续保留原状态。
