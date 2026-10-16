@@ -32,4 +32,4 @@ python scripts/build_android.py --signed --previous "release/渡夜手册-v0.4.0
 
 桌面图标使用用户提供图片和自适应布局；图片保留原始像素。源码中的第三方素材见根目录 THIRD_PARTY_NOTICES。
 
-编译通过不等于手机通过。覆盖升级、记录保留、断网冷启动、逐级返回、退出、文件导出需实际手机验收，步骤见 docs/DEVELOPMENT.md。v0.4.1 是本轮手机试用版，真机验收结果待补。
+编译通过不等于手机通过。覆盖升级、记录保留、断网冷启动、逐级返回、退出、文件导出需实际手机验收，步骤见 docs/DEVELOPMENT.md。v0.4.1 已作为当前正式版本发布，真机验收记录待补。下载 [最新版本](https://github.com/Toramy404/duye-handbook/releases/latest) 后直接覆盖安装；安装包内容固定，不因文档或仓库改名重打包。
