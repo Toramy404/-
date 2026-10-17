@@ -1,0 +1,2438 @@
+[
+  {
+    "id": "weapon:battle-axe:source-example",
+    "weapon_id": "weapon:battle-axe",
+    "observation_id": "weapon:battle-axe:observation:1",
+    "source_id": "weapon-research:mobalytics-battle-axe",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 77,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Wild Strikes",
+        "fp_cost_display": "2 > 10 > 15",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "common",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:banished-knights-halberd:source-example",
+    "weapon_id": "weapon:banished-knights-halberd",
+    "observation_id": "weapon:banished-knights-halberd:observation:1",
+    "source_id": "weapon-research:mobalytics-banished-knights-halberd",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 86,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Charge Forth",
+        "fp_cost_display": "16",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "common",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:bandits-curved-sword:source-example",
+    "weapon_id": "weapon:bandits-curved-sword",
+    "observation_id": "weapon:bandits-curved-sword:observation:1",
+    "source_id": "weapon-research:mobalytics-bandits-curved-sword",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 73,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "D",
+        "dexterity": "A"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "slash"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": null,
+      "state": "unknown",
+      "reason": "来源未列固有战技，页面称按类别池随机；完整池未收录。"
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "common",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:antspur-rapier:source-example",
+    "weapon_id": "weapon:antspur-rapier",
+    "observation_id": "weapon:antspur-rapier:observation:1",
+    "source_id": "weapon-research:mobalytics-antspur-rapier",
+    "verification_status": "source_reported",
+    "rarity_label": "rare",
+    "level_required": 7,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 88,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "scarlet_rot",
+          "buildup": 56
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Impaling Thrust",
+        "fp_cost_display": "9",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "rare",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:uchigatana:source-example",
+    "weapon_id": "weapon:uchigatana",
+    "observation_id": "weapon:uchigatana:observation:1",
+    "source_id": "weapon-research:mobalytics-uchigatana",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 66,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "slash",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "blood_loss",
+          "buildup": 30
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Unsheathe",
+        "fp_cost_display": "0 > 10 > 15",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "common",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:hookclaws:source-example",
+    "weapon_id": "weapon:hookclaws",
+    "observation_id": "weapon:hookclaws:observation:1",
+    "source_id": "weapon-research:mobalytics-hookclaws",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 56,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "D",
+        "dexterity": "A"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "slash",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "blood_loss",
+          "buildup": 30
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Quickstep",
+        "fp_cost_display": "3",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "common",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:axe-of-godfrey:source-example",
+    "weapon_id": "weapon:axe-of-godfrey",
+    "observation_id": "weapon:axe-of-godfrey:observation:1",
+    "source_id": "weapon-research:mobalytics-axe-of-godfrey",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 181,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Regal Roar",
+        "fp_cost_display": "25",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "legendary",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:dark-moon-greatsword:source-example",
+    "weapon_id": "weapon:dark-moon-greatsword",
+    "observation_id": "weapon:dark-moon-greatsword:observation:1",
+    "source_id": "weapon-research:mobalytics-dark-moon-greatsword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 53,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 79,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C",
+        "intelligence": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "frostbite",
+          "buildup": 52
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Moonlight Greatsword",
+        "fp_cost_display": "32",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "legendary",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:marikas-hammer:source-example",
+    "weapon_id": "weapon:marikas-hammer",
+    "observation_id": "weapon:marikas-hammer:observation:1",
+    "source_id": "weapon-research:mobalytics-marikas-hammer",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 74,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 49,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "D",
+        "faith": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Gold Breaker",
+        "fp_cost_display": "26",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "legendary",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:bastards-stars:source-example",
+    "weapon_id": "weapon:bastards-stars",
+    "observation_id": "weapon:bastards-stars:observation:1",
+    "source_id": "weapon-research:mobalytics-bastards-stars",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 58,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 68,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "C",
+        "dexterity": "B",
+        "intelligence": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Nebula",
+        "fp_cost_display": "25",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "legendary",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:bolt-of-gransax:source-example",
+    "weapon_id": "weapon:bolt-of-gransax",
+    "observation_id": "weapon:bolt-of-gransax:observation:1",
+    "source_id": "weapon-research:mobalytics-bolt-of-gransax",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 74,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 49,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "C",
+        "dexterity": "B"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Ancient Lightning Spear",
+        "fp_cost_display": "24",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "legendary",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:grafted-dragon:source-example",
+    "weapon_id": "weapon:grafted-dragon",
+    "observation_id": "weapon:grafted-dragon:observation:1",
+    "source_id": "weapon-research:mobalytics-grafted-dragon",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 63,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 42,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集致命一击字段。"
+    },
+    "guard": {
+      "value": null,
+      "state": "unknown",
+      "reason": "近战研究样本未采集防御字段。"
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Bear Witness",
+        "fp_cost_display": "20",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "近战武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "rarity_label_context": "legendary",
+      "stats_tied_to_label_confirmed": false,
+      "weapon_upgrade": null,
+      "character": null,
+      "character_level": null,
+      "affinity_roll": null,
+      "holding_mode": null,
+      "game_version": null
+    },
+    "null_reasons": {
+      "guard": "近战研究样本未采集防御字段。",
+      "critical": "近战研究样本未采集致命一击字段。",
+      "conditions": "补丁、强化、角色及品质与数值绑定均未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:ironeyes-bow:source-example",
+    "weapon_id": "weapon:ironeyes-bow",
+    "observation_id": "weapon:ironeyes-bow:observation:1",
+    "source_id": "weapon-research:mobalytics-ironeyes-bow",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 45,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Mighty Shot",
+        "fp_cost_display": "0 > 6 > 6",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  },
+  {
+    "id": "weapon:black-bow:source-example",
+    "weapon_id": "weapon:black-bow",
+    "observation_id": "weapon:black-bow:observation:1",
+    "source_id": "weapon-research:mobalytics-black-bow",
+    "verification_status": "source_reported",
+    "rarity_label": "rare",
+    "level_required": 7,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 73,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Barrage",
+        "fp_cost_display": "0 > 2 > 2",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  },
+  {
+    "id": "weapon:pulley-crossbow:source-example",
+    "weapon_id": "weapon:pulley-crossbow",
+    "observation_id": "weapon:pulley-crossbow:observation:1",
+    "source_id": "weapon-research:mobalytics-pulley-crossbow",
+    "verification_status": "source_reported",
+    "rarity_label": "rare",
+    "level_required": 7,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 106,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "explicit_none",
+      "grades": {},
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Kick",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  },
+  {
+    "id": "weapon:hand-ballista:source-example",
+    "weapon_id": "weapon:hand-ballista",
+    "observation_id": "weapon:hand-ballista:observation:1",
+    "source_id": "weapon-research:mobalytics-hand-ballista",
+    "verification_status": "source_reported",
+    "rarity_label": "uncommon",
+    "level_required": 3,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 431,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "explicit_none",
+      "grades": {},
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Kick",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  },
+  {
+    "id": "weapon:jar-cannon:source-example",
+    "weapon_id": "weapon:jar-cannon",
+    "observation_id": "weapon:jar-cannon:observation:1",
+    "source_id": "weapon-research:mobalytics-jar-cannon",
+    "verification_status": "source_reported",
+    "rarity_label": "rare",
+    "level_required": 7,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 584,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "explicit_none",
+      "grades": {},
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Kick",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  },
+  {
+    "id": "weapon:astrologers-staff:source-example",
+    "weapon_id": "weapon:astrologers-staff",
+    "observation_id": "weapon:astrologers-staff:observation:1",
+    "source_id": "weapon-research:mobalytics-astrologers-staff",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 25,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "intelligence": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": 133,
+      "state": "known",
+      "reason": null
+    },
+    "status": {
+      "state": "unreported",
+      "effects": null
+    },
+    "skill": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：该详情页明确触媒无固有战技。"
+    },
+    "spells": {
+      "value": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      },
+      "state": "known",
+      "reason": null
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "skill": "not_applicable：该详情页明确触媒无固有战技。",
+      "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+      "status.effects": "unknown：本页未给固有异常条目。"
+    }
+  },
+  {
+    "id": "weapon:carian-regal-scepter:source-example",
+    "weapon_id": "weapon:carian-regal-scepter",
+    "observation_id": "weapon:carian-regal-scepter:observation:1",
+    "source_id": "weapon-research:mobalytics-carian-regal-scepter",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 23,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "intelligence": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": 205,
+      "state": "known",
+      "reason": null
+    },
+    "status": {
+      "state": "unreported",
+      "effects": null
+    },
+    "skill": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：该详情页明确触媒无固有战技。"
+    },
+    "spells": {
+      "value": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      },
+      "state": "known",
+      "reason": null
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "skill": "not_applicable：该详情页明确触媒无固有战技。",
+      "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+      "status.effects": "unknown：本页未给固有异常条目。"
+    }
+  },
+  {
+    "id": "weapon:clawmark-seal:source-example",
+    "weapon_id": "weapon:clawmark-seal",
+    "observation_id": "weapon:clawmark-seal:observation:1",
+    "source_id": "weapon-research:mobalytics-clawmark-seal",
+    "verification_status": "source_reported",
+    "rarity_label": "uncommon",
+    "level_required": 3,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 31,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "faith": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": 197,
+      "state": "known",
+      "reason": null
+    },
+    "status": {
+      "state": "unreported",
+      "effects": null
+    },
+    "skill": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：该详情页明确触媒无固有战技。"
+    },
+    "spells": {
+      "value": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      },
+      "state": "known",
+      "reason": null
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "skill": "not_applicable：该详情页明确触媒无固有战技。",
+      "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+      "status.effects": "unknown：本页未给固有异常条目。"
+    }
+  },
+  {
+    "id": "weapon:dragon-communion-seal:source-example",
+    "weapon_id": "weapon:dragon-communion-seal",
+    "observation_id": "weapon:dragon-communion-seal:observation:1",
+    "source_id": "weapon-research:mobalytics-dragon-communion-seal",
+    "verification_status": "source_reported",
+    "rarity_label": "rare",
+    "level_required": 7,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 25,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "faith": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": 220,
+      "state": "known",
+      "reason": null
+    },
+    "status": {
+      "state": "unreported",
+      "effects": null
+    },
+    "skill": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：该详情页明确触媒无固有战技。"
+    },
+    "spells": {
+      "value": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      },
+      "state": "known",
+      "reason": null
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "skill": "not_applicable：该详情页明确触媒无固有战技。",
+      "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+      "status.effects": "unknown：本页未给固有异常条目。"
+    }
+  },
+  {
+    "id": "weapon:buckler:source-example",
+    "weapon_id": "weapon:buckler",
+    "observation_id": "weapon:buckler:observation:1",
+    "source_id": "weapon-research:mobalytics-buckler",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 49,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 41,
+        "fire": 41,
+        "lightning": 21,
+        "holy": 41,
+        "boost": 42
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Buckler Parry",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  },
+  {
+    "id": "weapon:brass-shield:source-example",
+    "weapon_id": "weapon:brass-shield",
+    "observation_id": "weapon:brass-shield:observation:1",
+    "source_id": "weapon-research:mobalytics-brass-shield",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 88,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 46,
+        "fire": 49,
+        "lightning": 32,
+        "holy": 45,
+        "boost": 75
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "A",
+        "dexterity": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": null,
+      "state": "unknown",
+      "reason": "random_unobserved：页面明确可附可用中盾战技，但未给具体战技。"
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "skill": "random_unobserved：页面明确可附可用中盾战技，但未给具体战技。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。"
+    }
+  },
+  {
+    "id": "weapon:ants-skull-plate:source-example",
+    "weapon_id": "weapon:ants-skull-plate",
+    "observation_id": "weapon:ants-skull-plate:observation:1",
+    "source_id": "weapon-research:mobalytics-ants-skull-plate",
+    "verification_status": "source_reported",
+    "rarity_label": "common",
+    "level_required": 1,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 113,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 64,
+        "fire": 48,
+        "lightning": 64,
+        "holy": 64,
+        "boost": 78
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "A",
+        "dexterity": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "poison",
+          "buildup": 84
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Shield Bash",
+        "fp_cost_display": "10",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "not_applicable：非施法触媒。"
+    },
+    "conditions": {
+      "game_version": null,
+      "character": null,
+      "character_level": null,
+      "upgrade_state": null,
+      "mode": null,
+      "rarity_scope": "only_the_displayed_source_example"
+    },
+    "null_reasons": {
+      "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+      "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+      "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+      "mode": "来源未说明普通/深夜等模式条件。",
+      "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+      "spell_power": "not_applicable：非施法触媒。",
+      "spells": "not_applicable：非施法触媒。",
+      "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+    }
+  }
+]

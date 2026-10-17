@@ -321,5 +321,22 @@
       }
     ],
     "verification_status": "documented_issue"
+  },
+  {
+    "id": "weapon-preview-conditions",
+    "name": "首批武器样本待完成版本和条件核验",
+    "detail": "24件装备目前均为来源报告；11个中文名称为候选译名。补丁、品质与面板绑定、强化和角色条件未完整核验；打刀战技的来源表述并列保留。",
+    "severity": "needs_verification",
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-uchigatana",
+        "locator": "武器图鉴首批研究"
+      },
+      {
+        "source_id": "weapon-research:bwiki-uchigatana",
+        "locator": "战技随机说明"
+      }
+    ],
+    "verification_status": "documented_issue"
   }
 ]

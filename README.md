@@ -6,6 +6,14 @@
 
 支持词条分组与档位比较、局内/局外分类、夜王属性、两夜 Boss 反查、大空洞水晶点位、角色和技能、事件、收藏、历史记录及显示设置。全部查询资料随本地网页或 APK 携带，应用不申请网络与存储权限。
 
+## 武器图鉴预览（测试分支）
+
+当前分支 `feat/weapon-catalog-test-20261017` 提供首批 **24 件装备 / 20 种类别**：中文、英文及别名搜索，类别和来源页面品质组合筛选，攻击、防御、补正、异常、战技与法术详情，以及 7 件武器到既有传说效果的关联。支持收藏、最近查看与逐级返回，返回列表保留筛选。
+
+本分支使用独立端口 **4318**、`duye-weapons-preview-v1:` 存储前缀及独立离线缓存。首次加载完成后可离线重开；不会读取正式版的收藏、地图标记和设置。正式发布仍为 v0.4.1；本预览未制作 APK、未合并 main。
+
+全部新面板均为研究资料中的来源报告，未完成现版游戏、强化及角色条件核验；11 个中文名称保留候选标记。24 件只是首批样本，并非全武器数据库。
+
 ## 直接看效果
 
 电脑安装 Node.js 22 或以上后，在此目录运行：
@@ -14,7 +22,7 @@
 npm start
 ```
 
-打开 <http://127.0.0.1:4317/>。不需要 `npm install`，没有运行时 npm 依赖。Windows 也可双击 `打开渡夜手册.cmd`。右上角“手机预览”可以切换窄屏布局，改完刷新即可；不需要每次安装 APK。无 Node 时，可直接打开 `dist/index.html`。
+打开 <http://127.0.0.1:4318/#weapons>。不需要 `npm install`，没有运行时 npm 依赖。Windows 也可双击 `打开渡夜手册.cmd`。右上角“手机预览”可以切换窄屏布局，改完刷新即可；不需要每次安装 APK。无 Node 时，可直接打开 `dist/index.html`。
 
 这是本机预览地址。手机可直接下载 [v0.4.1 APK](https://github.com/Toramy404/duye-handbook/releases/download/v0.4.1/duye-handbook-v0.4.1.apk)，更新说明和 SHA-256 见 [正式发布页](https://github.com/Toramy404/duye-handbook/releases/tag/v0.4.1)；以后从 [最新版本入口](https://github.com/Toramy404/duye-handbook/releases/latest) 下载。已装旧版请直接覆盖安装，详见 [安卓说明](android/README.md)。APK 不写入 Git；本机原包 `release/渡夜手册-v0.4.1.apk` 与公开附件内容一致，历史包保留。
 

@@ -37,3 +37,20 @@ npm test
 ## 第三方内容
 
 QuickRef对应固定来源提交为 `3e23450094c18125ae5665927ed240b18189a040`，许可证全文在 LICENSE 和 dist/DATA-LICENSE.txt。来源仓库：[NightreignQuickRef](https://github.com/xxiixi/NightreignQuickRef/tree/3e23450094c18125ae5665927ed240b18189a040)。其他社区来源的字段保留各自说明。来源链接可访问，不等于全部图片、文字和表格自动获得统一授权；参见 THIRD_PARTY_NOTICES。
+
+## 武器图鉴预览数据
+
+输入为 `docs/research/melee-12-source-observations.json`、`weapon-tools.json` 及配套说明，原始研究文件保持逐字节不变。`scripts/build_weapon_catalog.py` 是可复现的显式适配器；禁止把研究 JSON 直接改名导入。
+
+| 集合 | 职责 |
+| --- | --- |
+| weapons | 稳定身份、中文名状态、英文名称、检索别名、类别、来源与观察引用 |
+| weapon_variants | 每件装备的一个来源页面示例；品质标签与面板绑定仍为 false |
+| weapon_source_observations | 逐条保留研究文件的原始观察；不从展示字段反推原文 |
+| weapon_effect_links | 7 个显式关联到传奇效果原 ID，不复制或改写原来的 25 条记录 |
+
+先运行 `python scripts/build_weapon_catalog.py`，再运行 `python scripts/build_data.py`。两个脚本均支持 `--check`；总数据构建还会检查适配结果是否与研究观察一致。新增来源统一使用 `weapon-research:` 前缀写入 `sources.json`，避免与正式资料旧 ID 冲突。
+
+数据状态统一为 `source_reported`。面板字段的 `known` / `unknown` / `not_applicable` 只区分来源是否给值及是否适用，不表示游戏实测通过。明确的 0、false、空数组按原样保留；未知为 null 并带原因。属性补正未列项保持未知，只有明确无补正才展示“无”。Spell Power、近战攻击、防御、致命一击与 FP 格式分别展示，不生成总攻击或跨条件排名。
+
+打刀的 Unsheathe 示例与 BWIKI 随机描述并列。11 个候选中文名保留英文身份。资料日期 2026-10-17 不是游戏补丁；未核条件写入 issues，旧 294 条词条核验缺口保持原有口径。新别名只用于检索，不作为正式译名证据。

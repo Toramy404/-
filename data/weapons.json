@@ -1,0 +1,931 @@
+[
+  {
+    "id": "weapon:battle-axe",
+    "name": "战斧",
+    "name_en": "Battle Axe",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "斧",
+    "category_en": "Axe",
+    "group": "melee",
+    "description": "近战武器 · 斧",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:battle-axe:source-example"
+    ],
+    "observation_ids": [
+      "weapon:battle-axe:observation:1"
+    ],
+    "research_sample_id": "nr-melee-battle-axe",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:chinese-name-index",
+        "locator": "研究样本 nr-melee-battle-axe"
+      },
+      {
+        "source_id": "weapon-research:mobalytics-battle-axe",
+        "locator": "研究样本 nr-melee-battle-axe"
+      }
+    ]
+  },
+  {
+    "id": "weapon:banished-knights-halberd",
+    "name": "失乡骑士戟",
+    "name_en": "Banished Knight's Halberd",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "戟",
+    "category_en": "Halberd",
+    "group": "melee",
+    "description": "近战武器 · 戟",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:banished-knights-halberd:source-example"
+    ],
+    "observation_ids": [
+      "weapon:banished-knights-halberd:observation:1"
+    ],
+    "research_sample_id": "nr-melee-banished-knights-halberd",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:chinese-name-index",
+        "locator": "研究样本 nr-melee-banished-knights-halberd"
+      },
+      {
+        "source_id": "weapon-research:mobalytics-banished-knights-halberd",
+        "locator": "研究样本 nr-melee-banished-knights-halberd"
+      }
+    ]
+  },
+  {
+    "id": "weapon:bandits-curved-sword",
+    "name": "山贼弯刀",
+    "name_en": "Bandit's Curved Sword",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "曲剑",
+    "category_en": "Curved Sword",
+    "group": "melee",
+    "description": "近战武器 · 曲剑",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:bandits-curved-sword:source-example"
+    ],
+    "observation_ids": [
+      "weapon:bandits-curved-sword:observation:1"
+    ],
+    "research_sample_id": "nr-melee-bandits-curved-sword",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "网页未给完整适用战技池；不能把“可随机”扩展为所有战技。",
+      "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:chinese-name-index",
+        "locator": "研究样本 nr-melee-bandits-curved-sword"
+      },
+      {
+        "source_id": "weapon-research:mobalytics-bandits-curved-sword",
+        "locator": "研究样本 nr-melee-bandits-curved-sword"
+      }
+    ]
+  },
+  {
+    "id": "weapon:antspur-rapier",
+    "name": "蚁刺细剑",
+    "name_en": "Antspur Rapier",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "刺剑",
+    "category_en": "Thrusting Sword",
+    "group": "melee",
+    "description": "近战武器 · 刺剑",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:antspur-rapier:source-example"
+    ],
+    "observation_ids": [
+      "weapon:antspur-rapier:observation:1"
+    ],
+    "research_sample_id": "nr-melee-antspur-rapier",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:chinese-name-index",
+        "locator": "研究样本 nr-melee-antspur-rapier"
+      },
+      {
+        "source_id": "weapon-research:mobalytics-antspur-rapier",
+        "locator": "研究样本 nr-melee-antspur-rapier"
+      }
+    ]
+  },
+  {
+    "id": "weapon:uchigatana",
+    "name": "打刀",
+    "name_en": "Uchigatana",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "刀",
+    "category_en": "Katana",
+    "group": "melee",
+    "description": "近战武器 · 刀",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:uchigatana:source-example"
+    ],
+    "observation_ids": [
+      "weapon:uchigatana:observation:1",
+      "weapon:uchigatana:observation:2"
+    ],
+    "research_sample_id": "nr-melee-uchigatana",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "需裁定“页面列Unsheathe”与“战技随机”的语义，不能直接生成fixed_skill。",
+      "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:bwiki-uchigatana",
+        "locator": "研究样本 nr-melee-uchigatana"
+      },
+      {
+        "source_id": "weapon-research:mobalytics-uchigatana",
+        "locator": "研究样本 nr-melee-uchigatana"
+      }
+    ]
+  },
+  {
+    "id": "weapon:hookclaws",
+    "name": "钩爪",
+    "name_en": "Hookclaws",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "爪",
+    "category_en": "Claw",
+    "group": "melee",
+    "description": "近战武器 · 爪",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:hookclaws:source-example"
+    ],
+    "observation_ids": [
+      "weapon:hookclaws:observation:1"
+    ],
+    "research_sample_id": "nr-melee-hookclaws",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:chinese-name-index",
+        "locator": "研究样本 nr-melee-hookclaws"
+      },
+      {
+        "source_id": "weapon-research:mobalytics-hookclaws",
+        "locator": "研究样本 nr-melee-hookclaws"
+      }
+    ]
+  },
+  {
+    "id": "weapon:axe-of-godfrey",
+    "name": "葛孚雷的王斧",
+    "name_en": "Axe Of Godfrey",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [
+      "王斧"
+    ],
+    "category": "特大武器",
+    "category_en": "Colossal Weapon",
+    "group": "melee",
+    "description": "近战武器 · 特大武器",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:axe-of-godfrey:source-example"
+    ],
+    "observation_ids": [
+      "weapon:axe-of-godfrey:observation:1",
+      "weapon:axe-of-godfrey:observation:2"
+    ],
+    "research_sample_id": "nr-melee-axe-of-godfrey",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "庇佑触发/刷新/叠加及多人作用范围待游戏内复核。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-axe-of-godfrey",
+        "locator": "研究样本 nr-melee-axe-of-godfrey"
+      },
+      {
+        "source_id": "weapon-research:quickref-weapon-effect",
+        "locator": "研究样本 nr-melee-axe-of-godfrey"
+      }
+    ]
+  },
+  {
+    "id": "weapon:dark-moon-greatsword",
+    "name": "暗月大剑",
+    "name_en": "Dark Moon Greatsword",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [
+      "月光大剑",
+      "月光剑"
+    ],
+    "category": "大剑",
+    "category_en": "Greatsword",
+    "group": "melee",
+    "description": "近战武器 · 大剑",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:dark-moon-greatsword:source-example"
+    ],
+    "observation_ids": [
+      "weapon:dark-moon-greatsword:observation:1",
+      "weapon:dark-moon-greatsword:observation:2"
+    ],
+    "research_sample_id": "nr-melee-dark-moon-greatsword",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "庇佑触发/刷新/叠加及多人作用范围待游戏内复核。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-dark-moon-greatsword",
+        "locator": "研究样本 nr-melee-dark-moon-greatsword"
+      },
+      {
+        "source_id": "weapon-research:quickref-weapon-effect",
+        "locator": "研究样本 nr-melee-dark-moon-greatsword"
+      }
+    ]
+  },
+  {
+    "id": "weapon:marikas-hammer",
+    "name": "玛莉卡的石槌",
+    "name_en": "Marika's Hammer",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [
+      "玛莉卡石槌"
+    ],
+    "category": "槌",
+    "category_en": "Hammer",
+    "group": "melee",
+    "description": "近战武器 · 槌",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:marikas-hammer:source-example"
+    ],
+    "observation_ids": [
+      "weapon:marikas-hammer:observation:1",
+      "weapon:marikas-hammer:observation:2"
+    ],
+    "research_sample_id": "nr-melee-marikas-hammer",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "庇佑伤害/削韧是源表表达；公式输入、倍率参考量、测试对象及减伤前后口径待核。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-marikas-hammer",
+        "locator": "研究样本 nr-melee-marikas-hammer"
+      },
+      {
+        "source_id": "weapon-research:quickref-weapon-effect",
+        "locator": "研究样本 nr-melee-marikas-hammer"
+      }
+    ]
+  },
+  {
+    "id": "weapon:bastards-stars",
+    "name": "弃子的繁星",
+    "name_en": "Bastard's Stars",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "连枷",
+    "category_en": "Flail",
+    "group": "melee",
+    "description": "近战武器 · 连枷",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:bastards-stars:source-example"
+    ],
+    "observation_ids": [
+      "weapon:bastards-stars:observation:1",
+      "weapon:bastards-stars:observation:2"
+    ],
+    "research_sample_id": "nr-melee-bastards-stars",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "庇佑伤害/削韧是源表表达；公式输入、倍率参考量、测试对象及减伤前后口径待核。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-bastards-stars",
+        "locator": "研究样本 nr-melee-bastards-stars"
+      },
+      {
+        "source_id": "weapon-research:quickref-weapon-effect",
+        "locator": "研究样本 nr-melee-bastards-stars"
+      }
+    ]
+  },
+  {
+    "id": "weapon:bolt-of-gransax",
+    "name": "古兰桑克斯的雷电",
+    "name_en": "Bolt Of Gransax",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [],
+    "category": "矛",
+    "category_en": "Spear",
+    "group": "melee",
+    "description": "近战武器 · 矛",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:bolt-of-gransax:source-example"
+    ],
+    "observation_ids": [
+      "weapon:bolt-of-gransax:observation:1",
+      "weapon:bolt-of-gransax:observation:2"
+    ],
+    "research_sample_id": "nr-melee-bolt-of-gransax",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "庇佑触发/刷新/叠加及多人作用范围待游戏内复核。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-bolt-of-gransax",
+        "locator": "研究样本 nr-melee-bolt-of-gransax"
+      },
+      {
+        "source_id": "weapon-research:quickref-weapon-effect",
+        "locator": "研究样本 nr-melee-bolt-of-gransax"
+      }
+    ]
+  },
+  {
+    "id": "weapon:grafted-dragon",
+    "name": "接肢飞龙",
+    "name_en": "Grafted Dragon",
+    "name_zh_status": "community_source_name_match_not_official_localization_dump",
+    "aliases": [
+      "龙头"
+    ],
+    "category": "拳头",
+    "category_en": "Fist",
+    "group": "melee",
+    "description": "近战武器 · 拳头",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:grafted-dragon:source-example"
+    ],
+    "observation_ids": [
+      "weapon:grafted-dragon:observation:1",
+      "weapon:grafted-dragon:observation:2"
+    ],
+    "research_sample_id": "nr-melee-grafted-dragon",
+    "known_gaps": [
+      "未锁定补丁版本与来源修订。",
+      "缺游戏内独立复核及品质/强化/角色条件。",
+      "缺完整掉落规则、异常随机词条池和战技池。",
+      "庇佑伤害/削韧是源表表达；公式输入、倍率参考量、测试对象及减伤前后口径待核。"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-grafted-dragon",
+        "locator": "研究样本 nr-melee-grafted-dragon"
+      },
+      {
+        "source_id": "weapon-research:quickref-weapon-effect",
+        "locator": "研究样本 nr-melee-grafted-dragon"
+      }
+    ]
+  },
+  {
+    "id": "weapon:ironeyes-bow",
+    "name": "铁之眼的弓",
+    "name_en": "Ironeye's Bow",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [
+      "铁眼弓",
+      "铁之眼弓"
+    ],
+    "category": "弓",
+    "category_en": "Bow",
+    "group": "ranged",
+    "description": "远距射击；可作远程救援工具。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:ironeyes-bow:source-example"
+    ],
+    "observation_ids": [
+      "weapon:ironeyes-bow:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-ironeyes-bow",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界",
+      "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-ironeyes-bow",
+        "locator": "研究样本 nr-tool-sample-ironeyes-bow"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-ironeyes-bow"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-ironeyes-bow"
+      }
+    ]
+  },
+  {
+    "id": "weapon:black-bow",
+    "name": "黑弓",
+    "name_en": "Black Bow",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [],
+    "category": "弓",
+    "category_en": "Bow",
+    "group": "ranged",
+    "description": "移动射击；连续出箭。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:black-bow:source-example"
+    ],
+    "observation_ids": [
+      "weapon:black-bow:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-black-bow",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界",
+      "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-black-bow",
+        "locator": "研究样本 nr-tool-sample-black-bow"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-black-bow"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-black-bow"
+      }
+    ]
+  },
+  {
+    "id": "weapon:pulley-crossbow",
+    "name": "滑轮弩",
+    "name_en": "Pulley Crossbow",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [],
+    "category": "弩",
+    "category_en": "Crossbow",
+    "group": "ranged",
+    "description": "远距连射；备用远程武器。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:pulley-crossbow:source-example"
+    ],
+    "observation_ids": [
+      "weapon:pulley-crossbow:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-pulley-crossbow",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界",
+      "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-pulley-crossbow",
+        "locator": "研究样本 nr-tool-sample-pulley-crossbow"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-pulley-crossbow"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-pulley-crossbow"
+      }
+    ]
+  },
+  {
+    "id": "weapon:hand-ballista",
+    "name": "手持弩炮",
+    "name_en": "Hand Ballista",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [],
+    "category": "弩炮",
+    "category_en": "Ballista",
+    "group": "ranged",
+    "description": "发射大弩箭。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:hand-ballista:source-example"
+    ],
+    "observation_ids": [
+      "weapon:hand-ballista:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-hand-ballista",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界",
+      "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-hand-ballista",
+        "locator": "研究样本 nr-tool-sample-hand-ballista"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-hand-ballista"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-hand-ballista"
+      }
+    ]
+  },
+  {
+    "id": "weapon:jar-cannon",
+    "name": "壶大炮",
+    "name_en": "Jar Cannon",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [],
+    "category": "弩炮",
+    "category_en": "Ballista",
+    "group": "ranged",
+    "description": "重型远距射击。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:jar-cannon:source-example"
+    ],
+    "observation_ids": [
+      "weapon:jar-cannon:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-jar-cannon",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界",
+      "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-jar-cannon",
+        "locator": "研究样本 nr-tool-sample-jar-cannon"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-jar-cannon"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-jar-cannon"
+      }
+    ]
+  },
+  {
+    "id": "weapon:astrologers-staff",
+    "name": "观星杖",
+    "name_en": "Astrologer's Staff",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [
+      "观星者杖"
+    ],
+    "category": "法杖",
+    "category_en": "Glintstone Staff",
+    "group": "catalyst",
+    "description": "施放魔法。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:astrologers-staff:source-example"
+    ],
+    "observation_ids": [
+      "weapon:astrologers-staff:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-astrologers-staff",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "Spell Power的计算条件与实际法术倍率"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-astrologers-staff",
+        "locator": "研究样本 nr-tool-sample-astrologers-staff"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-astrologers-staff"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-astrologers-staff"
+      }
+    ]
+  },
+  {
+    "id": "weapon:carian-regal-scepter",
+    "name": "卡利亚权杖",
+    "name_en": "Carian Regal Scepter",
+    "name_zh_status": "community_name_crosschecked",
+    "aliases": [],
+    "category": "法杖",
+    "category_en": "Glintstone Staff",
+    "group": "catalyst",
+    "description": "施放魔法。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:carian-regal-scepter:source-example"
+    ],
+    "observation_ids": [
+      "weapon:carian-regal-scepter:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-carian-regal-scepter",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "Spell Power的计算条件与实际法术倍率"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-carian-regal-scepter",
+        "locator": "研究样本 nr-tool-sample-carian-regal-scepter"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-carian-regal-scepter"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-carian-regal-scepter"
+      },
+      {
+        "source_id": "weapon-research:quickref-character",
+        "locator": "研究样本 nr-tool-sample-carian-regal-scepter"
+      },
+      {
+        "source_id": "weapon-research:quickref-effects",
+        "locator": "研究样本 nr-tool-sample-carian-regal-scepter"
+      }
+    ]
+  },
+  {
+    "id": "weapon:clawmark-seal",
+    "name": "爪痕圣印记",
+    "name_en": "Clawmark Seal",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [
+      "爪痕圣印"
+    ],
+    "category": "圣印记",
+    "category_en": "Sacred Seal",
+    "group": "catalyst",
+    "description": "施放祷告；具体输出或辅助用途看所附祷告。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:clawmark-seal:source-example"
+    ],
+    "observation_ids": [
+      "weapon:clawmark-seal:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-clawmark-seal",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "Spell Power的计算条件与实际法术倍率"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-clawmark-seal",
+        "locator": "研究样本 nr-tool-sample-clawmark-seal"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-clawmark-seal"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-clawmark-seal"
+      }
+    ]
+  },
+  {
+    "id": "weapon:dragon-communion-seal",
+    "name": "龙飨印记",
+    "name_en": "Dragon Communion Seal",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [
+      "龙飨圣印"
+    ],
+    "category": "圣印记",
+    "category_en": "Sacred Seal",
+    "group": "catalyst",
+    "description": "施放祷告。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:dragon-communion-seal:source-example"
+    ],
+    "observation_ids": [
+      "weapon:dragon-communion-seal:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-dragon-communion-seal",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "Spell Power的计算条件与实际法术倍率"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-dragon-communion-seal",
+        "locator": "研究样本 nr-tool-sample-dragon-communion-seal"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-dragon-communion-seal"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-dragon-communion-seal"
+      }
+    ]
+  },
+  {
+    "id": "weapon:buckler",
+    "name": "小圆盾",
+    "name_en": "Buckler",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [],
+    "category": "小盾",
+    "category_en": "Small Shield",
+    "group": "shield",
+    "description": "防御；抓准时机弹反。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:buckler:source-example"
+    ],
+    "observation_ids": [
+      "weapon:buckler:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-buckler",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-buckler",
+        "locator": "研究样本 nr-tool-sample-buckler"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-buckler"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-buckler"
+      }
+    ]
+  },
+  {
+    "id": "weapon:brass-shield",
+    "name": "黄铜盾",
+    "name_en": "Brass Shield",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [],
+    "category": "中盾",
+    "category_en": "Medium Shield",
+    "group": "shield",
+    "description": "防御。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:brass-shield:source-example"
+    ],
+    "observation_ids": [
+      "weapon:brass-shield:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-brass-shield",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-brass-shield",
+        "locator": "研究样本 nr-tool-sample-brass-shield"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-brass-shield"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-brass-shield"
+      }
+    ]
+  },
+  {
+    "id": "weapon:ants-skull-plate",
+    "name": "蚂蚁头盾",
+    "name_en": "Ant's Skull Plate",
+    "name_zh_status": "provisional_translation_not_localization_verified",
+    "aliases": [
+      "蚂蚁盾"
+    ],
+    "category": "大盾",
+    "category_en": "Greatshield",
+    "group": "shield",
+    "description": "防御；盾击附带中毒积累。",
+    "verification_status": "source_reported",
+    "variant_ids": [
+      "weapon:ants-skull-plate:source-example"
+    ],
+    "observation_ids": [
+      "weapon:ants-skull-plate:observation:1"
+    ],
+    "research_sample_id": "nr-tool-sample-ants-skull-plate",
+    "known_gaps": [
+      "游戏版本与升级/增益/角色条件",
+      "对应品质之外的数值变化",
+      "中文正式译名",
+      "战技固定性及可随机词条边界"
+    ],
+    "source_refs": [
+      {
+        "source_id": "weapon-research:mobalytics-ants-skull-plate",
+        "locator": "研究样本 nr-tool-sample-ants-skull-plate"
+      },
+      {
+        "source_id": "weapon-research:official-guide",
+        "locator": "研究样本 nr-tool-sample-ants-skull-plate"
+      },
+      {
+        "source_id": "weapon-research:official-guide-pdf",
+        "locator": "研究样本 nr-tool-sample-ants-skull-plate"
+      }
+    ]
+  }
+]

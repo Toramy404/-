@@ -1,7 +1,7 @@
 {
-  "name": "渡夜手册 · 黑夜君临",
-  "short_name": "渡夜手册",
-  "start_url": "./",
+  "name": "渡夜手册 · 武器图鉴预览",
+  "short_name": "渡夜预览",
+  "start_url": "./#weapons",
   "scope": "./",
   "display": "standalone",
   "background_color": "#10171e",
@@ -14,5 +14,6 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+  "id": "./weapon-preview"
 }

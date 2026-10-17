@@ -25,5 +25,9 @@
   "issues",
   "corrections",
   "sources",
-  "audit"
+  "audit",
+  "weapons",
+  "weapon_variants",
+  "weapon_source_observations",
+  "weapon_effect_links"
 ]

@@ -423,5 +423,494 @@
     "snapshot_path": "work/nightreign/sources/audit/stackability.xlsx",
     "sha256": "9e5ae34b62695b483ff3a57fda080dc55a37022f532decbc08e9bf526452dcc0",
     "bytes": 561351
+  },
+  {
+    "id": "weapon-research:quickref-weapon-effect",
+    "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_effect.json",
+    "publisher": "NightreignQuickRef / xxiixi",
+    "kind": "community_repository",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "source_revision": null,
+    "limitations_zh": "main分支；本次网页读取未取得提交哈希、发布时间或适用游戏版本。数字是该表观察，未做游戏内复测。只节选六个庇佑信息，不导入整库。",
+    "title": "NightreignQuickRef / xxiixi · quickref-weapon-effect",
+    "version": null,
+    "note": "main分支；本次网页读取未取得提交哈希、发布时间或适用游戏版本。数字是该表观察，未做游戏内复测。只节选六个庇佑信息，不导入整库。",
+    "research_source_id": "quickref-weapon-effect"
+  },
+  {
+    "id": "weapon-research:chinese-name-index",
+    "url": "https://agame01.com/article/54864165/",
+    "publisher": "電玩01（页面标注游民星空图鉴）",
+    "kind": "community_guide_republication",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "source_revision": null,
+    "limitations_zh": "仅用于五把非传说武器中文名称与类别的繁简字形核对；不作为面板、战技或庇佑数据来源；不是官方本地化档。",
+    "title": "電玩01（页面标注游民星空图鉴） · chinese-name-index",
+    "version": null,
+    "note": "仅用于五把非传说武器中文名称与类别的繁简字形核对；不作为面板、战技或庇佑数据来源；不是官方本地化档。",
+    "research_source_id": "chinese-name-index"
+  },
+  {
+    "id": "weapon-research:bwiki-uchigatana",
+    "url": "https://wiki.biligame.com/nightreign/%E6%89%93%E5%88%80",
+    "publisher": "黑夜君临资料站 BWIKI",
+    "kind": "community_wiki",
+    "accessed_at": "2026-10-17",
+    "page_updated_at": "2026-01-30",
+    "source_revision": "oldid=1983",
+    "game_version": null,
+    "limitations_zh": "仅交叉核对打刀中文名、战技随机标记与庇佑横线。页面更新日不等于游戏补丁版本。",
+    "title": "黑夜君临资料站 BWIKI · bwiki-uchigatana",
+    "version": null,
+    "note": "仅交叉核对打刀中文名、战技随机标记与庇佑横线。页面更新日不等于游戏补丁版本。",
+    "research_source_id": "bwiki-uchigatana"
+  },
+  {
+    "id": "weapon-research:mobalytics-battle-axe",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/battle-axe",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-battle-axe",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-battle-axe"
+  },
+  {
+    "id": "weapon-research:mobalytics-banished-knights-halberd",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/banished-knights-halberd",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-banished-knights-halberd",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-banished-knights-halberd"
+  },
+  {
+    "id": "weapon-research:mobalytics-bandits-curved-sword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/bandits-curved-sword",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-bandits-curved-sword",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-bandits-curved-sword"
+  },
+  {
+    "id": "weapon-research:mobalytics-antspur-rapier",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/antspur-rapier",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-antspur-rapier",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-antspur-rapier"
+  },
+  {
+    "id": "weapon-research:mobalytics-uchigatana",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/uchigatana",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-uchigatana",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-uchigatana"
+  },
+  {
+    "id": "weapon-research:mobalytics-hookclaws",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/hookclaws",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-hookclaws",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-hookclaws"
+  },
+  {
+    "id": "weapon-research:mobalytics-axe-of-godfrey",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/axe-of-godfrey",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-axe-of-godfrey",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-axe-of-godfrey"
+  },
+  {
+    "id": "weapon-research:mobalytics-dark-moon-greatsword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/dark-moon-greatsword",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-dark-moon-greatsword",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-dark-moon-greatsword"
+  },
+  {
+    "id": "weapon-research:mobalytics-marikas-hammer",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/marikas-hammer",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-marikas-hammer",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-marikas-hammer"
+  },
+  {
+    "id": "weapon-research:mobalytics-bastards-stars",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/bastards-stars",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-bastards-stars",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-bastards-stars"
+  },
+  {
+    "id": "weapon-research:mobalytics-bolt-of-gransax",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/bolt-of-gransax",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-bolt-of-gransax",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-bolt-of-gransax"
+  },
+  {
+    "id": "weapon-research:mobalytics-grafted-dragon",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/grafted-dragon",
+    "publisher": "Mobalytics",
+    "kind": "nightreign_weapon_detail",
+    "accessed_at": "2026-10-17",
+    "game_version": null,
+    "page_updated_at": null,
+    "source_revision": null,
+    "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "title": "Mobalytics · mobalytics-grafted-dragon",
+    "version": null,
+    "note": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。",
+    "research_source_id": "mobalytics-grafted-dragon"
+  },
+  {
+    "title": "Bandai Namco — Official Starter Guide",
+    "url": "https://en.bandainamcoent.eu/elden-ring/news/elden-ring-nightreign-the-official-starter-guide",
+    "published_at": "2025-06-17",
+    "kind": "official_Nightreign",
+    "supports": [
+      "一般装备随机性",
+      "弓弩可远程救援"
+    ],
+    "game_version": null,
+    "id": "weapon-research:official-guide",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "official-guide"
+  },
+  {
+    "title": "Bandai Namco / Future Press — Official Starter Guide PDF",
+    "url": "https://media-center.bandainamcoent.eu/games/elden-ring-nightreign/ERN_FuturePress_StarterGuide.pdf",
+    "kind": "official_Nightreign",
+    "supports": [
+      "仅搜索索引摘录：品质与等级要求、随机属性、异常、品质、部分武器固定战技"
+    ],
+    "game_version": null,
+    "read_status": "search_excerpt_only",
+    "full_fetch_status": "failed_content_length_58709729_bytes",
+    "page_number": null,
+    "limits": "未完成PDF全文或分页核验；只作线索，不认证页面数值。",
+    "id": "weapon-research:official-guide-pdf",
+    "version": null,
+    "note": "未完成PDF全文或分页核验；只作线索，不认证页面数值。",
+    "research_source_id": "official-guide-pdf"
+  },
+  {
+    "title": "NightreignQuickRef — weapon_effect.json",
+    "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_effect.json",
+    "kind": "community_Nightreign",
+    "supports": [
+      "卡利亚权杖中文名及法杖类别",
+      "满月的庇佑关系"
+    ],
+    "game_version": null,
+    "read_only": true,
+    "id": "weapon-research:quickref-effects",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "quickref-effects"
+  },
+  {
+    "title": "BWIKI 黑夜君临 — 武器总览",
+    "url": "https://wiki.biligame.com/nightreign/%E6%AD%A6%E5%99%A8%E6%80%BB%E8%A7%88",
+    "kind": "community_Nightreign",
+    "published_at": "2026-01-31",
+    "supports": [
+      "类别目录"
+    ],
+    "limits": "搜索索引可读；直接页面两次超时。索引中的射击、触媒、盾牌条目区为空，不能支持这12条数值或名称。",
+    "id": "weapon-research:bwiki-overview",
+    "version": null,
+    "note": "搜索索引可读；直接页面两次超时。索引中的射击、触媒、盾牌条目区为空，不能支持这12条数值或名称。",
+    "research_source_id": "bwiki-overview"
+  },
+  {
+    "title": "NightreignQuickRef — weapon_character.json",
+    "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_character.json",
+    "kind": "community_Nightreign",
+    "supports": [
+      "卡利亚权杖中文名称"
+    ],
+    "limits": "角色相关面板有数值但条件未在该数据文件中解释，不混入单武器页面数值。",
+    "id": "weapon-research:quickref-character",
+    "version": null,
+    "note": "角色相关面板有数值但条件未在该数据文件中解释，不混入单武器页面数值。",
+    "research_source_id": "quickref-character"
+  },
+  {
+    "title": "Ironeye's Bow — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/ironeyes-bow",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-ironeyes-bow",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-ironeyes-bow"
+  },
+  {
+    "title": "Black Bow — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/black-bow",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-black-bow",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-black-bow"
+  },
+  {
+    "title": "Pulley Crossbow — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/pulley-crossbow",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-pulley-crossbow",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-pulley-crossbow"
+  },
+  {
+    "title": "Hand Ballista — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/hand-ballista",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-hand-ballista",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-hand-ballista"
+  },
+  {
+    "title": "Jar Cannon — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/jar-cannon",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-jar-cannon",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-jar-cannon"
+  },
+  {
+    "title": "Astrologer's Staff — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/astrologers-staff",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-astrologers-staff",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-astrologers-staff"
+  },
+  {
+    "title": "Carian Regal Scepter — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/carian-regal-scepter",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-carian-regal-scepter",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-carian-regal-scepter"
+  },
+  {
+    "title": "Clawmark Seal — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/clawmark-seal",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-clawmark-seal",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-clawmark-seal"
+  },
+  {
+    "title": "Dragon Communion Seal — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/dragon-communion-seal",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-dragon-communion-seal",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-dragon-communion-seal"
+  },
+  {
+    "title": "Buckler — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/shields/buckler",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-buckler",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-buckler"
+  },
+  {
+    "title": "Brass Shield — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/shields/brass-shield",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-brass-shield",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-brass-shield"
+  },
+  {
+    "title": "Ant's Skull Plate — Nightreign Wiki / Mobalytics",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/shields/ants-skull-plate",
+    "kind": "community_Nightreign",
+    "game_version": null,
+    "sections": [
+      "简介",
+      "Ashes of War and Spells",
+      "Attack & Guard Stats",
+      "Scaling and More"
+    ],
+    "id": "weapon-research:mobalytics-ants-skull-plate",
+    "version": null,
+    "note": "研究来源记录，未完成游戏内验证。",
+    "research_source_id": "mobalytics-ants-skull-plate"
   }
 ]

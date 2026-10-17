@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "weapon:battle-axe:observation:1",
+    "weapon_id": "weapon:battle-axe",
+    "source_id": "weapon-research:mobalytics-battle-axe",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-battle-axe",
+      "scope": "weapon_detail_page",
+      "rarity_label": "common",
+      "level_required": 1,
+      "attack_rating_display": {
+        "physical": 77,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "physical_attack_types_display": [
+        "standard"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Wild Strikes",
+        "name_zh": null,
+        "fp_cost_text": "2 > 10 > 15",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "common",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:banished-knights-halberd:observation:1",
+    "weapon_id": "weapon:banished-knights-halberd",
+    "source_id": "weapon-research:mobalytics-banished-knights-halberd",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-banished-knights-halberd",
+      "scope": "weapon_detail_page",
+      "rarity_label": "common",
+      "level_required": 1,
+      "attack_rating_display": {
+        "physical": 86,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "physical_attack_types_display": [
+        "standard",
+        "pierce"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Charge Forth",
+        "name_zh": null,
+        "fp_cost_text": "16",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "common",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:bandits-curved-sword:observation:1",
+    "weapon_id": "weapon:bandits-curved-sword",
+    "source_id": "weapon-research:mobalytics-bandits-curved-sword",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-bandits-curved-sword",
+      "scope": "weapon_detail_page",
+      "rarity_label": "common",
+      "level_required": 1,
+      "attack_rating_display": {
+        "physical": 73,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "D",
+        "dexterity": "A"
+      },
+      "physical_attack_types_display": [
+        "slash"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": null,
+        "name_zh": null,
+        "fp_cost_text": null,
+        "drop_assignment": null,
+        "interpretation": "page_lists_no_innate_skill"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "common",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。",
+      "randomization_claim": {
+        "skill": "按曲剑适用池随机",
+        "damage_types": "页面称可随机",
+        "status_buildup": "页面称可随机",
+        "pool_members": null
+      }
+    }
+  },
+  {
+    "id": "weapon:antspur-rapier:observation:1",
+    "weapon_id": "weapon:antspur-rapier",
+    "source_id": "weapon-research:mobalytics-antspur-rapier",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-antspur-rapier",
+      "scope": "weapon_detail_page",
+      "rarity_label": "rare",
+      "level_required": 7,
+      "attack_rating_display": {
+        "physical": 88,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "physical_attack_types_display": [
+        "standard",
+        "pierce"
+      ],
+      "innate_status_display": [
+        {
+          "type": "scarlet_rot",
+          "buildup": 56
+        }
+      ],
+      "skill_display": {
+        "name_en": "Impaling Thrust",
+        "name_zh": null,
+        "fp_cost_text": "9",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "rare",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:uchigatana:observation:1",
+    "weapon_id": "weapon:uchigatana",
+    "source_id": "weapon-research:mobalytics-uchigatana",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-uchigatana",
+      "scope": "weapon_detail_page",
+      "rarity_label": "common",
+      "level_required": 1,
+      "attack_rating_display": {
+        "physical": 66,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "physical_attack_types_display": [
+        "slash",
+        "pierce"
+      ],
+      "innate_status_display": [
+        {
+          "type": "blood_loss",
+          "buildup": 30
+        }
+      ],
+      "skill_display": {
+        "name_en": "Unsheathe",
+        "name_zh": null,
+        "fp_cost_text": "0 > 10 > 15",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "common",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:uchigatana:observation:2",
+    "weapon_id": "weapon:uchigatana",
+    "source_id": "weapon-research:bwiki-uchigatana",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "bwiki-uchigatana",
+      "scope": "skill_assignment_and_chinese_name",
+      "skill_assignment_text": "随机",
+      "blessing_marker": "—",
+      "interpretation_zh": "与Mobalytics列居合的表达方式不一致；只能确定两页的记录，固定战技仍留空。"
+    }
+  },
+  {
+    "id": "weapon:hookclaws:observation:1",
+    "weapon_id": "weapon:hookclaws",
+    "source_id": "weapon-research:mobalytics-hookclaws",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-hookclaws",
+      "scope": "weapon_detail_page",
+      "rarity_label": "common",
+      "level_required": 1,
+      "attack_rating_display": {
+        "physical": 56,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "D",
+        "dexterity": "A"
+      },
+      "physical_attack_types_display": [
+        "slash",
+        "pierce"
+      ],
+      "innate_status_display": [
+        {
+          "type": "blood_loss",
+          "buildup": 30
+        }
+      ],
+      "skill_display": {
+        "name_en": "Quickstep",
+        "name_zh": null,
+        "fp_cost_text": "3",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "common",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:axe-of-godfrey:observation:1",
+    "weapon_id": "weapon:axe-of-godfrey",
+    "source_id": "weapon-research:mobalytics-axe-of-godfrey",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-axe-of-godfrey",
+      "scope": "weapon_detail_page",
+      "rarity_label": "legendary",
+      "level_required": 10,
+      "attack_rating_display": {
+        "physical": 181,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "S"
+      },
+      "physical_attack_types_display": [
+        "standard"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Regal Roar",
+        "name_zh": null,
+        "fp_cost_text": "25",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "legendary",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:axe-of-godfrey:observation:2",
+    "weapon_id": "weapon:axe-of-godfrey",
+    "source_id": "weapon-research:quickref-weapon-effect",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "quickref-weapon-effect",
+      "scope": "unique_blessing",
+      "name_zh": "初始之王的庇佑",
+      "trigger": "蓄力攻击",
+      "observation_summary_zh": "攻击力增幅20%，维持15秒。",
+      "numeric_observation": {
+        "attack_increase_percent": 20,
+        "duration_seconds": 15
+      },
+      "conditions": {
+        "game_version": null,
+        "test_setup": null,
+        "proc_probability": null,
+        "stacking_rules": null
+      },
+      "verification": "community_report_unverified_in_game"
+    }
+  },
+  {
+    "id": "weapon:dark-moon-greatsword:observation:1",
+    "weapon_id": "weapon:dark-moon-greatsword",
+    "source_id": "weapon-research:mobalytics-dark-moon-greatsword",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-dark-moon-greatsword",
+      "scope": "weapon_detail_page",
+      "rarity_label": "legendary",
+      "level_required": 10,
+      "attack_rating_display": {
+        "physical": 53,
+        "magic": 79,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "B",
+        "dexterity": "C",
+        "intelligence": "C"
+      },
+      "physical_attack_types_display": [
+        "standard",
+        "pierce"
+      ],
+      "innate_status_display": [
+        {
+          "type": "frostbite",
+          "buildup": 52
+        }
+      ],
+      "skill_display": {
+        "name_en": "Moonlight Greatsword",
+        "name_zh": null,
+        "fp_cost_text": "32",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "legendary",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:dark-moon-greatsword:observation:2",
+    "weapon_id": "weapon:dark-moon-greatsword",
+    "source_id": "weapon-research:quickref-weapon-effect",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "quickref-weapon-effect",
+      "scope": "unique_blessing",
+      "name_zh": "暗月的庇佑",
+      "trigger": "攻击命中",
+      "observation_summary_zh": "目标魔力受伤增幅15%，维持20秒。",
+      "numeric_observation": {
+        "target_magic_damage_taken_increase_percent": 15,
+        "duration_seconds": 20
+      },
+      "conditions": {
+        "game_version": null,
+        "test_setup": null,
+        "proc_probability": null,
+        "stacking_rules": null
+      },
+      "verification": "community_report_unverified_in_game"
+    }
+  },
+  {
+    "id": "weapon:marikas-hammer:observation:1",
+    "weapon_id": "weapon:marikas-hammer",
+    "source_id": "weapon-research:mobalytics-marikas-hammer",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-marikas-hammer",
+      "scope": "weapon_detail_page",
+      "rarity_label": "legendary",
+      "level_required": 10,
+      "attack_rating_display": {
+        "physical": 74,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 49
+      },
+      "attribute_scaling_display": {
+        "strength": "B",
+        "dexterity": "D",
+        "faith": "D"
+      },
+      "physical_attack_types_display": [
+        "strike"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Gold Breaker",
+        "name_zh": null,
+        "fp_cost_text": "26",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "legendary",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:marikas-hammer:observation:2",
+    "weapon_id": "weapon:marikas-hammer",
+    "source_id": "weapon-research:quickref-weapon-effect",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "quickref-weapon-effect",
+      "scope": "unique_blessing",
+      "name_zh": "女王的庇佑",
+      "trigger": "蓄力攻击",
+      "observation_summary_zh": "附加地面冲击；源表列56圣、5削韧。",
+      "numeric_observation": {
+        "wave_holy_attack": 56,
+        "wave_poise_damage": 5
+      },
+      "conditions": {
+        "game_version": null,
+        "test_setup": null,
+        "proc_probability": null,
+        "stacking_rules": null
+      },
+      "verification": "community_report_unverified_in_game"
+    }
+  },
+  {
+    "id": "weapon:bastards-stars:observation:1",
+    "weapon_id": "weapon:bastards-stars",
+    "source_id": "weapon-research:mobalytics-bastards-stars",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-bastards-stars",
+      "scope": "weapon_detail_page",
+      "rarity_label": "legendary",
+      "level_required": 10,
+      "attack_rating_display": {
+        "physical": 58,
+        "magic": 68,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "C",
+        "dexterity": "B",
+        "intelligence": "D"
+      },
+      "physical_attack_types_display": [
+        "strike"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Nebula",
+        "name_zh": null,
+        "fp_cost_text": "25",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "legendary",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:bastards-stars:observation:2",
+    "weapon_id": "weapon:bastards-stars",
+    "source_id": "weapon-research:quickref-weapon-effect",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "quickref-weapon-effect",
+      "scope": "unique_blessing",
+      "name_zh": "黑暗的庇佑",
+      "trigger": "攻击时概率触发",
+      "observation_summary_zh": "连爆3次；每爆列39普通伤害、3削韧。",
+      "numeric_observation": {
+        "explosion_count": 3,
+        "per_explosion_standard_damage": 39,
+        "per_explosion_poise_damage": 3,
+        "proc_chance": null
+      },
+      "conditions": {
+        "game_version": null,
+        "test_setup": null,
+        "proc_probability": null,
+        "stacking_rules": null
+      },
+      "verification": "community_report_unverified_in_game"
+    }
+  },
+  {
+    "id": "weapon:bolt-of-gransax:observation:1",
+    "weapon_id": "weapon:bolt-of-gransax",
+    "source_id": "weapon-research:mobalytics-bolt-of-gransax",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-bolt-of-gransax",
+      "scope": "weapon_detail_page",
+      "rarity_label": "legendary",
+      "level_required": 10,
+      "attack_rating_display": {
+        "physical": 74,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 49,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "C",
+        "dexterity": "B"
+      },
+      "physical_attack_types_display": [
+        "pierce"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Ancient Lightning Spear",
+        "name_zh": null,
+        "fp_cost_text": "24",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "legendary",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:bolt-of-gransax:observation:2",
+    "weapon_id": "weapon:bolt-of-gransax",
+    "source_id": "weapon-research:quickref-weapon-effect",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "quickref-weapon-effect",
+      "scope": "unique_blessing",
+      "name_zh": "大古龙的庇佑",
+      "trigger": "完成蓄力战技",
+      "observation_summary_zh": "获得40.2雷攻击力，维持30秒。",
+      "numeric_observation": {
+        "lightning_attack_add": 40.2,
+        "duration_seconds": 30
+      },
+      "conditions": {
+        "game_version": null,
+        "test_setup": null,
+        "proc_probability": null,
+        "stacking_rules": null
+      },
+      "verification": "community_report_unverified_in_game"
+    }
+  },
+  {
+    "id": "weapon:grafted-dragon:observation:1",
+    "weapon_id": "weapon:grafted-dragon",
+    "source_id": "weapon-research:mobalytics-grafted-dragon",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "mobalytics-grafted-dragon",
+      "scope": "weapon_detail_page",
+      "rarity_label": "legendary",
+      "level_required": 10,
+      "attack_rating_display": {
+        "physical": 63,
+        "magic": 0,
+        "fire": 42,
+        "lightning": 0,
+        "holy": 0
+      },
+      "attribute_scaling_display": {
+        "strength": "B",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "physical_attack_types_display": [
+        "strike"
+      ],
+      "innate_status_display": [],
+      "skill_display": {
+        "name_en": "Bear Witness",
+        "name_zh": null,
+        "fp_cost_text": "20",
+        "drop_assignment": null,
+        "interpretation": "page_listed_only"
+      },
+      "numeric_conditions": {
+        "rarity_label_context": "legendary",
+        "stats_tied_to_label_confirmed": false,
+        "weapon_upgrade": null,
+        "character": null,
+        "character_level": null,
+        "affinity_roll": null,
+        "holding_mode": null,
+        "game_version": null
+      },
+      "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+    }
+  },
+  {
+    "id": "weapon:grafted-dragon:observation:2",
+    "weapon_id": "weapon:grafted-dragon",
+    "source_id": "weapon-research:quickref-weapon-effect",
+    "verification_status": "source_reported",
+    "raw": {
+      "kind": "source_observation",
+      "source_id": "quickref-weapon-effect",
+      "scope": "unique_blessing",
+      "name_zh": "飞龙的庇佑",
+      "trigger": "处决",
+      "observation_summary_zh": "引发火焰爆炸；燃烧段60%、爆炸段300%。",
+      "numeric_observation": {
+        "burn_fire_multiplier_percent": 60,
+        "explosion_fire_multiplier_percent": 300,
+        "multiplier_reference": null
+      },
+      "conditions": {
+        "game_version": null,
+        "test_setup": null,
+        "proc_probability": null,
+        "stacking_rules": null
+      },
+      "verification": "community_report_unverified_in_game"
+    }
+  },
+  {
+    "id": "weapon:ironeyes-bow:observation:1",
+    "weapon_id": "weapon:ironeyes-bow",
+    "source_id": "weapon-research:mobalytics-ironeyes-bow",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-ironeyes-bow",
+      "rarity": "common",
+      "level_required": 1,
+      "attack_type": "Pierce",
+      "attack": {
+        "physical": 45,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "strength": "E",
+          "dexterity": "S"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": {
+        "name_en": "Mighty Shot",
+        "fp_cost_display": "0 > 6 > 6",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:black-bow:observation:1",
+    "weapon_id": "weapon:black-bow",
+    "source_id": "weapon-research:mobalytics-black-bow",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-black-bow",
+      "rarity": "rare",
+      "level_required": 7,
+      "attack_type": "Pierce",
+      "attack": {
+        "physical": 73,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "strength": "E",
+          "dexterity": "S"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": {
+        "name_en": "Barrage",
+        "fp_cost_display": "0 > 2 > 2",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:pulley-crossbow:observation:1",
+    "weapon_id": "weapon:pulley-crossbow",
+    "source_id": "weapon-research:mobalytics-pulley-crossbow",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-pulley-crossbow",
+      "rarity": "rare",
+      "level_required": 7,
+      "attack_type": "Pierce",
+      "attack": {
+        "physical": 106,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "scaling": {
+        "state": "explicit_none",
+        "grades": {},
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": {
+        "name_en": "Kick",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:hand-ballista:observation:1",
+    "weapon_id": "weapon:hand-ballista",
+    "source_id": "weapon-research:mobalytics-hand-ballista",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-hand-ballista",
+      "rarity": "uncommon",
+      "level_required": 3,
+      "attack_type": "Pierce",
+      "attack": {
+        "physical": 431,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "scaling": {
+        "state": "explicit_none",
+        "grades": {},
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": {
+        "name_en": "Kick",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:jar-cannon:observation:1",
+    "weapon_id": "weapon:jar-cannon",
+    "source_id": "weapon-research:mobalytics-jar-cannon",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-jar-cannon",
+      "rarity": "rare",
+      "level_required": 7,
+      "attack_type": "Pierce",
+      "attack": {
+        "physical": 584,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "scaling": {
+        "state": "explicit_none",
+        "grades": {},
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": {
+        "name_en": "Kick",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:astrologers-staff:observation:1",
+    "weapon_id": "weapon:astrologers-staff",
+    "source_id": "weapon-research:mobalytics-astrologers-staff",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-astrologers-staff",
+      "rarity": "common",
+      "level_required": 1,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 25,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "intelligence": "S"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": 133,
+      "status": {
+        "state": "unreported",
+        "effects": null
+      },
+      "skill": null,
+      "spells": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      }
+    }
+  },
+  {
+    "id": "weapon:carian-regal-scepter:observation:1",
+    "weapon_id": "weapon:carian-regal-scepter",
+    "source_id": "weapon-research:mobalytics-carian-regal-scepter",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-carian-regal-scepter",
+      "rarity": "legendary",
+      "level_required": 10,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 23,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "intelligence": "S"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": 205,
+      "status": {
+        "state": "unreported",
+        "effects": null
+      },
+      "skill": null,
+      "spells": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      }
+    }
+  },
+  {
+    "id": "weapon:clawmark-seal:observation:1",
+    "weapon_id": "weapon:clawmark-seal",
+    "source_id": "weapon-research:mobalytics-clawmark-seal",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-clawmark-seal",
+      "rarity": "uncommon",
+      "level_required": 3,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 31,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "faith": "S"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": 197,
+      "status": {
+        "state": "unreported",
+        "effects": null
+      },
+      "skill": null,
+      "spells": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      }
+    }
+  },
+  {
+    "id": "weapon:dragon-communion-seal:observation:1",
+    "weapon_id": "weapon:dragon-communion-seal",
+    "source_id": "weapon-research:mobalytics-dragon-communion-seal",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-dragon-communion-seal",
+      "rarity": "rare",
+      "level_required": 7,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 25,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 15,
+        "fire": 15,
+        "lightning": 15,
+        "holy": 15,
+        "boost": 15
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "faith": "S"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": 220,
+      "status": {
+        "state": "unreported",
+        "effects": null
+      },
+      "skill": null,
+      "spells": {
+        "slots": 2,
+        "names": null,
+        "assignment": "random_per_source"
+      }
+    }
+  },
+  {
+    "id": "weapon:buckler:observation:1",
+    "weapon_id": "weapon:buckler",
+    "source_id": "weapon-research:mobalytics-buckler",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-buckler",
+      "rarity": "common",
+      "level_required": 1,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 49,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 41,
+        "fire": 41,
+        "lightning": 21,
+        "holy": 41,
+        "boost": 42
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "strength": "B",
+          "dexterity": "C"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": {
+        "name_en": "Buckler Parry",
+        "fp_cost_display": "0",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:brass-shield:observation:1",
+    "weapon_id": "weapon:brass-shield",
+    "source_id": "weapon-research:mobalytics-brass-shield",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-brass-shield",
+      "rarity": "common",
+      "level_required": 1,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 88,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 46,
+        "fire": 49,
+        "lightning": 32,
+        "holy": 45,
+        "boost": 75
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "strength": "A",
+          "dexterity": "D"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "explicit_no_innate",
+        "effects": []
+      },
+      "skill": null,
+      "spells": null
+    }
+  },
+  {
+    "id": "weapon:ants-skull-plate:observation:1",
+    "weapon_id": "weapon:ants-skull-plate",
+    "source_id": "weapon-research:mobalytics-ants-skull-plate",
+    "verification_status": "source_reported",
+    "raw": {
+      "source_id": "mobalytics-ants-skull-plate",
+      "rarity": "common",
+      "level_required": 1,
+      "attack_type": "Strike",
+      "attack": {
+        "physical": 113,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "critical": 100
+      },
+      "guard": {
+        "physical": 100,
+        "magic": 64,
+        "fire": 48,
+        "lightning": 64,
+        "holy": 64,
+        "boost": 78
+      },
+      "scaling": {
+        "state": "grades_displayed",
+        "grades": {
+          "strength": "A",
+          "dexterity": "D"
+        },
+        "unlisted_attribute_grades": null
+      },
+      "spell_power": null,
+      "status": {
+        "state": "reported_innate",
+        "effects": [
+          {
+            "type": "poison",
+            "buildup": 84
+          }
+        ]
+      },
+      "skill": {
+        "name_en": "Shield Bash",
+        "fp_cost_display": "10",
+        "fixed_for_weapon": null
+      },
+      "spells": null
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "weapon:axe-of-godfrey:legendary-effect",
+    "weapon_id": "weapon:axe-of-godfrey",
+    "effect_id": "legendary:23",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:dark-moon-greatsword:legendary-effect",
+    "weapon_id": "weapon:dark-moon-greatsword",
+    "effect_id": "legendary:02",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:marikas-hammer:legendary-effect",
+    "weapon_id": "weapon:marikas-hammer",
+    "effect_id": "legendary:15",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:bastards-stars:legendary-effect",
+    "weapon_id": "weapon:bastards-stars",
+    "effect_id": "legendary:17",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:bolt-of-gransax:legendary-effect",
+    "weapon_id": "weapon:bolt-of-gransax",
+    "effect_id": "legendary:19",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:grafted-dragon:legendary-effect",
+    "weapon_id": "weapon:grafted-dragon",
+    "effect_id": "legendary:22",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:carian-regal-scepter:legendary-effect",
+    "weapon_id": "weapon:carian-regal-scepter",
+    "effect_id": "legendary:24",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  }
+]
