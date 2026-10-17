@@ -29,4 +29,14 @@ for(const text of ['5:99','-1:00','14:31','99:00','hello',''])eq(c.parse(text),n
 eq(api.format(61),'01:01','display pad');eq(api.format(0),'00:00','finished display');
 eq(rows.at(-1).alternative_seconds,870,'conflicting source time preserved');
 eq(rows.at(-1).verification_status,'conflict','reference time not presented as verified');
+let checkpoint=c.reduce(resumed,'checkpoint',660,start+211000);
+eq(checkpoint,{day:1,elapsed:660,startedAt:null},'choose second shrink pauses and aligns at 11:00');
+eq([c.snapshot(checkpoint,start+500000).remaining,c.snapshot(checkpoint,start+500000).phase],[180,'第二次收缩中'],'chosen checkpoint waits for manual start');
+eq(c.snapshot(JSON.parse(JSON.stringify(checkpoint)),start+800000).elapsed,660,'selected checkpoint survives reload before starting');
+let fromSecond=c.reduce(checkpoint,'toggle',null,start+800000);
+eq([c.snapshot(fromSecond,start+830000).elapsed,c.snapshot(fromSecond,start+830000).remaining],[690,150],'starting from second shrink skips the first eleven minutes');
+for(const point of [0,270,450])eq(c.reduce(fromSecond,'checkpoint',point,start+831000).elapsed,point,'each selectable start point '+point);
+eq(c.reduce(fromSecond,'checkpoint',841,start+831000),JSON.parse(JSON.stringify(fromSecond)),'invalid checkpoint leaves current timer unchanged');
+eq(c.reduce(fromSecond,'checkpoint','current',start+831000),JSON.parse(JSON.stringify(fromSecond)),'keep-current choice does not reset progress');
+eq(c.reduce(c.reduce(fromSecond,'day',2,start),'checkpoint',660,start).day,2,'checkpoint selection preserves chosen night');
 console.log({timerChecks:count,allPassed:true});

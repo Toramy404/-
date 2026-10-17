@@ -30,3 +30,5 @@
 .timer-shortcut{font-size:11px;white-space:nowrap;padding:6px 8px;min-height:40px}
 .timer-shortcut.active{color:#e6cd91;border-color:#8f7949}
 .top-search{min-width:0}
+
+.timer-origin-row{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:12px;color:var(--muted)}.timer-origin-row>span{flex:none}.timer-origin-row select{min-width:0;flex:1;min-height:44px;font-size:12px;padding:7px 9px}
