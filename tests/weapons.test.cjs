@@ -1,0 +1,97 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const M=read('docs/research/melee-12-source-observations.json'),R=read('docs/research/weapon-tools.json'),records={},reads=[],writes=[];
+const prefix='duye-weapons-preview-v1:';
+// Synthetic fixtures only; never inspect a real browser profile or production origin.
+for(const key of ['nr-favorites','nr-recent-v1','nr-crystal-marks','nr-font-size','nr-effect-density','nr-view-memory-v1'])records[key]=JSON.stringify({productionSentinel:key});
+records[prefix+'nr-favorites']=JSON.stringify(['legendary_weapon_effects|legendary:01']);
+const originalProduction=JSON.stringify(Object.fromEntries(Object.entries(records).filter(([k])=>!k.startsWith(prefix))));
+const node={addEventListener(){},querySelectorAll(){return[]},setAttribute(){},classList:{toggle(){},add(){},remove(){}},dataset:{},scrollTop:0,value:'',innerHTML:''};
+const modal={...node,dataset:{},open:false,showModal(){this.open=true},close(){this.open=false}},box={...node};
+const ctx={window:{scrollTo(){},addEventListener(){},scrollY:0},document:{getElementById(id){return id==='detail'?modal:box},querySelectorAll(){return[]},querySelector(){return box},addEventListener(){},body:node},localStorage:{getItem(k){reads.push(k);return records[k]||null},setItem(k,v){writes.push(k);records[k]=v}},setTimeout(){},clearTimeout(){},requestAnimationFrame(fn){fn()},CSS:{escape:s=>s},history:{replaceState(){},pushState(){}},location:{hash:'#weapons',host:'127.0.0.1:4318'}};
+vm.createContext(ctx);for(const file of ['data.js','catalog.js','weapons.js'])vm.runInContext(fs.readFileSync(path.join(root,'dist',file),'utf8'),ctx);
+let app=fs.readFileSync(path.join(root,'dist/app.js'),'utf8');app=app.slice(0,app.indexOf('applyDisplay();shell();initializeReadingMemory();'))+`render=function(){};toast=function(){};currentScroll=function(){return 27};setReadingScroll=function(){};window.test={state,weaponUI,detail,handleAction,resolveRecords,rememberView,restoreFields,navigate,search};})();`;vm.runInContext(app,ctx);
+const T=ctx.window.test,D=ctx.window.NR_DATA,W=T.weaponUI;let checks=0;
+function check(name,truth){assert.ok(truth,name);checks++}
+function equal(a,b,name){assert.deepEqual(JSON.parse(JSON.stringify(a)),JSON.parse(JSON.stringify(b)),name);checks++}
+function action(a,v){T.handleAction({target:{closest(){return{dataset:{action:a,value:v}}}}})}
+const originalData=JSON.stringify(D),get=id=>D.weapons.find(r=>r.id==='weapon:'+id),variant=id=>W.variant(get(id));
+equal([D.weapons.length,new Set(D.weapons.map(r=>r.category_en)).size,D.weapon_effect_links.length,D.legendary_weapon_effects.length],[387,33,25,25],'coverage and unchanged old effect count');
+equal(D.weapons.filter(r=>r.name_zh_status.includes('provisional')).length,11,'candidate translations retained');
+check('unique IDs',new Set(D.weapons.map(r=>r.id)).size===387);
+const src=new Set(D.sources.map(s=>s.id));check('source IDs unique',src.size===D.sources.length);
+for(const w of D.weapons.filter(w=>w.research_sample_id)){
+ const v=W.variant(w),isMelee=w.group==='melee',original=isMelee?M.samples.find(r=>r.sample_id===w.research_sample_id):R.items.find(r=>r.id===w.research_sample_id),raw=isMelee?original.source_observations:[original.source_observation],first=raw[0];
+ equal(w.observation_ids.map(id=>D.weapon_source_observations.find(o=>o.id===id).raw),raw,w.name+' source observations lossless');
+ check(w.name+' source links resolve',w.source_refs.every(r=>src.has(r.source_id))&&src.has(v.source_id));
+ check(w.name+' no overstated verification',w.verification_status==='source_reported'&&v.verification_status==='source_reported');
+ equal(v.conditions,isMelee?first.numeric_conditions:original.conditions,w.name+' conditions unchanged');
+ equal(v.rarity_stats_binding_confirmed,false,w.name+' no inferred rarity binding');
+ for(const k of ['physical','magic','fire','lightning','holy'])equal(v.attack[k].value,(isMelee?first.attack_rating_display:first.attack)[k],w.name+' '+k+' exact');
+ equal(v.scaling.grades,isMelee?first.attribute_scaling_display:first.scaling.grades,w.name+' scaling exact');
+ equal(v.status.effects,isMelee?first.innate_status_display:first.status.effects,w.name+' status exact');
+ if(!isMelee){equal(v.guard.value,first.guard,w.name+' guard exact');equal(v.critical.value,first.attack.critical,w.name+' critical exact');equal(v.spell_power.value,first.spell_power,w.name+' spell power separate');equal(v.skill.value,first.skill,w.name+' skill exact')}
+ else {check(w.name+' unknown guard not zero',v.guard.value===null&&v.guard.state==='unknown'&&!!v.guard.reason);equal(v.critical.state,'unknown',w.name+' no assumed critical100')}
+ check(w.name+' detail shows source and limitation',W.detail(w).includes('来源报告 · 条件待核')&&W.detail(w).includes('查看来源与核对范围'));
+}
+const expectedLinks={'axe-of-godfrey':'legendary:23','dark-moon-greatsword':'legendary:02','marikas-hammer':'legendary:15','bastards-stars':'legendary:17','bolt-of-gransax':'legendary:19','grafted-dragon':'legendary:22','carian-regal-scepter':'legendary:24'};
+for(const [slug,id] of Object.entries(expectedLinks)){equal(D.weapon_effect_links.find(l=>l.weapon_id==='weapon:'+slug).effect_id,id,'explicit link '+slug);check('old linked record '+id,D.legendary_weapon_effects.some(r=>r.id===id))}
+check('old legendary favorite resolves',T.resolveRecords(T.state.favorites,true)[0][1].id==='legendary:01');
+check('unknown differs from explicit zero',variant('battle-axe').guard.value===null&&variant('hand-ballista').guard.value.boost===0);
+check('FP0 not lost',W.detail(get('hand-ballista')).includes('FP 原页显示：<span class="mono">0</span>'));
+check('unknown innate is not no innate',W.detail(get('astrologers-staff')).includes('待核：来源未给出固有异常'));
+check('random shield skill not no skill',W.detail(get('brass-shield')).includes('未给具体战技'));
+check('Uchigatana discrepancy visible',W.detail(get('uchigatana')).includes('Unsheathe')&&W.detail(get('uchigatana')).includes('BWIKI 标注“随机”'));
+check('catalyst stats distinct',W.card(get('astrologers-staff')).includes('Spell Power <b>133</b>')&&W.card(get('astrologers-staff')).includes('近战物理 <b>25</b>'));
+Object.assign(T.state,{view:'weapons',query:'月光大剑',weaponGroup:'melee',weaponCategory:'Greatsword',weaponRarity:'legendary'});
+equal(W.select(T.state).map(r=>r.id),['weapon:dark-moon-greatsword'],'alias and combined filters');
+T.rememberView();T.navigate('home');T.navigate('weapons');equal([T.state.query,T.state.weaponGroup,T.state.weaponCategory,T.state.weaponRarity],['月光大剑','melee','Greatsword','legendary'],'return restores all filters');
+T.detail('weapons','weapon:dark-moon-greatsword');action('weapon-effect','weapon:dark-moon-greatsword');equal(modal.dataset.record,'legendary_weapon_effects|legendary:02','opens old effect');ctx.window.NR_APP_BACK();equal(modal.dataset.record,'weapons|weapon:dark-moon-greatsword','effect back to weapon');ctx.window.NR_APP_BACK();check('weapon back retains list filters',!modal.open&&T.state.view==='weapons'&&T.state.query==='月光大剑');
+action('favorite','weapons|weapon:dark-moon-greatsword');check('new and legacy favorites coexist',T.resolveRecords(T.state.favorites,true).length===2);
+action('font-size','large');action('density','cards');action('clear-recent');action('undo-recent');T.rememberView();
+check('all storage reads and writes isolated',reads.every(k=>k.startsWith(prefix))&&writes.every(k=>k.startsWith(prefix)));
+equal(JSON.stringify(Object.fromEntries(Object.entries(records).filter(([k])=>!k.startsWith(prefix)))),originalProduction,'production fixtures untouched');
+action('reset-weapons');T.state.query='Carian Regal';equal(W.select(T.state).map(r=>r.id),['weapon:carian-regal-scepter'],'English multiword search');
+T.state.query='不存在xyz';equal(W.select(T.state).length,0,'empty result');T.state.query='';action('weapon-group','shield');equal(W.select(T.state).length,71,'shield filter');
+T.state.global='月光大剑';check('global search includes weapon',T.search().includes('weapons|weapon:dark-moon-greatsword'));
+T.state.view='weapons';ctx.window.NR_APP_BACK();equal(T.state.view,'home','weapon list parent home');equal(ctx.window.NR_APP_BACK(),'exit','home exit');
+
+const expansion=read('docs/research/weapon-legendary-expansion-20261017.json');
+equal(D.weapons.filter(w=>w.variant_ids.length).length,42,'42 panels; identities are not invented numeric panels');
+for(const raw of expansion.items){
+ const w=get(raw.slug),v=W.variant(w);
+ equal(Object.fromEntries(Object.entries(v.attack).map(([k,f])=>[k,f.value])),raw.attack,w.name+' new attack matches source');
+ equal(v.guard.value,raw.guard,w.name+' new guard matches source');
+ equal(v.scaling.grades,raw.scaling,w.name+' new scaling matches source');
+ equal(v.status.effects,raw.status,w.name+' new status matches source');
+ equal(v.skill.value,raw.skill,w.name+' new FP and skill match source');
+ equal(D.weapon_effect_links.find(l=>l.weapon_id===w.id).effect_id,raw.effect_id,w.name+' legendary ID is explicit');
+}
+for(const w of D.weapons){
+ check(w.name+' identity sources resolve',w.source_refs.length>0&&w.source_refs.every(r=>src.has(r.source_id)));
+ const html=W.detail(w),body=html.split('<details class="weapon-reference">')[0],card=W.card(w);
+ check(w.name+' source section last',html.includes('<summary>来源与说明</summary>')&&!body.includes('来源报告')&&html.endsWith('</details>'));
+ check(w.name+' name before type',card.indexOf('<h3>')<card.indexOf('weapon-card-meta'));
+ check(w.name+' render no missing values',!html.includes('undefined')&&!html.includes('NaN'));
+}
+for(const id of ['battle-axe','hand-ballista','lion-greatbow']){
+ const body=W.detail(get(id)).split('<details class="weapon-reference">')[0];
+ check(id+' no empty defense or status block',!body.includes('<h3>防御</h3>')&&!body.includes('<h3>固有异常</h3>'));
+}
+check('known status kept',W.detail(get('antspur-rapier')).split('<details class="weapon-reference">')[0].includes('猩红腐败积累 56'));
+check('shield guard kept',W.detail(get('brass-shield')).split('<details class="weapon-reference">')[0].includes('<h3>防御</h3>'));
+check('all legendary effects linked once',new Set(D.weapon_effect_links.map(l=>l.effect_id)).size===25);
+const knight=D.weapons.find(w=>w.name==='骑士大剑');
+check('wrongly labeled table not imported',knight.variant_ids.length===0&&variant('golden-order-greatsword').attack.holy.value===102);
+Object.assign(T.state,{view:'weapons',query:'',weaponGroup:'all',weaponCategory:'all',weaponRarity:'legendary',limit:36});
+equal(W.select(T.state).length,25,'legendary filter includes all 25');
+T.state.weaponRarity='all';equal((W.page(T.state).match(/<article class="weapon-card/g)||[]).length,36,'large catalog paginates initial 36');
+action('more-results');equal((W.page(T.state).match(/<article class="weapon-card/g)||[]).length,72,'next page appends 36');
+T.rememberView();T.navigate('home');T.navigate('weapons');equal(T.state.limit,72,'return preserves loaded count');
+action('reset-weapons');equal(T.state.limit,36,'clear resets loaded count');
+
+equal(JSON.stringify(D),originalData,'all UI operations preserve data');
+const sw=fs.readFileSync(path.join(root,'dist/sw.js'),'utf8');check('worker uses the selected environment prefix',sw.includes('key.startsWith(CACHE_PREFIX)'));
+const hashes={'data/legendary_weapon_effects.json':'d0904d3b95ca8542125b90f0f8afa8ef6611fb237d995f3d03e8ff69528f6355','data/effects.json':'5580a3d4aabfc0da4902711a0314d0c1ecad159f31470c11e0f198fcb01ee612','data/map_patterns.json':'5660a20b2a6e626e09d8cce0d72277410ae30f70057eb08f4b24251ec3cf09ed','data/characters.json':'ecc3a9d15547626632e84d684b9af954733813031ec3293827e4eb34117cf235','docs/research/weapon-catalog-samples-20261017.md':'2688bf1721999ba1bb3181e17a50fffb13251d640fdcfcb592b249db6141127f','docs/research/melee-12-source-observations.json':'fa76330e7fd0e961811f637e3e577ca348e18137f899723fa5d100fc18770854','docs/research/weapon-tools.json':'112230a22cb4213c25c3eee4fdbbf6260bf79388eec5dbeefeef533db3fd4e80'};
+for(const [p,hash] of Object.entries(hashes))equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex'),hash,p+' original hash');
+console.log({weaponChecks:checks,allPassed:true});

@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-17",
   "name": "渡夜手册",
-  "version": "0.3.0",
-  "dataVersion": "2026.10.14-r2",
+  "version": "0.5.0",
+  "dataVersion": "2026.10.17-r1",
   "labels": {
     "attack_increase_pct": "攻击提升（%）",
     "base_cooldown_seconds": "基础冷却（秒）",
@@ -61,5 +61,6 @@
     "intelligence": "智力",
     "faith": "信仰",
     "arcane": "感应"
-  }
+  },
+  "weaponResearchDate": "2026-10-17"
 }

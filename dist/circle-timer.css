@@ -1,0 +1,34 @@
+/* Mobile-first: countdown and four milestones fit together on a phone. */
+.timer-heading h1,.phone-mode .timer-heading h1{font-size:22px}
+.timer-heading p{font-size:12px;margin-top:4px}
+.timer-layout{display:grid;grid-template-columns:1fr;gap:12px;max-width:540px;margin:0 auto}
+.timer-main,.timer-plan,.phone-mode .timer-main,.phone-mode .timer-plan{padding:14px}
+.timer-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.timer-dial{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:12px 0 4px;text-align:center;color:var(--muted)}
+.timer-dial strong{font:52px/1.1 ui-monospace,Consolas,monospace;color:#e7d5aa;font-variant-numeric:tabular-nums;letter-spacing:1px}
+.timer-dial span{font-size:12px}
+.timer-dial.soon strong{color:#f0b97e}
+.timer-elapsed{text-align:center;color:var(--muted);font-size:12px;margin-top:4px}
+.timer-elapsed strong{font-variant-numeric:tabular-nums;color:#d2dfe5;margin-left:6px}
+.timer-actions{display:grid;grid-template-columns:1.25fr 1fr;gap:8px;margin-top:12px}
+.timer-actions button{min-height:44px;font-size:14px;padding:8px 12px}
+.timer-plan h2{font-size:15px}
+.timer-plan ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;list-style:none;padding:0;margin:10px 0}
+.timer-plan li{display:flex;flex-direction:column;gap:1px;padding:6px 9px;border-left:2px solid #394b57;font-size:11px;color:var(--muted)}
+.timer-plan li.current{color:#e9d3a2;border-color:#c1a66b;background:#d5b8740a}
+.timer-plan li.passed{opacity:.55}
+.timer-plan time{font:15px/1.5 ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+.timer-calibration{border-top:1px solid var(--line);padding-top:4px;margin-top:10px}
+.timer-calibration summary{display:list-item;font-size:13px;min-height:40px;padding:8px 0}
+.timer-calibration[open]>summary{margin-bottom:4px}
+.timer-adjust{display:flex;gap:8px;margin-bottom:10px}
+.timer-adjust button{flex:1;font-size:12px;min-height:44px;padding:6px 8px}
+.timer-calibration label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+.timer-manual-row{display:flex;gap:8px}
+.timer-manual-row input{flex:1;width:100%;min-width:0;min-height:44px;font-size:14px}
+.timer-manual-row button{flex:none;white-space:nowrap;min-width:60px;min-height:44px}
+.timer-shortcut{font-size:11px;white-space:nowrap;padding:6px 8px;min-height:40px}
+.timer-shortcut.active{color:#e6cd91;border-color:#8f7949}
+.top-search{min-width:0}
+
+.timer-origin-row{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:12px;color:var(--muted)}.timer-origin-row>span{flex:none}.timer-origin-row select{min-width:0;flex:1;min-height:44px;font-size:12px;padding:7px 9px}

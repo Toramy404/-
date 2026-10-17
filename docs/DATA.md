@@ -37,3 +37,27 @@ npm test
 ## 第三方内容
 
 QuickRef对应固定来源提交为 `3e23450094c18125ae5665927ed240b18189a040`，许可证全文在 LICENSE 和 dist/DATA-LICENSE.txt。来源仓库：[NightreignQuickRef](https://github.com/xxiixi/NightreignQuickRef/tree/3e23450094c18125ae5665927ed240b18189a040)。其他社区来源的字段保留各自说明。来源链接可访问，不等于全部图片、文字和表格自动获得统一授权；参见 THIRD_PARTY_NOTICES。
+
+## 武器图鉴预览数据
+
+输入为 `docs/research/melee-12-source-observations.json`、`weapon-tools.json` 及配套说明，原始研究文件保持逐字节不变。`scripts/build_weapon_catalog.py` 是可复现的显式适配器；禁止把研究 JSON 直接改名导入。
+
+| 集合 | 职责 |
+| --- | --- |
+| weapons | 稳定身份、中文名状态、英文名称、检索别名、类别、来源与观察引用 |
+| weapon_variants | 42 件装备的独立来源页面示例；其余345件不生成伪面板；品质与面板绑定仍为 false |
+| weapon_source_observations | 逐条保留研究文件的原始观察；不从展示字段反推原文 |
+| weapon_effect_links | 25 个显式关联到传奇效果原 ID，不复制或改写原来的 25 条记录 |
+
+先运行 `python scripts/build_weapon_catalog.py`，再运行 `python scripts/build_data.py`。两个脚本均支持 `--check`；总数据构建还会检查适配结果是否与研究观察一致。新增来源统一使用 `weapon-research:` 前缀写入 `sources.json`，避免与正式资料旧 ID 冲突。
+
+数据状态统一为 `source_reported`。面板字段的 `known` / `unknown` / `not_applicable` 只区分来源是否给值及是否适用，不表示游戏实测通过。明确的 0、false、空数组按原样保留；未知为 null 并带原因。属性补正未列项保持未知，只有明确无补正才展示“无”。Spell Power、近战攻击、防御、致命一击与 FP 格式分别展示，不生成总攻击或跨条件排名。
+
+打刀的 Unsheathe 示例与 BWIKI 随机描述并列。11 个候选中文名保留英文身份。资料日期 2026-10-17 不是游戏补丁；未核条件写入 issues，旧 294 条词条核验缺口保持原有口径。新别名只用于检索，不作为正式译名证据。
+
+
+本次扩展输入为 `docs/research/weapon-catalog-index-20261017.json`（387件目录、逐条来源名/分类/分页URL）和 `weapon-legendary-expansion-20261017.json`（18件新传说面板的事实字段）。`scripts/expand_weapon_catalog.py` 由原适配器调用：沿用24件旧ID和全部原始观察，再补充身份及25个明确的传说效果映射。新目录ID在输入中固定，不随展示名动态重算；未绑定英文名的记录留空。来源前缀为 `weapon-index:` / `weapon-expansion:`。UI只隐藏无内容的区块，不把未知改成0；真实0和FP0保留。
+
+游侠网目录用于名称/类别对照，存在骑士大剑与黄金律法大剑面板错位、卡利亚权杖重复译名等问题，因此未批量导入数值。18件新增传说面板逐页采集Mobalytics；可定位的第二来源攻击/补正字段逐项比较，差异写入 `comparison_note`，不拼接不同来源数值。目录不宣称包含后续DLC初始装备，345件面板仍待采集。
+
+缩圈计时直接读取 `circle_timing`，以真实时间差计算经过时长，浏览器定时回调只负责更新显示。`circle:5` 的末次结束采用较早的约14:00提醒，同时保存14:30备选、`conflict`状态和两个来源；QuickRef固定提交内部两处显示互相矛盾，3DM转引测试支持约14:00。首缩270/450秒、二缩开始660秒未改。此计时没有游戏进度接口，也未获得真机或各模式实测结论。

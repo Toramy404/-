@@ -1,0 +1,1220 @@
+{
+  "title": "渡夜手册：近战武器研究样本12条",
+  "schema_version": "research-observations-0.1",
+  "generated_at": "2026-10-17",
+  "scope": "12个近战武器名称样本；5个网页标记Common、1个Rare、6个Legendary；12种类别。",
+  "not_for_automatic_production_import": true,
+  "rules_zh": [
+    "source_observation表示来源页面当次所见，不等同游戏真值。",
+    "所有game_version未核实；页面日期/抓取日期不替代补丁号。",
+    "数值条件缺失保留null；0仅用于来源明确显示0的数值。",
+    "普通与稀有在此为网页品质标签；“非传说”不等同Common。",
+    "页面展示的战技名称单独存储，不生成固定掉落技能。",
+    "未使用Elden Ring本体资料补齐Nightreign数值。",
+    "不复制武器背景故事或长篇战技描述；逐条详情来源，各来源仅少量事实摘要。"
+  ],
+  "sources": [
+    {
+      "id": "quickref-weapon-effect",
+      "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_effect.json",
+      "publisher": "NightreignQuickRef / xxiixi",
+      "kind": "community_repository",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "source_revision": null,
+      "limitations_zh": "main分支；本次网页读取未取得提交哈希、发布时间或适用游戏版本。数字是该表观察，未做游戏内复测。只节选六个庇佑信息，不导入整库。"
+    },
+    {
+      "id": "chinese-name-index",
+      "url": "https://agame01.com/article/54864165/",
+      "publisher": "電玩01（页面标注游民星空图鉴）",
+      "kind": "community_guide_republication",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "source_revision": null,
+      "limitations_zh": "仅用于五把非传说武器中文名称与类别的繁简字形核对；不作为面板、战技或庇佑数据来源；不是官方本地化档。"
+    },
+    {
+      "id": "bwiki-uchigatana",
+      "url": "https://wiki.biligame.com/nightreign/%E6%89%93%E5%88%80",
+      "publisher": "黑夜君临资料站 BWIKI",
+      "kind": "community_wiki",
+      "accessed_at": "2026-10-17",
+      "page_updated_at": "2026-01-30",
+      "source_revision": "oldid=1983",
+      "game_version": null,
+      "limitations_zh": "仅交叉核对打刀中文名、战技随机标记与庇佑横线。页面更新日不等于游戏补丁版本。"
+    },
+    {
+      "id": "mobalytics-battle-axe",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/battle-axe",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-banished-knights-halberd",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/banished-knights-halberd",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-bandits-curved-sword",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/bandits-curved-sword",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-antspur-rapier",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/antspur-rapier",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-uchigatana",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/uchigatana",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-hookclaws",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/hookclaws",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-axe-of-godfrey",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/axe-of-godfrey",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-dark-moon-greatsword",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/dark-moon-greatsword",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-marikas-hammer",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/marikas-hammer",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-bastards-stars",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/bastards-stars",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-bolt-of-gransax",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/bolt-of-gransax",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    },
+    {
+      "id": "mobalytics-grafted-dragon",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/grafted-dragon",
+      "publisher": "Mobalytics",
+      "kind": "nightreign_weapon_detail",
+      "accessed_at": "2026-10-17",
+      "game_version": null,
+      "page_updated_at": null,
+      "source_revision": null,
+      "limitations_zh": "已读取此武器独立Nightreign详情页；页面未说明数值适用补丁、强化状态、角色或具体掉落实例。"
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "nr-melee-battle-axe",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "战斧",
+        "en": "Battle Axe",
+        "zh_source_id": "chinese-name-index",
+        "en_source_id": "mobalytics-battle-axe",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "斧",
+        "en": "Axe",
+        "source_id": "mobalytics-battle-axe",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-battle-axe",
+          "scope": "weapon_detail_page",
+          "rarity_label": "common",
+          "level_required": 1,
+          "attack_rating_display": {
+            "physical": 77,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "B",
+            "dexterity": "C"
+          },
+          "physical_attack_types_display": [
+            "standard"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Wild Strikes",
+            "name_zh": null,
+            "fp_cost_text": "2 > 10 > 15",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "common",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+      ],
+      "existing_app_effect_id": null,
+      "existing_app_effect_mapping_note_zh": null
+    },
+    {
+      "sample_id": "nr-melee-banished-knights-halberd",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "失乡骑士戟",
+        "en": "Banished Knight's Halberd",
+        "zh_source_id": "chinese-name-index",
+        "en_source_id": "mobalytics-banished-knights-halberd",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "戟",
+        "en": "Halberd",
+        "source_id": "mobalytics-banished-knights-halberd",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-banished-knights-halberd",
+          "scope": "weapon_detail_page",
+          "rarity_label": "common",
+          "level_required": 1,
+          "attack_rating_display": {
+            "physical": 86,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "B",
+            "dexterity": "C"
+          },
+          "physical_attack_types_display": [
+            "standard",
+            "pierce"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Charge Forth",
+            "name_zh": null,
+            "fp_cost_text": "16",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "common",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+      ],
+      "existing_app_effect_id": null,
+      "existing_app_effect_mapping_note_zh": null
+    },
+    {
+      "sample_id": "nr-melee-bandits-curved-sword",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "山贼弯刀",
+        "en": "Bandit's Curved Sword",
+        "zh_source_id": "chinese-name-index",
+        "en_source_id": "mobalytics-bandits-curved-sword",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "曲剑",
+        "en": "Curved Sword",
+        "source_id": "mobalytics-bandits-curved-sword",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-bandits-curved-sword",
+          "scope": "weapon_detail_page",
+          "rarity_label": "common",
+          "level_required": 1,
+          "attack_rating_display": {
+            "physical": 73,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "D",
+            "dexterity": "A"
+          },
+          "physical_attack_types_display": [
+            "slash"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": null,
+            "name_zh": null,
+            "fp_cost_text": null,
+            "drop_assignment": null,
+            "interpretation": "page_lists_no_innate_skill"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "common",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。",
+          "randomization_claim": {
+            "skill": "按曲剑适用池随机",
+            "damage_types": "页面称可随机",
+            "status_buildup": "页面称可随机",
+            "pool_members": null
+          }
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "网页未给完整适用战技池；不能把“可随机”扩展为所有战技。",
+        "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+      ],
+      "existing_app_effect_id": null,
+      "existing_app_effect_mapping_note_zh": null
+    },
+    {
+      "sample_id": "nr-melee-antspur-rapier",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "蚁刺细剑",
+        "en": "Antspur Rapier",
+        "zh_source_id": "chinese-name-index",
+        "en_source_id": "mobalytics-antspur-rapier",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "刺剑",
+        "en": "Thrusting Sword",
+        "source_id": "mobalytics-antspur-rapier",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-antspur-rapier",
+          "scope": "weapon_detail_page",
+          "rarity_label": "rare",
+          "level_required": 7,
+          "attack_rating_display": {
+            "physical": 88,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "E",
+            "dexterity": "S"
+          },
+          "physical_attack_types_display": [
+            "standard",
+            "pierce"
+          ],
+          "innate_status_display": [
+            {
+              "type": "scarlet_rot",
+              "buildup": 56
+            }
+          ],
+          "skill_display": {
+            "name_en": "Impaling Thrust",
+            "name_zh": null,
+            "fp_cost_text": "9",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "rare",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+      ],
+      "existing_app_effect_id": null,
+      "existing_app_effect_mapping_note_zh": null
+    },
+    {
+      "sample_id": "nr-melee-uchigatana",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "打刀",
+        "en": "Uchigatana",
+        "zh_source_id": "bwiki-uchigatana",
+        "en_source_id": "mobalytics-uchigatana",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "刀",
+        "en": "Katana",
+        "source_id": "mobalytics-uchigatana",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-uchigatana",
+          "scope": "weapon_detail_page",
+          "rarity_label": "common",
+          "level_required": 1,
+          "attack_rating_display": {
+            "physical": 66,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "E",
+            "dexterity": "S"
+          },
+          "physical_attack_types_display": [
+            "slash",
+            "pierce"
+          ],
+          "innate_status_display": [
+            {
+              "type": "blood_loss",
+              "buildup": 30
+            }
+          ],
+          "skill_display": {
+            "name_en": "Unsheathe",
+            "name_zh": null,
+            "fp_cost_text": "0 > 10 > 15",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "common",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "bwiki-uchigatana",
+          "scope": "skill_assignment_and_chinese_name",
+          "skill_assignment_text": "随机",
+          "blessing_marker": "—",
+          "interpretation_zh": "与Mobalytics列居合的表达方式不一致；只能确定两页的记录，固定战技仍留空。"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "需裁定“页面列Unsheathe”与“战技随机”的语义，不能直接生成fixed_skill。",
+        "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+      ],
+      "existing_app_effect_id": null,
+      "existing_app_effect_mapping_note_zh": null
+    },
+    {
+      "sample_id": "nr-melee-hookclaws",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "钩爪",
+        "en": "Hookclaws",
+        "zh_source_id": "chinese-name-index",
+        "en_source_id": "mobalytics-hookclaws",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "爪",
+        "en": "Claw",
+        "source_id": "mobalytics-hookclaws",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-hookclaws",
+          "scope": "weapon_detail_page",
+          "rarity_label": "common",
+          "level_required": 1,
+          "attack_rating_display": {
+            "physical": 56,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "D",
+            "dexterity": "A"
+          },
+          "physical_attack_types_display": [
+            "slash",
+            "pierce"
+          ],
+          "innate_status_display": [
+            {
+              "type": "blood_loss",
+              "buildup": 30
+            }
+          ],
+          "skill_display": {
+            "name_en": "Quickstep",
+            "name_zh": null,
+            "fp_cost_text": "3",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "common",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "独有庇佑字段null表示未建立记录，不代表绝对没有任何随机被动。"
+      ],
+      "existing_app_effect_id": null,
+      "existing_app_effect_mapping_note_zh": null
+    },
+    {
+      "sample_id": "nr-melee-axe-of-godfrey",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "葛孚雷的王斧",
+        "en": "Axe Of Godfrey",
+        "zh_source_id": "quickref-weapon-effect",
+        "en_source_id": "mobalytics-axe-of-godfrey",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "特大武器",
+        "en": "Colossal Weapon",
+        "source_id": "mobalytics-axe-of-godfrey",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-axe-of-godfrey",
+          "scope": "weapon_detail_page",
+          "rarity_label": "legendary",
+          "level_required": 10,
+          "attack_rating_display": {
+            "physical": 181,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "S"
+          },
+          "physical_attack_types_display": [
+            "standard"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Regal Roar",
+            "name_zh": null,
+            "fp_cost_text": "25",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "legendary",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "quickref-weapon-effect",
+          "scope": "unique_blessing",
+          "name_zh": "初始之王的庇佑",
+          "trigger": "蓄力攻击",
+          "observation_summary_zh": "攻击力增幅20%，维持15秒。",
+          "numeric_observation": {
+            "attack_increase_percent": 20,
+            "duration_seconds": 15
+          },
+          "conditions": {
+            "game_version": null,
+            "test_setup": null,
+            "proc_probability": null,
+            "stacking_rules": null
+          },
+          "verification": "community_report_unverified_in_game"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "庇佑触发/刷新/叠加及多人作用范围待游戏内复核。"
+      ],
+      "existing_app_effect_id": "legendary:23",
+      "existing_app_effect_mapping_note_zh": "关联编号由本项目既有应用映射提供，仅标识条目身份；不代表此次读取的QuickRef main数据与应用旧快照内容或版本相同。"
+    },
+    {
+      "sample_id": "nr-melee-dark-moon-greatsword",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "暗月大剑",
+        "en": "Dark Moon Greatsword",
+        "zh_source_id": "quickref-weapon-effect",
+        "en_source_id": "mobalytics-dark-moon-greatsword",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "大剑",
+        "en": "Greatsword",
+        "source_id": "mobalytics-dark-moon-greatsword",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-dark-moon-greatsword",
+          "scope": "weapon_detail_page",
+          "rarity_label": "legendary",
+          "level_required": 10,
+          "attack_rating_display": {
+            "physical": 53,
+            "magic": 79,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "B",
+            "dexterity": "C",
+            "intelligence": "C"
+          },
+          "physical_attack_types_display": [
+            "standard",
+            "pierce"
+          ],
+          "innate_status_display": [
+            {
+              "type": "frostbite",
+              "buildup": 52
+            }
+          ],
+          "skill_display": {
+            "name_en": "Moonlight Greatsword",
+            "name_zh": null,
+            "fp_cost_text": "32",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "legendary",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "quickref-weapon-effect",
+          "scope": "unique_blessing",
+          "name_zh": "暗月的庇佑",
+          "trigger": "攻击命中",
+          "observation_summary_zh": "目标魔力受伤增幅15%，维持20秒。",
+          "numeric_observation": {
+            "target_magic_damage_taken_increase_percent": 15,
+            "duration_seconds": 20
+          },
+          "conditions": {
+            "game_version": null,
+            "test_setup": null,
+            "proc_probability": null,
+            "stacking_rules": null
+          },
+          "verification": "community_report_unverified_in_game"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "庇佑触发/刷新/叠加及多人作用范围待游戏内复核。"
+      ],
+      "existing_app_effect_id": "legendary:02",
+      "existing_app_effect_mapping_note_zh": "关联编号由本项目既有应用映射提供，仅标识条目身份；不代表此次读取的QuickRef main数据与应用旧快照内容或版本相同。"
+    },
+    {
+      "sample_id": "nr-melee-marikas-hammer",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "玛莉卡的石槌",
+        "en": "Marika's Hammer",
+        "zh_source_id": "quickref-weapon-effect",
+        "en_source_id": "mobalytics-marikas-hammer",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "槌",
+        "en": "Hammer",
+        "source_id": "mobalytics-marikas-hammer",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-marikas-hammer",
+          "scope": "weapon_detail_page",
+          "rarity_label": "legendary",
+          "level_required": 10,
+          "attack_rating_display": {
+            "physical": 74,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 49
+          },
+          "attribute_scaling_display": {
+            "strength": "B",
+            "dexterity": "D",
+            "faith": "D"
+          },
+          "physical_attack_types_display": [
+            "strike"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Gold Breaker",
+            "name_zh": null,
+            "fp_cost_text": "26",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "legendary",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "quickref-weapon-effect",
+          "scope": "unique_blessing",
+          "name_zh": "女王的庇佑",
+          "trigger": "蓄力攻击",
+          "observation_summary_zh": "附加地面冲击；源表列56圣、5削韧。",
+          "numeric_observation": {
+            "wave_holy_attack": 56,
+            "wave_poise_damage": 5
+          },
+          "conditions": {
+            "game_version": null,
+            "test_setup": null,
+            "proc_probability": null,
+            "stacking_rules": null
+          },
+          "verification": "community_report_unverified_in_game"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "庇佑伤害/削韧是源表表达；公式输入、倍率参考量、测试对象及减伤前后口径待核。"
+      ],
+      "existing_app_effect_id": "legendary:15",
+      "existing_app_effect_mapping_note_zh": "关联编号由本项目既有应用映射提供，仅标识条目身份；不代表此次读取的QuickRef main数据与应用旧快照内容或版本相同。"
+    },
+    {
+      "sample_id": "nr-melee-bastards-stars",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "弃子的繁星",
+        "en": "Bastard's Stars",
+        "zh_source_id": "quickref-weapon-effect",
+        "en_source_id": "mobalytics-bastards-stars",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "连枷",
+        "en": "Flail",
+        "source_id": "mobalytics-bastards-stars",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-bastards-stars",
+          "scope": "weapon_detail_page",
+          "rarity_label": "legendary",
+          "level_required": 10,
+          "attack_rating_display": {
+            "physical": 58,
+            "magic": 68,
+            "fire": 0,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "C",
+            "dexterity": "B",
+            "intelligence": "D"
+          },
+          "physical_attack_types_display": [
+            "strike"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Nebula",
+            "name_zh": null,
+            "fp_cost_text": "25",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "legendary",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "quickref-weapon-effect",
+          "scope": "unique_blessing",
+          "name_zh": "黑暗的庇佑",
+          "trigger": "攻击时概率触发",
+          "observation_summary_zh": "连爆3次；每爆列39普通伤害、3削韧。",
+          "numeric_observation": {
+            "explosion_count": 3,
+            "per_explosion_standard_damage": 39,
+            "per_explosion_poise_damage": 3,
+            "proc_chance": null
+          },
+          "conditions": {
+            "game_version": null,
+            "test_setup": null,
+            "proc_probability": null,
+            "stacking_rules": null
+          },
+          "verification": "community_report_unverified_in_game"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "庇佑伤害/削韧是源表表达；公式输入、倍率参考量、测试对象及减伤前后口径待核。"
+      ],
+      "existing_app_effect_id": "legendary:17",
+      "existing_app_effect_mapping_note_zh": "关联编号由本项目既有应用映射提供，仅标识条目身份；不代表此次读取的QuickRef main数据与应用旧快照内容或版本相同。"
+    },
+    {
+      "sample_id": "nr-melee-bolt-of-gransax",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "古兰桑克斯的雷电",
+        "en": "Bolt Of Gransax",
+        "zh_source_id": "quickref-weapon-effect",
+        "en_source_id": "mobalytics-bolt-of-gransax",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "矛",
+        "en": "Spear",
+        "source_id": "mobalytics-bolt-of-gransax",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-bolt-of-gransax",
+          "scope": "weapon_detail_page",
+          "rarity_label": "legendary",
+          "level_required": 10,
+          "attack_rating_display": {
+            "physical": 74,
+            "magic": 0,
+            "fire": 0,
+            "lightning": 49,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "C",
+            "dexterity": "B"
+          },
+          "physical_attack_types_display": [
+            "pierce"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Ancient Lightning Spear",
+            "name_zh": null,
+            "fp_cost_text": "24",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "legendary",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "quickref-weapon-effect",
+          "scope": "unique_blessing",
+          "name_zh": "大古龙的庇佑",
+          "trigger": "完成蓄力战技",
+          "observation_summary_zh": "获得40.2雷攻击力，维持30秒。",
+          "numeric_observation": {
+            "lightning_attack_add": 40.2,
+            "duration_seconds": 30
+          },
+          "conditions": {
+            "game_version": null,
+            "test_setup": null,
+            "proc_probability": null,
+            "stacking_rules": null
+          },
+          "verification": "community_report_unverified_in_game"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "庇佑触发/刷新/叠加及多人作用范围待游戏内复核。"
+      ],
+      "existing_app_effect_id": "legendary:19",
+      "existing_app_effect_mapping_note_zh": "关联编号由本项目既有应用映射提供，仅标识条目身份；不代表此次读取的QuickRef main数据与应用旧快照内容或版本相同。"
+    },
+    {
+      "sample_id": "nr-melee-grafted-dragon",
+      "record_status": "research_sample_not_production",
+      "game": "ELDEN RING NIGHTREIGN",
+      "name": {
+        "zh": "接肢飞龙",
+        "en": "Grafted Dragon",
+        "zh_source_id": "quickref-weapon-effect",
+        "en_source_id": "mobalytics-grafted-dragon",
+        "mapping_status": "community_source_name_match_not_official_localization_dump"
+      },
+      "category": {
+        "zh": "拳头",
+        "en": "Fist",
+        "source_id": "mobalytics-grafted-dragon",
+        "zh_label_status": "译名/社区类别映射"
+      },
+      "source_observations": [
+        {
+          "kind": "source_observation",
+          "source_id": "mobalytics-grafted-dragon",
+          "scope": "weapon_detail_page",
+          "rarity_label": "legendary",
+          "level_required": 10,
+          "attack_rating_display": {
+            "physical": 63,
+            "magic": 0,
+            "fire": 42,
+            "lightning": 0,
+            "holy": 0
+          },
+          "attribute_scaling_display": {
+            "strength": "B",
+            "dexterity": "C",
+            "faith": "C"
+          },
+          "physical_attack_types_display": [
+            "strike"
+          ],
+          "innate_status_display": [],
+          "skill_display": {
+            "name_en": "Bear Witness",
+            "name_zh": null,
+            "fp_cost_text": "20",
+            "drop_assignment": null,
+            "interpretation": "page_listed_only"
+          },
+          "numeric_conditions": {
+            "rarity_label_context": "legendary",
+            "stats_tied_to_label_confirmed": false,
+            "weapon_upgrade": null,
+            "character": null,
+            "character_level": null,
+            "affinity_roll": null,
+            "holding_mode": null,
+            "game_version": null
+          },
+          "limitations_zh": "只记录网页显示值，不等同于实际掉落面板、角色最终攻击力、所有品质通用基值或固定战技。"
+        },
+        {
+          "kind": "source_observation",
+          "source_id": "quickref-weapon-effect",
+          "scope": "unique_blessing",
+          "name_zh": "飞龙的庇佑",
+          "trigger": "处决",
+          "observation_summary_zh": "引发火焰爆炸；燃烧段60%、爆炸段300%。",
+          "numeric_observation": {
+            "burn_fire_multiplier_percent": 60,
+            "explosion_fire_multiplier_percent": 300,
+            "multiplier_reference": null
+          },
+          "conditions": {
+            "game_version": null,
+            "test_setup": null,
+            "proc_probability": null,
+            "stacking_rules": null
+          },
+          "verification": "community_report_unverified_in_game"
+        }
+      ],
+      "canonical_stats": null,
+      "fixed_skill": null,
+      "full_skill_pool": null,
+      "canonical_unique_blessing": null,
+      "drop_locations": null,
+      "known_gaps_zh": [
+        "未锁定补丁版本与来源修订。",
+        "缺游戏内独立复核及品质/强化/角色条件。",
+        "缺完整掉落规则、异常随机词条池和战技池。",
+        "庇佑伤害/削韧是源表表达；公式输入、倍率参考量、测试对象及减伤前后口径待核。"
+      ],
+      "existing_app_effect_id": "legendary:22",
+      "existing_app_effect_mapping_note_zh": "关联编号由本项目既有应用映射提供，仅标识条目身份；不代表此次读取的QuickRef main数据与应用旧快照内容或版本相同。"
+    }
+  ]
+}

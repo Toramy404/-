@@ -2,7 +2,13 @@
 
 此目录的 APK/ZIP 是本机产物，默认不进入 Git。公开分发安装包应使用 GitHub Releases，保留对应源码标签与更新说明。
 
-## 当前正式版本：v0.4.1
+## 当前正式版本：v0.5.0
+
+文件为 `duye-handbook-v0.5.0.apk` 和同名 `.apk.sha256`，公开下载见 [v0.5.0 Release](https://github.com/Toramy404/duye-handbook/releases/tag/v0.5.0)。包名 `local.duye.nightreign`，versionCode 500，最低Android 8.0；沿用v0.4.1签名并继续使用旧版个人记录存储键，直接覆盖安装。
+
+本轮新增武器图鉴与可选择起点的缩圈计时，完整范围见CHANGELOG。签名和资源核对结果在 `reports/android-v0.5.0/signed/`；公开附件读回结果在 `reports/release-v0.5.0/`。浏览器和编译检查不代替安卓真机验收，来源差异继续保留。
+
+## 历史安装包：v0.4.1
 
 本机原包：`渡夜手册-v0.4.1.apk`；[公开附件](https://github.com/Toramy404/duye-handbook/releases/tag/v0.4.1)：`duye-handbook-v0.4.1.apk`（内容一致），包名 `local.duye.nightreign`，versionCode `401`，最低 Android 8.0。沿用 v0.4.0 签名，直接覆盖安装以保留收藏、水晶标记和设置。
 
