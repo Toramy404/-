@@ -9,7 +9,7 @@ for(const file of ['dist/app.js','dist/catalog.js','dist/weapons.js','dist/circl
 const manifest=fs.readFileSync('android/AndroidManifest.xml','utf8');
 const version=manifest.match(/android:versionName="([^"]+)"/)[1];
 assert.equal(JSON.parse(fs.readFileSync('package.json')).version,version,'package and Android versions must agree');
-assert.ok(fs.readFileSync('dist/app.js','utf8').includes('体验预览 · v'+version+'</p>'),'Preview and Android versions must agree');
+assert.ok(fs.readFileSync('dist/app.js','utf8').includes('v'+version+'</p>'),'Preview and Android versions must agree');
 const sw=fs.readFileSync('dist/sw.js','utf8');
 const assets=JSON.parse(sw.match(/const ASSETS=(\[[^;]+\]);/)[1]);
 for(const asset of assets) assert.ok(fs.existsSync(path.join('dist',asset==='./'?'index.html':asset)),`Missing offline asset: ${asset}`);

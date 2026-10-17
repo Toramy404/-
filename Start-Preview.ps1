@@ -25,6 +25,6 @@ if (-not $ready) {
         } catch {}
     }
 }
-if ($ready) { Start-Process ($previewUrl + '#weapons') }
+if ($ready) { Start-Process ($previewUrl + '#home') }
 else { Start-Process (Join-Path $previewRoot 'dist\index.html') }
 

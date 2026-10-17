@@ -6,6 +6,7 @@ if hasattr(sys.stdout,'reconfigure'):sys.stdout.reconfigure(encoding='utf-8')
 APP=Path(__file__).resolve().parents[1]
 ROOT=APP.parent
 NATIVE=APP/'android'
+SIGNING=Path(os.environ.get('NIGHTREIGN_SIGNING_DIR',str(NATIVE/'signing')))
 MANIFEST=ET.parse(NATIVE/'AndroidManifest.xml').getroot()
 ANDROID_NS='{http://schemas.android.com/apk/res/android}'
 VERSION=MANIFEST.attrib[ANDROID_NS+'versionName']
@@ -39,7 +40,7 @@ if DELIVERY.exists():raise SystemExit('Output exists; never overwrite a released
 PREVIOUS=args.previous.resolve() if args.previous else None
 if args.signed:
     assert PREVIOUS.is_file(),'Previous released APK is missing'
-    assert (NATIVE/'signing/duye-release.jks').is_file() and (NATIVE/'signing/password.txt').is_file(),'Existing signing identity is required; never generate a replacement for an update'
+    assert (SIGNING/'duye-release.jks').is_file() and (SIGNING/'password.txt').is_file(),'Existing signing identity is required; never generate a replacement for an update'
 QA=APP/'reports'/('android-v'+VERSION)/('unsigned' if args.unsigned else 'signed')
 LOG=[]
 for p in (BUILD,BUILD/'assets/www',BUILD/'classes',BUILD/'dex',APP/'release',QA):p.mkdir(parents=True,exist_ok=True)
@@ -81,7 +82,6 @@ assert js.count(worker)==1
 js=js.replace(worker,"if(false){ // Packaged assets provide offline access in Android.")
 # Packaged UI describes the installed app, while the desktop preview remains a preview.
 replacements={
- ('体验预览 · v'+VERSION):'离线版 · v'+VERSION,
  '电脑预览在首页提示退出位置，安卓应用在首页返回时退出。':'',
  '页面、资料和地图均从本机载入，不依赖在线字体或数据服务。首次访问完成缓存后，同一浏览器可离线重开；也可直接打开文件夹里的 index.html。':'页面、资料和地图随安装包保存，断网也能直接查阅。来源链接在系统浏览器中打开。',
  '收藏和水晶标记仅保存在当前浏览器。换浏览器、清理网站数据或使用不同地址会得到独立记录。安卓安装包与电脑预览分别保存个人记录。':'收藏、水晶标记和显示偏好保存在本机。覆盖升级保留记录；卸载或清除应用数据会清空记录。安卓离线版 v'+VERSION+'。'
@@ -91,6 +91,9 @@ for old,new in replacements.items():
     js=js.replace(old,new)
 (asset_root/'app.js').write_text(js,'utf-8')
 assert (asset_root/'data.js').read_bytes()==(APP/'dist/data.js').read_bytes()
+assert "var storagePrefix=previewMode?'duye-weapons-preview-v1:':'';" in js
+assert "previewMode=!window.NightreignNative&&" in js
+assert 'v'+VERSION+'</p>' in js
 
 # UTF-8 source normalization is for Java compilation only.
 java_sources=[]
@@ -127,7 +130,7 @@ if args.unsigned:
         DELIVERY.parent.mkdir(parents=True,exist_ok=True);DELIVERY.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(OUT,DELIVERY)
     print(json.dumps({'unsigned_apk':str(DELIVERY),'compilation':'passed','all_assets_match':True,'permissions':[],'installable':False},ensure_ascii=False))
     raise SystemExit(0)
-signing=NATIVE/'signing';signing.mkdir(exist_ok=True)
+signing=SIGNING
 key=signing/'duye-release.jks';password=signing/'password.txt'
 assert key.exists(), 'Never replace the established signing key during an upgrade'
 assert password.exists(),'Signing password must be preserved with the keystore'

@@ -21,7 +21,7 @@
 
 首批 24 件装备使用仓库保存的 Nightreign 研究事实记录；逐条链接保留在 `data/sources.json` 与详情页。Mobalytics、BWIKI、QuickRef 及官方指南各自的核验范围保留在研究来源中；未将官方指南的搜索摘录当成完整 PDF 核验。没有复制网站武器图片或网页全文，也未用艾尔登法环本体数据补空白。类别符号由本项目以 SVG 路径绘制，仅表示近战、远程、触媒和盾牌。
 
-## 武器目录扩展与缩圈计时参考（预览）
+## v0.5.0 武器目录扩展与缩圈计时参考
 
 目录扩展取用游民星空（两辑武器图鉴）与游侠网（33 类装备图鉴）的名称、分类事实，逐项保留网页定位、原名和采用规则；发现错名或数值错行时不直接转录。18 件新增传说面板取自 Mobalytics 的对应 Nightreign 武器页，所有数值和来源条件保存在独立输入中，未复制武器图片、网页全文或介绍文案。新增目录与面板输入见 `docs/research/weapon-catalog-index-20261017.json`、`docs/research/weapon-legendary-expansion-20261017.json`，对应来源链接见 `data/sources.json`。
 

@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'dist');
-const port=Number(process.env.NIGHTREIGN_PORT||4318);
+const port=Number(process.env.NIGHTREIGN_PORT||4317);
 const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.webmanifest':'application/manifest+json; charset=utf-8','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.avif':'image/avif','.jpg':'image/jpeg','.txt':'text/plain; charset=utf-8'};
 http.createServer((req,res)=>{
  try{
