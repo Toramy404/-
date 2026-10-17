@@ -58,15 +58,22 @@
   {
     "id": "circle:5",
     "name": "第二次缩圈结束",
-    "time_display": "14:30",
-    "seconds": 870,
+    "time_display": "14:00",
+    "seconds": 840,
     "scope": "来源普通Day1/Day2缩圈；未按单人、深夜或异常场景逐项实测",
     "source_refs": [
       {
         "source_id": "quickref",
         "locator": "src/pages/GameMechanicsView.tsx/timelineItems"
+      },
+      {
+        "source_id": "circle:community-timing",
+        "locator": "升满级需要卢恩 / 缩圈时间节点（大致）"
       }
     ],
-    "verification_status": "source_reported"
+    "verification_status": "conflict",
+    "alternative_seconds": 870,
+    "alternative_time_display": "14:30",
+    "audit_note": "QuickRef 同一源码的列表写14:00、交互时间轴写14:30；3DM 转引测试写约14:00。计时采用较早14:00提醒，保留14:30差异，未作游戏实测。"
   }
 ]

@@ -1,0 +1,898 @@
+{
+  "accessed": "2026-10-17",
+  "items": [
+    {
+      "slug": "sword-of-night-and-flame",
+      "name_en": "Sword Of Night And Flame",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/sword-of-night-and-flame",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Straight Sword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 36,
+        "magic": 42,
+        "fire": 42,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 42,
+        "fire": 42,
+        "lightning": 26,
+        "holy": 26,
+        "boost": 35
+      },
+      "scaling": {
+        "strength": "C",
+        "intelligence": "C",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Night-and-flame Stance",
+        "fp_cost_display": "0 > 26 > 32",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:sword-of-night-and-flame",
+      "effect_id": "legendary:01",
+      "cross_check": {
+        "source_id": "weapon-index:ali-20",
+        "raw_cells": [
+          "物理：36 | 魔法：42 | 火：42 | 致命一击：100",
+          "力气：D | 灵巧：D"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "sacred-relic-sword",
+      "name_en": "Sacred Relic Sword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/sacred-relic-sword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greatsword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 97,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 48
+      },
+      "critical": 110,
+      "guard": {
+        "physical": 100,
+        "magic": 33,
+        "fire": 33,
+        "lightning": 33,
+        "holy": 45,
+        "boost": 46
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "D",
+        "faith": "C"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Wave Of Gold",
+        "fp_cost_display": "42",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:sacred-relic-sword",
+      "effect_id": "legendary:03",
+      "cross_check": null
+    },
+    {
+      "slug": "marais-executioners-sword",
+      "name_en": "Marais Executioner's Sword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/marais-executioners-sword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greatsword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 87,
+        "magic": 58,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 49,
+        "fire": 36,
+        "lightning": 36,
+        "holy": 36,
+        "boost": 46
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "C",
+        "arcane": "B"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Eochaid's Dancing Blade",
+        "fp_cost_display": "15",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:marais-executioners-sword",
+      "effect_id": "legendary:04",
+      "cross_check": {
+        "source_id": "weapon-index:ali-11",
+        "raw_cells": [
+          "物理：87 | 魔法：58 | 致命一击：100",
+          "力气：B | 灵巧：C | 感应：B"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "golden-order-greatsword",
+      "name_en": "Golden Order Greatsword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/golden-order-greatsword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greatsword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 44,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 102
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 30,
+        "fire": 30,
+        "lightning": 30,
+        "holy": 60,
+        "boost": 46
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Establish Order",
+        "fp_cost_display": "20",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:golden-order-greatsword",
+      "effect_id": "legendary:05",
+      "cross_check": null
+    },
+    {
+      "slug": "blasphemous-blade",
+      "name_en": "Blasphemous Blade",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/blasphemous-blade",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greatsword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 73,
+        "magic": 0,
+        "fire": 73,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 39,
+        "fire": 54,
+        "lightning": 39,
+        "holy": 39,
+        "boost": 46
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Taker's Flames",
+        "fp_cost_display": "30",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:blasphemous-blade",
+      "effect_id": "legendary:06",
+      "cross_check": {
+        "source_id": "weapon-index:ali-11",
+        "raw_cells": [
+          "物理：73 | 火：73 | 致命一击：100",
+          "力气：B | 灵巧：C | 信仰：C"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "ruins-greatsword",
+      "name_en": "Ruins Greatsword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/ruins-greatsword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Colossal Sword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 142,
+        "magic": 36,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 56,
+        "fire": 50,
+        "lightning": 50,
+        "holy": 50,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "D",
+        "intelligence": "D"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Wave Of Destruction",
+        "fp_cost_display": "25",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:ruins-greatsword",
+      "effect_id": "legendary:07",
+      "cross_check": {
+        "source_id": "weapon-index:ali-3",
+        "raw_cells": [
+          "物理：142 | 魔法：36 | 致命一击：100",
+          "力量：B | 灵巧：D | 智力：D"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "grafted-blade-greatsword",
+      "name_en": "Grafted Blade Greatsword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/grafted-blade-greatsword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Colossal Sword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 177,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 48,
+        "fire": 48,
+        "lightning": 48,
+        "holy": 48,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "A",
+        "dexterity": "C"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Oath Of Vengeance",
+        "fp_cost_display": "20",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:grafted-blade-greatsword",
+      "effect_id": "legendary:08",
+      "cross_check": null
+    },
+    {
+      "slug": "starscourge-greatsword",
+      "name_en": "Starscourge Greatsword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/starscourge-greatsword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Colossal Sword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 117,
+        "magic": 61,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 47,
+        "fire": 34,
+        "lightning": 34,
+        "holy": 34,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "D",
+        "intelligence": "D"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Starcaller Cry",
+        "fp_cost_display": "20 > 20",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:starscourge-greatsword",
+      "effect_id": "legendary:09",
+      "cross_check": {
+        "source_id": "weapon-index:ali-3",
+        "raw_cells": [
+          "物理：117 | 魔法：61 | 致命一击：100",
+          "力量：B | 灵巧：D | 智力：D"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "malikeths-black-blade",
+      "name_en": "Maliketh's Black Blade",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/malikeths-black-blade",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Colossal Sword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 119,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 59
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 36,
+        "fire": 36,
+        "lightning": 36,
+        "holy": 49,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "D",
+        "faith": "D"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Destined Death",
+        "fp_cost_display": "40",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:malikeths-black-blade",
+      "effect_id": "legendary:10",
+      "cross_check": null
+    },
+    {
+      "slug": "dragon-kings-cragblade",
+      "name_en": "Dragon King's Cragblade",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/dragon-kings-cragblade",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Heavy Thrusting Sword",
+      "attack_types": [
+        "standard",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 84,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 56,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 32,
+        "fire": 32,
+        "lightning": 46,
+        "holy": 32,
+        "boost": 36
+      },
+      "scaling": {
+        "strength": "C",
+        "dexterity": "B"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Thundercloud Form",
+        "fp_cost_display": "28",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:dragon-kings-cragblade",
+      "effect_id": "legendary:11",
+      "cross_check": {
+        "source_id": "weapon-index:ali-16",
+        "raw_cells": [
+          "物理：84 | 光：56 | 致命一击：100",
+          "力气：C | 灵巧：B"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "morgotts-cursed-sword",
+      "name_en": "Morgott's Cursed Sword",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/morgotts-cursed-sword",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Curved Greatsword",
+      "attack_types": [
+        "slash"
+      ],
+      "attack": {
+        "physical": 132,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 110,
+      "guard": {
+        "physical": 100,
+        "magic": 29,
+        "fire": 29,
+        "lightning": 29,
+        "holy": 29,
+        "boost": 46
+      },
+      "scaling": {
+        "strength": "C",
+        "dexterity": "C",
+        "arcane": "B"
+      },
+      "status": [
+        {
+          "type": "blood_loss",
+          "buildup": 41
+        }
+      ],
+      "state": "reported_innate",
+      "skill": {
+        "name_en": "Cursed-blood Slice",
+        "fp_cost_display": "20 > 20",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:morgotts-cursed-sword",
+      "effect_id": "legendary:12",
+      "cross_check": {
+        "source_id": "weapon-index:ali-5",
+        "raw_cells": [
+          "物理：132 | 失血：41",
+          "力气：C | 灵巧：C | 感应：B"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "hand-of-malenia",
+      "name_en": "Hand Of Malenia",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/hand-of-malenia",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Katana",
+      "attack_types": [
+        "slash",
+        "pierce"
+      ],
+      "attack": {
+        "physical": 112,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 33,
+        "fire": 33,
+        "lightning": 33,
+        "holy": 33,
+        "boost": 35
+      },
+      "scaling": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "status": [
+        {
+          "type": "blood_loss",
+          "buildup": 41
+        }
+      ],
+      "state": "reported_innate",
+      "skill": {
+        "name_en": "Waterfowl Dance",
+        "fp_cost_display": "12 > 9",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:hand-of-malenia",
+      "effect_id": "legendary:13",
+      "cross_check": {
+        "source_id": "weapon-index:ali-17",
+        "raw_cells": [
+          "物理：112 | 失血：41 | 致命一击：100",
+          "力气：E | 灵巧：S"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "winged-greathorn",
+      "name_en": "Winged Greathorn",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/winged-greathorn",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greataxe",
+      "attack_types": [
+        "standard"
+      ],
+      "attack": {
+        "physical": 155,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 35,
+        "fire": 35,
+        "lightning": 35,
+        "holy": 35,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "S",
+        "dexterity": "E"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Soul Stifler",
+        "fp_cost_display": "12",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:winged-greathorn",
+      "effect_id": "legendary:14",
+      "cross_check": {
+        "source_id": "weapon-index:ali-10",
+        "raw_cells": [
+          "物理：155 | 致命一击：100",
+          "力气：S | 灵巧：E"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "devourers-scepter",
+      "name_en": "Devourer's Scepter",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/devourers-scepter",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Great Hammer",
+      "attack_types": [
+        "strike"
+      ],
+      "attack": {
+        "physical": 93,
+        "magic": 0,
+        "fire": 57,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 33,
+        "fire": 45,
+        "lightning": 33,
+        "holy": 33,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "A",
+        "dexterity": "E",
+        "faith": "D"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Devourer Of Worlds",
+        "fp_cost_display": "35",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:devourers-scepter",
+      "effect_id": "legendary:16",
+      "cross_check": {
+        "source_id": "weapon-index:ali-12",
+        "raw_cells": [
+          "物理：93 | 火：57 | 致命一击：100",
+          "力气：A | 灵巧：E | 信仰：D"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "axe-of-godrick",
+      "name_en": "Axe Of Godrick",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/axe-of-godrick",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greataxe",
+      "attack_types": [
+        "standard"
+      ],
+      "attack": {
+        "physical": 155,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 35,
+        "fire": 35,
+        "lightning": 35,
+        "holy": 35,
+        "boost": 48
+      },
+      "scaling": {
+        "strength": "S",
+        "dexterity": "E"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "I Command Thee, Kneel!",
+        "fp_cost_display": "15 > 15",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:axe-of-godrick",
+      "effect_id": "legendary:18",
+      "cross_check": {
+        "source_id": "weapon-index:ali-10",
+        "raw_cells": [
+          "物理：112 | 致命一击：115",
+          "力气：S | 灵巧：E"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "mohgwyns-sacred-spear",
+      "name_en": "Mohgwyn's Sacred Spear",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/mohgwyns-sacred-spear",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Great Spear",
+      "attack_types": [
+        "pierce"
+      ],
+      "attack": {
+        "physical": 79,
+        "magic": 0,
+        "fire": 51,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 36,
+        "fire": 49,
+        "lightning": 36,
+        "holy": 36,
+        "boost": 46
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "C",
+        "arcane": "C"
+      },
+      "status": [
+        {
+          "type": "blood_loss",
+          "buildup": 77
+        }
+      ],
+      "state": "reported_innate",
+      "skill": {
+        "name_en": "Bloodboon Ritual",
+        "fp_cost_display": "20 > 20",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:mohgwyns-sacred-spear",
+      "effect_id": "legendary:20",
+      "cross_check": {
+        "source_id": "weapon-index:ali-13",
+        "raw_cells": [
+          "物理：79 | 火：51 | 失血：77： | 致命一击：100",
+          "力气：B | 灵巧：C | 感应：C"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "giants-red-braid",
+      "name_en": "Giant's Red Braid",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/giants-red-braid",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Whip",
+      "attack_types": [
+        "strike"
+      ],
+      "attack": {
+        "physical": 74,
+        "magic": 0,
+        "fire": 49,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 100,
+        "magic": 12,
+        "fire": 26,
+        "lightning": 12,
+        "holy": 12,
+        "boost": 17
+      },
+      "scaling": {
+        "strength": "D",
+        "dexterity": "A",
+        "faith": "D"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Flame Dance",
+        "fp_cost_display": "25",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:giants-red-braid",
+      "effect_id": "legendary:21",
+      "cross_check": {
+        "source_id": "weapon-index:ali-24",
+        "raw_cells": [
+          "物理：74 | 火：49 | 致命一击：100",
+          "力气：D | 灵巧：A | 信仰：D"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    },
+    {
+      "slug": "lion-greatbow",
+      "name_en": "Lion Greatbow",
+      "source_url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/lion-greatbow",
+      "accessed": "2026-10-17",
+      "rarity": "legendary",
+      "level_required": 10,
+      "category_en": "Greatbow",
+      "attack_types": [
+        "pierce"
+      ],
+      "attack": {
+        "physical": 182,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0
+      },
+      "critical": 100,
+      "guard": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "scaling": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "status": [],
+      "state": "explicit_no_innate",
+      "skill": {
+        "name_en": "Radahn's Rain",
+        "fp_cost_display": "0 > 32",
+        "fixed_for_weapon": null
+      },
+      "weapon_id": "weapon:lion-greatbow",
+      "effect_id": "legendary:25",
+      "cross_check": {
+        "source_id": "weapon-index:ali-30",
+        "raw_cells": [
+          "物理：182 | 致命一击：100",
+          "力气：B | 灵巧：C"
+        ],
+        "scope": "attack_and_scaling_only; missing fields not treated as zero"
+      }
+    }
+  ]
+}

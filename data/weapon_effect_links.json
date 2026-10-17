@@ -47,5 +47,131 @@
     "effect_id": "legendary:24",
     "collection": "legendary_weapon_effects",
     "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:sword-of-night-and-flame:legendary-effect",
+    "weapon_id": "weapon:sword-of-night-and-flame",
+    "effect_id": "legendary:01",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:marais-executioners-sword:legendary-effect",
+    "weapon_id": "weapon:marais-executioners-sword",
+    "effect_id": "legendary:04",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:blasphemous-blade:legendary-effect",
+    "weapon_id": "weapon:blasphemous-blade",
+    "effect_id": "legendary:06",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:golden-order-greatsword:legendary-effect",
+    "weapon_id": "weapon:golden-order-greatsword",
+    "effect_id": "legendary:05",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:sacred-relic-sword:legendary-effect",
+    "weapon_id": "weapon:sacred-relic-sword",
+    "effect_id": "legendary:03",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:grafted-blade-greatsword:legendary-effect",
+    "weapon_id": "weapon:grafted-blade-greatsword",
+    "effect_id": "legendary:08",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:ruins-greatsword:legendary-effect",
+    "weapon_id": "weapon:ruins-greatsword",
+    "effect_id": "legendary:07",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:starscourge-greatsword:legendary-effect",
+    "weapon_id": "weapon:starscourge-greatsword",
+    "effect_id": "legendary:09",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:malikeths-black-blade:legendary-effect",
+    "weapon_id": "weapon:malikeths-black-blade",
+    "effect_id": "legendary:10",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:dragon-kings-cragblade:legendary-effect",
+    "weapon_id": "weapon:dragon-kings-cragblade",
+    "effect_id": "legendary:11",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:morgotts-cursed-sword:legendary-effect",
+    "weapon_id": "weapon:morgotts-cursed-sword",
+    "effect_id": "legendary:12",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:hand-of-malenia:legendary-effect",
+    "weapon_id": "weapon:hand-of-malenia",
+    "effect_id": "legendary:13",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:winged-greathorn:legendary-effect",
+    "weapon_id": "weapon:winged-greathorn",
+    "effect_id": "legendary:14",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:axe-of-godrick:legendary-effect",
+    "weapon_id": "weapon:axe-of-godrick",
+    "effect_id": "legendary:18",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:devourers-scepter:legendary-effect",
+    "weapon_id": "weapon:devourers-scepter",
+    "effect_id": "legendary:16",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:lion-greatbow:legendary-effect",
+    "weapon_id": "weapon:lion-greatbow",
+    "effect_id": "legendary:25",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:mohgwyns-sacred-spear:legendary-effect",
+    "weapon_id": "weapon:mohgwyns-sacred-spear",
+    "effect_id": "legendary:20",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
+  },
+  {
+    "id": "weapon:giants-red-braid:legendary-effect",
+    "weapon_id": "weapon:giants-red-braid",
+    "effect_id": "legendary:21",
+    "collection": "legendary_weapon_effects",
+    "verification_status": "source_reported"
   }
 ]

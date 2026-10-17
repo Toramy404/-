@@ -67,3 +67,7 @@ body{background:radial-gradient(ellipse at 80% 0,#22334744,transparent 50%),var(
 .unnumbered-table td[data-label="数值与条件"]{display:table-cell}
 .phone-mode .unnumbered-table td[data-label="数值与条件"]{display:block}
 @media(max-width:760px){.unnumbered-table td[data-label="数值与条件"]{display:block}}
+
+/* Desktop review defaults to the same compact width used on Android phones. */
+.phone-mode #app{width:390px;height:min(844px,calc(100dvh - 32px));min-height:520px;margin:16px auto;border-radius:20px}.phone-mode .phone-banner{padding:5px 12px}.phone-mode .bottom-nav{height:60px}
+.phone-mode dialog,.phone-mode dialog.family-dialog{width:min(366px,calc(100vw - 28px));max-height:min(800px,calc(100dvh - 64px))}.phone-mode .dialog-inner{padding:18px}

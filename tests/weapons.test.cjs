@@ -16,11 +16,11 @@ function check(name,truth){assert.ok(truth,name);checks++}
 function equal(a,b,name){assert.deepEqual(JSON.parse(JSON.stringify(a)),JSON.parse(JSON.stringify(b)),name);checks++}
 function action(a,v){T.handleAction({target:{closest(){return{dataset:{action:a,value:v}}}}})}
 const originalData=JSON.stringify(D),get=id=>D.weapons.find(r=>r.id==='weapon:'+id),variant=id=>W.variant(get(id));
-equal([D.weapons.length,new Set(D.weapons.map(r=>r.category_en)).size,D.weapon_effect_links.length,D.legendary_weapon_effects.length],[24,20,7,25],'coverage and unchanged old effect count');
+equal([D.weapons.length,new Set(D.weapons.map(r=>r.category_en)).size,D.weapon_effect_links.length,D.legendary_weapon_effects.length],[387,33,25,25],'coverage and unchanged old effect count');
 equal(D.weapons.filter(r=>r.name_zh_status.includes('provisional')).length,11,'candidate translations retained');
-check('unique IDs',new Set(D.weapons.map(r=>r.id)).size===24);
+check('unique IDs',new Set(D.weapons.map(r=>r.id)).size===387);
 const src=new Set(D.sources.map(s=>s.id));check('source IDs unique',src.size===D.sources.length);
-for(const w of D.weapons){
+for(const w of D.weapons.filter(w=>w.research_sample_id)){
  const v=W.variant(w),isMelee=w.group==='melee',original=isMelee?M.samples.find(r=>r.sample_id===w.research_sample_id):R.items.find(r=>r.id===w.research_sample_id),raw=isMelee?original.source_observations:[original.source_observation],first=raw[0];
  equal(w.observation_ids.map(id=>D.weapon_source_observations.find(o=>o.id===id).raw),raw,w.name+' source observations lossless');
  check(w.name+' source links resolve',w.source_refs.every(r=>src.has(r.source_id))&&src.has(v.source_id));
@@ -52,9 +52,44 @@ action('font-size','large');action('density','cards');action('clear-recent');act
 check('all storage reads and writes isolated',reads.every(k=>k.startsWith(prefix))&&writes.every(k=>k.startsWith(prefix)));
 equal(JSON.stringify(Object.fromEntries(Object.entries(records).filter(([k])=>!k.startsWith(prefix)))),originalProduction,'production fixtures untouched');
 action('reset-weapons');T.state.query='Carian Regal';equal(W.select(T.state).map(r=>r.id),['weapon:carian-regal-scepter'],'English multiword search');
-T.state.query='不存在xyz';equal(W.select(T.state).length,0,'empty result');T.state.query='';action('weapon-group','shield');equal(W.select(T.state).length,3,'shield filter');
+T.state.query='不存在xyz';equal(W.select(T.state).length,0,'empty result');T.state.query='';action('weapon-group','shield');equal(W.select(T.state).length,71,'shield filter');
 T.state.global='月光大剑';check('global search includes weapon',T.search().includes('weapons|weapon:dark-moon-greatsword'));
 T.state.view='weapons';ctx.window.NR_APP_BACK();equal(T.state.view,'home','weapon list parent home');equal(ctx.window.NR_APP_BACK(),'exit','home exit');
+
+const expansion=read('docs/research/weapon-legendary-expansion-20261017.json');
+equal(D.weapons.filter(w=>w.variant_ids.length).length,42,'42 panels; identities are not invented numeric panels');
+for(const raw of expansion.items){
+ const w=get(raw.slug),v=W.variant(w);
+ equal(Object.fromEntries(Object.entries(v.attack).map(([k,f])=>[k,f.value])),raw.attack,w.name+' new attack matches source');
+ equal(v.guard.value,raw.guard,w.name+' new guard matches source');
+ equal(v.scaling.grades,raw.scaling,w.name+' new scaling matches source');
+ equal(v.status.effects,raw.status,w.name+' new status matches source');
+ equal(v.skill.value,raw.skill,w.name+' new FP and skill match source');
+ equal(D.weapon_effect_links.find(l=>l.weapon_id===w.id).effect_id,raw.effect_id,w.name+' legendary ID is explicit');
+}
+for(const w of D.weapons){
+ check(w.name+' identity sources resolve',w.source_refs.length>0&&w.source_refs.every(r=>src.has(r.source_id)));
+ const html=W.detail(w),body=html.split('<details class="weapon-reference">')[0],card=W.card(w);
+ check(w.name+' source section last',html.includes('<summary>来源与说明</summary>')&&!body.includes('来源报告')&&html.endsWith('</details>'));
+ check(w.name+' name before type',card.indexOf('<h3>')<card.indexOf('weapon-card-meta'));
+ check(w.name+' render no missing values',!html.includes('undefined')&&!html.includes('NaN'));
+}
+for(const id of ['battle-axe','hand-ballista','lion-greatbow']){
+ const body=W.detail(get(id)).split('<details class="weapon-reference">')[0];
+ check(id+' no empty defense or status block',!body.includes('<h3>防御</h3>')&&!body.includes('<h3>固有异常</h3>'));
+}
+check('known status kept',W.detail(get('antspur-rapier')).split('<details class="weapon-reference">')[0].includes('猩红腐败积累 56'));
+check('shield guard kept',W.detail(get('brass-shield')).split('<details class="weapon-reference">')[0].includes('<h3>防御</h3>'));
+check('all legendary effects linked once',new Set(D.weapon_effect_links.map(l=>l.effect_id)).size===25);
+const knight=D.weapons.find(w=>w.name==='骑士大剑');
+check('wrongly labeled table not imported',knight.variant_ids.length===0&&variant('golden-order-greatsword').attack.holy.value===102);
+Object.assign(T.state,{view:'weapons',query:'',weaponGroup:'all',weaponCategory:'all',weaponRarity:'legendary',limit:36});
+equal(W.select(T.state).length,25,'legendary filter includes all 25');
+T.state.weaponRarity='all';equal((W.page(T.state).match(/<article class="weapon-card/g)||[]).length,36,'large catalog paginates initial 36');
+action('more-results');equal((W.page(T.state).match(/<article class="weapon-card/g)||[]).length,72,'next page appends 36');
+T.rememberView();T.navigate('home');T.navigate('weapons');equal(T.state.limit,72,'return preserves loaded count');
+action('reset-weapons');equal(T.state.limit,36,'clear resets loaded count');
+
 equal(JSON.stringify(D),originalData,'all UI operations preserve data');
 const sw=fs.readFileSync(path.join(root,'dist/sw.js'),'utf8');check('worker cleans only preview caches',sw.includes("key.startsWith('duye-weapons-preview-')")&&!sw.includes("key.startsWith('nightreign-offline-')"));
 const hashes={'data/legendary_weapon_effects.json':'d0904d3b95ca8542125b90f0f8afa8ef6611fb237d995f3d03e8ff69528f6355','data/effects.json':'5580a3d4aabfc0da4902711a0314d0c1ecad159f31470c11e0f198fcb01ee612','data/map_patterns.json':'5660a20b2a6e626e09d8cce0d72277410ae30f70057eb08f4b24251ec3cf09ed','data/characters.json':'ecc3a9d15547626632e84d684b9af954733813031ec3293827e4eb34117cf235','docs/research/weapon-catalog-samples-20261017.md':'2688bf1721999ba1bb3181e17a50fffb13251d640fdcfcb592b249db6141127f','docs/research/melee-12-source-observations.json':'fa76330e7fd0e961811f637e3e577ca348e18137f899723fa5d100fc18770854','docs/research/weapon-tools.json':'112230a22cb4213c25c3eee4fdbbf6260bf79388eec5dbeefeef533db3fd4e80'};

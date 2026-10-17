@@ -2434,5 +2434,1808 @@
       "spells": "not_applicable：非施法触媒。",
       "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
     }
+  },
+  {
+    "id": "weapon:sword-of-night-and-flame:source-example",
+    "weapon_id": "weapon:sword-of-night-and-flame",
+    "observation_id": "weapon:sword-of-night-and-flame:observation:1",
+    "source_id": "weapon-expansion:mobalytics-sword-of-night-and-flame",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 36,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 42,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 42,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 42,
+        "fire": 42,
+        "lightning": 26,
+        "holy": 26,
+        "boost": 35
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "C",
+        "intelligence": "C",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Night-and-flame Stance",
+        "fp_cost_display": "0 > 26 > 32",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:sacred-relic-sword:source-example",
+    "weapon_id": "weapon:sacred-relic-sword",
+    "observation_id": "weapon:sacred-relic-sword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-sacred-relic-sword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 97,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 48,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 110,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 33,
+        "fire": 33,
+        "lightning": 33,
+        "holy": 45,
+        "boost": 46
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "D",
+        "faith": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Wave Of Gold",
+        "fp_cost_display": "42",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:marais-executioners-sword:source-example",
+    "weapon_id": "weapon:marais-executioners-sword",
+    "observation_id": "weapon:marais-executioners-sword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-marais-executioners-sword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 87,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 58,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 49,
+        "fire": 36,
+        "lightning": 36,
+        "holy": 36,
+        "boost": 46
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C",
+        "arcane": "B"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Eochaid's Dancing Blade",
+        "fp_cost_display": "15",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:golden-order-greatsword:source-example",
+    "weapon_id": "weapon:golden-order-greatsword",
+    "observation_id": "weapon:golden-order-greatsword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-golden-order-greatsword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 44,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 102,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 30,
+        "fire": 30,
+        "lightning": 30,
+        "holy": 60,
+        "boost": 46
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Establish Order",
+        "fp_cost_display": "20",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:blasphemous-blade:source-example",
+    "weapon_id": "weapon:blasphemous-blade",
+    "observation_id": "weapon:blasphemous-blade:observation:1",
+    "source_id": "weapon-expansion:mobalytics-blasphemous-blade",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 73,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 73,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 39,
+        "fire": 54,
+        "lightning": 39,
+        "holy": 39,
+        "boost": 46
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C",
+        "faith": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Taker's Flames",
+        "fp_cost_display": "30",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:ruins-greatsword:source-example",
+    "weapon_id": "weapon:ruins-greatsword",
+    "observation_id": "weapon:ruins-greatsword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-ruins-greatsword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 142,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 36,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 56,
+        "fire": 50,
+        "lightning": 50,
+        "holy": 50,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "D",
+        "intelligence": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Wave Of Destruction",
+        "fp_cost_display": "25",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:grafted-blade-greatsword:source-example",
+    "weapon_id": "weapon:grafted-blade-greatsword",
+    "observation_id": "weapon:grafted-blade-greatsword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-grafted-blade-greatsword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 177,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 48,
+        "fire": 48,
+        "lightning": 48,
+        "holy": 48,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "A",
+        "dexterity": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Oath Of Vengeance",
+        "fp_cost_display": "20",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:starscourge-greatsword:source-example",
+    "weapon_id": "weapon:starscourge-greatsword",
+    "observation_id": "weapon:starscourge-greatsword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-starscourge-greatsword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 117,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 61,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 47,
+        "fire": 34,
+        "lightning": 34,
+        "holy": 34,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "D",
+        "intelligence": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Starcaller Cry",
+        "fp_cost_display": "20 > 20",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:malikeths-black-blade:source-example",
+    "weapon_id": "weapon:malikeths-black-blade",
+    "observation_id": "weapon:malikeths-black-blade:observation:1",
+    "source_id": "weapon-expansion:mobalytics-malikeths-black-blade",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 119,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 59,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 36,
+        "fire": 36,
+        "lightning": 36,
+        "holy": 49,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "D",
+        "faith": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Destined Death",
+        "fp_cost_display": "40",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:dragon-kings-cragblade:source-example",
+    "weapon_id": "weapon:dragon-kings-cragblade",
+    "observation_id": "weapon:dragon-kings-cragblade:observation:1",
+    "source_id": "weapon-expansion:mobalytics-dragon-kings-cragblade",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 84,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 56,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 32,
+        "fire": 32,
+        "lightning": 46,
+        "holy": 32,
+        "boost": 36
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "C",
+        "dexterity": "B"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Thundercloud Form",
+        "fp_cost_display": "28",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:morgotts-cursed-sword:source-example",
+    "weapon_id": "weapon:morgotts-cursed-sword",
+    "observation_id": "weapon:morgotts-cursed-sword:observation:1",
+    "source_id": "weapon-expansion:mobalytics-morgotts-cursed-sword",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 132,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 110,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 29,
+        "fire": 29,
+        "lightning": 29,
+        "holy": 29,
+        "boost": 46
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "C",
+        "dexterity": "C",
+        "arcane": "B"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "slash"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "blood_loss",
+          "buildup": 41
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Cursed-blood Slice",
+        "fp_cost_display": "20 > 20",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:hand-of-malenia:source-example",
+    "weapon_id": "weapon:hand-of-malenia",
+    "observation_id": "weapon:hand-of-malenia:observation:1",
+    "source_id": "weapon-expansion:mobalytics-hand-of-malenia",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 112,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 33,
+        "fire": 33,
+        "lightning": 33,
+        "holy": 33,
+        "boost": 35
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "E",
+        "dexterity": "S"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "slash",
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "blood_loss",
+          "buildup": 41
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Waterfowl Dance",
+        "fp_cost_display": "12 > 9",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:winged-greathorn:source-example",
+    "weapon_id": "weapon:winged-greathorn",
+    "observation_id": "weapon:winged-greathorn:observation:1",
+    "source_id": "weapon-expansion:mobalytics-winged-greathorn",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 155,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 35,
+        "fire": 35,
+        "lightning": 35,
+        "holy": 35,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "S",
+        "dexterity": "E"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Soul Stifler",
+        "fp_cost_display": "12",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:devourers-scepter:source-example",
+    "weapon_id": "weapon:devourers-scepter",
+    "observation_id": "weapon:devourers-scepter:observation:1",
+    "source_id": "weapon-expansion:mobalytics-devourers-scepter",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 93,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 57,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 33,
+        "fire": 45,
+        "lightning": 33,
+        "holy": 33,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "A",
+        "dexterity": "E",
+        "faith": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Devourer Of Worlds",
+        "fp_cost_display": "35",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:axe-of-godrick:source-example",
+    "weapon_id": "weapon:axe-of-godrick",
+    "observation_id": "weapon:axe-of-godrick:observation:1",
+    "source_id": "weapon-expansion:mobalytics-axe-of-godrick",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 155,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 35,
+        "fire": 35,
+        "lightning": 35,
+        "holy": 35,
+        "boost": 48
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "S",
+        "dexterity": "E"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "standard"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "I Command Thee, Kneel!",
+        "fp_cost_display": "15 > 15",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:mohgwyns-sacred-spear:source-example",
+    "weapon_id": "weapon:mohgwyns-sacred-spear",
+    "observation_id": "weapon:mohgwyns-sacred-spear:observation:1",
+    "source_id": "weapon-expansion:mobalytics-mohgwyns-sacred-spear",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 79,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 51,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 36,
+        "fire": 49,
+        "lightning": 36,
+        "holy": 36,
+        "boost": 46
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C",
+        "arcane": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "reported_innate",
+      "effects": [
+        {
+          "type": "blood_loss",
+          "buildup": 77
+        }
+      ]
+    },
+    "skill": {
+      "value": {
+        "name_en": "Bloodboon Ritual",
+        "fp_cost_display": "20 > 20",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:giants-red-braid:source-example",
+    "weapon_id": "weapon:giants-red-braid",
+    "observation_id": "weapon:giants-red-braid:observation:1",
+    "source_id": "weapon-expansion:mobalytics-giants-red-braid",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 74,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 49,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 100,
+        "magic": 12,
+        "fire": 26,
+        "lightning": 12,
+        "holy": 12,
+        "boost": 17
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "D",
+        "dexterity": "A",
+        "faith": "D"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "strike"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Flame Dance",
+        "fp_cost_display": "25",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
+  },
+  {
+    "id": "weapon:lion-greatbow:source-example",
+    "weapon_id": "weapon:lion-greatbow",
+    "observation_id": "weapon:lion-greatbow:observation:1",
+    "source_id": "weapon-expansion:mobalytics-lion-greatbow",
+    "verification_status": "source_reported",
+    "rarity_label": "legendary",
+    "level_required": 10,
+    "rarity_stats_binding_confirmed": false,
+    "attack": {
+      "physical": {
+        "value": 182,
+        "state": "known",
+        "reason": null
+      },
+      "magic": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "fire": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "lightning": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      },
+      "holy": {
+        "value": 0,
+        "state": "known",
+        "reason": null
+      }
+    },
+    "critical": {
+      "value": 100,
+      "state": "known",
+      "reason": null
+    },
+    "guard": {
+      "value": {
+        "physical": 0,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "holy": 0,
+        "boost": 0
+      },
+      "state": "known",
+      "reason": null
+    },
+    "scaling": {
+      "state": "grades_displayed",
+      "grades": {
+        "strength": "B",
+        "dexterity": "C"
+      },
+      "unlisted_attribute_grades": null
+    },
+    "attack_types": [
+      "pierce"
+    ],
+    "spell_power": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术威力。"
+    },
+    "status": {
+      "state": "explicit_no_innate",
+      "effects": []
+    },
+    "skill": {
+      "value": {
+        "name_en": "Radahn's Rain",
+        "fp_cost_display": "0 > 32",
+        "fixed_for_weapon": null
+      },
+      "state": "known",
+      "reason": null
+    },
+    "spells": {
+      "value": null,
+      "state": "not_applicable",
+      "reason": "该武器不适用触媒法术栏。"
+    },
+    "conditions": {
+      "patch": null,
+      "character": null,
+      "character_level": null,
+      "upgrade": null,
+      "buffs": null
+    },
+    "null_reasons": {
+      "conditions": "补丁、强化、角色及品质与数值绑定未完成核验。"
+    }
   }
 ]

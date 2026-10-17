@@ -425,6 +425,14 @@
     "bytes": 561351
   },
   {
+    "id": "circle:community-timing",
+    "title": "全怪物卢恩获取测试分享 · 缩圈节点",
+    "url": "https://www.3dmgame.com/gl/3970560.html",
+    "accessed": "2026-10-17",
+    "version": "2025-06-26",
+    "note": "转引 Steam 作者琪的测试资料；第二次结束约14:00，与 QuickRef 交互时间轴14:30有差异。"
+  },
+  {
     "id": "weapon-research:quickref-weapon-effect",
     "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_effect.json",
     "publisher": "NightreignQuickRef / xxiixi",
@@ -912,5 +920,429 @@
     "version": null,
     "note": "研究来源记录，未完成游戏内验证。",
     "research_source_id": "mobalytics-ants-skull-plate"
+  },
+  {
+    "id": "weapon-index:gamersky-upper",
+    "title": "游民星空 · 黑夜君临武器图鉴（上篇）",
+    "url": "https://www.gamersky.com/handbook/202505/1935258.shtml",
+    "accessed": "2026-10-17",
+    "version": "2025-05-30 目录",
+    "note": "仅提取名称、分类和分页定位；不代表当前版本全量或面板核验。"
+  },
+  {
+    "id": "weapon-index:gamersky-lower",
+    "title": "游民星空 · 黑夜君临武器图鉴（下篇）",
+    "url": "https://www.gamersky.com/handbook/202505/1935759.shtml",
+    "accessed": "2026-10-17",
+    "version": "2025-05-30 目录",
+    "note": "仅提取名称、分类和分页定位；不代表当前版本全量或面板核验。"
+  },
+  {
+    "id": "weapon-index:ali-1",
+    "title": "游侠网 · 黑夜君临武器汇总 · 斧",
+    "url": "https://gl.ali213.net/html/2025-5/1662427.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-2",
+    "title": "游侠网 · 黑夜君临武器汇总 · 钩爪",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_2.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-3",
+    "title": "游侠网 · 黑夜君临武器汇总 · 特大剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_3.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-4",
+    "title": "游侠网 · 黑夜君临武器汇总 · 特大武器",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_4.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-5",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大曲剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_5.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-6",
+    "title": "游侠网 · 黑夜君临武器汇总 · 曲剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_6.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-7",
+    "title": "游侠网 · 黑夜君临武器汇总 · 短剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_7.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-8",
+    "title": "游侠网 · 黑夜君临武器汇总 · 拳头",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_8.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-9",
+    "title": "游侠网 · 黑夜君临武器汇总 · 连枷",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_9.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-10",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大斧",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_10.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-11",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_11.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-12",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大槌",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_12.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-13",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大矛",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_13.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-14",
+    "title": "游侠网 · 黑夜君临武器汇总 · 戟",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_14.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-15",
+    "title": "游侠网 · 黑夜君临武器汇总 · 槌",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_15.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-16",
+    "title": "游侠网 · 黑夜君临武器汇总 · 重刺剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_16.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-17",
+    "title": "游侠网 · 黑夜君临武器汇总 · 刀",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_17.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-18",
+    "title": "游侠网 · 黑夜君临武器汇总 · 镰刀",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_18.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-19",
+    "title": "游侠网 · 黑夜君临武器汇总 · 矛",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_19.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-20",
+    "title": "游侠网 · 黑夜君临武器汇总 · 直剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_20.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-21",
+    "title": "游侠网 · 黑夜君临武器汇总 · 刺剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_21.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-22",
+    "title": "游侠网 · 黑夜君临武器汇总 · 火把",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_22.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-23",
+    "title": "游侠网 · 黑夜君临武器汇总 · 双头剑",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_23.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-24",
+    "title": "游侠网 · 黑夜君临武器汇总 · 软鞭",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_24.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-25",
+    "title": "游侠网 · 黑夜君临武器汇总 · 法杖",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_25.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-26",
+    "title": "游侠网 · 黑夜君临武器汇总 · 圣印记",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_26.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-27",
+    "title": "游侠网 · 黑夜君临武器汇总 · 弩炮",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_27.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-28",
+    "title": "游侠网 · 黑夜君临武器汇总 · 弓",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_28.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-29",
+    "title": "游侠网 · 黑夜君临武器汇总 · 弩",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_29.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-30",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大弓",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_30.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-31",
+    "title": "游侠网 · 黑夜君临武器汇总 · 小盾",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_31.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-32",
+    "title": "游侠网 · 黑夜君临武器汇总 · 中盾",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_32.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-index:ali-33",
+    "title": "游侠网 · 黑夜君临武器汇总 · 大盾",
+    "url": "https://gl.ali213.net/html/2025-5/1662427_33.html",
+    "accessed": "2026-10-17",
+    "version": "2025 年资料",
+    "note": "用于目录对照。存在译名、面板错位及跨来源数值差异，未批量导入数值。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-sword-of-night-and-flame",
+    "title": "Mobalytics · Sword Of Night And Flame",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/sword-of-night-and-flame",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-sacred-relic-sword",
+    "title": "Mobalytics · Sacred Relic Sword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/sacred-relic-sword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-marais-executioners-sword",
+    "title": "Mobalytics · Marais Executioner's Sword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/marais-executioners-sword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-golden-order-greatsword",
+    "title": "Mobalytics · Golden Order Greatsword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/golden-order-greatsword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-blasphemous-blade",
+    "title": "Mobalytics · Blasphemous Blade",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/blasphemous-blade",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-ruins-greatsword",
+    "title": "Mobalytics · Ruins Greatsword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/ruins-greatsword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-grafted-blade-greatsword",
+    "title": "Mobalytics · Grafted Blade Greatsword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/grafted-blade-greatsword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-starscourge-greatsword",
+    "title": "Mobalytics · Starscourge Greatsword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/starscourge-greatsword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-malikeths-black-blade",
+    "title": "Mobalytics · Maliketh's Black Blade",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/malikeths-black-blade",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-dragon-kings-cragblade",
+    "title": "Mobalytics · Dragon King's Cragblade",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/dragon-kings-cragblade",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-morgotts-cursed-sword",
+    "title": "Mobalytics · Morgott's Cursed Sword",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/morgotts-cursed-sword",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-hand-of-malenia",
+    "title": "Mobalytics · Hand Of Malenia",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/hand-of-malenia",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-winged-greathorn",
+    "title": "Mobalytics · Winged Greathorn",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/winged-greathorn",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-devourers-scepter",
+    "title": "Mobalytics · Devourer's Scepter",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/devourers-scepter",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-axe-of-godrick",
+    "title": "Mobalytics · Axe Of Godrick",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/axe-of-godrick",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-mohgwyns-sacred-spear",
+    "title": "Mobalytics · Mohgwyn's Sacred Spear",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/mohgwyns-sacred-spear",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-giants-red-braid",
+    "title": "Mobalytics · Giant's Red Braid",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/giants-red-braid",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
+  },
+  {
+    "id": "weapon-expansion:mobalytics-lion-greatbow",
+    "title": "Mobalytics · Lion Greatbow",
+    "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/lion-greatbow",
+    "accessed": "2026-10-17",
+    "version": null,
+    "note": "逐页采集来源面板，未绑定游戏补丁、角色及强化条件。"
   }
 ]

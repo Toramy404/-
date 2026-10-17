@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "name": "渡夜手册",
   "version": "0.3.0",
-  "dataVersion": "2026.10.17-weapon-preview.1",
+  "dataVersion": "2026.10.17-weapon-preview.2",
   "labels": {
     "attack_increase_pct": "攻击提升（%）",
     "base_cooldown_seconds": "基础冷却（秒）",

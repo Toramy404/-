@@ -325,7 +325,7 @@
   {
     "id": "weapon-preview-conditions",
     "name": "首批武器样本待完成版本和条件核验",
-    "detail": "24件装备目前均为来源报告；11个中文名称为候选译名。补丁、品质与面板绑定、强化和角色条件未完整核验；打刀战技的来源表述并列保留。",
+    "detail": "387 件基础装备目录，42 件来源示例面板，25 件传说效果已显式关联。345 件只有名称和类别；补丁、强化、角色及品质与面板条件未完成核验；原 11 个候选中文名保留原状态。目录尚未补入后续 DLC 初始装备。",
     "severity": "needs_verification",
     "source_refs": [
       {
@@ -338,5 +338,11 @@
       }
     ],
     "verification_status": "documented_issue"
+  },
+  {
+    "id": "circle-end-time-conflict",
+    "name": "末次缩圈结束时间存在差异",
+    "severity": "needs_verification",
+    "detail": "QuickRef 同一源码的列表写14:00、交互时间轴写14:30；3DM 转引测试写约14:00。计时采用较早14:00提醒，保留14:30差异，未作游戏实测。"
   }
 ]
