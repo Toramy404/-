@@ -1,0 +1,1401 @@
+{
+  "dataset_kind": "research_samples_not_production",
+  "game": "ELDEN RING NIGHTREIGN",
+  "checked_at": "2026-10-17",
+  "count": 12,
+  "scope": "12个非近战武器、施法触媒及盾牌样本；不含游戏本体资料补全；未修改界面、生产数据或GitHub。",
+  "interpretation_rules": [
+    "source_observation只记录外部页面显示，不命名为base_stats，不宣称当前版本已验证。",
+    "每条rarity与level_required只描述该来源页面展示的样本条件，不等于武器永远固定该品质。",
+    "attack为武器攻击面板，spell_power为触媒的独立页面字段；二者不可互换。",
+    "没有固有异常与掉落可附异常可以同时成立；explicit_no_innate不代表所有实例没有异常。",
+    "远程页面guard的0是原页面显示；实际防御适用性待游戏验证。",
+    "null必须结合null_reasons区分未知、未展示和不适用；[]只用于来源明确无固有异常。",
+    "中文名除卡利亚权杖获得QuickRef侧证外均为可读候选译名，待Nightreign中文实机核对。",
+    "未复制游戏长描述；特点和用途为简短编辑概括；每个独立详情页派生内容控制在200词以内。"
+  ],
+  "crosscheck_summary": {
+    "official": "实读2025-06-17官方HTML的Armaments与Easier Revival章节，支持一般装备随机性及远距救援。PDF搜索索引摘录列3/7/10门槛，但全文抓取因58.7MB超限制失败，原文页码未核验；不当作已读PDF佐证。",
+    "quickref": "只采用卡利亚权杖名称、类别关系；不复制传奇长效果或未解释条件的角色面板数字。",
+    "bwiki": "目录覆盖弓、弩、弩炮、手杖、圣印记与三类盾；这些分区尚无具体条目，无法逐件侧证。",
+    "known_gap": "12条面板数字均为单一Mobalytics来源观察，未完成逐数值独立复核；中文名有11条待核验。"
+  },
+  "sources": {
+    "official-guide": {
+      "title": "Bandai Namco — Official Starter Guide",
+      "url": "https://en.bandainamcoent.eu/elden-ring/news/elden-ring-nightreign-the-official-starter-guide",
+      "published_at": "2025-06-17",
+      "kind": "official_Nightreign",
+      "supports": [
+        "一般装备随机性",
+        "弓弩可远程救援"
+      ],
+      "game_version": null
+    },
+    "official-guide-pdf": {
+      "title": "Bandai Namco / Future Press — Official Starter Guide PDF",
+      "url": "https://media-center.bandainamcoent.eu/games/elden-ring-nightreign/ERN_FuturePress_StarterGuide.pdf",
+      "kind": "official_Nightreign",
+      "supports": [
+        "仅搜索索引摘录：品质与等级要求、随机属性、异常、品质、部分武器固定战技"
+      ],
+      "game_version": null,
+      "read_status": "search_excerpt_only",
+      "full_fetch_status": "failed_content_length_58709729_bytes",
+      "page_number": null,
+      "limits": "未完成PDF全文或分页核验；只作线索，不认证页面数值。"
+    },
+    "quickref-effects": {
+      "title": "NightreignQuickRef — weapon_effect.json",
+      "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_effect.json",
+      "kind": "community_Nightreign",
+      "supports": [
+        "卡利亚权杖中文名及法杖类别",
+        "满月的庇佑关系"
+      ],
+      "game_version": null,
+      "read_only": true
+    },
+    "bwiki-overview": {
+      "title": "BWIKI 黑夜君临 — 武器总览",
+      "url": "https://wiki.biligame.com/nightreign/%E6%AD%A6%E5%99%A8%E6%80%BB%E8%A7%88",
+      "kind": "community_Nightreign",
+      "published_at": "2026-01-31",
+      "supports": [
+        "类别目录"
+      ],
+      "limits": "搜索索引可读；直接页面两次超时。索引中的射击、触媒、盾牌条目区为空，不能支持这12条数值或名称。"
+    },
+    "quickref-character": {
+      "title": "NightreignQuickRef — weapon_character.json",
+      "url": "https://github.com/xxiixi/NightreignQuickRef/blob/main/src/data/zh-CN/weapon_character.json",
+      "kind": "community_Nightreign",
+      "supports": [
+        "卡利亚权杖中文名称"
+      ],
+      "limits": "角色相关面板有数值但条件未在该数据文件中解释，不混入单武器页面数值。"
+    },
+    "mobalytics-ironeyes-bow": {
+      "title": "Ironeye's Bow — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/ironeyes-bow",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-black-bow": {
+      "title": "Black Bow — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/black-bow",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-pulley-crossbow": {
+      "title": "Pulley Crossbow — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/pulley-crossbow",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-hand-ballista": {
+      "title": "Hand Ballista — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/hand-ballista",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-jar-cannon": {
+      "title": "Jar Cannon — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/weapons/jar-cannon",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-astrologers-staff": {
+      "title": "Astrologer's Staff — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/astrologers-staff",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-carian-regal-scepter": {
+      "title": "Carian Regal Scepter — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/carian-regal-scepter",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-clawmark-seal": {
+      "title": "Clawmark Seal — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/clawmark-seal",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-dragon-communion-seal": {
+      "title": "Dragon Communion Seal — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/catalysts/dragon-communion-seal",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-buckler": {
+      "title": "Buckler — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/shields/buckler",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-brass-shield": {
+      "title": "Brass Shield — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/shields/brass-shield",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    },
+    "mobalytics-ants-skull-plate": {
+      "title": "Ant's Skull Plate — Nightreign Wiki / Mobalytics",
+      "url": "https://mobalytics.gg/elden-ring-nightreign/wiki/shields/ants-skull-plate",
+      "kind": "community_Nightreign",
+      "game_version": null,
+      "sections": [
+        "简介",
+        "Ashes of War and Spells",
+        "Attack & Guard Stats",
+        "Scaling and More"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "nr-tool-sample-ironeyes-bow",
+      "name_en": "Ironeye's Bow",
+      "name_zh": "铁之眼的弓",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Bow",
+        "zh": "弓"
+      },
+      "purpose_editorial": "远距射击；可作远程救援工具。",
+      "features_editorial": "页面以灵巧补正为主。",
+      "source_observation": {
+        "source_id": "mobalytics-ironeyes-bow",
+        "rarity": "common",
+        "level_required": 1,
+        "attack_type": "Pierce",
+        "attack": {
+          "physical": 45,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 0,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "boost": 0
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "strength": "E",
+            "dexterity": "S"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": {
+          "name_en": "Mighty Shot",
+          "fp_cost_display": "0 > 6 > 6",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界",
+          "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-ironeyes-bow"
+        ],
+        "source_observation": [
+          "mobalytics-ironeyes-bow"
+        ],
+        "editorial_summary": [
+          "mobalytics-ironeyes-bow",
+          "official-guide"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-black-bow",
+      "name_en": "Black Bow",
+      "name_zh": "黑弓",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Bow",
+        "zh": "弓"
+      },
+      "purpose_editorial": "移动射击；连续出箭。",
+      "features_editorial": "体型属弓，说明强调轻弓式灵活操作。",
+      "source_observation": {
+        "source_id": "mobalytics-black-bow",
+        "rarity": "rare",
+        "level_required": 7,
+        "attack_type": "Pierce",
+        "attack": {
+          "physical": 73,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 0,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "boost": 0
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "strength": "E",
+            "dexterity": "S"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": {
+          "name_en": "Barrage",
+          "fp_cost_display": "0 > 2 > 2",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界",
+          "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-black-bow"
+        ],
+        "source_observation": [
+          "mobalytics-black-bow"
+        ],
+        "editorial_summary": [
+          "mobalytics-black-bow"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-pulley-crossbow",
+      "name_en": "Pulley Crossbow",
+      "name_zh": "滑轮弩",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Crossbow",
+        "zh": "弩"
+      },
+      "purpose_editorial": "远距连射；备用远程武器。",
+      "features_editorial": "一次操作连发弩箭；页面明确无属性补正。",
+      "source_observation": {
+        "source_id": "mobalytics-pulley-crossbow",
+        "rarity": "rare",
+        "level_required": 7,
+        "attack_type": "Pierce",
+        "attack": {
+          "physical": 106,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 0,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "boost": 0
+        },
+        "scaling": {
+          "state": "explicit_none",
+          "grades": {},
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": {
+          "name_en": "Kick",
+          "fp_cost_display": "0",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界",
+          "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-pulley-crossbow"
+        ],
+        "source_observation": [
+          "mobalytics-pulley-crossbow"
+        ],
+        "editorial_summary": [
+          "mobalytics-pulley-crossbow"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-hand-ballista",
+      "name_en": "Hand Ballista",
+      "name_zh": "手持弩炮",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Ballista",
+        "zh": "弩炮"
+      },
+      "purpose_editorial": "发射大弩箭。",
+      "features_editorial": "页面明确无属性补正。",
+      "source_observation": {
+        "source_id": "mobalytics-hand-ballista",
+        "rarity": "uncommon",
+        "level_required": 3,
+        "attack_type": "Pierce",
+        "attack": {
+          "physical": 431,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 0,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "boost": 0
+        },
+        "scaling": {
+          "state": "explicit_none",
+          "grades": {},
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": {
+          "name_en": "Kick",
+          "fp_cost_display": "0",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界",
+          "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-hand-ballista"
+        ],
+        "source_observation": [
+          "mobalytics-hand-ballista"
+        ],
+        "editorial_summary": [
+          "mobalytics-hand-ballista"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-jar-cannon",
+      "name_en": "Jar Cannon",
+      "name_zh": "壶大炮",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Ballista",
+        "zh": "弩炮"
+      },
+      "purpose_editorial": "重型远距射击。",
+      "features_editorial": "装填较慢；页面明确无属性补正。",
+      "source_observation": {
+        "source_id": "mobalytics-jar-cannon",
+        "rarity": "rare",
+        "level_required": 7,
+        "attack_type": "Pierce",
+        "attack": {
+          "physical": 584,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 0,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "boost": 0
+        },
+        "scaling": {
+          "state": "explicit_none",
+          "grades": {},
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": {
+          "name_en": "Kick",
+          "fp_cost_display": "0",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界",
+          "远程防御栏0的适用性；仅保留来源显示，不解释为可举盾防御"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-jar-cannon"
+        ],
+        "source_observation": [
+          "mobalytics-jar-cannon"
+        ],
+        "editorial_summary": [
+          "mobalytics-jar-cannon"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-astrologers-staff",
+      "name_en": "Astrologer's Staff",
+      "name_zh": "观星杖",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Glintstone Staff",
+        "zh": "法杖"
+      },
+      "purpose_editorial": "施放魔法。",
+      "features_editorial": "法术组合随机；近战面板与Spell Power分开保存。",
+      "source_observation": {
+        "source_id": "mobalytics-astrologers-staff",
+        "rarity": "common",
+        "level_required": 1,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 25,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 15,
+          "fire": 15,
+          "lightning": 15,
+          "holy": 15,
+          "boost": 15
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "intelligence": "S"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": 133,
+        "status": {
+          "state": "unreported",
+          "effects": null
+        },
+        "skill": null,
+        "spells": {
+          "slots": 2,
+          "names": null,
+          "assignment": "random_per_source"
+        }
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "skill": "not_applicable：该详情页明确触媒无固有战技。",
+        "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+        "status.effects": "unknown：本页未给固有异常条目。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "Spell Power的计算条件与实际法术倍率"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-astrologers-staff"
+        ],
+        "source_observation": [
+          "mobalytics-astrologers-staff"
+        ],
+        "editorial_summary": [
+          "mobalytics-astrologers-staff"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-carian-regal-scepter",
+      "name_en": "Carian Regal Scepter",
+      "name_zh": "卡利亚权杖",
+      "name_zh_status": "community_name_crosschecked",
+      "category": {
+        "en": "Glintstone Staff",
+        "zh": "法杖"
+      },
+      "purpose_editorial": "施放魔法。",
+      "features_editorial": "传奇触媒；可关联已有传奇条目。",
+      "source_observation": {
+        "source_id": "mobalytics-carian-regal-scepter",
+        "rarity": "legendary",
+        "level_required": 10,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 23,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 15,
+          "fire": 15,
+          "lightning": 15,
+          "holy": 15,
+          "boost": 15
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "intelligence": "S"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": 205,
+        "status": {
+          "state": "unreported",
+          "effects": null
+        },
+        "skill": null,
+        "spells": {
+          "slots": 2,
+          "names": null,
+          "assignment": "random_per_source"
+        }
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "skill": "not_applicable：该详情页明确触媒无固有战技。",
+        "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+        "status.effects": "unknown：本页未给固有异常条目。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "Spell Power的计算条件与实际法术倍率"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-carian-regal-scepter"
+        ],
+        "source_observation": [
+          "mobalytics-carian-regal-scepter"
+        ],
+        "editorial_summary": [
+          "mobalytics-carian-regal-scepter"
+        ],
+        "name_zh": [
+          "quickref-effects",
+          "quickref-character"
+        ],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": {
+        "type": "legendary",
+        "id": "legendary:24",
+        "status": "parent_supplied_existing_mapping_not_revalidated_here"
+      }
+    },
+    {
+      "id": "nr-tool-sample-clawmark-seal",
+      "name_en": "Clawmark Seal",
+      "name_zh": "爪痕圣印记",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Sacred Seal",
+        "zh": "圣印记"
+      },
+      "purpose_editorial": "施放祷告；具体输出或辅助用途看所附祷告。",
+      "features_editorial": "页面补正为信仰S。",
+      "source_observation": {
+        "source_id": "mobalytics-clawmark-seal",
+        "rarity": "uncommon",
+        "level_required": 3,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 31,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 15,
+          "fire": 15,
+          "lightning": 15,
+          "holy": 15,
+          "boost": 15
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "faith": "S"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": 197,
+        "status": {
+          "state": "unreported",
+          "effects": null
+        },
+        "skill": null,
+        "spells": {
+          "slots": 2,
+          "names": null,
+          "assignment": "random_per_source"
+        }
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "skill": "not_applicable：该详情页明确触媒无固有战技。",
+        "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+        "status.effects": "unknown：本页未给固有异常条目。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "Spell Power的计算条件与实际法术倍率"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-clawmark-seal"
+        ],
+        "source_observation": [
+          "mobalytics-clawmark-seal"
+        ],
+        "editorial_summary": [
+          "mobalytics-clawmark-seal"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-dragon-communion-seal",
+      "name_en": "Dragon Communion Seal",
+      "name_zh": "龙飨印记",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Sacred Seal",
+        "zh": "圣印记"
+      },
+      "purpose_editorial": "施放祷告。",
+      "features_editorial": "页面补正为信仰S；不据名称推断额外加成。",
+      "source_observation": {
+        "source_id": "mobalytics-dragon-communion-seal",
+        "rarity": "rare",
+        "level_required": 7,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 25,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 15,
+          "fire": 15,
+          "lightning": 15,
+          "holy": 15,
+          "boost": 15
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "faith": "S"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": 220,
+        "status": {
+          "state": "unreported",
+          "effects": null
+        },
+        "skill": null,
+        "spells": {
+          "slots": 2,
+          "names": null,
+          "assignment": "random_per_source"
+        }
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "skill": "not_applicable：该详情页明确触媒无固有战技。",
+        "spells.names": "random_unobserved：页面仅说明两项随机法术，未给确定组合。",
+        "status.effects": "unknown：本页未给固有异常条目。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "Spell Power的计算条件与实际法术倍率"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-dragon-communion-seal"
+        ],
+        "source_observation": [
+          "mobalytics-dragon-communion-seal"
+        ],
+        "editorial_summary": [
+          "mobalytics-dragon-communion-seal"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-buckler",
+      "name_en": "Buckler",
+      "name_zh": "小圆盾",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Small Shield",
+        "zh": "小盾"
+      },
+      "purpose_editorial": "防御；抓准时机弹反。",
+      "features_editorial": "页面列专属弹反名称；固定性仍待核验。",
+      "source_observation": {
+        "source_id": "mobalytics-buckler",
+        "rarity": "common",
+        "level_required": 1,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 49,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 41,
+          "fire": 41,
+          "lightning": 21,
+          "holy": 41,
+          "boost": 42
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "strength": "B",
+            "dexterity": "C"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": {
+          "name_en": "Buckler Parry",
+          "fp_cost_display": "0",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-buckler"
+        ],
+        "source_observation": [
+          "mobalytics-buckler"
+        ],
+        "editorial_summary": [
+          "mobalytics-buckler"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-brass-shield",
+      "name_en": "Brass Shield",
+      "name_zh": "黄铜盾",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Medium Shield",
+        "zh": "中盾"
+      },
+      "purpose_editorial": "防御。",
+      "features_editorial": "页面明确战技及攻击属性、异常可能随掉落变化。",
+      "source_observation": {
+        "source_id": "mobalytics-brass-shield",
+        "rarity": "common",
+        "level_required": 1,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 88,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 46,
+          "fire": 49,
+          "lightning": 32,
+          "holy": 45,
+          "boost": 75
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "strength": "A",
+            "dexterity": "D"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "explicit_no_innate",
+          "effects": []
+        },
+        "skill": null,
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "skill": "random_unobserved：页面明确可附可用中盾战技，但未给具体战技。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-brass-shield"
+        ],
+        "source_observation": [
+          "mobalytics-brass-shield"
+        ],
+        "editorial_summary": [
+          "mobalytics-brass-shield"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    },
+    {
+      "id": "nr-tool-sample-ants-skull-plate",
+      "name_en": "Ant's Skull Plate",
+      "name_zh": "蚂蚁头盾",
+      "name_zh_status": "provisional_translation_not_localization_verified",
+      "category": {
+        "en": "Greatshield",
+        "zh": "大盾"
+      },
+      "purpose_editorial": "防御；盾击附带中毒积累。",
+      "features_editorial": "适合测试盾牌同时具备防御、攻击和异常三个字段组。",
+      "source_observation": {
+        "source_id": "mobalytics-ants-skull-plate",
+        "rarity": "common",
+        "level_required": 1,
+        "attack_type": "Strike",
+        "attack": {
+          "physical": 113,
+          "magic": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "critical": 100
+        },
+        "guard": {
+          "physical": 100,
+          "magic": 64,
+          "fire": 48,
+          "lightning": 64,
+          "holy": 64,
+          "boost": 78
+        },
+        "scaling": {
+          "state": "grades_displayed",
+          "grades": {
+            "strength": "A",
+            "dexterity": "D"
+          },
+          "unlisted_attribute_grades": null
+        },
+        "spell_power": null,
+        "status": {
+          "state": "reported_innate",
+          "effects": [
+            {
+              "type": "poison",
+              "buildup": 84
+            }
+          ]
+        },
+        "skill": {
+          "name_en": "Shield Bash",
+          "fp_cost_display": "10",
+          "fixed_for_weapon": null
+        },
+        "spells": null
+      },
+      "conditions": {
+        "game_version": null,
+        "character": null,
+        "character_level": null,
+        "upgrade_state": null,
+        "mode": null,
+        "rarity_scope": "only_the_displayed_source_example"
+      },
+      "null_reasons": {
+        "game_version": "来源未标适用游戏版本；抓取日期不代表版本验证。",
+        "character_and_level": "来源未说明展示数值使用的角色与角色等级。",
+        "upgrade_state": "来源未说明数值是否含锻造升级、临时强化、遗物或模式修正。",
+        "mode": "来源未说明普通/深夜等模式条件。",
+        "unlisted_attribute_grades": "未显示的属性不能凭空补成无补正。",
+        "spell_power": "not_applicable：非施法触媒。",
+        "spells": "not_applicable：非施法触媒。",
+        "skill.fixed_for_weapon": "unknown：页面展示战技不能单独证明全部掉落实例固定。"
+      },
+      "verification": {
+        "state": "source_observed_not_version_verified",
+        "checked_at": "2026-10-17",
+        "pending": [
+          "游戏版本与升级/增益/角色条件",
+          "对应品质之外的数值变化",
+          "中文正式译名",
+          "战技固定性及可随机词条边界"
+        ]
+      },
+      "provenance": {
+        "identity_and_category": [
+          "mobalytics-ants-skull-plate"
+        ],
+        "source_observation": [
+          "mobalytics-ants-skull-plate"
+        ],
+        "editorial_summary": [
+          "mobalytics-ants-skull-plate"
+        ],
+        "name_zh": [],
+        "conditions_caveat": [
+          "official-guide",
+          "official-guide-pdf"
+        ]
+      },
+      "existing_relationship": null
+    }
+  ]
+}
